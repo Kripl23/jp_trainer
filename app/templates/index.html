@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Колоды<span class="jp">デッキ</span></h1>
+
+<div class="direction-toggle" role="group" aria-label="Направление перевода">
+  <button type="button" data-dir="jp_ru">日本語 → русский</button>
+  <button type="button" data-dir="ru_jp">Русский → 日本語</button>
+</div>
+
+<div id="decks"></div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+const groups = { jlpt: "JLPT", minna: "Minna no Nihongo", custom: "Свои слова" };
+let direction = localStorage.getItem("direction") || "jp_ru";
+
+function deckName(d) {
+  if (d.source === "jlpt") return d.level;
+  if (d.source === "minna") return "У" + d.level;
+  return "＋";
+}
+
+async function loadDecks() {
+  document.querySelectorAll(".direction-toggle button").forEach(b =>
+    b.classList.toggle("active", b.dataset.dir === direction));
+  const decks = await (await fetch(`/api/decks?direction=${direction}`)).json();
+  const box = document.getElementById("decks");
+  box.innerHTML = "";
+  if (!decks.length) {
+    box.innerHTML = "<p>Слов пока нет — запустите <code>scripts/seed_data.py</code> " +
+      "или добавьте свои на странице «Слова».</p>";
+    return;
+  }
+  let lastGroup = "";
+  for (const d of decks) {
+    if (d.source !== lastGroup) {
+      lastGroup = d.source;
+      box.insertAdjacentHTML("beforeend",
+        `<div class="deck-group">${groups[d.source] || d.source}</div>`);
+    }
+    const hasWork = d.due > 0 || d.new > 0;
+    box.insertAdjacentHTML("beforeend", `
+      <div class="deck">
+        <span class="tag">${deckName(d)}</span>
+        <span class="counts">
+          ${d.total} слов · к повторению <b>${d.due}</b> ·
+          новых <span class="new">${d.new}</span>
+        </span>
+        <button class="train-btn" ${hasWork ? "" : "disabled"}
+          onclick="location.href='/train?source=${d.source}&level=${encodeURIComponent(d.level)}&direction=${direction}'">
+          ${hasWork ? "Заниматься" : "На сегодня всё"}
+        </button>
+      </div>`);
+  }
+}
+
+document.querySelectorAll(".direction-toggle button").forEach(b =>
+  b.addEventListener("click", () => {
+    direction = b.dataset.dir;
+    localStorage.setItem("direction", direction);
+    loadDecks();
+  }));
+
+loadDecks();
+</script>
+{% endblock %}

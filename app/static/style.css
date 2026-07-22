@@ -1,0 +1,223 @@
+/* ── токены ─────────────────────────────────────────────── */
+:root {
+  --paper: #f2f3ef;       /* волокнистая васи-бумага, холодный оттенок */
+  --card: #fbfbf8;
+  --ink: #20242e;         /* суми: чёрный с синевой */
+  --ink-soft: #5c6270;
+  --ai: #2a4b7c;          /* индиго — основной акцент */
+  --shu: #c73e3a;         /* киноварь — поля тетради, ханко, ✕ */
+  --matcha: #4f7d5c;      /* верный ответ, ◯ */
+  --line: #d8dad1;
+  --grid: #e7e8e0;        /* клетка генкоюси */
+
+  --jp-serif: "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+  --ui: system-ui, "Segoe UI", Roboto, sans-serif;
+  --mono: "Cascadia Code", Consolas, monospace;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--ui);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+a { color: var(--ai); text-decoration: none; }
+a:hover { text-decoration: underline; }
+:focus-visible { outline: 2px solid var(--ai); outline-offset: 2px; }
+
+/* ── шапка ──────────────────────────────────────────────── */
+header {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: .9rem 1.4rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.hanko {
+  width: 2.4rem;
+  height: 2.4rem;
+  display: grid;
+  place-items: center;
+  background: var(--shu);
+  color: #fff;
+  font-family: var(--jp-serif);
+  font-size: 1.35rem;
+  font-weight: 700;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 2px rgba(255,255,255,.35);
+  user-select: none;
+}
+
+.brand { font-weight: 600; letter-spacing: .02em; }
+.brand small { display: block; font-weight: 400; color: var(--ink-soft); font-size: .72rem; }
+
+nav { margin-left: auto; display: flex; gap: 1.2rem; }
+nav a { color: var(--ink-soft); font-size: .95rem; }
+nav a.active { color: var(--ink); border-bottom: 2px solid var(--shu); }
+
+main { max-width: 880px; margin: 0 auto; padding: 1.6rem 1.4rem 4rem; }
+
+h1 { font-size: 1.25rem; font-weight: 600; margin: 0 0 1.2rem; }
+h1 .jp { font-family: var(--jp-serif); color: var(--ink-soft); font-weight: 400; margin-left: .6rem; font-size: 1rem; }
+
+/* ── колоды (главная) ───────────────────────────────────── */
+.direction-toggle { display: flex; gap: .5rem; margin-bottom: 1.2rem; }
+.direction-toggle button {
+  font: inherit; padding: .35rem .9rem; cursor: pointer;
+  background: transparent; color: var(--ink-soft);
+  border: 1px solid var(--line); border-radius: 3px;
+}
+.direction-toggle button.active {
+  background: var(--ai); color: #fff; border-color: var(--ai);
+}
+
+.deck-group { margin: 1.4rem 0 .4rem; color: var(--ink-soft); font-size: .8rem;
+  text-transform: uppercase; letter-spacing: .08em; }
+
+.deck {
+  display: flex; align-items: center; gap: 1rem;
+  padding: .7rem .9rem; margin-bottom: .5rem;
+  background: var(--card); border: 1px solid var(--line); border-radius: 4px;
+}
+.deck .tag {
+  min-width: 3rem; text-align: center;
+  font-family: var(--mono); font-size: .9rem; font-weight: 600;
+  color: var(--ai); border: 1.5px solid var(--ai);
+  border-radius: 3px; padding: .15rem .3rem;
+}
+.deck .counts { color: var(--ink-soft); font-size: .85rem; }
+.deck .counts b { color: var(--shu); font-weight: 600; }
+.deck .counts .new { color: var(--matcha); font-weight: 600; }
+.deck .train-btn {
+  margin-left: auto;
+  font: inherit; padding: .4rem 1.1rem; cursor: pointer;
+  background: var(--ink); color: var(--paper);
+  border: none; border-radius: 3px;
+}
+.deck .train-btn:hover { background: var(--ai); }
+.deck .train-btn:disabled { background: var(--line); color: var(--ink-soft); cursor: default; }
+
+/* ── тренировка: лист генкоюси ──────────────────────────── */
+.genkou {
+  position: relative;
+  background:
+    linear-gradient(var(--grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid) 1px, transparent 1px),
+    var(--card);
+  background-size: 28px 28px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 2.6rem 2rem 2.2rem 3.4rem;
+  min-height: 300px;
+}
+.genkou::before {          /* красная линия поля, как в тетради */
+  content: "";
+  position: absolute; top: 0; bottom: 0; left: 2.2rem;
+  width: 1px; background: color-mix(in srgb, var(--shu) 55%, transparent);
+}
+
+.session-meta { display: flex; gap: 1.4rem; color: var(--ink-soft);
+  font-size: .82rem; font-family: var(--mono); margin-bottom: 1.6rem; }
+.session-meta b { color: var(--shu); }
+
+.prompt {
+  font-size: 2.1rem;
+  margin: 0 0 .4rem;
+  overflow-wrap: anywhere;
+}
+.prompt.jp { font-family: var(--jp-serif); font-size: 3rem; }
+.prompt-sub { color: var(--ink-soft); font-size: .9rem; min-height: 1.4rem; }
+
+.answer-row { display: flex; gap: .8rem; margin-top: 1.8rem; align-items: center; }
+#answer {
+  flex: 1; min-width: 0; font-size: 1.5rem; padding: .3rem .2rem;
+  font-family: var(--jp-serif);
+  background: transparent; color: var(--ink);
+  border: none; border-bottom: 2px solid var(--ink);
+}
+#answer.lat { font-family: var(--ui); }
+#answer:focus { border-bottom-color: var(--ai); outline: none; }
+
+.btn {
+  font: inherit; padding: .5rem 1.3rem; cursor: pointer;
+  background: var(--ink); color: var(--paper);
+  border: none; border-radius: 3px;
+}
+.btn:hover { background: var(--ai); }
+.btn.ghost { background: transparent; color: var(--ink-soft); border: 1px solid var(--line); }
+
+/* оценка: ◯ (маару) и ✕ (бацу) — как красной ручкой учителя */
+.mark {
+  position: absolute; top: 1rem; right: 1.4rem;
+  font-size: 4.4rem; line-height: 1;
+  font-family: var(--jp-serif);
+  opacity: 0;
+  transform: scale(1.4) rotate(-8deg);
+}
+.mark.show { opacity: 1; transform: scale(1) rotate(-8deg);
+  transition: opacity .18s ease-out, transform .18s ease-out; }
+.mark.maru { color: var(--matcha); }
+.mark.batsu { color: var(--shu); }
+@media (prefers-reduced-motion: reduce) {
+  .mark.show { transition: none; }
+}
+
+.reveal { margin-top: 1.6rem; font-size: 1.05rem; }
+.reveal .jp { font-family: var(--jp-serif); font-size: 1.7rem; }
+.reveal .kana { color: var(--ink-soft); margin-left: .6rem; }
+.reveal .ru { color: var(--ink-soft); }
+.reveal .wrong-note { color: var(--shu); font-size: .9rem; margin-top: .3rem; }
+
+.done-box { text-align: center; padding: 2rem 0; }
+.done-box .jp { font-family: var(--jp-serif); font-size: 2.4rem; display: block; margin-bottom: .6rem; }
+
+.summary { margin-top: 1.2rem; color: var(--ink-soft); font-size: .95rem; }
+.summary b.ok { color: var(--matcha); }
+.summary b.bad { color: var(--shu); }
+
+.hint { color: var(--ink-soft); font-size: .8rem; margin-top: 1.4rem; }
+kbd {
+  font-family: var(--mono); font-size: .78rem;
+  border: 1px solid var(--line); border-bottom-width: 2px;
+  border-radius: 3px; padding: 0 .35rem; background: var(--card);
+}
+
+/* ── слова ──────────────────────────────────────────────── */
+.toolbar { display: flex; gap: .7rem; flex-wrap: wrap; margin-bottom: 1rem; }
+.toolbar input[type="text"], .toolbar select,
+.word-form input[type="text"] {
+  font: inherit; padding: .4rem .6rem;
+  background: var(--card); color: var(--ink);
+  border: 1px solid var(--line); border-radius: 3px;
+}
+
+table { width: 100%; border-collapse: collapse; background: var(--card);
+  border: 1px solid var(--line); font-size: .95rem; }
+th, td { text-align: left; padding: .45rem .7rem; border-bottom: 1px solid var(--grid); }
+th { color: var(--ink-soft); font-weight: 500; font-size: .8rem;
+  text-transform: uppercase; letter-spacing: .06em; }
+td.jp { font-family: var(--jp-serif); font-size: 1.15rem; white-space: nowrap; }
+td .del { color: var(--shu); cursor: pointer; background: none; border: none;
+  font: inherit; font-size: .85rem; padding: 0; }
+
+.word-form { display: flex; gap: .6rem; flex-wrap: wrap; align-items: center;
+  margin: 1rem 0 1.6rem; padding: .9rem; background: var(--card);
+  border: 1px solid var(--line); border-radius: 4px; }
+
+/* ── адаптив ────────────────────────────────────────────── */
+@media (max-width: 640px) {
+  header { flex-wrap: wrap; gap: .8rem; }
+  nav { margin-left: 0; width: 100%; }
+  main { padding: 1rem .8rem 3rem; }
+  .genkou { padding: 2.2rem 1.2rem 1.6rem 2.6rem; }
+  .genkou::before { left: 1.7rem; }
+  .prompt.jp { font-size: 2.2rem; }
+  .deck { flex-wrap: wrap; }
+  .deck .train-btn { margin-left: 0; width: 100%; }
+}

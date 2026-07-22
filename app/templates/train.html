@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block title %}Тренировка — {{ level }}{% endblock %}
+{% block content %}
+<h1>
+  {% if source == "jlpt" %}JLPT {{ level }}{% elif source == "minna" %}Minna no Nihongo · урок {{ level }}{% else %}Свои слова{% endif %}
+  <span class="jp">{{ "露→日" if direction == "ru_jp" else "日→露" }}</span>
+</h1>
+
+<div class="genkou">
+  <div class="mark" id="mark" aria-live="polite"></div>
+
+  <div class="session-meta">
+    <span>к повторению: <b id="due-left">–</b></span>
+    <span>новых: <span id="new-left">–</span></span>
+    <span>за сессию: <span id="session-count">0</span></span>
+  </div>
+
+  <div id="card-area">
+    <p class="prompt" id="prompt"></p>
+    <div class="prompt-sub" id="prompt-sub"></div>
+
+    <form class="answer-row" id="answer-form" autocomplete="off">
+      <input id="answer" class="{{ '' if direction == 'ru_jp' else 'lat' }}"
+             lang="{{ 'ja' if direction == 'ru_jp' else 'ru' }}"
+             placeholder="{{ 'ответ ромадзи → かな' if direction == 'ru_jp' else 'перевод по-русски' }}"
+             aria-label="Ответ">
+      <button class="btn" type="submit" id="submit-btn">Ответить</button>
+    </form>
+
+    <div class="reveal" id="reveal" hidden></div>
+  </div>
+
+  <div class="done-box" id="done-box" hidden>
+    <span class="jp">お疲れ様でした</span>
+    На сегодня в этой колоде всё.
+    <div class="summary" id="summary"></div>
+    <p style="margin-top:1.4rem"><a href="/">← к колодам</a></p>
+  </div>
+</div>
+
+<p class="hint"><kbd>Enter</kbd> — ответить / дальше{% if direction == "ru_jp" %} · ромадзи превращается в кану на лету, кандзи тоже принимается{% endif %}</p>
+{% endblock %}
+
+{% block scripts %}
+<script src="/static/wanakana.min.js"></script>
+<script>
+const SOURCE = {{ source | tojson }};
+const LEVEL = {{ level | tojson }};
+const DIRECTION = {{ direction | tojson }};
+</script>
+<script src="/static/train.js"></script>
+{% endblock %}

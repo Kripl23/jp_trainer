@@ -1,0 +1,129 @@
+{% extends "base.html" %}
+{% block title %}Статистика{% endblock %}
+{% block content %}
+<h1>Статистика<span class="jp">統計</span></h1>
+
+<div class="tiles" id="tiles"></div>
+
+<section class="chart-box">
+  <h2 class="chart-title">Повторения за 30 дней</h2>
+  <div id="chart-wrap" style="position:relative">
+    <svg id="chart" width="100%" height="220" role="img"
+         aria-label="Столбчатая диаграмма: количество повторений по дням"></svg>
+    <div id="tooltip" class="tooltip" hidden></div>
+  </div>
+  <details>
+    <summary>Таблицей</summary>
+    <table id="daily-table">
+      <thead><tr><th>День</th><th>Повторений</th><th>Верно</th></tr></thead>
+      <tbody></tbody>
+    </table>
+  </details>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<style>
+.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: .7rem; margin-bottom: 1.6rem; }
+.tile { background: var(--card); border: 1px solid var(--line); border-radius: 4px;
+  padding: .8rem 1rem; }
+.tile .num { font-size: 1.7rem; font-weight: 600; font-family: var(--mono); }
+.tile .lbl { color: var(--ink-soft); font-size: .8rem; }
+.tile .num.ok { color: var(--matcha); }
+.chart-box { background: var(--card); border: 1px solid var(--line);
+  border-radius: 4px; padding: 1rem 1.2rem; }
+.chart-title { font-size: .95rem; font-weight: 600; margin: 0 0 .8rem; }
+.tooltip { position: absolute; pointer-events: none; background: var(--ink);
+  color: var(--paper); font-size: .8rem; padding: .3rem .55rem; border-radius: 3px;
+  white-space: nowrap; transform: translate(-50%, -110%); }
+details { margin-top: .8rem; color: var(--ink-soft); font-size: .85rem; }
+</style>
+<script>
+const NBSP = " ";
+
+function tile(num, label, cls = "") {
+  return `<div class="tile"><div class="num ${cls}">${num}</div><div class="lbl">${label}</div></div>`;
+}
+
+function drawChart(daily) {
+  const svg = document.getElementById("chart");
+  const W = svg.clientWidth || 800, H = 220;
+  const padL = 34, padB = 22, padT = 10;
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+
+  // последние 30 дней подряд, включая нулевые
+  const byDay = Object.fromEntries(daily.map(d => [d.day, d]));
+  const days = [];
+  for (let i = 29; i >= 0; i--) {
+    const dt = new Date(Date.now() - i * 864e5);
+    const key = dt.toISOString().slice(0, 10);
+    days.push({ key, label: key.slice(8) + "." + key.slice(5, 7),
+      reviews: byDay[key]?.reviews || 0, correct: byDay[key]?.correct || 0 });
+  }
+  const max = Math.max(4, ...days.map(d => d.reviews));
+  const plotW = W - padL - 8, plotH = H - padT - padB;
+  const step = plotW / days.length;
+  const barW = Math.max(3, step - 2);          // зазор 2px между столбцами
+  const y = v => padT + plotH * (1 - v / max);
+
+  let g = "";
+  // сетка: 3 горизонтальные линии, ненавязчивые
+  for (const f of [0.25, 0.5, 0.75, 1]) {
+    const val = Math.round(max * f);
+    g += `<line x1="${padL}" x2="${W - 8}" y1="${y(val)}" y2="${y(val)}"
+           stroke="var(--grid)" stroke-width="1"/>
+          <text x="${padL - 6}" y="${y(val) + 4}" text-anchor="end"
+           font-size="10" fill="var(--ink-soft)">${val}</text>`;
+  }
+  days.forEach((d, i) => {
+    const x = padL + i * step + (step - barW) / 2;
+    const h = plotH * d.reviews / max;
+    if (d.reviews > 0) {
+      g += `<rect data-i="${i}" x="${x}" y="${y(d.reviews)}" width="${barW}" height="${h}"
+             rx="2" fill="var(--ai)"/>`;
+    }
+    // расширенная зона ховера на всю колонку
+    g += `<rect data-i="${i}" x="${padL + i * step}" y="${padT}" width="${step}" height="${plotH}"
+           fill="transparent"/>`;
+    if (i % 5 === 0 || i === days.length - 1) {
+      g += `<text x="${padL + i * step + step / 2}" y="${H - 6}" text-anchor="middle"
+             font-size="10" fill="var(--ink-soft)">${d.label}</text>`;
+    }
+  });
+  g += `<line x1="${padL}" x2="${W - 8}" y1="${y(0)}" y2="${y(0)}"
+         stroke="var(--line)" stroke-width="1"/>`;
+  svg.innerHTML = g;
+
+  const tip = document.getElementById("tooltip");
+  svg.addEventListener("mousemove", (e) => {
+    const t = e.target.closest("[data-i]");
+    if (!t) { tip.hidden = true; return; }
+    const d = days[+t.dataset.i];
+    tip.textContent = `${d.label}: ${d.reviews}${NBSP}повт., верно${NBSP}${d.correct}`;
+    const rect = svg.getBoundingClientRect();
+    tip.style.left = (padL + (+t.dataset.i) * step + step / 2) / W * rect.width + "px";
+    tip.style.top = (y(d.reviews) - 6) + "px";
+    tip.hidden = false;
+  });
+  svg.addEventListener("mouseleave", () => { tip.hidden = true; });
+
+  document.querySelector("#daily-table tbody").innerHTML = days
+    .filter(d => d.reviews)
+    .map(d => `<tr><td>${d.key}</td><td>${d.reviews}</td><td>${d.correct}</td></tr>`)
+    .join("") || "<tr><td colspan='3'>Пока пусто</td></tr>";
+}
+
+async function load() {
+  const s = await (await fetch("/api/stats")).json();
+  document.getElementById("tiles").innerHTML =
+    tile(s.total_reviews, "повторений всего") +
+    tile(s.accuracy + "%", "точность", s.accuracy >= 80 ? "ok" : "") +
+    tile(s.learned.jp_ru || 0, "выучено 日 → рус") +
+    tile(s.learned.ru_jp || 0, "выучено рус → 日") +
+    tile(s.total_words, "слов в базе");
+  drawChart(s.daily);
+}
+load();
+</script>
+{% endblock %}
