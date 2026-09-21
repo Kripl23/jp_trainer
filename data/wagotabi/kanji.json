@@ -1,0 +1,3917 @@
+[
+ {
+  "kanji": "中",
+  "order": 1,
+  "meaning_ru": "середина",
+  "meaning_en": "middle",
+  "on": [],
+  "kun": [
+   "なか"
+  ],
+  "strokes": "4",
+  "grade": "1",
+  "jlpt": "N5",
+  "decomposition": "｜口",
+  "resembling": "口虫田",
+  "word_ids": [
+   "B00080",
+   "K00100",
+   "B00229"
+  ]
+ },
+ {
+  "kanji": "田",
+  "order": 2,
+  "meaning_ru": "рисовое поле",
+  "meaning_en": "rice field",
+  "on": [],
+  "kun": [
+   "た"
+  ],
+  "strokes": "5",
+  "grade": "1",
+  "jlpt": "N4",
+  "decomposition": "田",
+  "resembling": "男日町白四国",
+  "word_ids": [
+   "B00080",
+   "K00362",
+   "B00229"
+  ]
+ },
+ {
+  "kanji": "日",
+  "order": 3,
+  "meaning_ru": "день",
+  "meaning_en": "day",
+  "on": [
+   "にち",
+   "（に）"
+  ],
+  "kun": [
+   "きょう（今日）",
+   "きのう（昨日）",
+   "あした（明日）"
+  ],
+  "strokes": "4",
+  "grade": "1",
+  "jlpt": "N5",
+  "decomposition": "日",
+  "resembling": "田白",
+  "word_ids": [
+   "K00024",
+   "K00026",
+   "K00044",
+   "K00253",
+   "B10010",
+   "K00190"
+  ]
+ },
+ {
+  "kanji": "本",
+  "order": 4,
+  "meaning_ru": "корень, происхождение, книга",
+  "meaning_en": "root, origin, book",
+  "on": [
+   "ほん"
+  ],
+  "kun": [],
+  "strokes": "5",
+  "grade": "1",
+  "jlpt": "N5",
+  "decomposition": "一木本",
+  "resembling": "木来",
+  "word_ids": [
+   "K00024",
+   "K00026",
+   "K00057",
+   "K00044",
+   "K00319",
+   "K00318"
+  ]
+ },
+ {
+  "kanji": "行",
+  "order": 5,
+  "meaning_ru": "идти",
+  "meaning_en": "go",
+  "on": [],
+  "kun": [
+   "い（く）"
+  ],
+  "strokes": "6",
+  "grade": "2",
+  "jlpt": "N5",
+  "decomposition": "行彳",
+  "resembling": "何",
+  "word_ids": [
+   "K00048"
+  ]
+ },
+ {
+  "kanji": "高",
+  "order": 6,
+  "meaning_ru": "высокий",
+  "meaning_en": "tall",
+  "on": [],
+  "kun": [
+   "たか（い）"
+  ],
+  "strokes": "10",
+  "grade": "2",
+  "jlpt": "N5",
+  "decomposition": "口高亠冂冋",
+  "resembling": "",
+  "word_ids": [
+   "B00049",
+   "K00302",
+   "B10001",
+   "B10069"
+  ]
+ },
+ {
+  "kanji": "人",
+  "order": 7,
+  "meaning_ru": "человек",
+  "meaning_en": "person",
+  "on": [
+   "じん"
+  ],
+  "kun": [
+   "ひと",
+   "ひとり（一人）",
+   "ふたり（二人）"
+  ],
+  "strokes": "2",
+  "grade": "1",
+  "jlpt": "N5",
+  "decomposition": "人",
+  "resembling": "入八大",
+  "word_ids": [
+   "K00026",
+   "K00197",
+   "K00055",
+   "K00127",
+   "K00128",
+   "K00209"
+  ]
+ },
+ {
+  "kanji": "私",
+  "order": 8,
+  "meaning_ru": "частный, я",
+  "meaning_en": "private, I",
+  "on": [],
+  "kun": [
+   "わたし"
+  ],
+  "strokes": "7",
+  "grade": "6",
+  "jlpt": "N4",
+  "decomposition": "禾厶",
+  "resembling": "利",
+  "word_ids": [
+   "K00004",
+   "K00119"
+  ]
+ },
+ {
+  "kanji": "川",
+  "order": 9,
+  "meaning_ru": "река",
+  "meaning_en": "river",
+  "on": [],
+  "kun": [
+   "かわ"
+  ],
+  "strokes": "3",
+  "grade": "1",
+  "jlpt": "N5",
+  "decomposition": "川",
+  "resembling": "山小八",
+  "word_ids": [
+   "B00082",
+   "K00090",
+   "B00037",
+   "B10502",
+   "B10503"
+  ]
+ },
+ {
+  "kanji": "木",
+  "order": 10,
+  "meaning_ru": "дерево",
+  "meaning_en": "tree",
+  "on": [],
+  "kun": [
+   "き"
+  ],
+  "strokes": "4",
+  "grade": "1",
+  "jlpt": "N5",
+  "decomposition": "木",
+  "resembling": "本大米十天丈夫不",
+  "word_ids": [
+   "K00056"
+  ]
+ },
+ {
+  "kanji": "家",
+  "order": 11,
+  "meaning_ru": "дом",
+  "meaning_en": "house",
+  "on": [
+   "か"
+  ],
+  "kun": [
+   "いえ"
+  ],
+  "strokes": "10",
+  "grade": "2",
+  "jlpt": "N4",
+  "decomposition": "宀豕家",
+  "resembling": "豚",
+  "word_ids": [
+   "K00064",
+   "K01112",
+   "K00230"
+  ]
+ },
+ {
+  "kanji": "願",
+  "order": 12,
+  "meaning_ru": "желание",
+  "meaning_en": "wish",
+  "on": [],
+  "kun": [
+   "ねが（う）"
+  ],
+  "strokes": "19",
+  "grade": "4",
+  "jlpt": "N3",
+  "decomposition": "貝目ハ小白頁厂",
+  "resembling": "",
+  "word_ids": [
+   "K00132",
+   "K00353",
+   "K00234"
+  ]
+ },
+ {
+  "kanji": "犬",
+  "order": 13,
+  "meaning_ru": "собака",
+  "meaning_en": "dog",
+  "on": [],
+  "kun": [
+   "いぬ"
+  ],
+  "strokes": "4",
+  "grade": "1",
+  "jlpt": "N4",
+  "decomposition": "犬大丶",
+  "resembling": "大夫天丈人不",
+  "word_ids": [
+   "K00061"
+  ]
+ },
+ {
+  "kanji": "猫",
+  "order": 14,
+  "meaning_ru": "кошка",
+  "meaning_en": "cat",
+  "on": [],
+  "kun": [
+   "ねこ"
+  ],
+  "strokes": "11",
+  "grade": "J3",
+  "jlpt": "N3",
+  "decomposition": "田犭艹",
+  "resembling": "描",
+  "word_ids": [
+   "K00062"
+  ]
+ },
+ {
+  "kanji": "駅",
+  "order": 15,
+  "meaning_ru": "станция",
+  "meaning_en": "station",
+  "on": [
+   "えき"
+  ],
+  "kun": [],
+  "strokes": "14",
+  "grade": "3",
+  "jlpt": "N4",
+  "decomposition": "馬尸灬丶尺",
+  "resembling": "馬",
+  "word_ids": [
+   "K00097"
+  ]
+ },
+ {
+  "kanji": "公",
+  "order": 16,
+  "meaning_ru": "общественный",
+  "meaning_en": "public",
+  "on": [
+   "こう"
+  ],
+  "kun": [],
+  "strokes": "4",
+  "grade": "2",
+  "jlpt": "N4",
+  "decomposition": "ハ厶",
+  "resembling": "分弁",
+  "word_ids": [
+   "K00096"
+  ]
+ },
+ {
+  "kanji": "園",
+  "order": 17,
+  "meaning_ru": "парк",
+  "meaning_en": "park",
+  "on": [
+   "えん"
+  ],
+  "kun": [],
+  "strokes": "13",
+  "grade": "2",
+  "jlpt": "N3",
+  "decomposition": "衣口土囗袁",
+  "resembling": "図国四風",
+  "word_ids": [
+   "K00096",
+   "B10005",
+   "B10012"
+  ]
+ },
+ {
+  "kanji": "書",
+  "order": 18,
+  "meaning_ru": "писать",
+  "meaning_en": "write",
+  "on": [
+   "しょ"
+  ],
+  "kun": [
+   "か（く）"
+  ],
+  "strokes": "10",
+  "grade": "2",
+  "jlpt": "N5",
+  "decomposition": "日聿",
+  "resembling": "",
+  "word_ids": [
+   "K00107",
+   "K00329",
+   "K00237"
+  ]
+ },
+ {
+  "kanji": "図",
+  "order": 19,
+  "meaning_ru": "карта",
+  "meaning_en": "map",
+  "on": [
+   "と"
+  ],
+  "kun": [],
+  "strokes": "7",
+  "grade": "2",
+  "jlpt": "N4",
+  "decomposition": "斗囗",
+  "resembling": "四国園田口",
+  "word_ids": [
+   "K00107",
+   "K00237"
+  ]
+ },
+ {
+  "kanji": "館",
+  "order": 20,
+  "meaning_ru": "большое здание",
+  "meaning_en": "large building",
+  "on": [
+   "かん"
+  ],
+  "kun": [],
+  "strokes": "16",
+  "grade": "3",
+  "jlpt": "N4",
+  "decomposition": "口食宀｜㠯",
+  "resembling": "飲",
+  "word_ids": [
+   "K00107",
+   "K01065",
+   "K00237"
+  ]
+ },
+ {
+  "kanji": "上",
+  "order": 21,
+  "meaning_ru": "над",
+  "meaning_en": "above",
+  "on": [
+   "じょう"
+  ],
+  "kun": [
+   "うえ"
+  ],
+  "strokes": "3",
+  "grade": "1",
+  "jlpt": "N5",
+  "decomposition": "一卜",
+  "resembling": "下二千十",
+  "word_ids": [
+   "K00098",
+   "K00269"
+  ]
+ },
+ {
+  "kanji": "下",
+  "order": 22,
+  "meaning_ru": "под",
+  "meaning_en": "below",
+  "on": [
+   "か"
+  ],
+  "kun": [
+   "した"
+  ],
+  "strokes": "3",
+  "grade": "1",
+  "jlpt": "N5",
+  "decomposition": "｜一卜",
+  "resembling": "上不十",
+  "word_ids": [
+   "K00099",
+   "K00270",
+   "K01026"
+  ]
+ },
+ {
+  "kanji": "外",
+  "order": 23,
+  "meaning_ru": "снаружи",
+  "meaning_en": "outside",
+  "on": [
+   "がい"
+  ],
+  "kun": [
+   "そと"
+  ],
+  "strokes": "5",
+  "grade": "2",
+  "jlpt": "N5",
+  "decomposition": "卜夕",
+  "resembling": "名多",
+  "word_ids": [
+   "K00103",
+   "K00209"
+  ]
+ },
+ {
+  "kanji": "水",
+  "order": 24,
+  "meaning_ru": "вода",
+  "meaning_en": "water",
+  "on": [],
+  "kun": [
+   "みず"
+  ],
+  "strokes": "4",
+  "grade": "1",
+  "jlpt": "N5",
+  "decomposition": "水",
+  "resembling": "小大木本",
+  "word_ids": [
+   "K00110"
+  ]
+ },
+ {
+  "kanji": "食",
+  "order": 25,
+  "meaning_ru": "есть",
+  "meaning_en": "eat",
+  "on": [],
+  "kun": [
+   "た（べる）"
+  ],
+  "strokes": "9",
+  "grade": "2",
+  "jlpt": "N5",
+  "decomposition": "食",
+  "resembling": "金",
+  "word_ids": [
+   "K00114",
+   "K00561"
+  ]
+ },
+ {
+  "kanji": "飲",
+  "order": 26,
+  "meaning_ru": "пить",
+  "meaning_en": "drink",
+  "on": [],
+  "kun": [
+   "の（む）"
+  ],
+  "strokes": "12",
+  "grade": "3",
+  "jlpt": "N4",
+  "decomposition": "欠食",
+  "resembling": "飯",
+  "word_ids": [
+   "K00115",
+   "K00570"
+  ]
+ },
+ {
+  "kanji": "好",
+  "order": 27,
+  "meaning_ru": "нравиться",
+  "meaning_en": "like",
+  "on": [],
+  "kun": [
+   "す（く）"
+  ],
+  "strokes": "6",
+  "grade": "4",
+  "jlpt": "N3",
+  "decomposition": "子女",
+  "resembling": "",
+  "word_ids": [
+   "K00111",
+   "K00639"
+  ]
+ },
+ {
+  "kanji": "美",
+  "order": 28,
+  "meaning_ru": "красота",
+  "meaning_en": "beauty",
+  "on": [
+   "び"
+  ],
+  "kun": [],
+  "strokes": "9",
+  "grade": "3",
+  "jlpt": "N3",
+  "decomposition": "王大丷羊",
+  "resembling": "",
+  "word_ids": [
+   "K00191",
+   "K01065"
+  ]
+ },
+ {
+  "kanji": "花",
+  "order": 29,
+  "meaning_ru": "цветок",
+  "meaning_en": "flower",
+  "on": [],
+  "kun": [
+   "はな"
+  ],
+  "strokes": "7",
+  "grade": "1",
+  "jlpt": "N4",
+  "decomposition": "亻匕艹化",
+  "resembling": "英菜",
+  "word_ids": [
+   "K00192"
+  ]
+ },
+ {
+  "kanji": "茶",
+  "order": 30,
+  "meaning_ru": "чай",
+  "meaning_en": "tea",
+  "on": [
+   "ちゃ"
+  ],
+  "kun": [],
+  "strokes": "9",
+  "grade": "2",
+  "jlpt": "N4",
+  "decomposition": "𠆢艹木ホ",
+  "resembling": "",
+  "word_ids": [
+   "K00187"
+  ]
+ },
+ {
+  "kanji": "画",
+  "order": 31,
+  "meaning_ru": "рисунок",
+  "meaning_en": "drawing",
+  "on": [
+   "が"
+  ],
+  "kun": [],
+  "strokes": "8",
+  "grade": "2",
+  "jlpt": "N4",
+  "decomposition": "一田凵丁",
+  "resembling": "車百東魚",
+  "word_ids": [
+   "K00205",
+   "K00233",
+   "K01112"
+  ]
+ },
+ {
+  "kanji": "漫",
+  "order": 32,
+  "meaning_ru": "безудержный",
+  "meaning_en": "unrestrained",
+  "on": [
+   "まん"
+  ],
+  "kun": [],
+  "strokes": "14",
+  "grade": "J1",
+  "jlpt": "N1",
+  "decomposition": "氵日罒又",
+  "resembling": "",
+  "word_ids": [
+   "K00205",
+   "K00233",
+   "K01112"
+  ]
+ },
+ {
+  "kanji": "左",
+  "order": 33,
+  "meaning_ru": "лево",
+  "meaning_en": "left",
+  "on": [],
+  "kun": [
+   "ひだり"
+  ],
+  "strokes": "5",
+  "grade": "1",
+  "jlpt": "N5",
+  "decomposition": "ノ一工",
+  "resembling": "右有石",
+  "word_ids": [
+   "K00101"
+  ]
+ },
+ {
+  "kanji": "右",
+  "order": 34,
+  "meaning_ru": "право",
+  "meaning_en": "right",
+  "on": [],
+  "kun": [
+   "みぎ"
+  ],
+  "strokes": "5",
+  "grade": "1",
+  "jlpt": "N5",
+  "decomposition": "ノ一口",
+  "resembling": "左石有",
+  "word_ids": [
+   "K00102"
+  ]
+ },
+ {
+  "kanji": "前",
+  "order": 35,
+  "meaning_ru": "перед",
+  "meaning_en": "in front",
+  "on": [
+   "ぜん"
+  ],
+  "kun": [
+   "まえ"
+  ],
+  "strokes": "9",
+  "grade": "2",
+  "jlpt": "N5",
+  "decomposition": "一刂月丷",
+  "resembling": "",
+  "word_ids": [
+   "K00143",
+   "K00069",
+   "B10009",
+   "K00476"
+  ]
+ },
+ {
+  "kanji": "後",
+  "order": 36,
+  "meaning_ru": "позади, после",
+  "meaning_en": "behind, after",
+  "on": [
+   "ご"
+  ],
+  "kun": [
+   "あと",
+   "うし（ろ）"
+  ],
+  "strokes": "9",
+  "grade": "2",
+  "jlpt": "N5",
+  "decomposition": "夂幺彳",
+  "resembling": "彼",
+  "word_ids": [
+   "K00144",
+   "B10005",
+   "K00477",
+   "K01080",
+   "K00473",
+   "B10012"
+  ]
+ },
+ {
+  "kanji": "何",
+  "order": 37,
+  "meaning_ru": "что?",
+  "meaning_en": "what?",
+  "on": [],
+  "kun": [
+   "なに",
+   "なん"
+  ],
+  "strokes": "7",
+  "grade": "2",
+  "jlpt": "N5",
+  "decomposition": "亻口亅一可",
+  "resembling": "行",
+  "word_ids": [
+   "K00037",
+   "K00035",
+   "K01076"
+  ]
+ },
+ {
+  "kanji": "大",
+  "order": 38,
+  "meaning_ru": "большой",
+  "meaning_en": "large",
+  "on": [
+   "だい",
+   "たい"
+  ],
+  "kun": [
+   "おおき"
+  ],
+  "strokes": "3",
+  "grade": "1",
+  "jlpt": "N5",
+  "decomposition": "大",
+  "resembling": "天犬夫人十木丈友",
+  "word_ids": [
+   "K00197",
+   "K00260",
+   "K00268",
+   "K00177",
+   "B10017",
+   "K00639"
+  ]
+ },
+ {
+  "kanji": "女",
+  "order": 39,
+  "meaning_ru": "женщина",
+  "meaning_en": "woman",
+  "on": [
+   "じょ"
+  ],
+  "kun": [
+   "おんな"
+  ],
+  "strokes": "3",
+  "grade": "1",
+  "jlpt": "N5",
+  "decomposition": "女",
+  "resembling": "好安",
+  "word_ids": [
+   "K00129",
+   "K00127",
+   "K00007",
+   "K01039",
+   "K00125"
+  ]
+ },
+ {
+  "kanji": "子",
+  "order": 40,
+  "meaning_ru": "ребёнок",
+  "meaning_en": "child",
+  "on": [],
+  "kun": [
+   "こ"
+  ],
+  "strokes": "3",
+  "grade": "1",
+  "jlpt": "N5",
+  "decomposition": "子",
+  "resembling": "千字好",
+  "word_ids": [
+   "K00129",
+   "K00130",
+   "K00196",
+   "K00214",
+   "K01070",
+   "B10501"
+  ]
+ },
+ {
+  "kanji": "男",
+  "order": 41,
+  "meaning_ru": "мужчина",
+  "meaning_en": "man",
+  "on": [],
+  "kun": [
+   "おとこ"
+  ],
+  "strokes": "7",
+  "grade": "1",
+  "jlpt": "N5",
+  "decomposition": "田力",
+  "resembling": "思",
+  "word_ids": [
+   "K00130",
+   "K00128"
+  ]
+ },
+ {
+  "kanji": "魚",
+  "order": 42,
+  "meaning_ru": "рыба",
+  "meaning_en": "fish",
+  "on": [],
+  "kun": [
+   "さかな"
+  ],
+  "strokes": "11",
+  "grade": "2",
+  "jlpt": "N4",
+  "decomposition": "魚田灬",
+  "resembling": "",
+  "word_ids": [
+   "K00188"
+  ]
+ },
+ {
+  "kanji": "肉",
+  "order": 43,
+  "meaning_ru": "мясо",
+  "meaning_en": "meat",
+  "on": [
+   "にく"
+  ],
+  "kun": [],
+  "strokes": "6",
+  "grade": "2",
+  "jlpt": "N4",
+  "decomposition": "肉冂人",
+  "resembling": "四",
+  "word_ids": [
+   "K00199"
+  ]
+ },
+ {
+  "kanji": "当",
+  "order": 44,
+  "meaning_ru": "справедливый, подходящий",
+  "meaning_en": "fair, appropriate",
+  "on": [
+   "とう"
+  ],
+  "kun": [],
+  "strokes": "6",
+  "grade": "2",
+  "jlpt": "N3",
+  "decomposition": "ヨ⺌",
+  "resembling": "白自日田",
+  "word_ids": [
+   "K00155",
+   "K00319",
+   "K00318"
+  ]
+ },
+ {
+  "kanji": "弁",
+  "order": 45,
+  "meaning_ru": "диалект",
+  "meaning_en": "dialect",
+  "on": [
+   "べん"
+  ],
+  "kun": [],
+  "strokes": "5",
+  "grade": "5",
+  "jlpt": "N1",
+  "decomposition": "厶廾",
+  "resembling": "公六",
+  "word_ids": [
+   "K00155"
+  ]
+ },
+ {
+  "kanji": "買",
+  "order": 46,
+  "meaning_ru": "покупать",
+  "meaning_en": "buy",
+  "on": [],
+  "kun": [
+   "か（う）"
+  ],
+  "strokes": "12",
+  "grade": "2",
+  "jlpt": "N4",
+  "decomposition": "貝目ハ罒",
+  "resembling": "置",
+  "word_ids": [
+   "K00204"
+  ]
+ },
+ {
+  "kanji": "東",
+  "order": 47,
+  "meaning_ru": "восток",
+  "meaning_en": "east",
+  "on": [],
+  "kun": [
+   "ひがし"
+  ],
+  "strokes": "8",
+  "grade": "2",
+  "jlpt": "N5",
+  "decomposition": "｜一日木田",
+  "resembling": "車果",
+  "word_ids": [
+   "K00120",
+   "B10056"
+  ]
+ },
+ {
+  "kanji": "西",
+  "order": 48,
+  "meaning_ru": "запад",
+  "meaning_en": "west",
+  "on": [],
+  "kun": [
+   "にし"
+  ],
+  "strokes": "6",
+  "grade": "2",
+  "jlpt": "N5",
+  "decomposition": "西",
+  "resembling": "四元先百",
+  "word_ids": [
+   "K00121"
+  ]
+ },
+ {
+  "kanji": "南",
+  "order": 49,
+  "meaning_ru": "юг",
+  "meaning_en": "south",
+  "on": [],
+  "kun": [
+   "みなみ"
+  ],
+  "strokes": "9",
+  "grade": "2",
+  "jlpt": "N5",
+  "decomposition": "干十丷冂",
+  "resembling": "面百",
+  "word_ids": [
+   "K00122"
+  ]
+ },
+ {
+  "kanji": "北",
+  "order": 50,
+  "meaning_ru": "север",
+  "meaning_en": "north",
+  "on": [],
+  "kun": [
+   "きた"
+  ],
+  "strokes": "5",
+  "grade": "2",
+  "jlpt": "N5",
+  "decomposition": "匕丬北",
+  "resembling": "",
+  "word_ids": [
+   "K00123",
+   "B10066",
+   "B10004",
+   "B11000"
+  ]
+ },
+ {
+  "kanji": "山",
+  "order": 51,
+  "meaning_ru": "гора",
+  "meaning_en": "mountain",
+  "on": [],
+  "kun": [
+   "やま"
+  ],
+  "strokes": "3",
+  "grade": "1",
+  "jlpt": "N5",
+  "decomposition": "山",
+  "resembling": "川出",
+  "word_ids": [
+   "B00081",
+   "K00089",
+   "B10008",
+   "B10017",
+   "B00038",
+   "B10068"
+  ]
+ },
+ {
+  "kanji": "海",
+  "order": 52,
+  "meaning_ru": "море",
+  "meaning_en": "sea",
+  "on": [],
+  "kun": [
+   "うみ"
+  ],
+  "strokes": "9",
+  "grade": "2",
+  "jlpt": "N4",
+  "decomposition": "氵毋𠂉",
+  "resembling": "毎",
+  "word_ids": [
+   "K00149",
+   "B10004"
+  ]
+ },
+ {
+  "kanji": "石",
+  "order": 53,
+  "meaning_ru": "камень",
+  "meaning_en": "stone",
+  "on": [],
+  "kun": [
+   "いし"
+  ],
+  "strokes": "5",
+  "grade": "1",
+  "jlpt": "N3",
+  "decomposition": "口石",
+  "resembling": "右西不",
+  "word_ids": [
+   "K00208"
+  ]
+ },
+ {
+  "kanji": "社",
+  "order": 54,
+  "meaning_ru": "синтоистское святилище",
+  "meaning_en": "shrine",
+  "on": [
+   "しゃ"
+  ],
+  "kun": [],
+  "strokes": "7",
+  "grade": "2",
+  "jlpt": "N4",
+  "decomposition": "土礻",
+  "resembling": "神",
+  "word_ids": [
+   "K00215"
+  ]
+ },
+ {
+  "kanji": "神",
+  "order": 55,
+  "meaning_ru": "боги",
+  "meaning_en": "gods",
+  "on": [
+   "じん"
+  ],
+  "kun": [],
+  "strokes": "9",
+  "grade": "3",
+  "jlpt": "N3",
+  "decomposition": "｜日礻田申",
+  "resembling": "社",
+  "word_ids": [
+   "K00215",
+   "B10503"
+  ]
+ },
+ {
+  "kanji": "名",
+  "order": 56,
+  "meaning_ru": "имя",
+  "meaning_en": "name",
+  "on": [
+   "めい"
+  ],
+  "kun": [
+   "な"
+  ],
+  "strokes": "6",
+  "grade": "1",
+  "jlpt": "N5",
+  "decomposition": "口夕名",
+  "resembling": "外右",
+  "word_ids": [
+   "K00069",
+   "K00219",
+   "K00220",
+   "K00267"
+  ]
+ },
+ {
+  "kanji": "城",
+  "order": 57,
+  "meaning_ru": "замок",
+  "meaning_en": "castle",
+  "on": [],
+  "kun": [
+   "しろ"
+  ],
+  "strokes": "9",
+  "grade": "6",
+  "jlpt": "N2",
+  "decomposition": "ノ土戈",
+  "resembling": "",
+  "word_ids": [
+   "K00148"
+  ]
+ },
+ {
+  "kanji": "寺",
+  "order": 58,
+  "meaning_ru": "буддийский храм",
+  "meaning_en": "Buddhist temple",
+  "on": [],
+  "kun": [
+   "てら"
+  ],
+  "strokes": "6",
+  "grade": "2",
+  "jlpt": "N2",
+  "decomposition": "寸土寺",
+  "resembling": "時",
+  "word_ids": [
+   "K00210"
+  ]
+ },
+ {
+  "kanji": "店",
+  "order": 59,
+  "meaning_ru": "магазин",
+  "meaning_en": "store",
+  "on": [],
+  "kun": [
+   "みせ"
+  ],
+  "strokes": "8",
+  "grade": "2",
+  "jlpt": "N4",
+  "decomposition": "口卜广",
+  "resembling": "",
+  "word_ids": [
+   "K00131",
+   "K01108"
+  ]
+ },
+ {
+  "kanji": "話",
+  "order": 60,
+  "meaning_ru": "разговаривать",
+  "meaning_en": "talk",
+  "on": [
+   "わ"
+  ],
+  "kun": [
+   "はな（す）"
+  ],
+  "strokes": "13",
+  "grade": "2",
+  "jlpt": "N5",
+  "decomposition": "言口舌",
+  "resembling": "語",
+  "word_ids": [
+   "K00211",
+   "K00931",
+   "K00996"
+  ]
+ },
+ {
+  "kanji": "作",
+  "order": 61,
+  "meaning_ru": "делать",
+  "meaning_en": "make",
+  "on": [],
+  "kun": [
+   "つく（る）"
+  ],
+  "strokes": "7",
+  "grade": "2",
+  "jlpt": "N4",
+  "decomposition": "｜ノ亻一𠂉乍",
+  "resembling": "昨何",
+  "word_ids": [
+   "K00213",
+   "K00230"
+  ]
+ },
+ {
+  "kanji": "語",
+  "order": 62,
+  "meaning_ru": "слово",
+  "meaning_en": "word",
+  "on": [
+   "ご"
+  ],
+  "kun": [],
+  "strokes": "14",
+  "grade": "2",
+  "jlpt": "N5",
+  "decomposition": "言口五",
+  "resembling": "話",
+  "word_ids": [
+   "K00044",
+   "K00045"
+  ]
+ },
+ {
+  "kanji": "強",
+  "order": 63,
+  "meaning_ru": "сильный",
+  "meaning_en": "strong",
+  "on": [
+   "きょう"
+  ],
+  "kun": [],
+  "strokes": "11",
+  "grade": "2",
+  "jlpt": "N4",
+  "decomposition": "弓虫厶",
+  "resembling": "",
+  "word_ids": [
+   "K00227"
+  ]
+ },
+ {
+  "kanji": "勉",
+  "order": 64,
+  "meaning_ru": "старание",
+  "meaning_en": "endeavor",
+  "on": [
+   "べん"
+  ],
+  "kun": [],
+  "strokes": "10",
+  "grade": "3",
+  "jlpt": "N4",
+  "decomposition": "力免儿勹",
+  "resembling": "動",
+  "word_ids": [
+   "K00227"
+  ]
+ },
+ {
+  "kanji": "教",
+  "order": 65,
+  "meaning_ru": "учить",
+  "meaning_en": "teach",
+  "on": [],
+  "kun": [
+   "おし（える）"
+  ],
+  "strokes": "11",
+  "grade": "2",
+  "jlpt": "N4",
+  "decomposition": "子耂攵孝",
+  "resembling": "",
+  "word_ids": [
+   "K00218"
+  ]
+ },
+ {
+  "kanji": "字",
+  "order": 66,
+  "meaning_ru": "символ, буква",
+  "meaning_en": "character, letter",
+  "on": [
+   "じ"
+  ],
+  "kun": [],
+  "strokes": "6",
+  "grade": "1",
+  "jlpt": "N4",
+  "decomposition": "子宀",
+  "resembling": "子安好",
+  "word_ids": [
+   "K00060",
+   "K01105",
+   "K01017"
+  ]
+ },
+ {
+  "kanji": "漢",
+  "order": 67,
+  "meaning_ru": "Китай (Хань)",
+  "meaning_en": "China (Han)",
+  "on": [
+   "かん"
+  ],
+  "kun": [],
+  "strokes": "13",
+  "grade": "3",
+  "jlpt": "N4",
+  "decomposition": "氵艹口一大二𦰩",
+  "resembling": "難",
+  "word_ids": [
+   "K00060",
+   "K01017"
+  ]
+ },
+ {
+  "kanji": "国",
+  "order": 68,
+  "meaning_ru": "страна",
+  "meaning_en": "country",
+  "on": [
+   "こく"
+  ],
+  "kun": [
+   "くに"
+  ],
+  "strokes": "8",
+  "grade": "2",
+  "jlpt": "N5",
+  "decomposition": "王囗丶",
+  "resembling": "四図園田口",
+  "word_ids": [
+   "K00209",
+   "K00066"
+  ]
+ },
+ {
+  "kanji": "先",
+  "order": 69,
+  "meaning_ru": "раньше",
+  "meaning_en": "before",
+  "on": [
+   "せん"
+  ],
+  "kun": [],
+  "strokes": "6",
+  "grade": "1",
+  "jlpt": "N5",
+  "decomposition": "ノ土儿",
+  "resembling": "元",
+  "word_ids": [
+   "K00012"
+  ]
+ },
+ {
+  "kanji": "生",
+  "order": 70,
+  "meaning_ru": "жизнь",
+  "meaning_en": "life",
+  "on": [
+   "せい"
+  ],
+  "kun": [],
+  "strokes": "5",
+  "grade": "1",
+  "jlpt": "N5",
+  "decomposition": "生",
+  "resembling": "住牛午",
+  "word_ids": [
+   "K00012",
+   "B10010",
+   "B10070"
+  ]
+ },
+ {
+  "kanji": "乗",
+  "order": 71,
+  "meaning_ru": "ездить",
+  "meaning_en": "ride",
+  "on": [],
+  "kun": [
+   "の（る）"
+  ],
+  "strokes": "9",
+  "grade": "3",
+  "jlpt": "N3",
+  "decomposition": "｜ノ一禾ハ",
+  "resembling": "来",
+  "word_ids": [
+   "K00223"
+  ]
+ },
+ {
+  "kanji": "車",
+  "order": 72,
+  "meaning_ru": "машина",
+  "meaning_en": "car",
+  "on": [
+   "しゃ"
+  ],
+  "kun": [
+   "くるま"
+  ],
+  "strokes": "7",
+  "grade": "1",
+  "jlpt": "N5",
+  "decomposition": "車",
+  "resembling": "東",
+  "word_ids": [
+   "K00221",
+   "K00307",
+   "K00309"
+  ]
+ },
+ {
+  "kanji": "電",
+  "order": 73,
+  "meaning_ru": "электричество",
+  "meaning_en": "electricity",
+  "on": [
+   "でん"
+  ],
+  "kun": [],
+  "strokes": "13",
+  "grade": "2",
+  "jlpt": "N5",
+  "decomposition": "雨田乚",
+  "resembling": "雪雲",
+  "word_ids": [
+   "K00221",
+   "K00931",
+   "K00996"
+  ]
+ },
+ {
+  "kanji": "切",
+  "order": 74,
+  "meaning_ru": "резать",
+  "meaning_en": "cut",
+  "on": [
+   "せつ"
+  ],
+  "kun": [],
+  "strokes": "4",
+  "grade": "2",
+  "jlpt": "N4",
+  "decomposition": "刀匕",
+  "resembling": "刀万",
+  "word_ids": [
+   "K00222",
+   "K00268"
+  ]
+ },
+ {
+  "kanji": "市",
+  "order": 75,
+  "meaning_ru": "город, рынок",
+  "meaning_en": "town, market",
+  "on": [
+   "し"
+  ],
+  "kun": [],
+  "strokes": "5",
+  "grade": "2",
+  "jlpt": "N3",
+  "decomposition": "巾亠",
+  "resembling": "",
+  "word_ids": [
+   "K00076"
+  ]
+ },
+ {
+  "kanji": "県",
+  "order": 76,
+  "meaning_ru": "префектура",
+  "meaning_en": "prefecture",
+  "on": [
+   "けん"
+  ],
+  "kun": [],
+  "strokes": "9",
+  "grade": "3",
+  "jlpt": "N2",
+  "decomposition": "小目",
+  "resembling": "見",
+  "word_ids": [
+   "K00082"
+  ]
+ },
+ {
+  "kanji": "小",
+  "order": 77,
+  "meaning_ru": "маленький",
+  "meaning_en": "little",
+  "on": [],
+  "kun": [
+   "ちい（さい）"
+  ],
+  "strokes": "3",
+  "grade": "1",
+  "jlpt": "N5",
+  "decomposition": "小",
+  "resembling": "少水八大",
+  "word_ids": [
+   "K00261"
+  ]
+ },
+ {
+  "kanji": "白",
+  "order": 78,
+  "meaning_ru": "белый",
+  "meaning_en": "white",
+  "on": [],
+  "kun": [
+   "しろ（い）"
+  ],
+  "strokes": "5",
+  "grade": "1",
+  "jlpt": "N5",
+  "decomposition": "白",
+  "resembling": "百日田自",
+  "word_ids": [
+   "K00256"
+  ]
+ },
+ {
+  "kanji": "面",
+  "order": 79,
+  "meaning_ru": "маска",
+  "meaning_en": "mask",
+  "on": [],
+  "kun": [
+   "おも"
+  ],
+  "strokes": "9",
+  "grade": "3",
+  "jlpt": "N3",
+  "decomposition": "面",
+  "resembling": "百",
+  "word_ids": [
+   "K00256"
+  ]
+ },
+ {
+  "kanji": "楽",
+  "order": 80,
+  "meaning_ru": "лёгкость",
+  "meaning_en": "ease",
+  "on": [],
+  "kun": [
+   "たの（しい）"
+  ],
+  "strokes": "13",
+  "grade": "2",
+  "jlpt": "N4",
+  "decomposition": "白木冫",
+  "resembling": "果",
+  "word_ids": [
+   "B10005",
+   "K00317",
+   "B10012"
+  ]
+ },
+ {
+  "kanji": "気",
+  "order": 81,
+  "meaning_ru": "дух",
+  "meaning_en": "spirit",
+  "on": [
+   "き"
+  ],
+  "kun": [],
+  "strokes": "6",
+  "grade": "1",
+  "jlpt": "N5",
+  "decomposition": "气丶ノ𠂉",
+  "resembling": "",
+  "word_ids": [
+   "K00266",
+   "K00279"
+  ]
+ },
+ {
+  "kanji": "元",
+  "order": 82,
+  "meaning_ru": "происхождение",
+  "meaning_en": "origin",
+  "on": [
+   "げん"
+  ],
+  "kun": [],
+  "strokes": "4",
+  "grade": "2",
+  "jlpt": "N4",
+  "decomposition": "二儿元",
+  "resembling": "先西",
+  "word_ids": [
+   "K00266"
+  ]
+ },
+ {
+  "kanji": "有",
+  "order": 83,
+  "meaning_ru": "владеть",
+  "meaning_en": "possess",
+  "on": [
+   "ゆう"
+  ],
+  "kun": [],
+  "strokes": "6",
+  "grade": "3",
+  "jlpt": "N4",
+  "decomposition": "ノ一月",
+  "resembling": "右石",
+  "word_ids": [
+   "K00267"
+  ]
+ },
+ {
+  "kanji": "手",
+  "order": 84,
+  "meaning_ru": "рука",
+  "meaning_en": "hand",
+  "on": [
+   "ず"
+  ],
+  "kun": [],
+  "strokes": "4",
+  "grade": "1",
+  "jlpt": "N4",
+  "decomposition": "手",
+  "resembling": "牛二十午千天三夫",
+  "word_ids": [
+   "K00269",
+   "K00270"
+  ]
+ },
+ {
+  "kanji": "毎",
+  "order": 85,
+  "meaning_ru": "каждый",
+  "meaning_en": "every",
+  "on": [
+   "まい"
+  ],
+  "kun": [],
+  "strokes": "6",
+  "grade": "2",
+  "jlpt": "N5",
+  "decomposition": "毋𠂉",
+  "resembling": "海",
+  "word_ids": [
+   "K00253"
+  ]
+ },
+ {
+  "kanji": "時",
+  "order": 86,
+  "meaning_ru": "время",
+  "meaning_en": "time",
+  "on": [
+   "じ"
+  ],
+  "kun": [
+   "とき",
+   "（と）"
+  ],
+  "strokes": "10",
+  "grade": "2",
+  "jlpt": "N5",
+  "decomposition": "寸土日寺",
+  "resembling": "寺待持転昨",
+  "word_ids": [
+   "K00259",
+   "K00182",
+   "K00475",
+   "K01081",
+   "K01082",
+   "K01083"
+  ]
+ },
+ {
+  "kanji": "読",
+  "order": 87,
+  "meaning_ru": "читать",
+  "meaning_en": "read",
+  "on": [],
+  "kun": [
+   "よ（む）"
+  ],
+  "strokes": "14",
+  "grade": "2",
+  "jlpt": "N5",
+  "decomposition": "言士儿冖",
+  "resembling": "語話",
+  "word_ids": [
+   "K00328"
+  ]
+ },
+ {
+  "kanji": "天",
+  "order": 88,
+  "meaning_ru": "небо",
+  "meaning_en": "sky",
+  "on": [
+   "てん"
+  ],
+  "kun": [],
+  "strokes": "4",
+  "grade": "1",
+  "jlpt": "N5",
+  "decomposition": "一大二",
+  "resembling": "夫大丈犬",
+  "word_ids": [
+   "K00279",
+   "B10503"
+  ]
+ },
+ {
+  "kanji": "雨",
+  "order": 89,
+  "meaning_ru": "дождь",
+  "meaning_en": "rain",
+  "on": [],
+  "kun": [
+   "あめ"
+  ],
+  "strokes": "8",
+  "grade": "1",
+  "jlpt": "N5",
+  "decomposition": "雨",
+  "resembling": "西肉下",
+  "word_ids": [
+   "K00280"
+  ]
+ },
+ {
+  "kanji": "雲",
+  "order": 90,
+  "meaning_ru": "облако",
+  "meaning_en": "cloud",
+  "on": [],
+  "kun": [
+   "くも"
+  ],
+  "strokes": "12",
+  "grade": "2",
+  "jlpt": "N2",
+  "decomposition": "一雨二厶云",
+  "resembling": "雪電",
+  "word_ids": [
+   "K00281"
+  ]
+ },
+ {
+  "kanji": "雪",
+  "order": 91,
+  "meaning_ru": "снег",
+  "meaning_en": "snow",
+  "on": [],
+  "kun": [
+   "ゆき"
+  ],
+  "strokes": "11",
+  "grade": "2",
+  "jlpt": "N3",
+  "decomposition": "ヨ雨",
+  "resembling": "雲電",
+  "word_ids": [
+   "K00282"
+  ]
+ },
+ {
+  "kanji": "降",
+  "order": 92,
+  "meaning_ru": "спускаться",
+  "meaning_en": "descend",
+  "on": [],
+  "kun": [
+   "ふ（る）"
+  ],
+  "strokes": "10",
+  "grade": "6",
+  "jlpt": "N3",
+  "decomposition": "夂⻖十",
+  "resembling": "",
+  "word_ids": [
+   "K00283"
+  ]
+ },
+ {
+  "kanji": "風",
+  "order": 93,
+  "meaning_ru": "ветер",
+  "meaning_en": "wind",
+  "on": [],
+  "kun": [
+   "かぜ"
+  ],
+  "strokes": "9",
+  "grade": "2",
+  "jlpt": "N4",
+  "decomposition": "風几虫ノ",
+  "resembling": "",
+  "word_ids": [
+   "K00284"
+  ]
+ },
+ {
+  "kanji": "吹",
+  "order": 94,
+  "meaning_ru": "дуть",
+  "meaning_en": "blow",
+  "on": [],
+  "kun": [
+   "ふ（く）"
+  ],
+  "strokes": "7",
+  "grade": "J1",
+  "jlpt": "N3",
+  "decomposition": "欠口",
+  "resembling": "",
+  "word_ids": [
+   "K00909"
+  ]
+ },
+ {
+  "kanji": "暑",
+  "order": 95,
+  "meaning_ru": "жаркая погода",
+  "meaning_en": "hot weather",
+  "on": [],
+  "kun": [
+   "あつ（い）"
+  ],
+  "strokes": "12",
+  "grade": "3",
+  "jlpt": "N1",
+  "decomposition": "日耂",
+  "resembling": "書",
+  "word_ids": [
+   "K00285"
+  ]
+ },
+ {
+  "kanji": "寒",
+  "order": 96,
+  "meaning_ru": "холодная погода",
+  "meaning_en": "cold weather",
+  "on": [],
+  "kun": [
+   "さむ（い）"
+  ],
+  "strokes": "12",
+  "grade": "3",
+  "jlpt": "N3",
+  "decomposition": "一ハ宀丶井",
+  "resembling": "悪",
+  "word_ids": [
+   "K00286"
+  ]
+ },
+ {
+  "kanji": "暖",
+  "order": 97,
+  "meaning_ru": "тепло",
+  "meaning_en": "warmth",
+  "on": [],
+  "kun": [
+   "あたた（かい）"
+  ],
+  "strokes": "13",
+  "grade": "6",
+  "jlpt": "N1",
+  "decomposition": "ノ一爪日又",
+  "resembling": "",
+  "word_ids": [
+   "K00289"
+  ]
+ },
+ {
+  "kanji": "涼",
+  "order": 98,
+  "meaning_ru": "освежающий",
+  "meaning_en": "refreshing",
+  "on": [],
+  "kun": [
+   "すず（しい）"
+  ],
+  "strokes": "11",
+  "grade": "J3",
+  "jlpt": "N2",
+  "decomposition": "口氵小亠京",
+  "resembling": "",
+  "word_ids": [
+   "K00290"
+  ]
+ },
+ {
+  "kanji": "悪",
+  "order": 99,
+  "meaning_ru": "плохой",
+  "meaning_en": "bad",
+  "on": [],
+  "kun": [
+   "わる（い）"
+  ],
+  "strokes": "11",
+  "grade": "3",
+  "jlpt": "N4",
+  "decomposition": "｜一口心",
+  "resembling": "",
+  "word_ids": [
+   "K00263"
+  ]
+ },
+ {
+  "kanji": "描",
+  "order": 100,
+  "meaning_ru": "делать набросок",
+  "meaning_en": "sketch",
+  "on": [],
+  "kun": [
+   "か（く）"
+  ],
+  "strokes": "11",
+  "grade": "J1",
+  "jlpt": "N1",
+  "decomposition": "田扌艹",
+  "resembling": "猫",
+  "word_ids": [
+   "K01115"
+  ]
+ },
+ {
+  "kanji": "渡",
+  "order": 101,
+  "meaning_ru": "пересекать",
+  "meaning_en": "cross over",
+  "on": [],
+  "kun": [
+   "わた（す）"
+  ],
+  "strokes": "12",
+  "grade": "J1",
+  "jlpt": "N3",
+  "decomposition": "氵又广",
+  "resembling": "漢",
+  "word_ids": [
+   "K00462"
+  ]
+ },
+ {
+  "kanji": "取",
+  "order": 102,
+  "meaning_ru": "взять",
+  "meaning_en": "take",
+  "on": [],
+  "kun": [
+   "と（る）"
+  ],
+  "strokes": "8",
+  "grade": "3",
+  "jlpt": "N3",
+  "decomposition": "耳又",
+  "resembling": "",
+  "word_ids": [
+   "K00432",
+   "B10011"
+  ]
+ },
+ {
+  "kanji": "置",
+  "order": 103,
+  "meaning_ru": "размещение",
+  "meaning_en": "placement",
+  "on": [],
+  "kun": [
+   "お（く）"
+  ],
+  "strokes": "13",
+  "grade": "4",
+  "jlpt": "N3",
+  "decomposition": "十罒目一｜",
+  "resembling": "買",
+  "word_ids": [
+   "K00434"
+  ]
+ },
+ {
+  "kanji": "入",
+  "order": 104,
+  "meaning_ru": "входить",
+  "meaning_en": "enter",
+  "on": [],
+  "kun": [
+   "はい（る）",
+   "い（れる）",
+   "い（る）"
+  ],
+  "strokes": "2",
+  "grade": "1",
+  "jlpt": "N5",
+  "decomposition": "入",
+  "resembling": "人八大",
+  "word_ids": [
+   "K00435",
+   "K00315",
+   "K00320"
+  ]
+ },
+ {
+  "kanji": "出",
+  "order": 105,
+  "meaning_ru": "выходить",
+  "meaning_en": "exit",
+  "on": [
+   "しゅつ"
+  ],
+  "kun": [
+   "で（る）",
+   "だ（す）"
+  ],
+  "strokes": "5",
+  "grade": "1",
+  "jlpt": "N5",
+  "decomposition": "｜山凵",
+  "resembling": "山",
+  "word_ids": [
+   "K00436",
+   "K00316",
+   "K00321",
+   "K01119"
+  ]
+ },
+ {
+  "kanji": "熱",
+  "order": 106,
+  "meaning_ru": "горячий (предмет)",
+  "meaning_en": "hot (object)",
+  "on": [],
+  "kun": [
+   "あつ（い）"
+  ],
+  "strokes": "15",
+  "grade": "4",
+  "jlpt": "N3",
+  "decomposition": "土九丶儿灬坴",
+  "resembling": "",
+  "word_ids": [
+   "K00287"
+  ]
+ },
+ {
+  "kanji": "冷",
+  "order": 107,
+  "meaning_ru": "прохладный",
+  "meaning_en": "cool",
+  "on": [],
+  "kun": [
+   "つめ（たい）"
+  ],
+  "strokes": "7",
+  "grade": "4",
+  "jlpt": "N3",
+  "decomposition": "𠆢冫卩一令",
+  "resembling": "",
+  "word_ids": [
+   "K00288"
+  ]
+ },
+ {
+  "kanji": "温",
+  "order": 108,
+  "meaning_ru": "тёплый",
+  "meaning_en": "warm",
+  "on": [],
+  "kun": [
+   "あたた（かい）"
+  ],
+  "strokes": "12",
+  "grade": "3",
+  "jlpt": "N2",
+  "decomposition": "皿氵日",
+  "resembling": "",
+  "word_ids": [
+   "K01050"
+  ]
+ },
+ {
+  "kanji": "馬",
+  "order": 109,
+  "meaning_ru": "лошадь",
+  "meaning_en": "horse",
+  "on": [],
+  "kun": [
+   "うま"
+  ],
+  "strokes": "10",
+  "grade": "2",
+  "jlpt": "N3",
+  "decomposition": "馬灬",
+  "resembling": "駅鳥",
+  "word_ids": [
+   "K00293",
+   "B10043"
+  ]
+ },
+ {
+  "kanji": "鳥",
+  "order": 110,
+  "meaning_ru": "птица",
+  "meaning_en": "bird",
+  "on": [],
+  "kun": [
+   "とり"
+  ],
+  "strokes": "11",
+  "grade": "2",
+  "jlpt": "N4",
+  "decomposition": "鳥灬",
+  "resembling": "馬魚",
+  "word_ids": [
+   "K00291",
+   "B10011"
+  ]
+ },
+ {
+  "kanji": "牛",
+  "order": 111,
+  "meaning_ru": "корова",
+  "meaning_en": "cow",
+  "on": [],
+  "kun": [
+   "うし"
+  ],
+  "strokes": "4",
+  "grade": "2",
+  "jlpt": "N4",
+  "decomposition": "牛",
+  "resembling": "午千手生半毎",
+  "word_ids": [
+   "K00292"
+  ]
+ },
+ {
+  "kanji": "豚",
+  "order": 112,
+  "meaning_ru": "свинина",
+  "meaning_en": "pork",
+  "on": [],
+  "kun": [
+   "ぶた"
+  ],
+  "strokes": "11",
+  "grade": "J2",
+  "jlpt": "N1",
+  "decomposition": "月豕",
+  "resembling": "",
+  "word_ids": [
+   "K00335"
+  ]
+ },
+ {
+  "kanji": "虫",
+  "order": 113,
+  "meaning_ru": "насекомое",
+  "meaning_en": "insect",
+  "on": [],
+  "kun": [
+   "むし"
+  ],
+  "strokes": "6",
+  "grade": "1",
+  "jlpt": "N2",
+  "decomposition": "虫",
+  "resembling": "車田中",
+  "word_ids": [
+   "K00336"
+  ]
+ },
+ {
+  "kanji": "物",
+  "order": 114,
+  "meaning_ru": "вещь",
+  "meaning_en": "thing",
+  "on": [
+   "ぶつ"
+  ],
+  "kun": [
+   "もの"
+  ],
+  "strokes": "8",
+  "grade": "3",
+  "jlpt": "N4",
+  "decomposition": "勿牛勹ノ",
+  "resembling": "",
+  "word_ids": [
+   "K00913",
+   "K00550",
+   "K00580",
+   "K00631",
+   "K00561",
+   "K00570"
+  ]
+ },
+ {
+  "kanji": "動",
+  "order": 115,
+  "meaning_ru": "двигаться",
+  "meaning_en": "move",
+  "on": [
+   "どう"
+  ],
+  "kun": [],
+  "strokes": "11",
+  "grade": "3",
+  "jlpt": "N4",
+  "decomposition": "｜一日力里ノ重",
+  "resembling": "",
+  "word_ids": [
+   "K00913"
+  ]
+ },
+ {
+  "kanji": "多",
+  "order": 116,
+  "meaning_ru": "много",
+  "meaning_en": "many",
+  "on": [],
+  "kun": [
+   "おお（い）"
+  ],
+  "strokes": "6",
+  "grade": "2",
+  "jlpt": "N4",
+  "decomposition": "夕",
+  "resembling": "外名",
+  "word_ids": [
+   "K00296"
+  ]
+ },
+ {
+  "kanji": "少",
+  "order": 117,
+  "meaning_ru": "немного",
+  "meaning_en": "few",
+  "on": [],
+  "kun": [
+   "すく（ない）",
+   "すこ（し）"
+  ],
+  "strokes": "4",
+  "grade": "2",
+  "jlpt": "N4",
+  "decomposition": "ノ小少",
+  "resembling": "小",
+  "word_ids": [
+   "K00295",
+   "K00349"
+  ]
+ },
+ {
+  "kanji": "難",
+  "order": 118,
+  "meaning_ru": "трудный",
+  "meaning_en": "difficult",
+  "on": [],
+  "kun": [
+   "むずか（しい）"
+  ],
+  "strokes": "18",
+  "grade": "6",
+  "jlpt": "N3",
+  "decomposition": "艹隹大口亠二𦰩",
+  "resembling": "漢",
+  "word_ids": [
+   "K00312"
+  ]
+ },
+ {
+  "kanji": "便",
+  "order": 119,
+  "meaning_ru": "удобный",
+  "meaning_en": "convenient",
+  "on": [
+   "べん"
+  ],
+  "kun": [],
+  "strokes": "9",
+  "grade": "4",
+  "jlpt": "N3",
+  "decomposition": "｜ノ一亻日田",
+  "resembling": "",
+  "word_ids": [
+   "K00297",
+   "K00330"
+  ]
+ },
+ {
+  "kanji": "利",
+  "order": 120,
+  "meaning_ru": "прибыль",
+  "meaning_en": "profit",
+  "on": [
+   "り"
+  ],
+  "kun": [],
+  "strokes": "7",
+  "grade": "4",
+  "jlpt": "N3",
+  "decomposition": "禾刂",
+  "resembling": "私",
+  "word_ids": [
+   "K00297"
+  ]
+ },
+ {
+  "kanji": "不",
+  "order": 121,
+  "meaning_ru": "отрицание",
+  "meaning_en": "negative",
+  "on": [
+   "ふ"
+  ],
+  "kun": [],
+  "strokes": "4",
+  "grade": "4",
+  "jlpt": "N4",
+  "decomposition": "｜ノ一丶",
+  "resembling": "万犬下木小",
+  "word_ids": [
+   "K00330"
+  ]
+ },
+ {
+  "kanji": "一",
+  "order": 122,
+  "meaning_ru": "один",
+  "meaning_en": "one",
+  "on": [
+   "いち"
+  ],
+  "kun": [
+   "ひとり（一人）"
+  ],
+  "strokes": "1",
+  "grade": "1",
+  "jlpt": "N5",
+  "decomposition": "一",
+  "resembling": "十二七",
+  "word_ids": [
+   "K00156",
+   "K01005",
+   "K01006",
+   "K01019",
+   "K00988",
+   "K01084"
+  ]
+ },
+ {
+  "kanji": "二",
+  "order": 123,
+  "meaning_ru": "два",
+  "meaning_en": "two",
+  "on": [
+   "に"
+  ],
+  "kun": [
+   "ふたり（二人）"
+  ],
+  "strokes": "2",
+  "grade": "1",
+  "jlpt": "N5",
+  "decomposition": "二",
+  "resembling": "三一十千",
+  "word_ids": [
+   "K00157",
+   "K01020",
+   "K01121",
+   "K01128"
+  ]
+ },
+ {
+  "kanji": "三",
+  "order": 124,
+  "meaning_ru": "три",
+  "meaning_en": "three",
+  "on": [
+   "さん"
+  ],
+  "kun": [],
+  "strokes": "3",
+  "grade": "1",
+  "jlpt": "N5",
+  "decomposition": "一二",
+  "resembling": "二一手",
+  "word_ids": [
+   "K00158",
+   "K01004",
+   "K00997",
+   "K01000",
+   "K01021",
+   "K01085"
+  ]
+ },
+ {
+  "kanji": "四",
+  "order": 125,
+  "meaning_ru": "четыре",
+  "meaning_en": "four",
+  "on": [],
+  "kun": [
+   "よん",
+   "（よ）"
+  ],
+  "strokes": "5",
+  "grade": "1",
+  "jlpt": "N5",
+  "decomposition": "儿囗",
+  "resembling": "図西国園日田",
+  "word_ids": [
+   "K00159",
+   "K01003",
+   "K01077",
+   "K01022",
+   "K01081",
+   "K01086"
+  ]
+ },
+ {
+  "kanji": "五",
+  "order": 126,
+  "meaning_ru": "пять",
+  "meaning_en": "five",
+  "on": [
+   "ご"
+  ],
+  "kun": [],
+  "strokes": "4",
+  "grade": "1",
+  "jlpt": "N5",
+  "decomposition": "五",
+  "resembling": "日西石",
+  "word_ids": [
+   "K00160",
+   "K01004"
+  ]
+ },
+ {
+  "kanji": "六",
+  "order": 127,
+  "meaning_ru": "шесть",
+  "meaning_en": "six",
+  "on": [
+   "ろく"
+  ],
+  "kun": [],
+  "strokes": "4",
+  "grade": "1",
+  "jlpt": "N5",
+  "decomposition": "ハ亠",
+  "resembling": "八木元",
+  "word_ids": [
+   "K00161",
+   "K01003",
+   "K00998",
+   "K01023",
+   "K01087",
+   "K01126"
+  ]
+ },
+ {
+  "kanji": "七",
+  "order": 128,
+  "meaning_ru": "семь",
+  "meaning_en": "seven",
+  "on": [
+   "しち"
+  ],
+  "kun": [
+   "なな"
+  ],
+  "strokes": "2",
+  "grade": "1",
+  "jlpt": "N5",
+  "decomposition": "乚匕ノ",
+  "resembling": "一九八十",
+  "word_ids": [
+   "K00162",
+   "K01002",
+   "K01082",
+   "K01091"
+  ]
+ },
+ {
+  "kanji": "八",
+  "order": 129,
+  "meaning_ru": "восемь",
+  "meaning_en": "eight",
+  "on": [
+   "はち"
+  ],
+  "kun": [],
+  "strokes": "2",
+  "grade": "1",
+  "jlpt": "N5",
+  "decomposition": "ハ",
+  "resembling": "人入小川九",
+  "word_ids": [
+   "K00163",
+   "K01004",
+   "K00999",
+   "K01001",
+   "K01027",
+   "K01088"
+  ]
+ },
+ {
+  "kanji": "九",
+  "order": 130,
+  "meaning_ru": "девять",
+  "meaning_en": "nine",
+  "on": [
+   "きゅう",
+   "く"
+  ],
+  "kun": [],
+  "strokes": "2",
+  "grade": "1",
+  "jlpt": "N5",
+  "decomposition": "九",
+  "resembling": "十入八",
+  "word_ids": [
+   "K00164",
+   "K01005",
+   "K01083",
+   "K01093",
+   "B10500"
+  ]
+ },
+ {
+  "kanji": "十",
+  "order": 131,
+  "meaning_ru": "десять",
+  "meaning_en": "ten",
+  "on": [
+   "じゅう"
+  ],
+  "kun": [],
+  "strokes": "2",
+  "grade": "1",
+  "jlpt": "N5",
+  "decomposition": "十",
+  "resembling": "千一九七",
+  "word_ids": [
+   "K00165",
+   "K01002",
+   "K01003",
+   "K01004",
+   "K01005",
+   "K01024"
+  ]
+ },
+ {
+  "kanji": "百",
+  "order": 132,
+  "meaning_ru": "сто",
+  "meaning_en": "hundred",
+  "on": [
+   "ひゃく"
+  ],
+  "kun": [],
+  "strokes": "6",
+  "grade": "1",
+  "jlpt": "N5",
+  "decomposition": "一白",
+  "resembling": "白自日",
+  "word_ids": [
+   "K00166",
+   "K01004",
+   "K00997",
+   "K00998",
+   "K00999",
+   "K01125"
+  ]
+ },
+ {
+  "kanji": "千",
+  "order": 133,
+  "meaning_ru": "тысяча",
+  "meaning_en": "thousand",
+  "on": [
+   "せん"
+  ],
+  "kun": [],
+  "strokes": "3",
+  "grade": "1",
+  "jlpt": "N5",
+  "decomposition": "ノ十",
+  "resembling": "十午牛子二",
+  "word_ids": [
+   "K00167",
+   "K01003",
+   "K01000",
+   "K01001",
+   "K01006",
+   "K01008"
+  ]
+ },
+ {
+  "kanji": "万",
+  "order": 134,
+  "meaning_ru": "десять тысяч",
+  "meaning_en": "ten thousand",
+  "on": [
+   "まん"
+  ],
+  "kun": [],
+  "strokes": "3",
+  "grade": "2",
+  "jlpt": "N5",
+  "decomposition": "｜ノ一",
+  "resembling": "不友切刀",
+  "word_ids": [
+   "K00168",
+   "K01005",
+   "K01006"
+  ]
+ },
+ {
+  "kanji": "番",
+  "order": 135,
+  "meaning_ru": "номер в серии",
+  "meaning_en": "number in a series",
+  "on": [
+   "ばん"
+  ],
+  "kun": [],
+  "strokes": "12",
+  "grade": "2",
+  "jlpt": "N3",
+  "decomposition": "田釆米",
+  "resembling": "",
+  "word_ids": [
+   "K00180",
+   "K00996"
+  ]
+ },
+ {
+  "kanji": "号",
+  "order": 136,
+  "meaning_ru": "серийный номер",
+  "meaning_en": "serial number",
+  "on": [
+   "ごう"
+  ],
+  "kun": [],
+  "strokes": "5",
+  "grade": "3",
+  "jlpt": "N3",
+  "decomposition": "一口勹",
+  "resembling": "中午二手",
+  "word_ids": [
+   "K00180",
+   "K00996"
+  ]
+ },
+ {
+  "kanji": "円",
+  "order": 137,
+  "meaning_ru": "круг, иена",
+  "meaning_en": "circle, yen",
+  "on": [
+   "えん"
+  ],
+  "kun": [],
+  "strokes": "4",
+  "grade": "1",
+  "jlpt": "N5",
+  "decomposition": "冂亠一｜",
+  "resembling": "日",
+  "word_ids": [
+   "K00176",
+   "K01077"
+  ]
+ },
+ {
+  "kanji": "安",
+  "order": 138,
+  "meaning_ru": "мир",
+  "meaning_en": "peace",
+  "on": [],
+  "kun": [
+   "やす（い）"
+  ],
+  "strokes": "6",
+  "grade": "3",
+  "jlpt": "N4",
+  "decomposition": "女宀",
+  "resembling": "女字中",
+  "word_ids": [
+   "K00303"
+  ]
+ },
+ {
+  "kanji": "使",
+  "order": 139,
+  "meaning_ru": "использовать",
+  "meaning_en": "use",
+  "on": [],
+  "kun": [
+   "つか（う）"
+  ],
+  "strokes": "8",
+  "grade": "3",
+  "jlpt": "N4",
+  "decomposition": "ノ一亻口",
+  "resembling": "何便",
+  "word_ids": [
+   "K00437"
+  ]
+ },
+ {
+  "kanji": "自",
+  "order": 140,
+  "meaning_ru": "сам",
+  "meaning_en": "oneself",
+  "on": [
+   "じ"
+  ],
+  "kun": [],
+  "strokes": "6",
+  "grade": "2",
+  "jlpt": "N4",
+  "decomposition": "自目",
+  "resembling": "白日田百",
+  "word_ids": [
+   "K00309"
+  ]
+ },
+ {
+  "kanji": "転",
+  "order": 141,
+  "meaning_ru": "поворачивать",
+  "meaning_en": "pivot",
+  "on": [
+   "てん"
+  ],
+  "kun": [],
+  "strokes": "11",
+  "grade": "3",
+  "jlpt": "N4",
+  "decomposition": "車二厶云",
+  "resembling": "時",
+  "word_ids": [
+   "K00309"
+  ]
+ },
+ {
+  "kanji": "刀",
+  "order": 142,
+  "meaning_ru": "меч",
+  "meaning_en": "sword",
+  "on": [],
+  "kun": [
+   "かたな"
+  ],
+  "strokes": "2",
+  "grade": "2",
+  "jlpt": "N1",
+  "decomposition": "刀",
+  "resembling": "九八",
+  "word_ids": [
+   "K00305"
+  ]
+ },
+ {
+  "kanji": "金",
+  "order": 143,
+  "meaning_ru": "золото",
+  "meaning_en": "gold",
+  "on": [],
+  "kun": [
+   "かね"
+  ],
+  "strokes": "8",
+  "grade": "1",
+  "jlpt": "N5",
+  "decomposition": "金王ハ𠆢丷",
+  "resembling": "",
+  "word_ids": [
+   "K00522"
+  ]
+ },
+ {
+  "kanji": "夫",
+  "order": 144,
+  "meaning_ru": "муж",
+  "meaning_en": "husband",
+  "on": [
+   "ふ"
+  ],
+  "kun": [],
+  "strokes": "4",
+  "grade": "4",
+  "jlpt": "N3",
+  "decomposition": "人二大",
+  "resembling": "天大丈元木犬",
+  "word_ids": [
+   "K00177"
+  ]
+ },
+ {
+  "kanji": "丈",
+  "order": 145,
+  "meaning_ru": "мерная палка",
+  "meaning_en": "measuring stick",
+  "on": [
+   "じょう"
+  ],
+  "kun": [],
+  "strokes": "3",
+  "grade": "J1",
+  "jlpt": "N1",
+  "decomposition": "ノ一丶",
+  "resembling": "友大犬夫天木九十二人",
+  "word_ids": [
+   "K00177"
+  ]
+ },
+ {
+  "kanji": "所",
+  "order": 146,
+  "meaning_ru": "место",
+  "meaning_en": "place",
+  "on": [],
+  "kun": [
+   "ところ"
+  ],
+  "strokes": "8",
+  "grade": "3",
+  "jlpt": "N3",
+  "decomposition": "斤戸一尸",
+  "resembling": "",
+  "word_ids": [
+   "K00665"
+  ]
+ },
+ {
+  "kanji": "口",
+  "order": 147,
+  "meaning_ru": "рот",
+  "meaning_en": "mouth",
+  "on": [],
+  "kun": [
+   "くち"
+  ],
+  "strokes": "3",
+  "grade": "1",
+  "jlpt": "N4",
+  "decomposition": "囗口",
+  "resembling": "中日九田八",
+  "word_ids": [
+   "K00315",
+   "K00316"
+  ]
+ },
+ {
+  "kanji": "道",
+  "order": 148,
+  "meaning_ru": "путь",
+  "meaning_en": "path",
+  "on": [],
+  "kun": [
+   "みち"
+  ],
+  "strokes": "12",
+  "grade": "2",
+  "jlpt": "N4",
+  "decomposition": "辶自丷首",
+  "resembling": "",
+  "word_ids": [
+   "K00083",
+   "B10004"
+  ]
+ },
+ {
+  "kanji": "町",
+  "order": 149,
+  "meaning_ru": "городок",
+  "meaning_en": "town",
+  "on": [
+   "ちょう"
+  ],
+  "kun": [
+   "まち"
+  ],
+  "strokes": "7",
+  "grade": "1",
+  "jlpt": "N4",
+  "decomposition": "一田亅丁",
+  "resembling": "田男",
+  "word_ids": [
+   "K00314",
+   "K01051"
+  ]
+ },
+ {
+  "kanji": "来",
+  "order": 150,
+  "meaning_ru": "приходить",
+  "meaning_en": "come",
+  "on": [],
+  "kun": [
+   "く（る）"
+  ],
+  "strokes": "7",
+  "grade": "2",
+  "jlpt": "N5",
+  "decomposition": "｜二米亠木未",
+  "resembling": "米東乗果",
+  "word_ids": [
+   "K00322"
+  ]
+ },
+ {
+  "kanji": "帰",
+  "order": 151,
+  "meaning_ru": "возвращаться в",
+  "meaning_en": "return to",
+  "on": [],
+  "kun": [
+   "かえ（る）"
+  ],
+  "strokes": "10",
+  "grade": "2",
+  "jlpt": "N4",
+  "decomposition": "ヨ刂巾冖",
+  "resembling": "",
+  "word_ids": [
+   "K00323",
+   "K01107"
+  ]
+ },
+ {
+  "kanji": "建",
+  "order": 152,
+  "meaning_ru": "строить",
+  "meaning_en": "construct",
+  "on": [],
+  "kun": [
+   "た（てる）"
+  ],
+  "strokes": "9",
+  "grade": "4",
+  "jlpt": "N4",
+  "decomposition": "廴聿",
+  "resembling": "車",
+  "word_ids": [
+   "K00580"
+  ]
+ },
+ {
+  "kanji": "階",
+  "order": 153,
+  "meaning_ru": "лестница",
+  "meaning_en": "stairs",
+  "on": [
+   "かい"
+  ],
+  "kun": [],
+  "strokes": "12",
+  "grade": "3",
+  "jlpt": "N2",
+  "decomposition": "白比⻖",
+  "resembling": "",
+  "word_ids": [
+   "K00174",
+   "K01019",
+   "K01020",
+   "K01021",
+   "K01022",
+   "K01023"
+  ]
+ },
+ {
+  "kanji": "地",
+  "order": 154,
+  "meaning_ru": "земля",
+  "meaning_en": "ground",
+  "on": [
+   "ち"
+  ],
+  "kun": [],
+  "strokes": "6",
+  "grade": "2",
+  "jlpt": "N4",
+  "decomposition": "土也",
+  "resembling": "北",
+  "word_ids": [
+   "K01026"
+  ]
+ },
+ {
+  "kanji": "分",
+  "order": 155,
+  "meaning_ru": "часть, минута",
+  "meaning_en": "part, minute",
+  "on": [
+   "ふん"
+  ],
+  "kun": [],
+  "strokes": "4",
+  "grade": "2",
+  "jlpt": "N5",
+  "decomposition": "刀ハ",
+  "resembling": "刀",
+  "word_ids": [
+   "K00003",
+   "K00472",
+   "K01084",
+   "K01085",
+   "K01086",
+   "K01087"
+  ]
+ },
+ {
+  "kanji": "言",
+  "order": 156,
+  "meaning_ru": "сказать",
+  "meaning_en": "say",
+  "on": [],
+  "kun": [
+   "こと",
+   "い（う）"
+  ],
+  "strokes": "7",
+  "grade": "2",
+  "jlpt": "N4",
+  "decomposition": "言",
+  "resembling": "計",
+  "word_ids": [
+   "K00170",
+   "K00356"
+  ]
+ },
+ {
+  "kanji": "葉",
+  "order": 157,
+  "meaning_ru": "лист",
+  "meaning_en": "leaf",
+  "on": [],
+  "kun": [
+   "は"
+  ],
+  "strokes": "12",
+  "grade": "3",
+  "jlpt": "N3",
+  "decomposition": "木世艹",
+  "resembling": "菜",
+  "word_ids": [
+   "K00170"
+  ]
+ },
+ {
+  "kanji": "英",
+  "order": 158,
+  "meaning_ru": "Англия",
+  "meaning_en": "England",
+  "on": [
+   "えい"
+  ],
+  "kun": [],
+  "strokes": "8",
+  "grade": "4",
+  "jlpt": "N4",
+  "decomposition": "ノ艹大冖",
+  "resembling": "",
+  "word_ids": [
+   "K00045"
+  ]
+ },
+ {
+  "kanji": "問",
+  "order": 159,
+  "meaning_ru": "вопрос",
+  "meaning_en": "question",
+  "on": [
+   "もん"
+  ],
+  "kun": [],
+  "strokes": "11",
+  "grade": "3",
+  "jlpt": "N4",
+  "decomposition": "口門",
+  "resembling": "間",
+  "word_ids": [
+   "K00172"
+  ]
+ },
+ {
+  "kanji": "質",
+  "order": 160,
+  "meaning_ru": "вещество",
+  "meaning_en": "substance",
+  "on": [
+   "しつ"
+  ],
+  "kun": [],
+  "strokes": "15",
+  "grade": "5",
+  "jlpt": "N4",
+  "decomposition": "貝目ハ斤",
+  "resembling": "",
+  "word_ids": [
+   "K00172"
+  ]
+ },
+ {
+  "kanji": "答",
+  "order": 161,
+  "meaning_ru": "ответ",
+  "meaning_en": "answer",
+  "on": [],
+  "kun": [
+   "こたえ"
+  ],
+  "strokes": "12",
+  "grade": "2",
+  "jlpt": "N4",
+  "decomposition": "口竹𠆢一合",
+  "resembling": "",
+  "word_ids": [
+   "K00173",
+   "K00731"
+  ]
+ },
+ {
+  "kanji": "彼",
+  "order": 162,
+  "meaning_ru": "он",
+  "meaning_en": "he",
+  "on": [],
+  "kun": [
+   "かれ",
+   "かの"
+  ],
+  "strokes": "8",
+  "grade": "J1",
+  "jlpt": "N3",
+  "decomposition": "皮又彳",
+  "resembling": "疲後",
+  "word_ids": [
+   "K00006",
+   "K00007",
+   "K00987",
+   "K01039"
+  ]
+ },
+ {
+  "kanji": "聞",
+  "order": 163,
+  "meaning_ru": "слышать",
+  "meaning_en": "hear",
+  "on": [],
+  "kun": [
+   "き（く）"
+  ],
+  "strokes": "14",
+  "grade": "2",
+  "jlpt": "N5",
+  "decomposition": "耳門",
+  "resembling": "間",
+  "word_ids": [
+   "K00357"
+  ]
+ },
+ {
+  "kanji": "見",
+  "order": 164,
+  "meaning_ru": "видеть",
+  "meaning_en": "see",
+  "on": [],
+  "kun": [
+   "み（る）"
+  ],
+  "strokes": "7",
+  "grade": "1",
+  "jlpt": "N5",
+  "decomposition": "見目儿",
+  "resembling": "先",
+  "word_ids": [
+   "K00412"
+  ]
+ },
+ {
+  "kanji": "探",
+  "order": 165,
+  "meaning_ru": "искать",
+  "meaning_en": "search",
+  "on": [],
+  "kun": [
+   "さが（す）"
+  ],
+  "strokes": "11",
+  "grade": "6",
+  "jlpt": "N3",
+  "decomposition": "木儿冖扌",
+  "resembling": "",
+  "word_ids": [
+   "K01042"
+  ]
+ },
+ {
+  "kanji": "思",
+  "order": 166,
+  "meaning_ru": "думать",
+  "meaning_en": "think",
+  "on": [],
+  "kun": [
+   "おも（う）"
+  ],
+  "strokes": "9",
+  "grade": "2",
+  "jlpt": "N4",
+  "decomposition": "心田",
+  "resembling": "",
+  "word_ids": [
+   "K01043"
+  ]
+ },
+ {
+  "kanji": "戻",
+  "order": 167,
+  "meaning_ru": "возвращаться",
+  "meaning_en": "return",
+  "on": [],
+  "kun": [
+   "もど（る）"
+  ],
+  "strokes": "7",
+  "grade": "J3",
+  "jlpt": "N3",
+  "decomposition": "戸大一尸",
+  "resembling": "",
+  "word_ids": [
+   "K01049"
+  ]
+ },
+ {
+  "kanji": "緒",
+  "order": 168,
+  "meaning_ru": "вместе",
+  "meaning_en": "together",
+  "on": [
+   "しょ"
+  ],
+  "kun": [],
+  "strokes": "14",
+  "grade": "J3",
+  "jlpt": "N3",
+  "decomposition": "糸幺小日耂",
+  "resembling": "",
+  "word_ids": [
+   "K00988"
+  ]
+ },
+ {
+  "kanji": "野",
+  "order": 169,
+  "meaning_ru": "равнина",
+  "meaning_en": "plains",
+  "on": [
+   "や"
+  ],
+  "kun": [],
+  "strokes": "11",
+  "grade": "2",
+  "jlpt": "N4",
+  "decomposition": "矛里亅",
+  "resembling": "",
+  "word_ids": [
+   "K00361"
+  ]
+ },
+ {
+  "kanji": "菜",
+  "order": 170,
+  "meaning_ru": "овощ",
+  "meaning_en": "vegetable",
+  "on": [
+   "さい"
+  ],
+  "kun": [],
+  "strokes": "11",
+  "grade": "4",
+  "jlpt": "N2",
+  "decomposition": "爪木艹⺤",
+  "resembling": "葉",
+  "word_ids": [
+   "K00361"
+  ]
+ },
+ {
+  "kanji": "米",
+  "order": 171,
+  "meaning_ru": "рис",
+  "meaning_en": "rice",
+  "on": [],
+  "kun": [
+   "こめ"
+  ],
+  "strokes": "6",
+  "grade": "2",
+  "jlpt": "N3",
+  "decomposition": "米",
+  "resembling": "木来果",
+  "word_ids": [
+   "K00363"
+  ]
+ },
+ {
+  "kanji": "果",
+  "order": 172,
+  "meaning_ru": "фрукт",
+  "meaning_en": "fruit",
+  "on": [],
+  "kun": [
+   "（くだ）"
+  ],
+  "strokes": "8",
+  "grade": "4",
+  "jlpt": "N3",
+  "decomposition": "｜田木",
+  "resembling": "東車来",
+  "word_ids": [
+   "K00631"
+  ]
+ },
+ {
+  "kanji": "飯",
+  "order": 173,
+  "meaning_ru": "еда",
+  "meaning_en": "meal",
+  "on": [
+   "はん"
+  ],
+  "kun": [],
+  "strokes": "12",
+  "grade": "4",
+  "jlpt": "N4",
+  "decomposition": "食又厂反",
+  "resembling": "飲",
+  "word_ids": [
+   "K00562"
+  ]
+ },
+ {
+  "kanji": "酒",
+  "order": 174,
+  "meaning_ru": "алкоголь",
+  "meaning_en": "alcohol",
+  "on": [],
+  "kun": [
+   "さけ"
+  ],
+  "strokes": "10",
+  "grade": "3",
+  "jlpt": "N3",
+  "decomposition": "氵酉",
+  "resembling": "",
+  "word_ids": [
+   "K00810"
+  ]
+ },
+ {
+  "kanji": "疲",
+  "order": 175,
+  "meaning_ru": "уставший",
+  "meaning_en": "tired",
+  "on": [],
+  "kun": [
+   "つか（れる）"
+  ],
+  "strokes": "10",
+  "grade": "J1",
+  "jlpt": "N3",
+  "decomposition": "皮又疒",
+  "resembling": "彼渡",
+  "word_ids": [
+   "K00372"
+  ]
+ },
+ {
+  "kanji": "砂",
+  "order": 176,
+  "meaning_ru": "песок",
+  "meaning_en": "sand",
+  "on": [],
+  "kun": [
+   "すな"
+  ],
+  "strokes": "9",
+  "grade": "6",
+  "jlpt": "N2",
+  "decomposition": "ノ口小石少",
+  "resembling": "",
+  "word_ids": [
+   "K01063",
+   "K01097"
+  ]
+ },
+ {
+  "kanji": "側",
+  "order": 177,
+  "meaning_ru": "сторона",
+  "meaning_en": "side",
+  "on": [],
+  "kun": [
+   "がわ"
+  ],
+  "strokes": "11",
+  "grade": "4",
+  "jlpt": "N3",
+  "decomposition": "亻貝目ハ刂",
+  "resembling": "",
+  "word_ids": [
+   "K11058"
+  ]
+ },
+ {
+  "kanji": "音",
+  "order": 178,
+  "meaning_ru": "звук",
+  "meaning_en": "sound",
+  "on": [],
+  "kun": [
+   "おと"
+  ],
+  "strokes": "9",
+  "grade": "1",
+  "jlpt": "N4",
+  "decomposition": "音日立",
+  "resembling": "書",
+  "word_ids": [
+   "K00480"
+  ]
+ },
+ {
+  "kanji": "術",
+  "order": 179,
+  "meaning_ru": "техника",
+  "meaning_en": "technique",
+  "on": [
+   "じゅつ"
+  ],
+  "kun": [],
+  "strokes": "11",
+  "grade": "5",
+  "jlpt": "N3",
+  "decomposition": "行十丶彳木ホ",
+  "resembling": "行待",
+  "word_ids": [
+   "K01065"
+  ]
+ },
+ {
+  "kanji": "半",
+  "order": 180,
+  "meaning_ru": "половина",
+  "meaning_en": "half",
+  "on": [
+   "はん"
+  ],
+  "kun": [],
+  "strokes": "5",
+  "grade": "2",
+  "jlpt": "N5",
+  "decomposition": "｜二丷十",
+  "resembling": "午牛手米中",
+  "word_ids": [
+   "K01090"
+  ]
+ },
+ {
+  "kanji": "計",
+  "order": 181,
+  "meaning_ru": "планировать",
+  "meaning_en": "plot",
+  "on": [
+   "けい"
+  ],
+  "kun": [],
+  "strokes": "9",
+  "grade": "2",
+  "jlpt": "N4",
+  "decomposition": "言十",
+  "resembling": "言",
+  "word_ids": [
+   "K00475"
+  ]
+ },
+ {
+  "kanji": "会",
+  "order": 182,
+  "meaning_ru": "встречаться",
+  "meaning_en": "meet",
+  "on": [],
+  "kun": [
+   "あ（う）"
+  ],
+  "strokes": "6",
+  "grade": "2",
+  "jlpt": "N4",
+  "decomposition": "二𠆢厶云",
+  "resembling": "公今",
+  "word_ids": [
+   "K00355"
+  ]
+ },
+ {
+  "kanji": "起",
+  "order": 183,
+  "meaning_ru": "проснуться",
+  "meaning_en": "wake up",
+  "on": [],
+  "kun": [
+   "お（きる）"
+  ],
+  "strokes": "10",
+  "grade": "3",
+  "jlpt": "N4",
+  "decomposition": "走土已",
+  "resembling": "",
+  "word_ids": [
+   "K00651"
+  ]
+ },
+ {
+  "kanji": "寝",
+  "order": 184,
+  "meaning_ru": "лежать",
+  "meaning_en": "lie down",
+  "on": [],
+  "kun": [
+   "ね（る）"
+  ],
+  "strokes": "13",
+  "grade": "J1",
+  "jlpt": "N3",
+  "decomposition": "ヨ又冖宀丬",
+  "resembling": "",
+  "word_ids": [
+   "K00650"
+  ]
+ },
+ {
+  "kanji": "間",
+  "order": 185,
+  "meaning_ru": "интервал",
+  "meaning_en": "interval",
+  "on": [
+   "かん"
+  ],
+  "kun": [],
+  "strokes": "12",
+  "grade": "2",
+  "jlpt": "N5",
+  "decomposition": "日門",
+  "resembling": "問聞",
+  "word_ids": [
+   "K00471",
+   "K01092",
+   "K01091",
+   "K01093"
+  ]
+ },
+ {
+  "kanji": "待",
+  "order": 186,
+  "meaning_ru": "ждать",
+  "meaning_en": "wait",
+  "on": [],
+  "kun": [
+   "ま（つ）"
+  ],
+  "strokes": "9",
+  "grade": "3",
+  "jlpt": "N4",
+  "decomposition": "寸土彳寺",
+  "resembling": "寺持時行",
+  "word_ids": [
+   "K00460"
+  ]
+ },
+ {
+  "kanji": "秒",
+  "order": 187,
+  "meaning_ru": "секунда",
+  "meaning_en": "second",
+  "on": [
+   "びょう"
+  ],
+  "kun": [],
+  "strokes": "9",
+  "grade": "3",
+  "jlpt": "N2",
+  "decomposition": "ノ禾小少",
+  "resembling": "砂",
+  "word_ids": [
+   "K01104"
+  ]
+ },
+ {
+  "kanji": "忙",
+  "order": 188,
+  "meaning_ru": "занятой",
+  "meaning_en": "busy",
+  "on": [],
+  "kun": [
+   "いそが（しい）"
+  ],
+  "strokes": "6",
+  "grade": "J1",
+  "jlpt": "N3",
+  "decomposition": "亡忄亠",
+  "resembling": "",
+  "word_ids": [
+   "K00795"
+  ]
+ },
+ {
+  "kanji": "今",
+  "order": 189,
+  "meaning_ru": "сейчас",
+  "meaning_en": "now",
+  "on": [],
+  "kun": [
+   "いま",
+   "きょう（今日）"
+  ],
+  "strokes": "4",
+  "grade": "2",
+  "jlpt": "N5",
+  "decomposition": "𠆢一今",
+  "resembling": "木",
+  "word_ids": [
+   "K00181",
+   "K00190"
+  ]
+ },
+ {
+  "kanji": "昨",
+  "order": 190,
+  "meaning_ru": "вчера",
+  "meaning_en": "yesterday",
+  "on": [],
+  "kun": [
+   "きのう（昨日）"
+  ],
+  "strokes": "9",
+  "grade": "4",
+  "jlpt": "N3",
+  "decomposition": "｜ノ一𠂉日乍",
+  "resembling": "作明町",
+  "word_ids": [
+   "K00693"
+  ]
+ },
+ {
+  "kanji": "明",
+  "order": 191,
+  "meaning_ru": "яркий",
+  "meaning_en": "bright",
+  "on": [],
+  "kun": [
+   "あした（明日）"
+  ],
+  "strokes": "8",
+  "grade": "2",
+  "jlpt": "N4",
+  "decomposition": "月日",
+  "resembling": "町",
+  "word_ids": [
+   "K00694"
+  ]
+ },
+ {
+  "kanji": "午",
+  "order": 192,
+  "meaning_ru": "полдень",
+  "meaning_en": "noon",
+  "on": [
+   "ご"
+  ],
+  "kun": [],
+  "strokes": "4",
+  "grade": "2",
+  "jlpt": "N5",
+  "decomposition": "ノ干十𠂉",
+  "resembling": "牛千半手",
+  "word_ids": [
+   "K00476",
+   "K00477"
+  ]
+ },
+ {
+  "kanji": "友",
+  "order": 193,
+  "meaning_ru": "друг",
+  "meaning_en": "friend",
+  "on": [],
+  "kun": [
+   "とも"
+  ],
+  "strokes": "4",
+  "grade": "2",
+  "jlpt": "N5",
+  "decomposition": "ノ一又",
+  "resembling": "丈右左大",
+  "word_ids": [
+   "K00510"
+  ]
+ },
+ {
+  "kanji": "達",
+  "order": 194,
+  "meaning_ru": "достигать",
+  "meaning_en": "reach",
+  "on": [],
+  "kun": [
+   "たち"
+  ],
+  "strokes": "12",
+  "grade": "4",
+  "jlpt": "N3",
+  "decomposition": "王辶土丷羊",
+  "resembling": "違",
+  "word_ids": [
+   "K00510"
+  ]
+ },
+ {
+  "kanji": "知",
+  "order": 195,
+  "meaning_ru": "знать",
+  "meaning_en": "know",
+  "on": [],
+  "kun": [
+   "し（る）"
+  ],
+  "strokes": "8",
+  "grade": "2",
+  "jlpt": "N4",
+  "decomposition": "口矢",
+  "resembling": "",
+  "word_ids": [
+   "K00722"
+  ]
+ },
+ {
+  "kanji": "違",
+  "order": 196,
+  "meaning_ru": "отличаться",
+  "meaning_en": "differ",
+  "on": [],
+  "kun": [
+   "ちが（う）"
+  ],
+  "strokes": "12",
+  "grade": "J1",
+  "jlpt": "N3",
+  "decomposition": "口辶韋",
+  "resembling": "達",
+  "word_ids": [
+   "K00360"
+  ]
+ },
+ {
+  "kanji": "住",
+  "order": 197,
+  "meaning_ru": "проживать",
+  "meaning_en": "dwell",
+  "on": [],
+  "kun": [
+   "す（む）"
+  ],
+  "strokes": "7",
+  "grade": "3",
+  "jlpt": "N4",
+  "decomposition": "王亻丶",
+  "resembling": "生",
+  "word_ids": [
+   "K00649"
+  ]
+ },
+ {
+  "kanji": "身",
+  "order": 198,
+  "meaning_ru": "плоть",
+  "meaning_en": "flesh",
+  "on": [
+   "しん"
+  ],
+  "kun": [],
+  "strokes": "7",
+  "grade": "3",
+  "jlpt": "N3",
+  "decomposition": "身",
+  "resembling": "車手牛",
+  "word_ids": [
+   "K01119"
+  ]
+ },
+ {
+  "kanji": "個",
+  "order": 199,
+  "meaning_ru": "индивидуальный",
+  "meaning_en": "individual",
+  "on": [
+   "こ"
+  ],
+  "kun": [],
+  "strokes": "10",
+  "grade": "5",
+  "jlpt": "N2",
+  "decomposition": "亻口十囗",
+  "resembling": "",
+  "word_ids": [
+   "K00189",
+   "K01123",
+   "K01126",
+   "K01127",
+   "K01124",
+   "K01125"
+  ]
+ },
+ {
+  "kanji": "橋",
+  "order": 200,
+  "meaning_ru": "мост",
+  "meaning_en": "bridge",
+  "on": [],
+  "kun": [
+   "はし"
+  ],
+  "strokes": "16",
+  "grade": "3",
+  "jlpt": "N2",
+  "decomposition": "ノ口木冂冋",
+  "resembling": "",
+  "word_ids": [
+   "K00672"
+  ]
+ },
+ {
+  "kanji": "持",
+  "order": 201,
+  "meaning_ru": "держать",
+  "meaning_en": "hold",
+  "on": [],
+  "kun": [
+   "も（つ）"
+  ],
+  "strokes": "9",
+  "grade": "3",
+  "jlpt": "N4",
+  "decomposition": "寸土扌寺",
+  "resembling": "寺待時",
+  "word_ids": [
+   "K00433",
+   "K01107"
+  ]
+ },
+ {
+  "kanji": "々",
+  "order": 202,
+  "meaning_ru": "символ повторения кандзи",
+  "meaning_en": "Kanji repetition symbol.",
+  "on": [],
+  "kun": [
+   "-"
+  ],
+  "strokes": "3",
+  "grade": "1",
+  "jlpt": "N5",
+  "decomposition": "",
+  "resembling": "",
+  "word_ids": []
+ }
+]

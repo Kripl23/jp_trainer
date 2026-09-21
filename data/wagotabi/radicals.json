@@ -1,0 +1,1241 @@
+[
+ {
+  "radical": "ノ",
+  "reading": "はらいぼう",
+  "meaning_ru": "наклонная черта",
+  "meaning_en": "slash",
+  "strokes": 1
+ },
+ {
+  "radical": "一",
+  "reading": "いち",
+  "meaning_ru": "один",
+  "meaning_en": "one",
+  "strokes": 1
+ },
+ {
+  "radical": "丶",
+  "reading": "てん",
+  "meaning_ru": "точка",
+  "meaning_en": "dot",
+  "strokes": 1
+ },
+ {
+  "radical": "乚",
+  "reading": "乙（おつ）の変形",
+  "meaning_ru": "второй, вариант формы 乙",
+  "meaning_en": "second, variant form of 乙",
+  "strokes": 1
+ },
+ {
+  "radical": "亅",
+  "reading": "はねぼう",
+  "meaning_ru": "крюк",
+  "meaning_en": "hook",
+  "strokes": 1
+ },
+ {
+  "radical": "｜",
+  "reading": "ぼう",
+  "meaning_ru": "вертикальная черта",
+  "meaning_en": "vertical stroke",
+  "strokes": 1
+ },
+ {
+  "radical": "ハ",
+  "reading": "はち",
+  "meaning_ru": "восемь",
+  "meaning_en": "eight",
+  "strokes": 2
+ },
+ {
+  "radical": "丁",
+  "reading": "てい",
+  "meaning_ru": "четвертый небесный ствол, четвертый, городские стены",
+  "meaning_en": "fourth heavenly stem, fourth, city walls",
+  "strokes": 2
+ },
+ {
+  "radical": "丷",
+  "reading": "はちがしら",
+  "meaning_ru": "восемь (верхняя форма)",
+  "meaning_en": "eight (top form)",
+  "strokes": 2
+ },
+ {
+  "radical": "九",
+  "reading": "きゅう",
+  "meaning_ru": "девять",
+  "meaning_en": "nine",
+  "strokes": 2
+ },
+ {
+  "radical": "二",
+  "reading": "に",
+  "meaning_ru": "два",
+  "meaning_en": "two",
+  "strokes": 2
+ },
+ {
+  "radical": "亠",
+  "reading": "なべぶた",
+  "meaning_ru": "крышка",
+  "meaning_en": "lid",
+  "strokes": 2
+ },
+ {
+  "radical": "人",
+  "reading": "ひと",
+  "meaning_ru": "человек",
+  "meaning_en": "person",
+  "strokes": 2
+ },
+ {
+  "radical": "亻",
+  "reading": "にんべん",
+  "meaning_ru": "человек (левая форма)",
+  "meaning_en": "person (left form)",
+  "strokes": 2
+ },
+ {
+  "radical": "儿",
+  "reading": "ひとあし",
+  "meaning_ru": "ноги",
+  "meaning_en": "legs",
+  "strokes": 2
+ },
+ {
+  "radical": "入",
+  "reading": "いる",
+  "meaning_ru": "входить",
+  "meaning_en": "enter",
+  "strokes": 2
+ },
+ {
+  "radical": "冂",
+  "reading": "けいがまえ",
+  "meaning_ru": "открытая рамка",
+  "meaning_en": "open box",
+  "strokes": 2
+ },
+ {
+  "radical": "冖",
+  "reading": "わかんむり",
+  "meaning_ru": "крышка",
+  "meaning_en": "cover",
+  "strokes": 2
+ },
+ {
+  "radical": "冫",
+  "reading": "にすい",
+  "meaning_ru": "лёд",
+  "meaning_en": "ice",
+  "strokes": 2
+ },
+ {
+  "radical": "几",
+  "reading": "きにょう",
+  "meaning_ru": "стол",
+  "meaning_en": "table",
+  "strokes": 2
+ },
+ {
+  "radical": "凵",
+  "reading": "かんにょう",
+  "meaning_ru": "открытая коробка (снизу)",
+  "meaning_en": "open box (bottom form)",
+  "strokes": 2
+ },
+ {
+  "radical": "刀",
+  "reading": "かたな",
+  "meaning_ru": "нож",
+  "meaning_en": "knife",
+  "strokes": 2
+ },
+ {
+  "radical": "刂",
+  "reading": "りっとう",
+  "meaning_ru": "нож (правая форма)",
+  "meaning_en": "knife (right form)",
+  "strokes": 2
+ },
+ {
+  "radical": "力",
+  "reading": "ちから",
+  "meaning_ru": "сила",
+  "meaning_en": "power",
+  "strokes": 2
+ },
+ {
+  "radical": "勹",
+  "reading": "つつみがまえ",
+  "meaning_ru": "обёртка",
+  "meaning_en": "wrap",
+  "strokes": 2
+ },
+ {
+  "radical": "匕",
+  "reading": "さじ",
+  "meaning_ru": "ложка",
+  "meaning_en": "spoon",
+  "strokes": 2
+ },
+ {
+  "radical": "十",
+  "reading": "じゅう",
+  "meaning_ru": "десять",
+  "meaning_en": "ten",
+  "strokes": 2
+ },
+ {
+  "radical": "卜",
+  "reading": "ぼく",
+  "meaning_ru": "гадание",
+  "meaning_en": "divination",
+  "strokes": 2
+ },
+ {
+  "radical": "卩",
+  "reading": "ふしづくり",
+  "meaning_ru": "печать",
+  "meaning_en": "seal",
+  "strokes": 2
+ },
+ {
+  "radical": "厂",
+  "reading": "がんだれ",
+  "meaning_ru": "утёс",
+  "meaning_en": "cliff",
+  "strokes": 2
+ },
+ {
+  "radical": "厶",
+  "reading": "む",
+  "meaning_ru": "частный, катакана мu",
+  "meaning_en": "private, katakana mu",
+  "strokes": 2
+ },
+ {
+  "radical": "又",
+  "reading": "また",
+  "meaning_ru": "снова",
+  "meaning_en": "again",
+  "strokes": 2
+ },
+ {
+  "radical": "𠂉",
+  "reading": "ひと",
+  "meaning_ru": "человек (вариант)",
+  "meaning_en": "person (variant)",
+  "strokes": 2
+ },
+ {
+  "radical": "𠆢",
+  "reading": "ひとやね",
+  "meaning_ru": "человек (верхняя форма)",
+  "meaning_en": "person (top form)",
+  "strokes": 2
+ },
+ {
+  "radical": "⺌",
+  "reading": "しょうかんむり",
+  "meaning_ru": "маленький (верхняя форма)",
+  "meaning_en": "small (top form)",
+  "strokes": 3
+ },
+ {
+  "radical": "⻖",
+  "reading": "こざとへん",
+  "meaning_ru": "холм (левая форма)",
+  "meaning_en": "mound (left form)",
+  "strokes": 3
+ },
+ {
+  "radical": "ヨ",
+  "reading": "よ",
+  "meaning_ru": "катакана йо",
+  "meaning_en": "katakana yo",
+  "strokes": 3
+ },
+ {
+  "radical": "丬",
+  "reading": "しょうへん",
+  "meaning_ru": "расколотое дерево (вариант)",
+  "meaning_en": "split wood (variant)",
+  "strokes": 3
+ },
+ {
+  "radical": "也",
+  "reading": "や",
+  "meaning_ru": "тоже",
+  "meaning_en": "also",
+  "strokes": 3
+ },
+ {
+  "radical": "亡",
+  "reading": "ぼう",
+  "meaning_ru": "смерть",
+  "meaning_en": "death",
+  "strokes": 3
+ },
+ {
+  "radical": "口",
+  "reading": "くち",
+  "meaning_ru": "рот",
+  "meaning_en": "mouth",
+  "strokes": 3
+ },
+ {
+  "radical": "囗",
+  "reading": "くにがまえ",
+  "meaning_ru": "граница, территория",
+  "meaning_en": "border, territorial boundaries",
+  "strokes": 3
+ },
+ {
+  "radical": "土",
+  "reading": "つち",
+  "meaning_ru": "земля",
+  "meaning_en": "earth",
+  "strokes": 3
+ },
+ {
+  "radical": "士",
+  "reading": "さむらい",
+  "meaning_ru": "мужчина, учёный, самурай",
+  "meaning_en": "man, scholar, samurai",
+  "strokes": 3
+ },
+ {
+  "radical": "夂",
+  "reading": "のまた",
+  "meaning_ru": "следовать",
+  "meaning_en": "to follow",
+  "strokes": 3
+ },
+ {
+  "radical": "夕",
+  "reading": "ゆうべ",
+  "meaning_ru": "вечер",
+  "meaning_en": "evening",
+  "strokes": 3
+ },
+ {
+  "radical": "大",
+  "reading": "だい",
+  "meaning_ru": "большой",
+  "meaning_en": "big",
+  "strokes": 3
+ },
+ {
+  "radical": "女",
+  "reading": "おんな",
+  "meaning_ru": "женщина",
+  "meaning_en": "woman",
+  "strokes": 3
+ },
+ {
+  "radical": "子",
+  "reading": "こ",
+  "meaning_ru": "ребёнок",
+  "meaning_en": "child",
+  "strokes": 3
+ },
+ {
+  "radical": "宀",
+  "reading": "うかんむり",
+  "meaning_ru": "крыша",
+  "meaning_en": "roof",
+  "strokes": 3
+ },
+ {
+  "radical": "寸",
+  "reading": "すん",
+  "meaning_ru": "сунь (единица длины, ≈ 3,33 см)",
+  "meaning_en": "sun (distance unit ≈ 3.33 cm)",
+  "strokes": 3
+ },
+ {
+  "radical": "小",
+  "reading": "しょう",
+  "meaning_ru": "маленький",
+  "meaning_en": "small",
+  "strokes": 3
+ },
+ {
+  "radical": "尸",
+  "reading": "しかばね",
+  "meaning_ru": "труп, навес",
+  "meaning_en": "corpse, awning",
+  "strokes": 3
+ },
+ {
+  "radical": "山",
+  "reading": "やま",
+  "meaning_ru": "гора",
+  "meaning_en": "mountain",
+  "strokes": 3
+ },
+ {
+  "radical": "川",
+  "reading": "さんぼんがわ",
+  "meaning_ru": "река",
+  "meaning_en": "river",
+  "strokes": 3
+ },
+ {
+  "radical": "工",
+  "reading": "たくみ",
+  "meaning_ru": "работа, плотник, умение",
+  "meaning_en": "work, carpenter, skill",
+  "strokes": 3
+ },
+ {
+  "radical": "已",
+  "reading": "おのれ",
+  "meaning_ru": "сам",
+  "meaning_en": "oneself",
+  "strokes": 3
+ },
+ {
+  "radical": "巾",
+  "reading": "はば",
+  "meaning_ru": "ткань",
+  "meaning_en": "cloth",
+  "strokes": 3
+ },
+ {
+  "radical": "干",
+  "reading": "かん",
+  "meaning_ru": "сушить",
+  "meaning_en": "dry",
+  "strokes": 3
+ },
+ {
+  "radical": "幺",
+  "reading": "いとがしら",
+  "meaning_ru": "тонкая нить",
+  "meaning_en": "short thread",
+  "strokes": 3
+ },
+ {
+  "radical": "广",
+  "reading": "まだれ",
+  "meaning_ru": "наклонная крыша",
+  "meaning_en": "slanting roof",
+  "strokes": 3
+ },
+ {
+  "radical": "廴",
+  "reading": "えんにょう",
+  "meaning_ru": "широкий шаг",
+  "meaning_en": "long stride",
+  "strokes": 3
+ },
+ {
+  "radical": "廾",
+  "reading": "にじゅうあし",
+  "meaning_ru": "две руки",
+  "meaning_en": "two hands",
+  "strokes": 3
+ },
+ {
+  "radical": "弓",
+  "reading": "ゆみ",
+  "meaning_ru": "лук",
+  "meaning_en": "bow",
+  "strokes": 3
+ },
+ {
+  "radical": "彳",
+  "reading": "ぎょうにんべん",
+  "meaning_ru": "ходить",
+  "meaning_en": "walk",
+  "strokes": 3
+ },
+ {
+  "radical": "忄",
+  "reading": "りっしんべん",
+  "meaning_ru": "сердце (левая форма)",
+  "meaning_en": "heart (left form)",
+  "strokes": 3
+ },
+ {
+  "radical": "扌",
+  "reading": "てへん",
+  "meaning_ru": "рука (левая форма)",
+  "meaning_en": "hand (left form)",
+  "strokes": 3
+ },
+ {
+  "radical": "氵",
+  "reading": "さんずい",
+  "meaning_ru": "вода (левая форма)",
+  "meaning_en": "water (left form)",
+  "strokes": 3
+ },
+ {
+  "radical": "犭",
+  "reading": "けものへん",
+  "meaning_ru": "животное (левая форма)",
+  "meaning_en": "animal (left form)",
+  "strokes": 3
+ },
+ {
+  "radical": "艹",
+  "reading": "くさかんむり",
+  "meaning_ru": "трава (верхняя форма)",
+  "meaning_en": "grass (top form)",
+  "strokes": 3
+ },
+ {
+  "radical": "辶",
+  "reading": "しんにょう",
+  "meaning_ru": "путь, ходить, продвигаться",
+  "meaning_en": "road, walk, to advance",
+  "strokes": 3
+ },
+ {
+  "radical": "⺤",
+  "reading": "つめかんむり",
+  "meaning_ru": "коготь, ноготь, вариант формы 爪",
+  "meaning_en": "claw, nail, variant form of 爪",
+  "strokes": 4
+ },
+ {
+  "radical": "ホ",
+  "reading": "ほ",
+  "meaning_ru": "катакана хо",
+  "meaning_en": "katakana ho",
+  "strokes": 4
+ },
+ {
+  "radical": "云",
+  "reading": "いう",
+  "meaning_ru": "облако",
+  "meaning_en": "cloud",
+  "strokes": 4
+ },
+ {
+  "radical": "五",
+  "reading": "ご",
+  "meaning_ru": "пять",
+  "meaning_en": "five",
+  "strokes": 4
+ },
+ {
+  "radical": "井",
+  "reading": "い",
+  "meaning_ru": "колодец",
+  "meaning_en": "well",
+  "strokes": 4
+ },
+ {
+  "radical": "今",
+  "reading": "いま",
+  "meaning_ru": "сейчас",
+  "meaning_en": "now, present",
+  "strokes": 4
+ },
+ {
+  "radical": "元",
+  "reading": "もと",
+  "meaning_ru": "начало",
+  "meaning_en": "origin",
+  "strokes": 4
+ },
+ {
+  "radical": "勿",
+  "reading": "ない",
+  "meaning_ru": "не",
+  "meaning_en": "do not, must not",
+  "strokes": 4
+ },
+ {
+  "radical": "化",
+  "reading": "ばける",
+  "meaning_ru": "изменять",
+  "meaning_en": "to change, transform",
+  "strokes": 4
+ },
+ {
+  "radical": "反",
+  "reading": "はん",
+  "meaning_ru": "противопоставлять",
+  "meaning_en": "to oppose, reverse",
+  "strokes": 4
+ },
+ {
+  "radical": "少",
+  "reading": "すくない",
+  "meaning_ru": "мало",
+  "meaning_en": "few, little",
+  "strokes": 4
+ },
+ {
+  "radical": "尺",
+  "reading": "しゃく",
+  "meaning_ru": "сяку (единица длины, ≈ 30 см)",
+  "meaning_en": "shaku (distance unit ≈ 30 cm)",
+  "strokes": 4
+ },
+ {
+  "radical": "心",
+  "reading": "こころ",
+  "meaning_ru": "сердце",
+  "meaning_en": "heart",
+  "strokes": 4
+ },
+ {
+  "radical": "戈",
+  "reading": "ほこ",
+  "meaning_ru": "копьё",
+  "meaning_en": "spear, weapon",
+  "strokes": 4
+ },
+ {
+  "radical": "戸",
+  "reading": "とびらのと",
+  "meaning_ru": "дверь",
+  "meaning_en": "door",
+  "strokes": 4
+ },
+ {
+  "radical": "手",
+  "reading": "て",
+  "meaning_ru": "рука",
+  "meaning_en": "hand",
+  "strokes": 4
+ },
+ {
+  "radical": "攵",
+  "reading": "ぼくづくり",
+  "meaning_ru": "действие",
+  "meaning_en": "action, strike",
+  "strokes": 4
+ },
+ {
+  "radical": "斗",
+  "reading": "ますづくり",
+  "meaning_ru": "Большая Медведица, ковш, то (единица объёма ≈ 18 л)",
+  "meaning_en": "Big Dipper, ladle, tō (volume unit ≈ 18 L)",
+  "strokes": 4
+ },
+ {
+  "radical": "斤",
+  "reading": "おのづくり",
+  "meaning_ru": "топор",
+  "meaning_en": "axe",
+  "strokes": 4
+ },
+ {
+  "radical": "日",
+  "reading": "ひ",
+  "meaning_ru": "солнце",
+  "meaning_en": "sun, day",
+  "strokes": 4
+ },
+ {
+  "radical": "月",
+  "reading": "つき",
+  "meaning_ru": "луна",
+  "meaning_en": "moon, month",
+  "strokes": 4
+ },
+ {
+  "radical": "木",
+  "reading": "き",
+  "meaning_ru": "дерево",
+  "meaning_en": "tree, wood",
+  "strokes": 4
+ },
+ {
+  "radical": "欠",
+  "reading": "あくび",
+  "meaning_ru": "зевок",
+  "meaning_en": "yawn, lack",
+  "strokes": 4
+ },
+ {
+  "radical": "毋",
+  "reading": "なかれ・ははのかん",
+  "meaning_ru": "нельзя, мать",
+  "meaning_en": "must not, mother",
+  "strokes": 4
+ },
+ {
+  "radical": "比",
+  "reading": "くらべる",
+  "meaning_ru": "сравнивать",
+  "meaning_en": "compare",
+  "strokes": 4
+ },
+ {
+  "radical": "气",
+  "reading": "きがまえ",
+  "meaning_ru": "воздух",
+  "meaning_en": "air, vapor",
+  "strokes": 4
+ },
+ {
+  "radical": "水",
+  "reading": "みず",
+  "meaning_ru": "вода",
+  "meaning_en": "water",
+  "strokes": 4
+ },
+ {
+  "radical": "灬",
+  "reading": "れっか",
+  "meaning_ru": "огонь (нижняя форма)",
+  "meaning_en": "fire (bottom form)",
+  "strokes": 4
+ },
+ {
+  "radical": "爪",
+  "reading": "つめ",
+  "meaning_ru": "коготь, ноготь",
+  "meaning_en": "claw, nail",
+  "strokes": 4
+ },
+ {
+  "radical": "牛",
+  "reading": "うし",
+  "meaning_ru": "корова",
+  "meaning_en": "cow",
+  "strokes": 4
+ },
+ {
+  "radical": "犬",
+  "reading": "いぬ",
+  "meaning_ru": "собака",
+  "meaning_en": "dog",
+  "strokes": 4
+ },
+ {
+  "radical": "王",
+  "reading": "たまへん, おうへん",
+  "meaning_ru": "нефрит, царь",
+  "meaning_en": "jade, king",
+  "strokes": 4
+ },
+ {
+  "radical": "礻",
+  "reading": "しめすへん",
+  "meaning_ru": "алтарь",
+  "meaning_en": "altar, divine sign",
+  "strokes": 4
+ },
+ {
+  "radical": "耂",
+  "reading": "おいかんむり",
+  "meaning_ru": "старый (верхняя форма)",
+  "meaning_en": "old (top form)",
+  "strokes": 4
+ },
+ {
+  "radical": "㠯",
+  "reading": "い",
+  "meaning_ru": "вариант 以",
+  "meaning_en": "variant form of 以",
+  "strokes": 5
+ },
+ {
+  "radical": "世",
+  "reading": "よ",
+  "meaning_ru": "поколение",
+  "meaning_en": "generation, world",
+  "strokes": 5
+ },
+ {
+  "radical": "乍",
+  "reading": "にわか",
+  "meaning_ru": "внезапный, краткий",
+  "meaning_en": "sudden, momentary",
+  "strokes": 5
+ },
+ {
+  "radical": "令",
+  "reading": "れい",
+  "meaning_ru": "приказ",
+  "meaning_en": "command, order",
+  "strokes": 5
+ },
+ {
+  "radical": "冋",
+  "reading": "けい",
+  "meaning_ru": "вариант 冂",
+  "meaning_en": "variant form of 冂",
+  "strokes": 5
+ },
+ {
+  "radical": "北",
+  "reading": "きた",
+  "meaning_ru": "север",
+  "meaning_en": "north",
+  "strokes": 5
+ },
+ {
+  "radical": "可",
+  "reading": "か",
+  "meaning_ru": "возможный",
+  "meaning_en": "possible",
+  "strokes": 5
+ },
+ {
+  "radical": "寺",
+  "reading": "てら",
+  "meaning_ru": "храм",
+  "meaning_en": "temple",
+  "strokes": 5
+ },
+ {
+  "radical": "未",
+  "reading": "み",
+  "meaning_ru": "ещё не",
+  "meaning_en": "not yet, unfinished",
+  "strokes": 5
+ },
+ {
+  "radical": "本",
+  "reading": "もと",
+  "meaning_ru": "источник, корень",
+  "meaning_en": "origin, root",
+  "strokes": 5
+ },
+ {
+  "radical": "生",
+  "reading": "うまれる",
+  "meaning_ru": "рождение, рождаться, жить",
+  "meaning_en": "birth, to be born, live",
+  "strokes": 5
+ },
+ {
+  "radical": "田",
+  "reading": "た",
+  "meaning_ru": "поле",
+  "meaning_en": "field",
+  "strokes": 5
+ },
+ {
+  "radical": "申",
+  "reading": "もうす",
+  "meaning_ru": "заявлять",
+  "meaning_en": "to say, to state",
+  "strokes": 5
+ },
+ {
+  "radical": "疒",
+  "reading": "やまいだれ",
+  "meaning_ru": "болезнь",
+  "meaning_en": "sickness",
+  "strokes": 5
+ },
+ {
+  "radical": "白",
+  "reading": "しろ",
+  "meaning_ru": "белый",
+  "meaning_en": "white",
+  "strokes": 5
+ },
+ {
+  "radical": "皮",
+  "reading": "けがわ",
+  "meaning_ru": "кожа",
+  "meaning_en": "skin, leather",
+  "strokes": 5
+ },
+ {
+  "radical": "皿",
+  "reading": "さら",
+  "meaning_ru": "тарелка",
+  "meaning_en": "dish, plate",
+  "strokes": 5
+ },
+ {
+  "radical": "目",
+  "reading": "め",
+  "meaning_ru": "глаз",
+  "meaning_en": "eye",
+  "strokes": 5
+ },
+ {
+  "radical": "矛",
+  "reading": "ほこ",
+  "meaning_ru": "копьё",
+  "meaning_en": "spear",
+  "strokes": 5
+ },
+ {
+  "radical": "矢",
+  "reading": "や",
+  "meaning_ru": "стрела",
+  "meaning_en": "arrow",
+  "strokes": 5
+ },
+ {
+  "radical": "石",
+  "reading": "いし",
+  "meaning_ru": "камень",
+  "meaning_en": "stone",
+  "strokes": 5
+ },
+ {
+  "radical": "禾",
+  "reading": "のぎへん",
+  "meaning_ru": "зерно",
+  "meaning_en": "grain, cereal",
+  "strokes": 5
+ },
+ {
+  "radical": "立",
+  "reading": "たつ",
+  "meaning_ru": "стоять",
+  "meaning_en": "stand, upright",
+  "strokes": 5
+ },
+ {
+  "radical": "罒",
+  "reading": "あみがしら",
+  "meaning_ru": "сеть (верхняя форма)",
+  "meaning_en": "net (top form)",
+  "strokes": 5
+ },
+ {
+  "radical": "合",
+  "reading": "あう",
+  "meaning_ru": "соединять",
+  "meaning_en": "to join, fit",
+  "strokes": 6
+ },
+ {
+  "radical": "名",
+  "reading": "な",
+  "meaning_ru": "имя",
+  "meaning_en": "name",
+  "strokes": 6
+ },
+ {
+  "radical": "竹",
+  "reading": "たけ",
+  "meaning_ru": "бамбук",
+  "meaning_en": "bamboo",
+  "strokes": 6
+ },
+ {
+  "radical": "米",
+  "reading": "こめ",
+  "meaning_ru": "рис",
+  "meaning_en": "rice",
+  "strokes": 6
+ },
+ {
+  "radical": "糸",
+  "reading": "いと",
+  "meaning_ru": "нить",
+  "meaning_en": "thread",
+  "strokes": 6
+ },
+ {
+  "radical": "羊",
+  "reading": "ひつじ",
+  "meaning_ru": "овца",
+  "meaning_en": "sheep",
+  "strokes": 6
+ },
+ {
+  "radical": "耳",
+  "reading": "みみ",
+  "meaning_ru": "ухо",
+  "meaning_en": "ear",
+  "strokes": 6
+ },
+ {
+  "radical": "聿",
+  "reading": "ふでづくり",
+  "meaning_ru": "кисть для письма",
+  "meaning_en": "writing brush",
+  "strokes": 6
+ },
+ {
+  "radical": "肉",
+  "reading": "にく",
+  "meaning_ru": "мясо",
+  "meaning_en": "meat, flesh",
+  "strokes": 6
+ },
+ {
+  "radical": "自",
+  "reading": "みずから",
+  "meaning_ru": "сам",
+  "meaning_en": "self",
+  "strokes": 6
+ },
+ {
+  "radical": "舌",
+  "reading": "した",
+  "meaning_ru": "язык",
+  "meaning_en": "tongue",
+  "strokes": 6
+ },
+ {
+  "radical": "虫",
+  "reading": "むし",
+  "meaning_ru": "насекомое",
+  "meaning_en": "insect",
+  "strokes": 6
+ },
+ {
+  "radical": "行",
+  "reading": "ぎょうがまえ",
+  "meaning_ru": "идти",
+  "meaning_en": "go, walk",
+  "strokes": 6
+ },
+ {
+  "radical": "衣",
+  "reading": "ころも",
+  "meaning_ru": "одежда",
+  "meaning_en": "clothing",
+  "strokes": 6
+ },
+ {
+  "radical": "西",
+  "reading": "にし",
+  "meaning_ru": "запад",
+  "meaning_en": "west",
+  "strokes": 6
+ },
+ {
+  "radical": "孝",
+  "reading": "こう",
+  "meaning_ru": "сыновняя почтительность",
+  "meaning_en": "filial piety",
+  "strokes": 7
+ },
+ {
+  "radical": "見",
+  "reading": "みる",
+  "meaning_ru": "видеть",
+  "meaning_en": "see",
+  "strokes": 7
+ },
+ {
+  "radical": "言",
+  "reading": "げん",
+  "meaning_ru": "говорить",
+  "meaning_en": "speech, say",
+  "strokes": 7
+ },
+ {
+  "radical": "豕",
+  "reading": "いのこ",
+  "meaning_ru": "свинья",
+  "meaning_en": "pig",
+  "strokes": 7
+ },
+ {
+  "radical": "貝",
+  "reading": "かい",
+  "meaning_ru": "раковина",
+  "meaning_en": "shell, money",
+  "strokes": 7
+ },
+ {
+  "radical": "走",
+  "reading": "はしる",
+  "meaning_ru": "бежать",
+  "meaning_en": "run",
+  "strokes": 7
+ },
+ {
+  "radical": "身",
+  "reading": "み",
+  "meaning_ru": "тело",
+  "meaning_en": "body",
+  "strokes": 7
+ },
+ {
+  "radical": "車",
+  "reading": "くるま",
+  "meaning_ru": "повозка",
+  "meaning_en": "vehicle, cart",
+  "strokes": 7
+ },
+ {
+  "radical": "酉",
+  "reading": "ひよみのとり",
+  "meaning_ru": "кувшин сакэ, птица",
+  "meaning_en": "sake jar, bird",
+  "strokes": 7
+ },
+ {
+  "radical": "釆",
+  "reading": "のごめ",
+  "meaning_ru": "разделять",
+  "meaning_en": "to separate",
+  "strokes": 7
+ },
+ {
+  "radical": "里",
+  "reading": "さと",
+  "meaning_ru": "деревня, ри (единица расстояния ≈ 3,93 км)",
+  "meaning_en": "village, ri (distance unit ≈ 3.93 km)",
+  "strokes": 7
+ },
+ {
+  "radical": "京",
+  "reading": "きょう",
+  "meaning_ru": "столица",
+  "meaning_en": "capital city",
+  "strokes": 8
+ },
+ {
+  "radical": "免",
+  "reading": "めん",
+  "meaning_ru": "избегать, освобождать",
+  "meaning_en": "to avoid, exempt",
+  "strokes": 8
+ },
+ {
+  "radical": "坴",
+  "reading": "りく",
+  "meaning_ru": "ком земли",
+  "meaning_en": "clod of earth",
+  "strokes": 8
+ },
+ {
+  "radical": "金",
+  "reading": "かね",
+  "meaning_ru": "металл",
+  "meaning_en": "metal, gold",
+  "strokes": 8
+ },
+ {
+  "radical": "門",
+  "reading": "もんがまえ",
+  "meaning_ru": "ворота",
+  "meaning_en": "gate",
+  "strokes": 8
+ },
+ {
+  "radical": "隹",
+  "reading": "ふるとり",
+  "meaning_ru": "маленькая птица",
+  "meaning_en": "small bird",
+  "strokes": 8
+ },
+ {
+  "radical": "雨",
+  "reading": "あめ",
+  "meaning_ru": "дождь",
+  "meaning_en": "rain",
+  "strokes": 8
+ },
+ {
+  "radical": "重",
+  "reading": "おもい",
+  "meaning_ru": "тяжёлый",
+  "meaning_en": "heavy, important",
+  "strokes": 9
+ },
+ {
+  "radical": "面",
+  "reading": "めん",
+  "meaning_ru": "лицо, поверхность",
+  "meaning_en": "face, surface",
+  "strokes": 9
+ },
+ {
+  "radical": "韋",
+  "reading": "なめしがわ",
+  "meaning_ru": "дублёная кожа",
+  "meaning_en": "tanned leather",
+  "strokes": 9
+ },
+ {
+  "radical": "音",
+  "reading": "おと",
+  "meaning_ru": "звук",
+  "meaning_en": "sound",
+  "strokes": 9
+ },
+ {
+  "radical": "頁",
+  "reading": "おおがい",
+  "meaning_ru": "страница, голова",
+  "meaning_en": "page, head",
+  "strokes": 9
+ },
+ {
+  "radical": "風",
+  "reading": "かぜ",
+  "meaning_ru": "ветер",
+  "meaning_en": "wind",
+  "strokes": 9
+ },
+ {
+  "radical": "食",
+  "reading": "しょく",
+  "meaning_ru": "еда, есть",
+  "meaning_en": "food, to eat",
+  "strokes": 9
+ },
+ {
+  "radical": "首",
+  "reading": "くび",
+  "meaning_ru": "шея, голова",
+  "meaning_en": "neck, head",
+  "strokes": 9
+ },
+ {
+  "radical": "家",
+  "reading": "いえ",
+  "meaning_ru": "дом",
+  "meaning_en": "house",
+  "strokes": 10
+ },
+ {
+  "radical": "袁",
+  "reading": "えん",
+  "meaning_ru": "длинная одежда",
+  "meaning_en": "long robe, garment",
+  "strokes": 10
+ },
+ {
+  "radical": "馬",
+  "reading": "うま",
+  "meaning_ru": "лошадь",
+  "meaning_en": "horse",
+  "strokes": 10
+ },
+ {
+  "radical": "高",
+  "reading": "たかい",
+  "meaning_ru": "высокий",
+  "meaning_en": "high, tall",
+  "strokes": 10
+ },
+ {
+  "radical": "𦰩",
+  "reading": "なん",
+  "meaning_ru": "замученный человек, преступник",
+  "meaning_en": "tortured person, criminal",
+  "strokes": 10
+ },
+ {
+  "radical": "魚",
+  "reading": "さかなへん",
+  "meaning_ru": "рыба",
+  "meaning_en": "fish",
+  "strokes": 11
+ },
+ {
+  "radical": "鳥",
+  "reading": "とり",
+  "meaning_ru": "птица",
+  "meaning_en": "bird",
+  "strokes": 11
+ }
+]

@@ -1,0 +1,132 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m %}
+{% block title %}Кандзи{% endblock %}
+{% block content %}
+<h1>Кандзи<span class="jp">漢字</span></h1>
+<p class="lead">{{ kanji | length }} знаков в порядке первой встречи в словах игры.
+Нажмите на знак, чтобы увидеть чтения, состав и слова.</p>
+
+<div class="toolbar">
+  <input type="text" id="q" placeholder="поиск: знак, значение, чтение">
+  <select id="status">
+    <option value="">статус: любой</option>
+    {% for key, label in statuses.items() %}<option value="{{ key }}">{{ label }}</option>{% endfor %}
+  </select>
+  <span class="muted small" id="counter"></span>
+  <a class="btn small ghost" href="/quiz?mode=all">Тест с кандзи</a>
+</div>
+
+<div class="kanji-grid" id="grid">
+  {% for k in kanji %}
+  {% set status = marks.get(k.kanji, {}).get('status', 'new') %}
+  <div class="kanji-cell {{ status }}" id="k-{{ k.kanji }}" data-kanji="{{ k.kanji }}"
+       data-search="{{ (k.kanji ~ k.meaning_ru ~ (k.on | join('')) ~ (k.kun | join(''))) | lower }}"
+       data-status="{{ status }}"
+       data-info='{{ {
+         "kanji": k.kanji, "meaning": k.meaning_ru, "en": k.meaning_en,
+         "on": k.on, "kun": k.kun, "strokes": k.strokes, "grade": k.grade,
+         "jlpt": k.jlpt, "decomposition": k.decomposition, "resembling": k.resembling,
+         "words": k.word_ids | map("string") | list
+       } | tojson }}'>
+    <div class="ch">{{ k.kanji }}</div>
+    <div class="ru">{{ k.meaning_ru }}</div>
+  </div>
+  {% endfor %}
+</div>
+
+<h2>Ключи <span class="muted small">{{ radicals | length }}</span></h2>
+<table>
+  <thead><tr><th>Ключ</th><th>Черт</th><th>Чтение</th><th>Значение</th></tr></thead>
+  <tbody>
+  {% for r in radicals %}
+  <tr><td class="jp">{{ r.radical }}</td><td class="mono small">{{ r.strokes }}</td>
+      <td class="muted">{{ r.reading }}</td><td>{{ r.meaning_ru }}</td></tr>
+  {% endfor %}
+  </tbody>
+</table>
+
+<dialog id="card">
+  <div id="card-body"></div>
+  <div class="toolbar" style="margin:1rem 0 0">
+    <span id="card-marks"></span>
+    <button class="btn small ghost" id="card-close">Закрыть</button>
+  </div>
+</dialog>
+{% endblock %}
+
+{% block scripts %}
+<script>
+(function () {
+  const words = {{ words | tojson }};
+  const cells = [...document.querySelectorAll('.kanji-cell')];
+  const q = document.getElementById('q');
+  const status = document.getElementById('status');
+  const counter = document.getElementById('counter');
+  const dialog = document.getElementById('card');
+
+  function apply() {
+    const needle = q.value.trim().toLowerCase();
+    let shown = 0;
+    cells.forEach((cell) => {
+      const ok = (!needle || cell.dataset.search.includes(needle))
+        && (!status.value || cell.dataset.status === status.value);
+      cell.hidden = !ok;
+      if (ok) shown += 1;
+    });
+    counter.textContent = `показано ${shown} из ${cells.length}`;
+  }
+
+  function escapeHtml(text) {
+    const div = document.createElement('div');
+    div.textContent = text == null ? '' : String(text);
+    return div.innerHTML;
+  }
+
+  cells.forEach((cell) => cell.addEventListener('click', () => {
+    const info = JSON.parse(cell.dataset.info);
+    const examples = (info.words || []).map((id) => words[id]).filter(Boolean)
+      .map((w) => `<div class="ex"><div class="ex-jp">${escapeHtml(w.word)}${w.reading ? ' (' + escapeHtml(w.reading) + ')' : ''}</div>
+                   <div class="ex-ru">${escapeHtml(w.meaning_ru)}</div></div>`).join('');
+    document.getElementById('card-body').innerHTML = `
+      <div class="jp-text" style="font-size:3.4rem;text-align:center">${escapeHtml(info.kanji)}</div>
+      <div style="text-align:center;font-size:1.1rem">${escapeHtml(info.meaning)}</div>
+      <div class="muted small" style="text-align:center">${escapeHtml(info.en)}</div>
+      <table class="conj-table">
+        ${info.on.length ? `<tr><td class="k">он</td><td class="v">${escapeHtml(info.on.join('、'))}</td></tr>` : ''}
+        ${info.kun.length ? `<tr><td class="k">кун</td><td class="v">${escapeHtml(info.kun.join('、'))}</td></tr>` : ''}
+        <tr><td class="k">черт</td><td>${escapeHtml(info.strokes)}</td></tr>
+        <tr><td class="k">класс / JLPT</td><td>${escapeHtml(info.grade)} · ${escapeHtml(info.jlpt)}</td></tr>
+        ${info.decomposition ? `<tr><td class="k">состав</td><td class="v">${escapeHtml(info.decomposition)}</td></tr>` : ''}
+        ${info.resembling ? `<tr><td class="k">похожие</td><td class="v">${escapeHtml(info.resembling)}</td></tr>` : ''}
+      </table>
+      ${examples ? '<h4>Слова</h4>' + examples : ''}`;
+    document.getElementById('card-marks').innerHTML = `
+      <span class="marks" data-item-type="kanji" data-item-id="${escapeHtml(info.kanji)}">
+        <button type="button" data-status="known" class="${cell.dataset.status === 'known' ? 'on' : ''}">знаю</button>
+        <button type="button" data-status="learning" class="${cell.dataset.status === 'learning' ? 'on' : ''}">учу</button>
+        <button type="button" data-status="hard" class="${cell.dataset.status === 'hard' ? 'on' : ''}">трудное</button>
+        <button type="button" data-status="new" class="${cell.dataset.status === 'new' ? 'on' : ''}">—</button>
+      </span>`;
+    dialog.showModal();
+  }));
+
+  document.getElementById('card-close').addEventListener('click', () => dialog.close());
+  document.addEventListener('mark:changed', (event) => {
+    if (event.detail.itemType !== 'kanji') return;
+    const cell = document.getElementById('k-' + event.detail.itemId);
+    if (!cell) return;
+    cell.classList.remove('known', 'learning', 'hard', 'new');
+    cell.classList.add(event.detail.status);
+    cell.dataset.status = event.detail.status;
+    apply();
+  });
+  [q, status].forEach((control) => control.addEventListener('input', apply));
+  apply();
+
+  if (location.hash) {
+    const target = document.querySelector(location.hash);
+    if (target) target.scrollIntoView({block: 'center'});
+  }
+})();
+</script>
+{% endblock %}

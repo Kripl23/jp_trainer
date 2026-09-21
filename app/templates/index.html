@@ -1,67 +1,51 @@
 {% extends "base.html" %}
+{% block title %}Уроки — тренажёр японского{% endblock %}
 {% block content %}
-<h1>Колоды<span class="jp">デッキ</span></h1>
+<h1>Путь по Wagotabi<span class="jp">和語旅</span></h1>
+<p class="lead">Все уроки игры в том же порядке — объяснения, лексика и тесты. Статус
+«знаю / учу / трудное» вы ставите сами: тесты его не меняют.</p>
 
-<div class="direction-toggle" role="group" aria-label="Направление перевода">
-  <button type="button" data-dir="jp_ru">日本語 → русский</button>
-  <button type="button" data-dir="ru_jp">Русский → 日本語</button>
+<div class="stat-row">
+  <div class="stat"><b>{{ done }}/{{ total }}</b><span>уроков пройдено</span></div>
+  <div class="stat"><b>{{ word_marks.known }}</b><span>слов «знаю»</span></div>
+  <div class="stat"><b>{{ word_marks.hard + word_marks.learning }}</b><span>в работе</span></div>
+  <div class="stat"><b>{{ total_words }}</b><span>слов всего</span></div>
 </div>
 
-<div id="decks"></div>
-{% endblock %}
+<div class="toolbar">
+  {% if current %}
+  <a class="btn" href="/lesson/{{ current.id }}">Продолжить: {{ current.id }}</a>
+  {% endif %}
+  <a class="btn ghost" href="/quiz?mode=marked">Повторить отмеченное</a>
+  <a class="btn ghost" href="/quiz?mode=all">Тест по пройденному</a>
+</div>
 
-{% block scripts %}
-<script>
-const groups = { jlpt: "JLPT", minna: "Minna no Nihongo", custom: "Свои слова" };
-let direction = localStorage.getItem("direction") || "jp_ru";
-
-function deckName(d) {
-  if (d.source === "jlpt") return d.level;
-  if (d.source === "minna") return "У" + d.level;
-  return "＋";
-}
-
-async function loadDecks() {
-  document.querySelectorAll(".direction-toggle button").forEach(b =>
-    b.classList.toggle("active", b.dataset.dir === direction));
-  const decks = await (await fetch(`/api/decks?direction=${direction}`)).json();
-  const box = document.getElementById("decks");
-  box.innerHTML = "";
-  if (!decks.length) {
-    box.innerHTML = "<p>Слов пока нет — запустите <code>scripts/seed_data.py</code> " +
-      "или добавьте свои на странице «Слова».</p>";
-    return;
-  }
-  let lastGroup = "";
-  for (const d of decks) {
-    if (d.source !== lastGroup) {
-      lastGroup = d.source;
-      box.insertAdjacentHTML("beforeend",
-        `<div class="deck-group">${groups[d.source] || d.source}</div>`);
-    }
-    const hasWork = d.due > 0 || d.new > 0;
-    box.insertAdjacentHTML("beforeend", `
-      <div class="deck">
-        <span class="tag">${deckName(d)}</span>
-        <span class="counts">
-          ${d.total} слов · к повторению <b>${d.due}</b> ·
-          новых <span class="new">${d.new}</span>
-        </span>
-        <button class="train-btn" ${hasWork ? "" : "disabled"}
-          onclick="location.href='/train?source=${d.source}&level=${encodeURIComponent(d.level)}&direction=${direction}'">
-          ${hasWork ? "Заниматься" : "На сегодня всё"}
-        </button>
-      </div>`);
-  }
-}
-
-document.querySelectorAll(".direction-toggle button").forEach(b =>
-  b.addEventListener("click", () => {
-    direction = b.dataset.dir;
-    localStorage.setItem("direction", direction);
-    loadDecks();
-  }));
-
-loadDecks();
-</script>
+{% for chapter in chapters %}
+<section class="chapter">
+  <div class="chapter-head">
+    <h2>{{ chapter.title or 'Без главы' }}</h2>
+    <span class="muted">{{ chapter.done }}/{{ chapter.total }} · {{ chapter.words }} {{ chapter.words | plural("слово", "слова", "слов") }}</span>
+  </div>
+  <div class="bar" style="margin-bottom:.6rem"><i style="width:{{ chapter.percent }}%"></i></div>
+  {% for lesson in chapter.lessons %}
+  <div class="lesson {% if lesson.done %}done{% elif current and lesson.id == current.id %}current{% endif %}">
+    <span class="num">{{ lesson.ord }}</span>
+    <span class="name">
+      <a href="/lesson/{{ lesson.id }}">{{ lesson.title_ru or lesson.id }}</a>
+      <small>
+        {{ lesson.location }}
+        {%- if lesson.kind == 'conjugation' %} · спряжение
+        {%- elif lesson.kind == 'topic' %} · тема
+        {%- elif lesson.word_count %} · {{ lesson.word_count }} {{ lesson.word_count | plural("слово", "слова", "слов") }}{% endif %}
+        {%- if lesson.explanation_ru %} · есть объяснение{% endif %}
+      </small>
+    </span>
+    {% if lesson.progress.best_percent %}
+      <span class="score">{{ lesson.progress.best_percent }}%</span>
+    {% endif %}
+    <a class="btn small ghost" href="/lesson/{{ lesson.id }}">Открыть</a>
+  </div>
+  {% endfor %}
+</section>
+{% endfor %}
 {% endblock %}

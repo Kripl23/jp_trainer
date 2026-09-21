@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m %}
+{% block title %}{{ topic.title }} — FE{% endblock %}
+{% block content %}
+<div class="crumbs"><a href="/fe">FE-экзамен</a> › {{ area_title }}</div>
+<h1>{{ topic.title }}</h1>
+<p class="lead">{{ topic.summary }}
+  {%- if state.best_percent %} · лучший результат теста {{ state.best_percent }}%{% endif %}</p>
+
+<div class="toolbar">
+  <a class="btn" href="/fe/quiz?topic={{ topic.id }}">Тест по теме</a>
+  {% if terms %}<a class="btn ghost" href="/fe/quiz?topic={{ topic.id }}&mode=terms">Термины теста</a>{% endif %}
+</div>
+
+<article class="article">{{ topic.body | safe }}</article>
+
+{% if terms %}
+<h2>Термины темы <span class="muted small">{{ terms | length }}</span></h2>
+<table>
+  <thead><tr><th>Японский</th><th>Чтение</th><th>English</th><th>Русский</th><th>Статус</th></tr></thead>
+  <tbody>
+  {% for term in terms %}
+  <tr>
+    <td class="jp">{{ term.ja }}</td>
+    <td class="muted small">{{ term.kana }}</td>
+    <td class="small">{{ term.en }}</td>
+    <td>{{ term.ru }}{% if term.note %}<div class="muted small">{{ term.note }}</div>{% endif %}</td>
+    <td>{{ m.mark_buttons('fe_term', term.id, marks, statuses) }}</td>
+  </tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% endif %}
+
+<div class="pager">
+  {% if prev %}<a class="btn ghost" href="/fe/{{ prev.id }}">← {{ prev.title }}</a>
+  {% else %}<span></span>{% endif %}
+  {% if next %}<a class="btn ghost" href="/fe/{{ next.id }}">{{ next.title }} →</a>{% endif %}
+</div>
+{% endblock %}

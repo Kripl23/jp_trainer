@@ -1,0 +1,105 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m %}
+{% block title %}{{ lesson.title_ru }} — урок {{ lesson.ord }}{% endblock %}
+{% block content %}
+<div class="crumbs"><a href="/">Уроки</a> › {{ lesson.chapter }} › {{ lesson.location }}</div>
+<h1>{{ lesson.title_ru or lesson.id }}
+  <span class="jp">{{ lesson.id }}</span></h1>
+<p class="lead">
+  Урок {{ lesson.ord }} из 86
+  {%- if state.best_percent %} · лучший результат {{ state.best_percent }}%
+  {%- if state.completed_at %} · пройден{% endif %}{% endif %}
+</p>
+
+<div class="toolbar">
+  {% if words or sentences or kanji %}
+  <a class="btn" href="/quiz?lesson={{ lesson.id }}">Пройти тест</a>
+  {% endif %}
+  {% if lesson.title_en %}<span class="muted small">{{ lesson.title_en }}</span>{% endif %}
+</div>
+
+{% if explanation %}
+<h2>Объяснение</h2>
+<div class="explain">{{ explanation | safe }}</div>
+{% endif %}
+
+{% if grammar %}
+<h2>Конструкции</h2>
+{% for g in grammar %}
+<div class="card">
+  <div><b class="jp-text">{{ g.formation }}</b>
+    {% if g.word %}<span class="muted"> — {{ g.word }}</span>{% endif %}</div>
+  {% if g.meaning_ru %}<div class="small">{{ g.meaning_ru }}</div>{% endif %}
+  {% if g.note_html %}<div class="explain small" style="margin:.5rem 0 0">{{ g.note_html | safe }}</div>{% endif %}
+  <div style="margin-top:.5rem">{{ m.mark_buttons('grammar', g.id, marks, statuses) }}</div>
+</div>
+{% endfor %}
+{% endif %}
+
+{% if words %}
+<h2>Слова урока <span class="muted small">{{ words | length }}</span></h2>
+{% for word in words %}
+<div class="word-card" id="w-{{ word.id }}">
+  <div class="jp">{{ word.furigana | furigana(word.word) }}</div>
+  <div class="body">
+    {% if word.reading %}<div class="muted small">{{ word.reading }}</div>{% endif %}
+    <div class="meaning">{% if word.meaning_ru or word.meaning_en %}{{ word.meaning_ru or word.meaning_en }}{% else %}<span class="muted small">перевода нет в данных игры</span>{% endif %}</div>
+    {% if notes.get(word.id) %}<div class="note">{{ notes[word.id] | safe }}</div>{% endif %}
+  </div>
+  <div class="side">
+    {{ m.mark_buttons('word', word.id, marks, statuses) }}
+    <div class="tags">
+      {% if word.category %}<span class="pill">{{ word.category }}</span>{% endif %}
+      {% if word.jlpt %}<span class="pill jlpt">{{ word.jlpt }}</span>{% endif %}
+      {% if word.is_grammar %}<span class="pill">грамматика</span>{% endif %}
+    </div>
+  </div>
+</div>
+{% endfor %}
+{% endif %}
+
+{% if conjugations %}
+<h2>Спряжение</h2>
+{% for c in conjugations %}
+<div class="card">
+  <div><span class="jp-text" style="font-size:1.3rem">{{ c.furigana | furigana(c.word) }}</span>
+    <span class="muted small"> — {{ c.meaning_ru }} · {{ c.category }}</span></div>
+  <table class="conj-table">
+    {% for key, value in c.forms.items() %}
+      {% if key in form_names %}
+      <tr><td class="k">{{ form_names[key] }}</td><td class="v">{{ value }}</td></tr>
+      {% endif %}
+    {% endfor %}
+  </table>
+  {{ m.mark_buttons('conjugation', c.id, marks, statuses) }}
+</div>
+{% endfor %}
+{% endif %}
+
+{% if kanji %}
+<h2>Кандзи в уроке</h2>
+<div class="kanji-grid">
+  {% for k in kanji %}
+  <a class="kanji-cell" href="/kanji#k-{{ k.kanji }}">
+    <div class="ch">{{ k.kanji }}</div>
+    <div class="ru">{{ k.meaning_ru }}</div>
+  </a>
+  {% endfor %}
+</div>
+{% endif %}
+
+{% if sentences %}
+<h2>Примеры</h2>
+{% for s in sentences %}
+<div class="card">
+  <div class="ex-jp">{{ s.japanese }}</div>
+  <div class="ex-ru">{{ s.ru or s.en }}</div>
+</div>
+{% endfor %}
+{% endif %}
+
+<div class="pager">
+  <a class="btn ghost" href="/">← Все уроки</a>
+  {% if words or sentences %}<a class="btn" href="/quiz?lesson={{ lesson.id }}">Пройти тест →</a>{% endif %}
+</div>
+{% endblock %}

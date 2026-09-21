@@ -1,0 +1,290 @@
+[
+ {
+  "id": "Dictionary_desu",
+  "name_ru": "",
+  "info_ru": "",
+  "keys": []
+ },
+ {
+  "id": "NonpastPlainNegativeCol_desu",
+  "name_ru": "",
+  "info_ru": "",
+  "keys": []
+ },
+ {
+  "id": "NonpastPlainNegative_desu",
+  "name_ru": "",
+  "info_ru": "",
+  "keys": []
+ },
+ {
+  "id": "NonpastPlainPositive_desu",
+  "name_ru": "",
+  "info_ru": "",
+  "keys": []
+ },
+ {
+  "id": "NonpastPoliteNegativeCasual_desu",
+  "name_ru": "",
+  "info_ru": "",
+  "keys": []
+ },
+ {
+  "id": "NonpastPoliteNegativeCol_desu",
+  "name_ru": "",
+  "info_ru": "",
+  "keys": []
+ },
+ {
+  "id": "NonpastPoliteNegativeFormalCol_desu",
+  "name_ru": "",
+  "info_ru": "",
+  "keys": []
+ },
+ {
+  "id": "NonpastPoliteNegativeFormal_desu",
+  "name_ru": "",
+  "info_ru": "",
+  "keys": []
+ },
+ {
+  "id": "NonpastPolitePositive_desu",
+  "name_ru": "",
+  "info_ru": "",
+  "keys": []
+ },
+ {
+  "id": "PastPlainPositive_desu",
+  "name_ru": "",
+  "info_ru": "",
+  "keys": []
+ },
+ {
+  "id": "PastPolitePositive_desu",
+  "name_ru": "",
+  "info_ru": "",
+  "keys": []
+ },
+ {
+  "id": "Stem_desu",
+  "name_ru": "",
+  "info_ru": "",
+  "keys": []
+ },
+ {
+  "id": "Te_desu",
+  "name_ru": "",
+  "info_ru": "",
+  "keys": []
+ },
+ {
+  "id": "Dictionary_v",
+  "name_ru": "",
+  "info_ru": "",
+  "keys": []
+ },
+ {
+  "id": "NonpastPlainNegative_v",
+  "name_ru": "",
+  "info_ru": "",
+  "keys": []
+ },
+ {
+  "id": "NonpastPlainPositive_v",
+  "name_ru": "",
+  "info_ru": "",
+  "keys": []
+ },
+ {
+  "id": "NonpastPoliteNegativeCasual_v",
+  "name_ru": "",
+  "info_ru": "",
+  "keys": []
+ },
+ {
+  "id": "NonpastPoliteNegativeFormal_v",
+  "name_ru": "",
+  "info_ru": "",
+  "keys": []
+ },
+ {
+  "id": "NonpastPolitePositive_v",
+  "name_ru": "",
+  "info_ru": "",
+  "keys": []
+ },
+ {
+  "id": "PastPlainPositive_v",
+  "name_ru": "",
+  "info_ru": "",
+  "keys": []
+ },
+ {
+  "id": "PastPolitePositive_v",
+  "name_ru": "",
+  "info_ru": "",
+  "keys": []
+ },
+ {
+  "id": "Stem_v",
+  "name_ru": "",
+  "info_ru": "",
+  "keys": []
+ },
+ {
+  "id": "Te_v",
+  "name_ru": "",
+  "info_ru": "",
+  "keys": []
+ },
+ {
+  "id": "VolitionalPolitePositive_v",
+  "name_ru": "",
+  "info_ru": "",
+  "keys": []
+ },
+ {
+  "id": "Dictionary_i",
+  "name_ru": "",
+  "info_ru": "",
+  "keys": []
+ },
+ {
+  "id": "PastPlainPositive_i",
+  "name_ru": "",
+  "info_ru": "",
+  "keys": []
+ },
+ {
+  "id": "PastPolitePositive_i",
+  "name_ru": "",
+  "info_ru": "",
+  "keys": []
+ },
+ {
+  "id": "PresentPlainNegative_i",
+  "name_ru": "",
+  "info_ru": "",
+  "keys": []
+ },
+ {
+  "id": "PresentPlainPositive_i",
+  "name_ru": "",
+  "info_ru": "",
+  "keys": []
+ },
+ {
+  "id": "PresentPoliteNegativeCasual_i",
+  "name_ru": "",
+  "info_ru": "",
+  "keys": []
+ },
+ {
+  "id": "PresentPoliteNegative_i",
+  "name_ru": "",
+  "info_ru": "",
+  "keys": []
+ },
+ {
+  "id": "PresentPolitePositive_i",
+  "name_ru": "",
+  "info_ru": "",
+  "keys": []
+ },
+ {
+  "id": "Stem_i",
+  "name_ru": "",
+  "info_ru": "",
+  "keys": []
+ },
+ {
+  "id": "Te_i",
+  "name_ru": "",
+  "info_ru": "",
+  "keys": []
+ },
+ {
+  "id": "Dictionary_na",
+  "name_ru": "",
+  "info_ru": "",
+  "keys": []
+ },
+ {
+  "id": "Noun_na",
+  "name_ru": "",
+  "info_ru": "",
+  "keys": []
+ },
+ {
+  "id": "PastPlainPositive_na",
+  "name_ru": "",
+  "info_ru": "",
+  "keys": []
+ },
+ {
+  "id": "PastPolitePositive_na",
+  "name_ru": "",
+  "info_ru": "",
+  "keys": []
+ },
+ {
+  "id": "PresentPlainNegativeCol_na",
+  "name_ru": "",
+  "info_ru": "",
+  "keys": []
+ },
+ {
+  "id": "PresentPlainNegative_na",
+  "name_ru": "",
+  "info_ru": "",
+  "keys": []
+ },
+ {
+  "id": "PresentPlainPositive_na",
+  "name_ru": "",
+  "info_ru": "",
+  "keys": []
+ },
+ {
+  "id": "PresentPoliteNegativeCasualCol_na",
+  "name_ru": "",
+  "info_ru": "",
+  "keys": []
+ },
+ {
+  "id": "PresentPoliteNegativeCasual_na",
+  "name_ru": "",
+  "info_ru": "",
+  "keys": []
+ },
+ {
+  "id": "PresentPoliteNegativeFormalCol_na",
+  "name_ru": "",
+  "info_ru": "",
+  "keys": []
+ },
+ {
+  "id": "PresentPoliteNegativeFormal_na",
+  "name_ru": "",
+  "info_ru": "",
+  "keys": []
+ },
+ {
+  "id": "PresentPolitePositive_na",
+  "name_ru": "",
+  "info_ru": "",
+  "keys": []
+ },
+ {
+  "id": "Stem_na",
+  "name_ru": "",
+  "info_ru": "",
+  "keys": []
+ },
+ {
+  "id": "Te_na",
+  "name_ru": "",
+  "info_ru": "",
+  "keys": []
+ }
+]

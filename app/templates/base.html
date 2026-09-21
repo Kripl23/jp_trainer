@@ -3,22 +3,40 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{% block title %}Тренажёр японского{% endblock %}</title>
+<title>{% block title %}Тренажёр{% endblock %}</title>
 <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
+{% set path = request.url.path %}
+{% set fe = path.startswith('/fe') %}
 <header>
-  <div class="hanko" aria-hidden="true">語</div>
-  <div class="brand">Тренажёр японского<small>ことばの練習</small></div>
+  <a class="hanko" href="/" aria-hidden="true">{% if fe %}情{% else %}語{% endif %}</a>
+  <div class="brand">
+    {% if fe %}Основы ИТ<small>基本情報技術者試験</small>
+    {% else %}Тренажёр японского<small>ことばの練習</small>{% endif %}
+  </div>
   <nav>
-    <a href="/" class="{% if request.url.path == '/' %}active{% endif %}">Колоды</a>
-    <a href="/words" class="{% if request.url.path == '/words' %}active{% endif %}">Слова</a>
-    <a href="/stats" class="{% if request.url.path == '/stats' %}active{% endif %}">Статистика</a>
+    {% if fe %}
+      <a href="/fe" class="{% if path == '/fe' %}active{% endif %}">Темы</a>
+      <a href="/fe/terms" class="{% if path == '/fe/terms' %}active{% endif %}">Термины</a>
+      <a href="/fe/quiz?mode=all">Общий тест</a>
+      <span class="sep"></span>
+      <a href="/">Японский</a>
+    {% else %}
+      <a href="/" class="{% if path == '/' %}active{% endif %}">Уроки</a>
+      <a href="/dictionary" class="{% if path == '/dictionary' %}active{% endif %}">Словарь</a>
+      <a href="/kanji" class="{% if path == '/kanji' %}active{% endif %}">Кандзи</a>
+      <a href="/grammar" class="{% if path == '/grammar' %}active{% endif %}">Грамматика</a>
+      <a href="/stats" class="{% if path == '/stats' %}active{% endif %}">Статистика</a>
+      <span class="sep"></span>
+      <a href="/fe">FE-экзамен</a>
+    {% endif %}
   </nav>
 </header>
 <main>
 {% block content %}{% endblock %}
 </main>
+<script src="/static/marks.js"></script>
 {% block scripts %}{% endblock %}
 </body>
 </html>

@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m %}
+{% block title %}Термины FE{% endblock %}
+{% block content %}
+<h1>Термины экзамена<span class="jp">用語</span></h1>
+<p class="lead">{{ terms | length }} терминов: японский вариант, чтение, английский
+и русское объяснение. Статус ставите вы.</p>
+
+<div class="toolbar">
+  <input type="text" id="q" placeholder="поиск по любому языку">
+  <select id="topic">
+    <option value="">тема: все</option>
+    {% for id, topic in topics.items() %}<option value="{{ id }}">{{ topic.title }}</option>{% endfor %}
+  </select>
+  <select id="status">
+    <option value="">статус: любой</option>
+    {% for key, label in statuses.items() %}<option value="{{ key }}">{{ label }}</option>{% endfor %}
+  </select>
+  <span class="muted small" id="counter"></span>
+  <a class="btn small ghost" href="/fe/quiz?mode=terms">Тренировать</a>
+</div>
+
+<table id="table">
+  <thead><tr><th>Японский</th><th>Чтение</th><th>English</th><th>Русский</th>
+    <th>Тема</th><th>Статус</th></tr></thead>
+  <tbody>
+  {% for term in terms %}
+  {% set mark = marks.get(term.id, {}) %}
+  <tr data-search="{{ (term.ja ~ term.kana ~ term.en ~ term.ru) | lower }}"
+      data-topic="{{ term.topic_id }}" data-status="{{ mark.get('status', 'new') }}"
+      id="row-{{ term.id }}">
+    <td class="jp">{{ term.ja }}</td>
+    <td class="muted small">{{ term.kana }}</td>
+    <td class="small">{{ term.en }}</td>
+    <td>{{ term.ru }}{% if term.note %}<div class="muted small">{{ term.note }}</div>{% endif %}</td>
+    <td class="small"><a href="/fe/{{ term.topic_id }}">{{ topics.get(term.topic_id, {}).get('title', term.topic_id) }}</a></td>
+    <td>{{ m.mark_buttons('fe_term', term.id, marks, statuses) }}</td>
+  </tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% endblock %}
+
+{% block scripts %}
+<script>
+(function () {
+  const rows = [...document.querySelectorAll('#table tbody tr')];
+  const q = document.getElementById('q');
+  const topic = document.getElementById('topic');
+  const status = document.getElementById('status');
+  const counter = document.getElementById('counter');
+
+  function apply() {
+    const needle = q.value.trim().toLowerCase();
+    let shown = 0;
+    rows.forEach((row) => {
+      const ok = (!needle || row.dataset.search.includes(needle))
+        && (!topic.value || row.dataset.topic === topic.value)
+        && (!status.value || row.dataset.status === status.value);
+      row.hidden = !ok;
+      if (ok) shown += 1;
+    });
+    counter.textContent = `показано ${shown} из ${rows.length}`;
+  }
+
+  [q, topic, status].forEach((control) => control.addEventListener('input', apply));
+  document.addEventListener('mark:changed', (event) => {
+    const row = document.getElementById('row-' + event.detail.itemId);
+    if (row) row.dataset.status = event.detail.status;
+    apply();
+  });
+  apply();
+})();
+</script>
+{% endblock %}

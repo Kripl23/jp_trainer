@@ -1,0 +1,2254 @@
+{
+ "Basic/Accept": {
+  "ru": "Принять",
+  "en": "Accept"
+ },
+ "Basic/Achievements": {
+  "ru": "Достижения",
+  "en": "Achievements"
+ },
+ "Basic/Acknowledgements": {
+  "ru": "Благодарности",
+  "en": "Acknowledgements"
+ },
+ "Basic/Activate": {
+  "ru": "Включить",
+  "en": "Enable"
+ },
+ "Basic/Adjective": {
+  "ru": "Прилагательное",
+  "en": "Adjective"
+ },
+ "Basic/Adverb": {
+  "ru": "Наречие",
+  "en": "Adverb"
+ },
+ "Basic/Age": {
+  "ru": "Возраст",
+  "en": "Age"
+ },
+ "Basic/AhGotIt": {
+  "ru": "Ах! Понял!",
+  "en": "Ah! Got it!"
+ },
+ "Basic/Airport": {
+  "ru": "Аэропорт",
+  "en": "Airport"
+ },
+ "Basic/All": {
+  "ru": "Все",
+  "en": "All"
+ },
+ "Basic/AllKanji": {
+  "ru": "Все кандзи",
+  "en": "All Kanji"
+ },
+ "Basic/AndSoMuchMore": {
+  "ru": "... и многое другое!",
+  "en": "...and so much more !"
+ },
+ "Basic/Answer": {
+  "ru": "Ответ",
+  "en": "Answer"
+ },
+ "Basic/Art": {
+  "ru": "Искусство",
+  "en": "Art"
+ },
+ "Basic/AtZ": {
+  "ru": "A > Z",
+  "en": "A > Z"
+ },
+ "Basic/AvailableInFullVersion": {
+  "ru": "Доступно в полной версии игры",
+  "en": "Available in the full version"
+ },
+ "Basic/Brightness": {
+  "ru": "Яркость",
+  "en": "Brightness"
+ },
+ "Basic/BringItToSomeone": {
+  "ru": "Можете ли вы принести это в <style=NPC>#VALUE</style>?",
+  "en": "Could you bring it to <style=NPC>#VALUE</style>?"
+ },
+ "Basic/BringSomeoneToSomeone": {
+  "ru": "Верни #VALUE в #DESTINATION",
+  "en": "Bring #VALUE back to #DESTINATION"
+ },
+ "Basic/BusDriver": {
+  "ru": "Водитель автобуса",
+  "en": "Bus driver"
+ },
+ "Basic/Busy": {
+  "ru": "Я занят...",
+  "en": "I am busy..."
+ },
+ "Basic/Cancel": {
+  "ru": "Отмена",
+  "en": "Cancel"
+ },
+ "Basic/CanFindInBook": {
+  "ru": "Вы можете найти это в вашей <style=Quest>книге</style>.",
+  "en": "You can find it in your <style=Quest>book</style>."
+ },
+ "Basic/CanPracticeAnyTime": {
+  "ru": "Мы можем практиковаться в любое время, когда захочешь!",
+  "en": "We can practice anytime you feel like it!"
+ },
+ "Basic/CanSpeakJapaneseQ": {
+  "ru": "Вы говорите по-японски?",
+  "en": "You can speak Japanese?"
+ },
+ "Basic/CanSpendDayHere": {
+  "ru": "Я мог бы провести весь день здесь!",
+  "en": "I could spend the whole day here!"
+ },
+ "Basic/CanYouHelpMe": {
+  "ru": "Ты можешь мне помочь?",
+  "en": "Can you help me?"
+ },
+ "Basic/CastleGuard": {
+  "ru": "Страж замка",
+  "en": "Castle guard"
+ },
+ "Basic/CEO": {
+  "ru": "Генеральный директор",
+  "en": "CEO"
+ },
+ "Basic/Changelog": {
+  "ru": "Журнал изменений",
+  "en": "Changelog"
+ },
+ "Basic/Click": {
+  "ru": "Клик",
+  "en": "Click"
+ },
+ "Basic/ClickHereClosePage": {
+  "ru": "#CLICK здесь, чтобы закрыть эту страницу.",
+  "en": "#CLICK here to close this page."
+ },
+ "Basic/ClickHereOr": {
+  "ru": "Нажмите здесь или #VALUE",
+  "en": "Click here or #VALUE"
+ },
+ "Basic/ClickHereToAccess": {
+  "ru": "#CLICK здесь, чтобы получить доступ к этому.",
+  "en": "#CLICK here to access it."
+ },
+ "Basic/Closed": {
+  "ru": "Закрыто.",
+  "en": "Closed."
+ },
+ "Basic/Colors": {
+  "ru": "Цвета",
+  "en": "Colors"
+ },
+ "Basic/Community": {
+  "ru": "Сообщество",
+  "en": "Community"
+ },
+ "Basic/Completed": {
+  "ru": "Завершено",
+  "en": "Completed"
+ },
+ "Basic/Confined": {
+  "ru": "Ограничено",
+  "en": "Confined"
+ },
+ "Basic/Confirm": {
+  "ru": "Подтвердить",
+  "en": "Confirm"
+ },
+ "Basic/Congratulations": {
+  "ru": "Поздравляю!",
+  "en": "Congratulations!"
+ },
+ "Basic/Conjugation": {
+  "ru": "Спряжение",
+  "en": "Conjugation"
+ },
+ "Basic/Continue": {
+  "ru": "Продолжить",
+  "en": "Continue"
+ },
+ "Basic/ContinueToPlay": {
+  "ru": "Продолжайте играть",
+  "en": "Keep playing"
+ },
+ "Basic/Contracted": {
+  "ru": "Сокращённый",
+  "en": "Contracted"
+ },
+ "Basic/CouldDoIt": {
+  "ru": "Я бы тоже смог…",
+  "en": "I could do it too..."
+ },
+ "Basic/Counters": {
+  "ru": "Счетчики",
+  "en": "Counters"
+ },
+ "Basic/Counter": {
+  "ru": "Счётный суффикс",
+  "en": "Counter"
+ },
+ "Basic/CustomsOfficer": {
+  "ru": "Таможенник",
+  "en": "Customs officer"
+ },
+ "Basic/Dakuten": {
+  "ru": "Дакутен",
+  "en": "Dakuten"
+ },
+ "Basic/Default": {
+  "ru": "По умолчанию",
+  "en": "Default"
+ },
+ "Basic/DenimPant": {
+  "ru": "Джинсовые штаны",
+  "en": "Denim pants"
+ },
+ "Basic/Details": {
+  "ru": "Детали",
+  "en": "Details"
+ },
+ "Basic/Dictionary": {
+  "ru": "Словарь",
+  "en": "Dictionary"
+ },
+ "Basic/Difficult": {
+  "ru": "Трудно",
+  "en": "Difficult"
+ },
+ "Basic/DifficultKanji": {
+  "ru": "Всё полно сложных <style=Kanji>Кандзи</style>...",
+  "en": "It’s all full of complex <style=Kanji>Kanji</style>..."
+ },
+ "Basic/Difficulty": {
+  "ru": "Сложность",
+  "en": "Difficulty"
+ },
+ "Basic/Display": {
+  "ru": "Отображение",
+  "en": "Display"
+ },
+ "Basic/DontMissIt": {
+  "ru": "Не пропусти!",
+  "en": "Don't miss it!"
+ },
+ "Basic/DontSayAnything": {
+  "ru": "(<i>Не говорить ничего</i>)",
+  "en": "(<i>Say nothing</i>)"
+ },
+ "Basic/DontShowAgain": {
+  "ru": "Больше не показывать",
+  "en": "Don’t show again"
+ },
+ "Basic/DontSpeakWellJapanese": {
+  "ru": "Я не говорю по-японски очень хорошо.",
+  "en": "I don’t speak Japanese very well."
+ },
+ "Basic/DotDotDot": {
+  "ru": ".<pause>.<pause>.",
+  "en": ".<pause>.<pause>."
+ },
+ "Basic/Download": {
+  "ru": "Скачать",
+  "en": "Download"
+ },
+ "Basic/DreamStartSmallQ": {
+  "ru": "Большие мечты начинаются с малого, правда?",
+  "en": "Big dreams start small, right?"
+ },
+ "Basic/Edit": {
+  "ru": "Редактировать",
+  "en": "Edit"
+ },
+ "Basic/ElementarySchool": {
+  "ru": "Начальная школа",
+  "en": "Elementary school"
+ },
+ "Basic/Email": {
+  "ru": "Электронная почта",
+  "en": "Email"
+ },
+ "Basic/EmailAlreadyUsed": {
+  "ru": "Этот адрес электронной почты уже зарегистрирован.",
+  "en": "This email address is already registered."
+ },
+ "Basic/EmailNotValid": {
+  "ru": "Этот адрес электронной почты недействителен.",
+  "en": "This email address is not valid."
+ },
+ "Basic/Emphasis": {
+  "ru": "Эмфаза",
+  "en": "Emphasis"
+ },
+ "Basic/Empty": {
+  "ru": "Здесь пусто.",
+  "en": "It’s empty."
+ },
+ "Basic/EndingPoint": {
+  "ru": "Конец",
+  "en": "End"
+ },
+ "Basic/EnjoyShowQ": {
+  "ru": "Тебе понравилось шоу?",
+  "en": "Did you enjoy the show?"
+ },
+ "Basic/ExitGame": {
+  "ru": "Выйти из игры",
+  "en": "Exit game"
+ },
+ "Basic/Expressions": {
+  "ru": "Выражения",
+  "en": "Expressions"
+ },
+ "Basic/ExternalLink": {
+  "ru": "Внешний сайт",
+  "en": "External website"
+ },
+ "Basic/FAQ": {
+  "ru": "Часто задаваемые вопросы",
+  "en": "FAQ"
+ },
+ "Basic/Father": {
+  "ru": "Отец",
+  "en": "Father"
+ },
+ "Basic/Ferret": {
+  "ru": "Хорёк",
+  "en": "Ferret"
+ },
+ "Basic/FontSize": {
+  "ru": "Размер шрифта",
+  "en": "Font size"
+ },
+ "Basic/Foreigners": {
+  "ru": "Иностранцы",
+  "en": "Foreigners"
+ },
+ "Basic/Formation": {
+  "ru": "Формирование",
+  "en": "Formation"
+ },
+ "Basic/From": {
+  "ru": "От",
+  "en": "From"
+ },
+ "Basic/FromAustralia": {
+  "ru": "Я из <style=Town>Австралии</style>.",
+  "en": "I am from <style=Town>Australia</style>."
+ },
+ "Basic/Furigana": {
+  "ru": "Фуригана",
+  "en": "Furigana"
+ },
+ "Basic/Gairaigo": {
+  "ru": "Заимствованные слова",
+  "en": "Loanwords"
+ },
+ "Basic/Game": {
+  "ru": "Игра",
+  "en": "Game"
+ },
+ "Basic/GameDesign": {
+  "ru": "Дизайн игры",
+  "en": "Game design"
+ },
+ "Basic/Gamepad": {
+  "ru": "Геймпад",
+  "en": "Gamepad"
+ },
+ "Basic/Geography": {
+  "ru": "География",
+  "en": "Geography"
+ },
+ "Basic/GetMyPresentFrom": {
+  "ru": "Получи свой подарок <sprite name=Gift> от #VALUE",
+  "en": "Get my present <sprite name=Gift> from #VALUE"
+ },
+ "Basic/Giver": {
+  "ru": "Даритель",
+  "en": "Giver"
+ },
+ "Basic/Grade": {
+  "ru": "Уровень",
+  "en": "Grade"
+ },
+ "Basic/Grammar": {
+  "ru": "Грамматика",
+  "en": "Grammar"
+ },
+ "Basic/Great": {
+  "ru": "Отлично!",
+  "en": "Great!"
+ },
+ "Basic/Hello": {
+  "ru": "Привет!",
+  "en": "Hello!"
+ },
+ "Basic/HelpMe": {
+  "ru": "Помогите!!",
+  "en": "Help!!"
+ },
+ "Basic/HereATip": {
+  "ru": "Вот небольшой совет!",
+  "en": "Here’s a little tip!"
+ },
+ "Basic/HereSmallHint": {
+  "ru": "Вот небольшая подсказка.",
+  "en": "Here is a small hint."
+ },
+ "Basic/Hi": {
+  "ru": "Привет!",
+  "en": "Hi!"
+ },
+ "Basic/Hiragana": {
+  "ru": "Хирагана",
+  "en": "Hiragana"
+ },
+ "Basic/Hobbies": {
+  "ru": "Хобби",
+  "en": "Hobbies"
+ },
+ "Basic/Hohoho": {
+  "ru": "Хо-хо-хо!",
+  "en": "Ho ho ho!"
+ },
+ "Basic/Hola": {
+  "ru": "О, боже!",
+  "en": "Oh, my!"
+ },
+ "Basic/Home": {
+  "ru": "Дом",
+  "en": "Home"
+ },
+ "Basic/HopeRead": {
+  "ru": "Надеюсь, однажды я смогу это прочитать!",
+  "en": "I hope I can read it one day!"
+ },
+ "Basic/iAdjective": {
+  "ru": "い-Прилагательное",
+  "en": "い-Adjective"
+ },
+ "Basic/iAdjectiveBase": {
+  "ru": "Прилагательное - <s>い</s>",
+  "en": "Adjective - <s>い</s>"
+ },
+ "Basic/ImpressedProgress": {
+  "ru": "Я очень впечатлён твоим прогрессом!",
+  "en": "I’m very impressed with your progress!"
+ },
+ "Basic/Incredible": {
+  "ru": "Невероятно!",
+  "en": "Unbelievable!"
+ },
+ "Basic/Indeed": {
+  "ru": "Действительно!",
+  "en": "Indeed!"
+ },
+ "Basic/InDevelopment": {
+  "ru": "В разработке.",
+  "en": "In development."
+ },
+ "Basic/Informal": {
+  "ru": "Неформальный",
+  "en": "Informal"
+ },
+ "Basic/InProgress": {
+  "ru": "В процессе",
+  "en": "In progress"
+ },
+ "Basic/Interaction": {
+  "ru": "Взаимодействие",
+  "en": "Interaction"
+ },
+ "Basic/Interlocutor": {
+  "ru": "Слушатель",
+  "en": "Listener"
+ },
+ "Basic/ISee": {
+  "ru": "Хмм, понятно...",
+  "en": "Hmm, I see..."
+ },
+ "Basic/ItIsPerfectlyNormal": {
+  "ru": "Это совершенно нормально!",
+  "en": "That's completely normal!"
+ },
+ "Basic/ItIsVendingMachine": {
+  "ru": "Это торговый автомат.",
+  "en": "It is a vending machine."
+ },
+ "Basic/ItWasFun": {
+  "ru": "Это было очень весело!",
+  "en": "It was so much fun!"
+ },
+ "Basic/IWillManagePlayer": {
+  "ru": "Я за дело, <style=NPC>#PLAYER</style>!",
+  "en": "I'm on it, <style=NPC>#PLAYER</style>!"
+ },
+ "Basic/JapaneseConcept": {
+  "ru": "Японские концепции",
+  "en": "Japanese concepts"
+ },
+ "Basic/JapaneseTeaBitter": {
+  "ru": "Японский зелёный чай может показаться горьким, если ты не привык.",
+  "en": "Japanese green tea is a little bitter if you’re not used to it."
+ },
+ "Basic/JLPT": {
+  "ru": "JLPT",
+  "en": "JLPT"
+ },
+ "Basic/JuniorHighSchool": {
+  "ru": "Средняя школа",
+  "en": "Junior high school"
+ },
+ "Basic/Kana": {
+  "ru": "Кана",
+  "en": "Kana"
+ },
+ "Basic/Kanji": {
+  "ru": "Кандзи",
+  "en": "Kanji"
+ },
+ "Basic/Katakana": {
+  "ru": "Катакана",
+  "en": "Katakana"
+ },
+ "Basic/Keyboard": {
+  "ru": "Клавиатура",
+  "en": "Keyboard"
+ },
+ "Basic/KonbiniConvenient": {
+  "ru": "Комбини такие удобные!",
+  "en": "Konbini are so convenient!"
+ },
+ "Basic/Kudos": {
+  "ru": "Молодец!!",
+  "en": "Kudos!!"
+ },
+ "Basic/KunReading": {
+  "ru": "Кун",
+  "en": "Kun"
+ },
+ "Basic/Language": {
+  "ru": "Язык",
+  "en": "Language"
+ },
+ "Basic/Large": {
+  "ru": "Большой",
+  "en": "Large"
+ },
+ "Basic/LastModifiedWithValue": {
+  "ru": "Последнее изменение: #VALUE",
+  "en": "Last modified: #VALUE"
+ },
+ "Basic/Later": {
+  "ru": "Позже",
+  "en": "Later"
+ },
+ "Basic/Leave": {
+  "ru": "<style=NotImportant>Уйти</style>",
+  "en": "<style=NotImportant>Leave</style>"
+ },
+ "Basic/Lessons": {
+  "ru": "Уроки",
+  "en": "Lessons"
+ },
+ "Basic/LetsGetOut": {
+  "ru": "Пора идти.",
+  "en": "Time to go."
+ },
+ "Basic/LetsGo": {
+  "ru": "Начнём!",
+  "en": "Let’s get started!"
+ },
+ "Basic/LetsGoDownToBusiness": {
+  "ru": "Пора действовать!",
+  "en": "Let's get things done!"
+ },
+ "Basic/Lied": {
+  "ru": "Кстати, я тебя обманула.",
+  "en": "By the way, I’ve been lying to you."
+ },
+ "Basic/LivingLegend": {
+  "ru": "Живая легенда!",
+  "en": "A living legend!"
+ },
+ "Basic/Location": {
+  "ru": "Местоположение",
+  "en": "Location"
+ },
+ "Basic/Login": {
+  "ru": "Вход",
+  "en": "Login"
+ },
+ "Basic/MadeItSoFar": {
+  "ru": "Ты дошёл так далеко!",
+  "en": "You’ve made it this far!"
+ },
+ "Basic/Marketing": {
+  "ru": "Маркетинг",
+  "en": "Marketing"
+ },
+ "Basic/Mastery": {
+  "ru": "Мастерство",
+  "en": "Mastery"
+ },
+ "Basic/Max": {
+  "ru": "Макс",
+  "en": "Max"
+ },
+ "Basic/MeAgain": {
+  "ru": "Снова я!",
+  "en": "It's me again!"
+ },
+ "Basic/MeansOfDoing": {
+  "ru": "Способ сделать что-либо",
+  "en": "Means of doing"
+ },
+ "Basic/Medium": {
+  "ru": "Средний",
+  "en": "Medium"
+ },
+ "Basic/Minigames": {
+  "ru": "Мини-игры",
+  "en": "Minigames"
+ },
+ "Basic/Monk": {
+  "ru": "Монах",
+  "en": "Monk"
+ },
+ "Basic/MostRecent": {
+  "ru": "Самое новое",
+  "en": "Most recent"
+ },
+ "Basic/Move": {
+  "ru": "Перемещение",
+  "en": "Move"
+ },
+ "Basic/naAdjective": {
+  "ru": "な-Прилагательное",
+  "en": "な-Adjective"
+ },
+ "Basic/Name": {
+  "ru": "Имя",
+  "en": "Name"
+ },
+ "Basic/Negative": {
+  "ru": "Отрицание",
+  "en": "Negative"
+ },
+ "Basic/NegativeAdjective": {
+  "ru": "Отрицательная форма прилагательного",
+  "en": "Adjective (negative form)"
+ },
+ "Basic/NegativeForm": {
+  "ru": "Отрицательная форма",
+  "en": "Negative form"
+ },
+ "Basic/NegativeSentence": {
+  "ru": "Отрицательное предложение",
+  "en": "Negative sentence"
+ },
+ "Basic/NegativeVerb": {
+  "ru": "Глагол (отрицательная форма)",
+  "en": "Verb (negative form)"
+ },
+ "Basic/NeverMind": {
+  "ru": "Неважно...",
+  "en": "Never mind..."
+ },
+ "Basic/New": {
+  "ru": "Новый",
+  "en": "New"
+ },
+ "Basic/NewRecord": {
+  "ru": "Личный рекорд!",
+  "en": "Personal record!"
+ },
+ "Basic/NiceToSeeYouAgain": {
+  "ru": "Рад снова тебя видеть!",
+  "en": "It’s great to see you again!"
+ },
+ "Basic/NiceToSpeakToYou": {
+  "ru": "Было приятно поболтать с тобой, <style=NPC>#PLAYER</style>!",
+  "en": "It was a pleasure chatting with you, <style=NPC>#PLAYER</style>!"
+ },
+ "Basic/No": {
+  "ru": "Нет",
+  "en": "No"
+ },
+ "Basic/NoData": {
+  "ru": "Нет данных",
+  "en": "No data"
+ },
+ "Basic/NoElements": {
+  "ru": "Нет элементов",
+  "en": "No elements"
+ },
+ "Basic/NohTheater": {
+  "ru": "Театр Но",
+  "en": "Noh theater"
+ },
+ "Basic/NoInternet": {
+  "ru": "Убедитесь, что вы подключены к Интернету.",
+  "en": "Make sure you’re connected to the Internet."
+ },
+ "Basic/None": {
+  "ru": "Нет",
+  "en": "None"
+ },
+ "Basic/Nonpast": {
+  "ru": "Настоящее / Будущее",
+  "en": "Present/Future"
+ },
+ "Basic/NotBadNotBad": {
+  "ru": "Неплохо, неплохо...",
+  "en": "Not bad, not bad..."
+ },
+ "Basic/Nothing": {
+  "ru": "Ничего.",
+  "en": "Nothing."
+ },
+ "Basic/NothingHappened": {
+  "ru": "Ничего не произошло.",
+  "en": "Nothing happened."
+ },
+ "Basic/NotificationBadges": {
+  "ru": "Значки уведомлений",
+  "en": "Notification Badges"
+ },
+ "Basic/Notifications": {
+  "ru": "Уведомления",
+  "en": "Notifications"
+ },
+ "Basic/NoTime": {
+  "ru": "У меня нет на это времени.",
+  "en": "I don’t have time for this."
+ },
+ "Basic/Noun": {
+  "ru": "Существительное",
+  "en": "Noun"
+ },
+ "Basic/Numbers": {
+  "ru": "Числа",
+  "en": "Numbers"
+ },
+ "Basic/NumericPad": {
+  "ru": "Цифровая клавиатура",
+  "en": "Number Pad"
+ },
+ "Basic/Object": {
+  "ru": "Объект",
+  "en": "Object"
+ },
+ "Basic/Object/Well": {
+  "ru": "Колодец",
+  "en": "Well"
+ },
+ "Basic/Occupied": {
+  "ru": "Занято!",
+  "en": "Occupied!"
+ },
+ "Basic/OfCourse": {
+  "ru": "Конечно!",
+  "en": "Of course!"
+ },
+ "Basic/Oh": {
+  "ru": "О!",
+  "en": "Oh!"
+ },
+ "Basic/OhByTheWay": {
+  "ru": "Кстати!",
+  "en": "Oh, by the way!"
+ },
+ "Basic/Ok": {
+  "ru": "Ок",
+  "en": "Ok"
+ },
+ "Basic/Oldest": {
+  "ru": "Самый старый",
+  "en": "Oldest"
+ },
+ "Basic/Onomatopoeia": {
+  "ru": "Ономатопея",
+  "en": "Onomatopoeia"
+ },
+ "Basic/OnReading": {
+  "ru": "Он",
+  "en": "On"
+ },
+ "Basic/Open": {
+  "ru": "Открыть",
+  "en": "Open"
+ },
+ "Basic/Options": {
+  "ru": "Параметры",
+  "en": "Options"
+ },
+ "Basic/Other": {
+  "ru": "Другой",
+  "en": "Other"
+ },
+ "Basic/Others": {
+  "ru": "Другие",
+  "en": "Others"
+ },
+ "Basic/Particle": {
+  "ru": "Частица",
+  "en": "Particle"
+ },
+ "Basic/Partner": {
+  "ru": "Партнёр",
+  "en": "Partner"
+ },
+ "Basic/Password": {
+  "ru": "Пароль",
+  "en": "Password"
+ },
+ "Basic/PasswordForgotten": {
+  "ru": "Забыли пароль?",
+  "en": "Forgot password?"
+ },
+ "Basic/Past": {
+  "ru": "Прошедшее",
+  "en": "Past"
+ },
+ "Basic/PatreonPage": {
+  "ru": "Перейти на страницу Patreon",
+  "en": "Access to Patreon page"
+ },
+ "Basic/Pause": {
+  "ru": "Пауза",
+  "en": "Pause"
+ },
+ "Basic/Phone": {
+  "ru": "Телефон",
+  "en": "Phone"
+ },
+ "Basic/Plain": {
+  "ru": "Простая (форма)",
+  "en": "Plain"
+ },
+ "Basic/Player": {
+  "ru": "Игрок",
+  "en": "Player"
+ },
+ "Basic/PlayerExclamation": {
+  "ru": "<style=NPC>#PLAYER</style>!",
+  "en": "<style=NPC>#PLAYER</style>!"
+ },
+ "Basic/Please": {
+  "ru": "Пожалуйста",
+  "en": "Please"
+ },
+ "Basic/PlentyChoices": {
+  "ru": "Есть из чего выбрать!",
+  "en": "There’s plenty to choose from!"
+ },
+ "Basic/Polite": {
+  "ru": "Вежливый",
+  "en": "Polite"
+ },
+ "Basic/Present": {
+  "ru": "Настоящее",
+  "en": "Present"
+ },
+ "Basic/Programming": {
+  "ru": "Программирование",
+  "en": "Programming"
+ },
+ "Basic/ProperNoun": {
+  "ru": "Имя собственное",
+  "en": "Proper noun"
+ },
+ "Basic/Quests": {
+  "ru": "Задания",
+  "en": "Quests"
+ },
+ "Basic/RadioStationItem": {
+  "ru": "Радио",
+  "en": "Radio"
+ },
+ "Basic/Really/Surprise": {
+  "ru": "Правда??",
+  "en": "Really??"
+ },
+ "Basic/Recipient": {
+  "ru": "Получатель",
+  "en": "Recipient"
+ },
+ "Basic/Register": {
+  "ru": "Регистрация",
+  "en": "Register"
+ },
+ "Basic/Religion": {
+  "ru": "Религия",
+  "en": "Religion"
+ },
+ "Basic/Restart": {
+  "ru": "Начать заново",
+  "en": "Start again"
+ },
+ "Basic/ResultWithValue": {
+  "ru": "#VALUE результатов",
+  "en": "#VALUE results"
+ },
+ "Basic/RomajiTeam": {
+  "ru": "Команда Ромадзи",
+  "en": "Team Romaji"
+ },
+ "Basic/School": {
+  "ru": "Школа",
+  "en": "School"
+ },
+ "Basic/SchoolGrade": {
+  "ru": "Класс (школы)",
+  "en": "School grade"
+ },
+ "Basic/SchoolGrade/WithValue": {
+  "ru": "Класс: #VALUE",
+  "en": "School grade: #VALUE"
+ },
+ "Basic/ScoreValue": {
+  "ru": "Счёт: #VALUE",
+  "en": "Score: #VALUE"
+ },
+ "Basic/ScreenResolution": {
+  "ru": "Разрешение",
+  "en": "Resolution"
+ },
+ "Basic/Scrolling": {
+  "ru": "Прокрутка",
+  "en": "Scroll"
+ },
+ "Basic/SeemLost": {
+  "ru": "Похоже, тебе нужна <style=Quest>помощь</style>.",
+  "en": "You look like you could use <style=Quest>some help</style>."
+ },
+ "Basic/SeeYouLater": {
+  "ru": "До скорого!",
+  "en": "See you later!"
+ },
+ "Basic/Select": {
+  "ru": "Выбрать",
+  "en": "Select"
+ },
+ "Basic/Sentence": {
+  "ru": "Предложение",
+  "en": "Sentence"
+ },
+ "Basic/ShowMeYourSkills": {
+  "ru": "Покажи, что твой японский достаточно хорош!",
+  "en": "Show me that your Japanese is good enough!"
+ },
+ "Basic/Signs": {
+  "ru": "Знаки",
+  "en": "Signs"
+ },
+ "Basic/SimilarKanji": {
+  "ru": "Похожие кандзи",
+  "en": "Similar Kanji"
+ },
+ "Basic/Skins": {
+  "ru": "Скины",
+  "en": "Skins"
+ },
+ "Basic/Small": {
+  "ru": "Маленький",
+  "en": "Small"
+ },
+ "Basic/SmartTest": {
+  "ru": "Умный тест",
+  "en": "Smart Test"
+ },
+ "Basic/SmellsYouLater": {
+  "ru": "<anim=important>Пакеда, ещё увидимся!</anim>",
+  "en": "<anim=important>Smell you later!</anim>"
+ },
+ "Basic/SomethingWrittenHere": {
+  "ru": "Здесь что-то написано.",
+  "en": "Something is written here."
+ },
+ "Basic/Sorry": {
+  "ru": "Извините.",
+  "en": "Sorry."
+ },
+ "Basic/SortBy": {
+  "ru": "Сортировать по",
+  "en": "Sort by"
+ },
+ "Basic/StartAgain": {
+  "ru": "Повторить",
+  "en": "Retry"
+ },
+ "Basic/StartingPoint": {
+  "ru": "Начать",
+  "en": "Start"
+ },
+ "Basic/Stem": {
+  "ru": "Основа (слова/иерархии)",
+  "en": "Stem"
+ },
+ "Basic/Story": {
+  "ru": "История",
+  "en": "Story"
+ },
+ "Basic/StrokeCount/WithValue": {
+  "ru": "Количество черт: #VALUE",
+  "en": "Stroke count: #VALUE"
+ },
+ "Basic/Subject": {
+  "ru": "Подлежащее / Тема",
+  "en": "Subject"
+ },
+ "Basic/Synonyms": {
+  "ru": "Синонимы",
+  "en": "Synonyms"
+ },
+ "Basic/Tags": {
+  "ru": "Теги",
+  "en": "Tags"
+ },
+ "Basic/TeachSomeStuff": {
+  "ru": "В знак благодарности — небольшой урок японского языка!",
+  "en": "To thank you, here’s a little lesson about Japanese!"
+ },
+ "Basic/Technology": {
+  "ru": "Технологии",
+  "en": "Technology"
+ },
+ "Basic/Testing": {
+  "ru": "Тестирование",
+  "en": "Testing"
+ },
+ "Basic/Tests": {
+  "ru": "Тесты",
+  "en": "Tests"
+ },
+ "Basic/ThanksALot": {
+  "ru": "Большое спасибо!",
+  "en": "Thanks a lot!"
+ },
+ "Basic/ThanksPlayer": {
+  "ru": "Спасибо, <style=NPC>#PLAYER</style>!",
+  "en": "Thanks <style=NPC>#PLAYER</style>!"
+ },
+ "Basic/ThatsAPity": {
+  "ru": "Ох, как жаль...",
+  "en": "Oh, that’s a pity..."
+ },
+ "Basic/ThatsItQ": {
+  "ru": "Вот и все!",
+  "en": "That's it!"
+ },
+ "Basic/ThereIsANote": {
+  "ru": "Кто-то оставил здесь <style=Quest>записку</style>:",
+  "en": "Someone left a <style=Quest>note</style> here:"
+ },
+ "Basic/TicketMachine": {
+  "ru": "Автомат по продаже билетов",
+  "en": "Ticket vending machine"
+ },
+ "Basic/TimeToPrepare": {
+  "ru": "Понадобится немного времени на подготовку.",
+  "en": "It’s going to take some time to prepare."
+ },
+ "Basic/To": {
+  "ru": "К",
+  "en": "To"
+ },
+ "Basic/To/He": {
+  "ru": "В",
+  "en": "To"
+ },
+ "Basic/Topic": {
+  "ru": "Тема",
+  "en": "Topic"
+ },
+ "Basic/Tutorial": {
+  "ru": "Обучение",
+  "en": "Tutorial"
+ },
+ "Basic/Type": {
+  "ru": "Тип",
+  "en": "Type"
+ },
+ "Basic/Uh": {
+  "ru": "Эх...",
+  "en": "Uh..."
+ },
+ "Basic/Um": {
+  "ru": "Эмм…",
+  "en": "Um…"
+ },
+ "Basic/Unknown": {
+  "ru": "Неизвестно",
+  "en": "Unknown"
+ },
+ "Basic/Unlocked": {
+  "ru": "Разблокировано",
+  "en": "Unlocked"
+ },
+ "Basic/Upload": {
+  "ru": "Загрузить",
+  "en": "Upload"
+ },
+ "Basic/Use": {
+  "ru": "Использовать",
+  "en": "Use"
+ },
+ "Basic/VendingMachine": {
+  "ru": "Торговый автомат",
+  "en": "Vending machine"
+ },
+ "Basic/Verb": {
+  "ru": "Глагол",
+  "en": "Verb"
+ },
+ "Basic/VerbTa": {
+  "ru": "Глагол - た",
+  "en": "Verb - た"
+ },
+ "Basic/VerbTe": {
+  "ru": "Глагол - て",
+  "en": "Verb - て"
+ },
+ "Basic/VirtualMouse": {
+  "ru": "Виртуальная мышь",
+  "en": "Virtual Mouse"
+ },
+ "Basic/VerbTeiru": {
+  "ru": "Глагол - ている",
+  "en": "Verb - ている"
+ },
+ "Basic/Vmasubase": {
+  "ru": "Глагол - <s>ます</s>",
+  "en": "Verb - <s>ます</s>"
+ },
+ "Basic/Vocabulary": {
+  "ru": "Словарный запас",
+  "en": "Vocabulary"
+ },
+ "Basic/Voila": {
+  "ru": "Вот так!",
+  "en": "There you go!"
+ },
+ "Basic/Volitional": {
+  "ru": "Побуждение",
+  "en": "Volitional"
+ },
+ "Basic/WalkSlowly": {
+  "ru": "Здесь бегать нельзя!",
+  "en": "No running here!"
+ },
+ "Basic/WasVeryInteresting": {
+  "ru": "Это было действительно интересно!",
+  "en": "It was really interesting!"
+ },
+ "Basic/WatchTheMaster": {
+  "ru": "Смотри на мастера в деле!",
+  "en": "Watch the master at work!"
+ },
+ "Basic/Welcome": {
+  "ru": "Добро пожаловать!",
+  "en": "Welcome!"
+ },
+ "Basic/WelcomeToJapan": {
+  "ru": "Добро пожаловать в <style=Town>Японию</style>!",
+  "en": "Welcome to <style=Town>Japan</style>!"
+ },
+ "Basic/WellDone": {
+  "ru": "Молодец!",
+  "en": "Well done!"
+ },
+ "Basic/WellDonePlayer": {
+  "ru": "Молодец, <style=NPC>#PLAYER</style>!",
+  "en": "Well done <style=NPC>#PLAYER</style>!"
+ },
+ "Basic/Whoa": {
+  "ru": "Ух ты!!",
+  "en": "Whoa!!"
+ },
+ "Basic/WishilistGameSteam": {
+  "ru": "Wagotabi также доступна в Steam!",
+  "en": "Wagotabi is also available on Steam!"
+ },
+ "Basic/Yes": {
+  "ru": "Да",
+  "en": "Yes"
+ },
+ "Basic/YouWereLucky": {
+  "ru": "Тебе повезло...",
+  "en": "You’ve had a stroke of luck..."
+ },
+ "Basic/ZtA": {
+  "ru": "Z > A",
+  "en": "Z > A"
+ },
+ "Basic/SenPastPositive": {
+  "ru": "Утвердительное предложение о прошлом",
+  "en": "Past Positive Sentence"
+ },
+ "Basic/SenPresentFutureNegative": {
+  "ru": "Отрицательное предложение в настоящем/будущем",
+  "en": "Present/Future Negative Sentence"
+ },
+ "Conjugation/Colloquial/Info": {
+  "ru": "Используется в основном в разговорной речи и неформальной переписке (SMS, чаты и т.д.).",
+  "en": "Mainly used in spoken language and informal texting (SMS, chat, etc.)."
+ },
+ "Conjugation/Desu": {
+  "ru": "Desu",
+  "en": "Desu"
+ },
+ "Conjugation/DictionaryForm": {
+  "ru": "Словарная форма",
+  "en": "Dictionary form"
+ },
+ "Conjugation/DictionaryForm/Info": {
+  "ru": "Форма глагола, как она представлена в словаре.",
+  "en": "Form of the verb as it is found in the dictionary."
+ },
+ "Conjugation/IrregularVerb": {
+  "ru": "Неправильный глагол",
+  "en": "Irregular verb"
+ },
+ "Conjugation/JaArimasenForm": {
+  "ru": "Форма JA-ARIMASEN",
+  "en": "JA-ARIMASEN form"
+ },
+ "Conjugation/JanaiDesuForm": {
+  "ru": "Форма JA-NAI-DESU",
+  "en": "JA-NAI-DESU form"
+ },
+ "Conjugation/JanaiForm": {
+  "ru": "Форма JA-NAI",
+  "en": "JA-NAI form"
+ },
+ "Conjugation/Masen/Info": {
+  "ru": "Довольно формально и редко используется в устной речи.",
+  "en": "Quite formal and rarely used in spoken situations."
+ },
+ "Conjugation/MasenForm": {
+  "ru": "Форма MASEN",
+  "en": "MASEN form"
+ },
+ "Conjugation/MashitaForm": {
+  "ru": "Форма MASHITA",
+  "en": "MASHITA form"
+ },
+ "Conjugation/MashouForm": {
+  "ru": "Форма MASHOU",
+  "en": "MASHOU form"
+ },
+ "Conjugation/MasuForm": {
+  "ru": "Форма MASU",
+  "en": "MASU form"
+ },
+ "Conjugation/Na": {
+  "ru": "Определение к существительному",
+  "en": "Noun modifier"
+ },
+ "Conjugation/Na/Info": {
+  "ru": "Частица な добавляется к な-прилагательным для связи с определяемым словом.",
+  "en": "な is attached to な-adjectives to connect them to the word they modify."
+ },
+ "Conjugation/NaiDesuForm": {
+  "ru": "Форма NAI-DESU",
+  "en": "NAI-DESU form"
+ },
+ "Conjugation/NaiForm": {
+  "ru": "Форма NAI",
+  "en": "NAI form"
+ },
+ "Conjugation/NegativeCasual": {
+  "ru": "Отриц. (неформ.)",
+  "en": "Neg. (casual)"
+ },
+ "Conjugation/NegativeColloquial": {
+  "ru": "Отриц. (сокр.)",
+  "en": "Neg. (Contracted)"
+ },
+ "Conjugation/NegativeFormal": {
+  "ru": "Отриц. (формал.)",
+  "en": "Neg. (formal)"
+ },
+ "Conjugation/NegativeFormalColloquial": {
+  "ru": "Отриц. (формал., сокр.)",
+  "en": "Neg. (formal, contr.)"
+ },
+ "Conjugation/NonPast/Info": {
+  "ru": "Форма, используемая для настоящего или будущего времени.",
+  "en": "Form used for the present or future tense, depending on the context."
+ },
+ "Conjugation/NonpastPlainNegative": {
+  "ru": "Настоящее/Будущее (отрицание, нейтральное)",
+  "en": "Present/Future Plain Negative"
+ },
+ "Conjugation/NonpastPlainNegativeColl": {
+  "ru": "Настоящее/Будущее (отрицание, сокращённая форма)",
+  "en": "Present/Future Plain Negative (Contracted)"
+ },
+ "Conjugation/NonpastPlainPositive": {
+  "ru": "Настоящее/Будущее (нейтральное)",
+  "en": "Present/Future Plain"
+ },
+ "Conjugation/NonpastPoliteNegative": {
+  "ru": "Настоящее/Будущее (отрицание, вежливая форма)",
+  "en": "Present/Future Polite Negative"
+ },
+ "Conjugation/NonpastPoliteNegativeColl": {
+  "ru": "Наст./Будущее отрицание (вежл., сокращённое)",
+  "en": "Present/Future Polite Negative (Contracted)"
+ },
+ "Conjugation/NonpastPoliteNegativeFomalColl": {
+  "ru": "Наст./Будущее отрицание (очень вежл., сокращённое)",
+  "en": "Present/Future Polite Negative Formal (Contracted)"
+ },
+ "Conjugation/NonpastPoliteNegativeFormal": {
+  "ru": "Наст./Будущее отрицание (очень вежливая форма)",
+  "en": "Present/Future Polite Negative Formal"
+ },
+ "Conjugation/NonpastPolitePositive": {
+  "ru": "Настоящее/Будущее (вежливая форма)",
+  "en": "Present/Future Polite"
+ },
+ "Conjugation/NotOftenUsed": {
+  "ru": "Редко используется",
+  "en": "Rarely used"
+ },
+ "Conjugation/PastPlainPositive": {
+  "ru": "Прошедшее время (нейтральное)",
+  "en": "Past Plain"
+ },
+ "Conjugation/PastPolitePositive": {
+  "ru": "Прошедшее время (вежливое)",
+  "en": "Past Polite"
+ },
+ "Conjugation/Plain/Info": {
+  "ru": "Нейтральная форма часто используется в неформальных ситуациях.",
+  "en": "The plain form is often used in casual situations."
+ },
+ "Conjugation/Positive": {
+  "ru": "Утвердительная форма",
+  "en": "Positive"
+ },
+ "Conjugation/PresentPlainNegative": {
+  "ru": "Настоящее отрицание (нейтральное)",
+  "en": "Present Plain Negative"
+ },
+ "Conjugation/PresentPlainNegativeColl": {
+  "ru": "Настоящее отрицание (нейтральное, сокращённое)",
+  "en": "Present Plain Negative (Contracted)"
+ },
+ "Conjugation/PresentPlainPositive": {
+  "ru": "Настоящее (нейтральное)",
+  "en": "Present Plain"
+ },
+ "Conjugation/PresentPoliteNegative": {
+  "ru": "Настоящее отрицание (вежливая форма)",
+  "en": "Present Polite Negative"
+ },
+ "Conjugation/PresentPoliteNegativeCasual": {
+  "ru": "Настоящее отрицание (вежливо, но неформально)",
+  "en": "Present Polite Negative Casual"
+ },
+ "Conjugation/PresentPoliteNegativeColl": {
+  "ru": "Настоящее отрицание (сокращённое)",
+  "en": "Present Negative (Contracted)"
+ },
+ "Conjugation/PresentPoliteNegativeFormal": {
+  "ru": "Настоящее отрицание (очень вежливая форма)",
+  "en": "Present Polite Negative Formal"
+ },
+ "Conjugation/PresentPoliteNegativeFormalColl": {
+  "ru": "Настоящее отрицание (формальное, сокращённое)",
+  "en": "Present Negative Formal (Contracted)"
+ },
+ "Conjugation/PresentPolitePositive": {
+  "ru": "Настоящее (вежливая форма)",
+  "en": "Present Polite"
+ },
+ "Conjugation/SameAsDictionaryForm": {
+  "ru": "Совпадает со словарной формой",
+  "en": "Same as the dictionary form"
+ },
+ "Conjugation/Suru": {
+  "ru": "Глагол «суру»",
+  "en": "'Suru' verb"
+ },
+ "Conjugation/TaForm": {
+  "ru": "Форма TA",
+  "en": "TA form"
+ },
+ "Conjugation/Te": {
+  "ru": "Te",
+  "en": "Te"
+ },
+ "Conjugation/TeForm": {
+  "ru": "Форма TE",
+  "en": "TE form"
+ },
+ "Conjugation/Unlock": {
+  "ru": "Спряжение разблокировано!",
+  "en": "Conjugation unlocked!"
+ },
+ "Conjugation/VerbGodan": {
+  "ru": "Глагол Годан",
+  "en": "Godan verb"
+ },
+ "Conjugation/VerbIchidan": {
+  "ru": "Глагол Ичидан",
+  "en": "Ichidan verb"
+ },
+ "Conjugation/VolitionalPolitePositive": {
+  "ru": "Побудительная форма (вежливая)",
+  "en": "Volitional Polite"
+ },
+ "DictionaryEntry/Category": {
+  "ru": "Категория",
+  "en": "Category"
+ },
+ "DictionaryEntry/HaIsWa": {
+  "ru": "<sprite name=warning> <b><audio=kana:ha>は</audio></b> произносится как <b><audio=kana:wa>わ</audio></b> здесь.",
+  "en": "<sprite name=warning> <b><audio=kana:ha>は</audio></b> is pronounced <b><audio=kana:wa>わ</audio></b> here."
+ },
+ "DictionaryEntry/HeIsE": {
+  "ru": "<sprite name=warning> Здесь <b><audio=kana:he>へ</audio></b> произносится как <b><audio=kana:e>え</audio></b>.",
+  "en": "<sprite name=warning> Here <b><audio=kana:he>へ</audio></b> is pronounced <b><audio=kana:e>え</audio></b>."
+ },
+ "DictionaryEntry/Informal": {
+  "ru": "<sprite name=warning> Это использование неформальное.",
+  "en": "<sprite name=warning> This use is informal."
+ },
+ "DictionaryEntry/ReviewCount": {
+  "ru": "<b>#VALUE</b> обзоры",
+  "en": "<b>#VALUE</b> reviews"
+ },
+ "DictionaryTag/AnimalsPlants": {
+  "ru": "Животные и растения",
+  "en": "Animals & Plants"
+ },
+ "DictionaryTag/BodyHealth": {
+  "ru": "Тело и здоровье",
+  "en": "Body & Health"
+ },
+ "DictionaryTag/BuildingsPlaces": {
+  "ru": "Здания и места",
+  "en": "Buildings & Places"
+ },
+ "DictionaryTag/ClothesFashion": {
+  "ru": "Одежда и мода",
+  "en": "Clothes & Fashion"
+ },
+ "DictionaryTag/FestivalsEvents": {
+  "ru": "Фестивали и события",
+  "en": "Festivals & Events"
+ },
+ "DictionaryTag/FoodDrinksCookingRestaurant": {
+  "ru": "Еда/напитки и кулинария/ресторан",
+  "en": "Food/Drinks & Cooking/Restaurant"
+ },
+ "DictionaryTag/HomeFamily": {
+  "ru": "Дом и семья",
+  "en": "Home & Family"
+ },
+ "DictionaryTag/HonorificOGo": {
+  "ru": "Почтительное (お/ご)",
+  "en": "Honorific (お/ご)"
+ },
+ "DictionaryTag/IrregularReading": {
+  "ru": "Нерегулярное чтение",
+  "en": "Irregular Reading"
+ },
+ "DictionaryTag/MoneyBank": {
+  "ru": "Деньги и банк",
+  "en": "Money & Bank"
+ },
+ "DictionaryTag/NatureClimate": {
+  "ru": "Природа и климат",
+  "en": "Nature & Climate"
+ },
+ "DictionaryTag/PoliticsAdministrationLaw": {
+  "ru": "Политика, администрация и право",
+  "en": "Politics, Administration & Law"
+ },
+ "DictionaryTag/PositionSpaceTime": {
+  "ru": "Позиция (Пространство и время)",
+  "en": "Position (Space & Time)"
+ },
+ "DictionaryTag/PronounsPrefixesSuffixes": {
+  "ru": "Местоимения, приставки и суффиксы",
+  "en": "Pronouns & Prefixes & Suffixes"
+ },
+ "DictionaryTag/RelationshipsFeelingsEmotions": {
+  "ru": "Отношения, чувства и эмоции",
+  "en": "Relationships & Feelings & Emotions"
+ },
+ "DictionaryTag/SchoolWork": {
+  "ru": "Школа и работа",
+  "en": "School & Work"
+ },
+ "DictionaryTag/ShoppingMoney": {
+  "ru": "Покупки и деньги",
+  "en": "Shopping & Money"
+ },
+ "DictionaryTag/TravelTransportation": {
+  "ru": "Путешествия и транспорт",
+  "en": "Travel & Transportation"
+ },
+ "Exercice/AssociateFlashCard/Description": {
+  "ru": "Нажмите на соответствующие пары.",
+  "en": "Tap on the corresponding pairs."
+ },
+ "Exercice/Conjugation/Description": {
+  "ru": "Напишите хираганой в форме глагола:",
+  "en": "Write in Hiragana in the conjugated form:"
+ },
+ "Exercice/ConvertIntoNounModification/Description": {
+  "ru": "Напиши это предложение, используя форму модификации существительного.",
+  "en": "Write this sentence using the noun modification form."
+ },
+ "Exercice/PutSentenceInCorrectOrder/Description": {
+  "ru": "Поставьте предложение в правильном порядке.",
+  "en": "Put the sentence in the right order."
+ },
+ "Exercice/TypeEnding": {
+  "ru": "Выберите правильное окончание: #VALUE",
+  "en": "Choose the correct ending: #VALUE"
+ },
+ "Exercice/WordReading/Hiragana/Description": {
+  "ru": "Написать хираганой.",
+  "en": "Write in Hiragana."
+ },
+ "Exercice/WordReading/Katakana/Description": {
+  "ru": "Написать катаканой.",
+  "en": "Write in Katakana."
+ },
+ "Kanjidex/Filter/HideNotUnlocked": {
+  "ru": "Скрыть неразблокированные кандзи",
+  "en": "Hide non-unlocked Kanji"
+ },
+ "Kanjidex/Frequency": {
+  "ru": "Использование",
+  "en": "Use"
+ },
+ "Kanjidex/Kun/Explanation": {
+  "ru": "Кунъёми —японское чтение, основанное на произношении исконно японских слов, к которым были искусственно подобраны китайские иероглифы.",
+  "en": "Kun’yomi, the Japanese reading or native reading, is based on the pronunciation of a native Japanese word. This pronunciation was then associated to a Kanji when it was introduced in Japan."
+ },
+ "Kanjidex/MeaningTooltip": {
+  "ru": "Один кандзи может иметь несколько разных значений. Кандзидекс показывает только наиболее распространенное значение кандзи, чтобы помочь вам его запомнить.",
+  "en": "A single Kanji may have a couple different meanings. The Kanjidex only shows the most common meaning of a Kanji to help you remember it."
+ },
+ "Kanjidex/On/Explanation": {
+  "ru": "Онъёми — японская интерпретация китайского произношения иероглифа.",
+  "en": "On’yomi is the Sino-Japanese reading, is a Japanese approximation of the Chinese pronunciation of the Kanji at the time it was introduced."
+ },
+ "Lessons/CounterFloors/Content": {
+  "ru": "<style=Title1>Счётчики в японском языке</style>В японском языке существуют специальные слова — счётчики, которые указывают, какой именно объект считается. Разные счётчики используются для объектов разной формы и типа. Счётчики ставятся сразу после чисел.<br><br><style=Title1>Счётчик этажей</style>Счётчик для <b>этажей зданий</b> — это <style=Base><word=K00174></style>. Это также существительное, означающее «этаж здания».<br><br><style=Title1>Счёт этажей в здании</style>Номер этажа ставится перед счётчиком:<br>・Четвёртый этаж (японская система этажей): <word=K00159><style=Base><word=K00174></style><br>・Седьмой этаж (японская система этажей): <word=K00162><style=Base><word=K00174></style><br><br><sprite name=warning> В Японии первый этаж здания считается первым, следующий над ним — вторым и так далее.<br><japaneseText=Lessons/Contents/CounterFloors/1><br><style=Meaning>Я на втором этаже (японская система этажей) дома.</style><br><br><style=Title1><sprite name=warning> Нерегулярные чтения</style>Есть несколько нерегулярных чтений при счёте этажей:<br>・<word=K01019>: いち+かい → <b>いっ</b>かい<br>・<word=K01021>: さん+かい → さん<b>がい</b><br>・<word=K01023>: ろく+かい → <b>ろっ</b>かい<br>・<word=K01027>: はち+かい → <b>はっ</b>かい<br>・<word=K01024>: じゅう+かい → <b>じゅっ</b>かい<br><br><style=Title1>Счёт подземных этажей</style>Подземные этажи обозначаются с помощью слова <b><word=K01026></b>, которое ставится перед номером этажа.<br>・Подземный уровень 1 (японская система этажей): <b><word=K01026></b><word=K01019><br>・Подземный уровень 2 (японская система этажей): <b><word=K01026></b><word=K00157><word=K00174><br>・Подземный уровень 3 (японская система этажей): <b><word=K01026></b><word=K01021><br><japaneseText=Lessons/Contents/CounterFloors/2><br><style=Meaning>Я иду на третий подземный уровень (японская система этажей).</style><br><br><sprite name=info> В Японии подземные этажи обычно обозначаются как B1, B2, B3 и т. д.",
+  "en": "<style=Title1>Counters in Japanese</style>In Japanese, there are special words called counters that specify what kind of objects are being counted. Different counters are used for different shapes or types of objects. Counters are added directly after numbers.<br><br><style=Title1>Counter for floors</style>The counter for <b>building floors</b> is <style=Base><word=K00174></style>. It is also a noun that means “floor of a building”.<br><br><style=Title1>Counting floors in a building</style>The number of the floor is placed before the counter for floors:<br>・Fourth floor (Japanese floor system): <word=K00159><style=Base><word=K00174></style><br>・Seventh floor (Japanese floor system): <word=K00162><style=Base><word=K00174></style><br><br><sprite name=warning> In Japan, the ground floor of a building is counted as its first floor. The floor above it is counted as its second floor etc.<br><japaneseText=Lessons/Contents/CounterFloors/1><br><style=Meaning>I am on the second floor (Japanese floor system) of the house.</style><br><br><style=Title1><sprite name=warning> Irregular readings</style>There are a couple irregular readings when counting the number of floors:<br>・<word=K01019>: いち+かい → <b>いっ</b>かい<br>・<word=K01021>: さん+かい → さん<b>がい</b><br>・<word=K01023>: ろく+かい → <b>ろっ</b>かい<br>・<word=K01027>: はち+かい → <b>はっ</b>かい<br>・<word=K01024>: じゅう+かい → <b>じゅっ</b>かい<br><br><style=Title1>Counting negative floors </style>Basement floors are indicated by adding the word <b><word=K01026></b> before the floor level.<br>・Basement level 1 (Japanese floor system): <b><word=K01026></b><word=K01019><br>・Basement level 2 (Japanese floor system): <b><word=K01026></b><word=K00157><word=K00174><br>・Basement level 3 (Japanese floor system): <b><word=K01026></b><word=K01021><br><japaneseText=Lessons/Contents/CounterFloors/2><br><style=Meaning>I will go to basement level three (Japanese floor system).</style><br><br><sprite name=info> The basement floors in Japan are usually indicated as B1, B2, B3 etc."
+ },
+ "Lessons/Dakuten/Content": {
+  "ru": "Символ <b>゛</b>, расположенный в верхней правой части Kana, изменяет его звучание: <br><b>K → G</b>: <audio=kana:ka><b><style=Hiragana>か</style></b></audio> (ka) <b>→ <audio=kana:ga><style=Hiragana>が</style></audio></b> (ga)<br><b>S → Z</b>: <audio=kana:su><b><style=Katakana>ス</style></b></audio> (su) <b>→ <audio=kana:zu><style=Katakana>ズ</style></audio></b> (zu)<br><b>T → D</b>: <audio=kana:ta><b><style=Hiragana>た</style></b></audio> (ta) <b>→ <audio=kana:da><style=Hiragana>だ</style></audio></b> (da)<br><b>H → B</b>: <audio=kana:ha><b><style=Katakana>ハ</style></b></audio> (ha) <b>→ <audio=kana:ba><style=Katakana>バ</style></audio></b> (ba)<br><br>Символ <b>゜</b> может быть использован только для Kana, начинающихся с звука <b>H</b>:<br><b>H → P</b>: <b><audio=kana:ha><style=Hiragana>は</style></audio></b> (ha)<b> → <audio=kana:pa><style=Hiragana>ぱ</style></audio></b> (pa)<br><br>К маленьким <b><style=Hiragana>ゃ</style></b>/<b><audio=kana:ya><style=Katakana>ャ</style></audio></b>, <b><style=Hiragana>ゅ</style></b>/<audio=kana:yu><b><style=Katakana>ュ</style></b></audio>, или <b><style=Hiragana>ょ</style></b>/<audio=kana:yo><b><style=Katakana>ョ</style></b></audio> можно добавить к Kana, заканчивающимся на звук <b>i</b>.<br><audio=kana:ki><b><style=Hiragana>き</style></b></audio> (ki) + <audio=kana:ya><b><style=Hiragana>ゃ</style></b></audio> (ya)<b> → <audio=kana:kya><style=Hiragana>きゃ</style></audio></b> (kya)<br><audio=kana:ji><b><style=Katakana>ジ</style></b></audio> (ji) + <audio=kana:yo><b><style=Katakana>ョ</style></b></audio> (yo)<b> → <audio=kana:jo><style=Katakana>ジョ</style></audio></b> (jo)<br><br>Все комбинации указаны в <style=Feature>таблице Kana</style> книги.",
+  "en": "The symbol <b>゛</b> placed on the top right of a Kana changes its sound:<br><b>K → G</b>: <audio=kana:ka><b><style=Hiragana>か</style></b></audio> (ka) <b>→ <audio=kana:ga><style=Hiragana>が</style></audio></b> (ga)<br><b>S → Z</b>: <audio=kana:su><b><style=Katakana>ス</style></b></audio> (su) <b>→ <audio=kana:zu><style=Katakana>ズ</style></audio></b> (zu)<br><b>T → D</b>: <audio=kana:ta><b><style=Hiragana>た</style></b></audio> (ta) <b>→ <audio=kana:da><style=Hiragana>だ</style></audio></b> (da)<br><b>H → B</b>: <audio=kana:ha><b><style=Katakana>ハ</style></b></audio> (ha) <b>→ <audio=kana:ba><style=Katakana>バ</style></audio></b> (ba)<br><br>The symbol <b>゜</b> can only be used on Kana starting by the <b>H</b> sound.<br><b>H → P</b>: <b><audio=kana:ha><style=Hiragana>は</style></audio></b> (ha)<b> → <audio=kana:pa><style=Hiragana>ぱ</style></audio></b> (pa)<br><br>A small <b><style=Hiragana>ゃ</style></b>/<b><audio=kana:ya><style=Katakana>ャ</style></audio></b>, <b><style=Hiragana>ゅ</style></b>/<audio=kana:yu><b><style=Katakana>ュ</style></b></audio>, or <b><style=Hiragana>ょ</style></b>/<audio=kana:yo><b><style=Katakana>ョ</style></b></audio> can be added to Kana ending with the <b>i</b> sound.<br><audio=kana:ki><b><style=Hiragana>き</style></b></audio> (ki) + <audio=kana:ya><b><style=Hiragana>ゃ</style></b></audio> (ya)<b> → <audio=kana:kya><style=Hiragana>きゃ</style></audio></b> (kya)<br><audio=kana:ji><b><style=Katakana>ジ</style></b></audio> (ji) + <audio=kana:yo><b><style=Katakana>ョ</style></b></audio> (yo)<b> → <audio=kana:jo><style=Katakana>ジョ</style></audio></b> (jo)<br><br>All combinations are in the <style=Feature>Kana chart</style> of the book."
+ },
+ "Lessons/FormingNumbers/Content": {
+  "ru": "В японском языке существует логичный способ комбинировать цифры и формировать более сложные числа. <br><br><style=Title1>Основные единицы</style>Числа следуют системе базовых единиц, где разные иероглифы представляют степени десяти (10). Это <style=Base>основные единицы</style>:<br>・<style=Base><word=K00165></style>: 10<br>・<style=Base><word=K00166></style>: 100<br>・<style=Base><word=K00167></style>: 1 000<br>・<style=Base><word=K00168></style>: 10 000<br><br><style=Title1>Шаблон формирования чисел</style>Число, стоящее перед <style=Base>основной единицей</style>, умножает её: <br>・<word=K00157><style=Base><word=K00165></style> = 2 × <style=Base>10</style> = 20<br>・<word=K00159> <style=Base><word=K00166></style> = 4 × <style=Base>100</style> = 400<br>・<word=K00162><style=Base><word=K00167></style> = 7 × <style=Base>1 000</style> = 7 000<br>・<word=K00160><style=Base><word=K00168></style> = 5 × <style=Base>10 000</style> = 50 000<br><br>Число, стоящее после <style=Base>основной единицы</style>, прибавляется:<br>・<style=Base><word=K00165></style><word=K00162> = <style=Base>10</style> + 7 = 17<br>・<word=K00160><style=Base><word=K00166></style><word=K00158> <style=Base><word=K00165></style> <word=K00163> = 5 × <style=Base>100</style> + 3 × <style=Base>10</style> + 8 = 538<br>・<word=K00156><style=Base><word=K00168></style> <word=K00164> <style=Base><word=K00165></style> = 1 × <style=Base>10 000</style> + 9 × <style=Base>10</style> = 10 090<br><br><sprite name=info> Обратите внимание, что в случае с базовой единицей 10 000 перед <word=K00168> пишется <word=K00156>, чтобы записать 10 000.<br><br><style=Title1>Формирование больших чисел</style>В японском языке 10 000 является <style=Base>основной единицей</style>, что отличается от западной системы. Эта единица также используется для формирования больших чисел (без группировки по тысячам, как в западной системе).<br>・<word=K00156><style=Base><word=K00168></style> = 1 × <style=Base>10 000</style> = 10 000<br>・<word=K00165><style=Base><word=K00168></style> = 10 × <style=Base>10 000</style> = 100 000<br>・<word=K00166><style=Base><word=K00168></style> = 100 × <style=Base>10 000</style> = 1 000 000<br>・<word=K01008><style=Base><word=K00168></style> = 1 × 1 000 × <style=Base>10 000</style> = 10 000 000 (<sprite name=info> Обратите внимание, что в этом случае перед <word=K00167> используется <word=K00156>)<br><br><style=Title1><sprite name=warning> Нерегулярные чтения</style>Существуют несколько нерегулярных чтений чисел: <br>・<word=K00997> : さん+ひゃく → さん<style=Base>びゃく</style><br>・<word=K00998> : ろく+ひゃく → <style=Base>ろっぴゃく</style><br>・<word=K00999> : はち+ひゃく → <style=Base>はっぴゃく</style><br>・<word=K01000> : さん+せん → さん<style=Base>ぜん</style><br>・<word=K01001> : はち+せん → <style=Base>はっ</style>せん<br>・<word=K01006> : いち+せん+まん → <style=Base>いっ</style>せんまん<br><br><sprite name=info> Обратите внимание, что 1 000 записывается как <word=K00167>, а не <word=K00156><word=K00167>.<br><br><style=Title1><sprite name=info> Счёт предметов</style>В японском языке числа нельзя использовать сами по себе для подсчёта предметов или живых существ. После чисел необходимо добавлять специальные счётные слова. Они будут представлены в следующих уроках.",
+  "en": "In Japanese, there is a basic and logical pattern to combine digits and form more complex numbers. <br><br><style=Title1>Base units</style>Numbers follow a base unit system, where different Kanji represent powers of ten (10). These are the <style=Base>base units</style>:<br>・<style=Base><word=K00165></style>: 10<br>・<style=Base><word=K00166></style>: 100<br>・<style=Base><word=K00167></style>: 1,000<br>・<style=Base><word=K00168></style>: 10,000<br><br><style=Title1>Number forming pattern</style>A number before a <style=Base>base unit</style> multiplies it: <br>・<word=K00157><style=Base><word=K00165></style> = 2 × <style=Base>10</style> = 20<br>・<word=K00159> <style=Base><word=K00166></style> = 4 × <style=Base>100</style> = 400<br>・<word=K00162><style=Base><word=K00167></style> = 7 × <style=Base>1,000</style> = 7,000<br>・<word=K00160><style=Base><word=K00168></style> = 5 × <style=Base>10,000</style> = 50,000<br><br>A number after a <style=Base>base unit</style> is added:<br>・<style=Base><word=K00165></style><word=K00162> = <style=Base>10</style> + 7 = 17<br>・<word=K00160><style=Base><word=K00166></style><word=K00158> <style=Base><word=K00165></style> <word=K00163> = 5 × <style=Base>100</style> + 3 × <style=Base>10</style> + 8 = 538<br>・<word=K00156><style=Base><word=K00168></style> <word=K00164> <style=Base><word=K00165></style> = 1 × <style=Base>10,000</style> + 9 × <style=Base>10</style> = 10,090<br><br><sprite name=info>  Note that in the case of the base unit 10,000 there is a <word=K00156> before <word=K00168> to write 10,000.<br><br><style=Title1>Forming larger numbers</style>In Japanese, 10,000 is a <style=Base>base unit</style>, which is different from the Western system. This unit is also used to form higher numbers (no grouping by thousands as in the Western system).<br>・<word=K00156><style=Base><word=K00168></style>  = 1 × <style=Base>10,000</style> =\u001d 10,000<br>・<word=K00165><style=Base><word=K00168></style> = 10 × <style=Base>10,000</style> = 100,000<br>・<word=K00166><style=Base><word=K00168></style> = 100 × <style=Base>10,000</style> = 1,000,000<br>・<word=K01008><style=Base><word=K00168></style>  = 1 × 1,000 × <style=Base>10,000</style> = 10,000,000  (<sprite name=info>  Note that in that case, <word=K00156> is used before <word=K00167>)<br><br><style=Title1><sprite name=warning> Irregular readings</style>There are a couple irregular readings for numbers:<br>・<word=K00997>: さん+ひゃく → さん<style=Base>びゃく</style><br>・<word=K00998>: ろく+ひゃく → <style=Base>ろっぴゃく</style><br>・<word=K00999>: はち+ひゃく → <style=Base>はっぴゃく</style><br>・<word=K01000>: さん+せん → さん<style=Base>ぜん</style><br>・<word=K01001>: はち+せん → <style=Base>はっ</style>せん<br>・<word=K01006>: いち+せん+まん → <style=Base>いっ</style>せんまん<br><br><sprite name=info> Note that 1,000 is written <word=K00167> and not <word=K00156><word=K00167>.<br><br><style=Title1><sprite name=info> Counting things</style>In Japanese, numbers cannot be used alone to count objects or living things. Special counters must be added after the numbers. These counters will be introduced in later lessons."
+ },
+ "Lessons/FormingNumbers/Title": {
+  "ru": "Формирование чисел на японском языке",
+  "en": "Forming numbers in Japanese"
+ },
+ "Lessons/HaGa/Content": {
+  "ru": "<b>が</b> подчеркивает слово, которое идет <u>до</u> него, <b>подлежащее</b> предложения. <b>Подлежащее</b> — это слово, которое вы хотите выделить в предложении. Объем этого акцента <b>ограничен текущим предложением</b>.<br><br><sentence=194><br><br><b>は</b>, частица <b>темы</b>, подчеркивает то, что идет <u>после</u> нее. Она используется для определения <b>общей темы абзаца</b>. <b>Тема</b> также может быть грамматическим <b>подлежащим</b> предложения.<br><br><sentence=193>",
+  "en": "<b>が</b> emphasizes the word that comes <u>before</u> it, the <b>subject</b> of a sentence. The <b>subject</b> is the word you want to emphasize in the sentence. The scope of this emphasis is <b>limited to the current sentence</b>.<br><br><sentence=194><br><br><b>は</b>, the <b>topic</b> particle, emphasizes what comes <u>after</u> it. Is used to define the <b>broad topic of a paragraph</b>. The <b>topic</b>, can also be the grammatical <b>subject</b> of the sentence.<br><br><sentence=193>"
+ },
+ "Lessons/iAdjective/Content": {
+  "ru": "<style=Title1>Прилагательные в японском языке</style>Прилагательные используются для <u>описания существительных</u> или, отдельно, для <u>описания ситуаций или эмоций</u>. Как и глаголы, прилагательные могут изменяться в различные формы. В японском языке есть два типа прилагательных: <b>い-прилагательные</b> и <b>な-прилагательные</b>.<br><b>い-прилагательные</b> имеют свою словарную форму, заканчивающуюся на <b>い</b>.<br>Пример: <b><adjective=1907z></b>, <b><adjective=1967z></b>, <b><adjective=2099z></b>, <b><adjective=2003z></b> <br><br><style=Title1>Использование в конце предложения</style>Когда い-прилагательное используется в <u>конце предложения</u>, оно описывает подлежащее или <tooltip key=Tooltip/Topic>тему</tooltip> этого предложения.<br><japaneseText=Lessons/Contents/iAdj/1><br><style=Meaning>Этот бэнто вкусный!</style><br><br><style=Title1>Использование перед существительным</style>И- прилагательное может быть использовано <u>непосредственно перед существительным</u>, формируя короткую фразу с существительным.<br><japaneseText=Lessons/Contents/iAdj/2><br><style=Meaning>На дереве есть маленькая кошка.</style><br><br><style=Title1>Настоящее время (～い)</style>Эта форма <b>всегда заканчивается на い</b> и является такой же, как и словарная форма.<br><br><b>Форма настоящего времени</b> используется для описания текущей ситуации или эмоций. Она обычно используется в <u>неформальных</u> разговорах с друзьями, семьей или людьми того же возраста или статуса.<br><br><style=Title1>Вежливая форма настоящего времени (～いです)</style>Эта <b>вежливая форма настоящего времени</b> обычно используется при <u>показывании уважения</u> к людям более высокого статуса или тем, с кем вы не знакомы близко. Эта форма строится путем добавления <b>です</b> к словарной форме い-прилагательного.<br><b><adjective=2097z></b> → <b><adjective=2097ba></b><br><b><adjective=1967z></b> → <b><adjective=1967ba></b>",
+  "en": "<style=Title1>Adjectives in Japanese</style>Adjectives are used to <u>describe nouns</u> or, on their own, to <u>describe situations or feelings</u>. Just like verbs, adjectives can be conjugated into different forms. There are two types of adjectives in Japanese: <b>い-adjectives</b> and <b>な-adjectives</b>.<br><b>い-adjectives</b> have their dictionary form finishing with <b>い</b>.<br>Example: <b><adjective=1907z></b>, <b><adjective=1967z></b>, <b><adjective=2099z></b>, <b><adjective=2003z></b> <br><br><style=Title1>Use at the end of a sentence</style>When used at the <u>end of a sentence</u>, the い-adjective describes the subject or <tooltip key=Tooltip/Topic>topic</tooltip> of that sentence.<br><japaneseText=Lessons/Contents/iAdj/1><br><style=Meaning>(That) bento is delicious!</style><br><br><style=Title1>Use before a noun</style>An い-adjective can be used <u>directly before a noun</u>, forming a short noun phrase.<br><japaneseText=Lessons/Contents/iAdj/2><br><style=Meaning>On top of the tree, there is a small cat.</style><br><br><style=Title1>Present Plain (~い)</style>This form <b>always ends with い</b> and is the same as the dictionary form.<br><br>The <b>present plain form</b> is used to describe a current situation or feeling. It is generally used in <u>casual</u> conversations with friends, family, or people of the same or lower age or status.<br><br><style=Title1>Present Polite (~いです)</style>The <b>present polite form</b> is generally used when <u>showing respect</u> to someone of higher status or someone you are not closely acquainted with. This form is constructed by adding <b>です</b> to the dictionary form of the い-adjective.<br><b><adjective=2097z></b> → <b><adjective=2097ba></b><br><b><adjective=1967z></b> → <b><adjective=1967ba></b>"
+ },
+ "Lessons/iAdjective/Title": {
+  "ru": "い-прилагательные",
+  "en": "い-adjectives"
+ },
+ "Lessons/iAdjectiveNegative/Content": {
+  "ru": "Форма отрицания прилагательных используется для выражения того, что конкретное качество или характеристика <b>не применяются</b> к существительному, ситуации или чувству.<br><br><style=Title1>Корневая форма прилагательных на い</style> <b>Корневая форма</b> прилагательных на い не используется самостоятельно, но полезна для некоторых грамматических конструкций. Корневая форма прилагательного на い получается удалением последнего <b>い</b>.<br><b><adjective=2097z></b> → <b><adjective=2097y></b><br><b><adjective=1967z></b> → <b><adjective=1967y></b><br><br><style=Title1>~くないです (Настоящее вежливое отрицание)</style> Это <u>самая часто</u> используемая <b>вежливая</b> форма отрицания. Она используется в вежливых контекстах (когда говорим с людьми, с которыми мы менее близки или с более высоким статусом).<br>Форма образуется добавлением <b>くないです</b> к <b>корневой форме</b> прилагательного на い.<br><b><adjective=2097z></b> → <b><adjective=2097fa></b><br><br><japaneseText=Lessons/Contents/iAdjNeg/1><br><style=Meaning>Мой дом не большой.</style><br><br><sprite name=warning> <b>いい</b> — исключение.<br><b><adjective=2099z></b> → <b><adjective=2099fa></b><br><br><japaneseText=Lessons/Contents/iAdjNeg/4><br><style=Meaning>Эта книга японского языка (близкая к говорящему) не хорошая.</style><br><br><style=Title1>~くありません (Настоящее вежливое отрицание формальное — реже используется)</style> Эта форма <b>довольно формальна</b> и используется реже, чем форма ~くないです. Она в основном используется в письмах и в некоторых очень формальных устных ситуациях.<br>Форма образуется добавлением <b>くありません</b> к <b>корневой форме</b> прилагательного на い.<br><b><adjective=2097z></b> → <b><adjective=2097ca></b><br><br><japaneseText=Lessons/Contents/iAdjNeg/2><br><style=Meaning>Мой дом не большой. (формально)</style><br><br><sprite name=warning> <b>いい</b> — исключение.<br><b><adjective=2099z></b> → <b><adjective=2099ca></b><br><br><japaneseText=Lessons/Contents/iAdjNeg/5><br><style=Meaning>Эта книга японского языка (близкая к говорящему) не хорошая. (формально)</style><br><br><style=Title1>~くない (Настоящее простое отрицание)</style> Эта форма обычно используется в <b>неформальных</b> разговорах с друзьями, семьей или людьми того же возраста или низшего статуса.<br>Форма образуется добавлением <b>くない</b> к <b>корневой форме</b> прилагательного на い.<br><b><adjective=2097z></b> → <b><adjective=2097ga></b><br><br><japaneseText=Lessons/Contents/iAdjNeg/3><br><style=Meaning>Мой дом не большой. (неформально)</style><br><br><sprite name=warning> <b>いい</b> — исключение.<br><b><adjective=2099z></b> → <b><adjective=2099ga></b><br><br><japaneseText=Lessons/Contents/iAdjNeg/6><br><style=Meaning>Эта книга японского языка (близкая к говорящему) не хорошая. (неформально)</style><br><br><style=Title1>Использование か с отрицательной формой прилагательных на い</style> Добавление か или знака вопроса превращает отрицательную форму прилагательных на い в риторический вопрос, подчеркивание или способ поиска согласия.<br><br><japaneseText=Lessons/Contents/iAdjNeg/7><br><style=Meaning>Разве магазин напротив вокзала не хорош?</style><br><br><japaneseText=Lessons/Contents/iAdjNeg/8><br><style=Meaning>Разве персики из префектуры Окаяма не вкусные?</style>",
+  "en": "The negative form of adjectives is used to express that a particular quality or characteristic <b>does not apply</b> to a noun, situation, or feeling.<br><br><style=Title1>Stem form of い-adjectives</style>The <b>stem form</b> い-adjectives is not used on its own, but useful for some grammatical constructions. The stem form of an い-adjective is obtained by removing its final <b>い</b>.<br><b><adjective=2097z></b> → <b><adjective=2097y></b><br><b><adjective=1967z></b> → <b><adjective=1967y></b><br><br><style=Title1>~くないです (Present Polite Negative)</style>This is the <u>most commonly</u> used <b>polite</b> negative form. It is used when speaking in a polite context (when talking to people you are less close to, or of higher status).<br>It is constructed by adding <b>くないです</b> to <b>stem form</b> of the い-Adjective.<br><b><adjective=2097z></b> → <b><adjective=2097fa></b><br><br><japaneseText=Lessons/Contents/iAdjNeg/1><br><style=Meaning>My house is not big.</style><br><br><sprite name=warning> <b>いい</b> is an exception.<br><b><adjective=2099z></b> → <b><adjective=2099fa></b><br><br><japaneseText=Lessons/Contents/iAdjNeg/4><br><style=Meaning>This (close to the speaker) Japanese book is not good.</style><br><br><style=Title1>~くありません (Present Polite Negative Formal - less used)</style>This form is <b>quite formal</b> and less used than the ~くないです form. It is primarily used in writing and in certain very formal oral situations.<br>This form is constructed by adding <b>くありません</b> to the <b>stem form</b> of the い-Adjective.<br><b><adjective=2097z></b> → <b><adjective=2097ca></b><br><br><japaneseText=Lessons/Contents/iAdjNeg/2><br><style=Meaning>My house is not big. (formal)</style><br><br><sprite name=warning> <b>いい</b> is an exception.<br><b><adjective=2099z></b> → <b><adjective=2099ca></b><br><br><japaneseText=Lessons/Contents/iAdjNeg/5><br><style=Meaning>This (close to the speaker) Japanese book is not good. (formal)</style><br><br><style=Title1>~くない (Present Plain Negative)</style>This form is generally used in <b>casual</b> conversations with friends, family, or people of the same or lower age or status.<br>It is constructed by adding <b>くない</b> to the <b>stem form</b> of the い-Adjective.<br><b><adjective=2097z></b> → <b><adjective=2097ga></b><br><br><japaneseText=Lessons/Contents/iAdjNeg/3><br><style=Meaning>My house is not big. (casual)</style><br><br><sprite name=warning> <b>いい</b> is an exception.<br><b><adjective=2099z></b> → <b><adjective=2099ga></b><br><br><japaneseText=Lessons/Contents/iAdjNeg/6><br><style=Meaning>This (close to the speaker) Japanese book is not good. (casual)</style><br><br><style=Title1>Using か with the negative form of the い-adjectives</style>Adding か or a question mark turns the negative form of the い-adjectives into a rhetorical question, emphasis, or a way to seek agreement.<br><br><japaneseText=Lessons/Contents/iAdjNeg/7><br><style=Meaning>Isn't the shop in front of the station good? (casual)</style><br><br><japaneseText=Lessons/Contents/iAdjNeg/8><br><style=Meaning>Aren't the peaches from Okayama Prefecture delicious?</style>"
+ },
+ "Lessons/iAdjectiveNegative/Title": {
+  "ru": "Отрицание прилагательных на い (настоящее время)",
+  "en": "い-Adjective Negation (Present)"
+ },
+ "Lessons/KanaKeyboard/Content": {
+  "ru": "Чтобы писать кану на телефоне, существует несколько типов клавиатур. Клавиатура с жестами (также называемая клавиатурой с 12 клавишами) — одна из них.<br><br>Клавиатура содержит все хираганы, заканчивающиеся на звук <style=Grammar>あ</style>, как показано ниже.<br><b>[あ] [か] [さ]<br>[た] [な] [は]<br>[ま] [や] [ら]<br>[ ゛] [わ]<br><br></b><sprite name=info> Она также содержит \"клавишу дакутен\", обозначенную как <b>[゛]</b>. Её использование будет объяснено позже.<br><br><style=Title1>Получение звуков あ→и→у→э→о</style>Нажав <style=Grammar>долгое нажатие</style> на клавишу, например, <style=Grammar>[あ]</style>, появляются связанные каны с звуками <style=Grammar>い</style>, <style=Grammar>う</style>, <style=Grammar>え</style>, <style=Grammar>お</style> в следующем порядке:<br><b> [う]<br>[い] [あ] [え]<br> [お]<br></b><br>Для других клавиш схема аналогична:<br>・<style=Grammar>か</style>→<b><style=Hiragana>き</style></b>→<b><style=Hiragana>く</style></b>→<b><style=Hiragana>け</style></b>→<b><style=Hiragana>こ</style></b><br>・<style=Grammar>さ</style>→<b><style=Hiragana>し</style></b>→<b><style=Hiragana>す</style></b>→<b><style=Hiragana>せ</style></b>→<b><style=Hiragana>そ</style></b><br>・<style=Grammar>た</style>→<b><style=Hiragana>ち</style></b>→<b><style=Hiragana>つ</style></b>→<b><style=Hiragana>て</style></b>→<b><style=Hiragana>と</style></b><br>・<style=Grammar>な</style>→<b><style=Hiragana>に</style></b>→<b><style=Hiragana>ぬ</style></b>→<b><style=Hiragana>ね</style></b>→<b><style=Hiragana>の</style></b><br>・<style=Grammar>は</style>→<b><style=Hiragana>ひ</style></b>→<b><style=Hiragana>ふ</style></b>→<b><style=Hiragana>へ</style></b>→<b><style=Hiragana>ほ</style></b><br>・<style=Grammar>ま</style>→<b><style=Hiragana>み</style></b>→<b><style=Hiragana>む</style></b>→<b><style=Hiragana>め</style></b>→<b><style=Hiragana>も</style></b><br>・<style=Grammar>や</style>→<b><style=Hiragana>ゆ</style></b>→<b><style=Hiragana>よ</style></b><br>・<style=Grammar>ら</style>→<b><style=Hiragana>り</style></b>→<b><style=Hiragana>る</style></b>→<b><style=Hiragana>れ</style></b>→<b><style=Hiragana>ろ</style></b><br><br><sprite name=warning> Клавиша わ является исключением:<br>・<style=Grammar>わ</style>→<b><style=Hiragana>を</style></b>→<b><style=Hiragana>ん</style></b>→<b><style=Hiragana>ー</style></b><br><br><sprite name=info> <style=Grammar>Вы также можете многократно нажимать</style> на клавишу, чтобы прокрутить последовательность каны.<br><br><style=Title1>Получение дакутен / малых кан</style>Клавиатура с жестами имеет клавишу <style=Grammar>дакутен</style> <b>[小 ゛゜]</b> в нижнем левом углу. Чтобы применить дакутен (<style=Grammar>た</style> → <style=Grammar>だ</style>), хандакутен (<style=Grammar>ひ</style> → <style=Grammar>ぴ</style>), или маленькую версию каны (<style=Grammar>つ</style> → <style=Grammar>っ</style>), <style=Grammar>многократно нажимайте</style> эту клавишу после выбора базовой каны, чтобы прокрутить последовательность  <style=Grammar>小</style>→<style=Grammar>゛</style>→ <style=Grammar>゜</style>.<br><br>Примеры:<br>・<b><style=Hiragana>ば</style></b>: <style=Grammar>[は]</style> + <style=Grammar>один</style> раз нажать на клавишу Dakuten （<style=Grammar>は</style> → <style=Grammar>ば</style>）<br>・<b><style=Hiragana>ぱ</style></b>: <style=Grammar>[は]</style> + <style=Grammar>два</style> нажатия на клавишу Dakuten （<style=Grammar>は</style> → <style=Grammar>ば</style> → <style=Grammar>ぱ</style>）<br>・<b><style=Hiragana>ゃ</style></b>: <style=Grammar>[や]</style> + <style=Grammar>один</style> раз нажать на клавишу Dakuten （<style=Grammar>や</style> → <style=Grammar>ゃ</style>）<br><br><sprite name=info> Вы можете использовать эту клавиатуру на тестах / заданиях, выбрав соответствующую опцию в меню настроек.",
+  "en": "In order to write kana on a phone, several types of keyboards exist. The Flick Keyboard is one of them.<br><br>The keyboard contains all the hiragana ending with the <style=Grammar>あ sound</style>, as shown below.<br><b>[あ]  [か]  [さ]<br>[た]  [な]  [は]<br>[ま]  [や]  [ら]<br>[ ゛] [わ]<br><br></b><sprite name=info>  It also contains a “dakuten key“, marked as <b>[゛]</b>. Its usage will be explained later.<br><br><style=Title1>Obtaining あ→い→う→え→お sounds</style>By <style=Grammar>long pressing</style> a key, for instance <style=Grammar>[あ]</style>, the related kana with the sounds <style=Grammar>い</style>, <style=Grammar>う</style>, <style=Grammar>え</style>, <style=Grammar>お</style> appear in this order:<br><b>        [う]<br>[い]  [あ]  [え]<br>        [お]<br></b><br>For the other keys, the pattern is similar:<br>・<style=Grammar>か</style>→<b><style=Hiragana>き</style></b>→<b><style=Hiragana>く</style></b>→<b><style=Hiragana>け</style></b>→<b><style=Hiragana>こ</style></b><br>・<style=Grammar>さ</style>→<b><style=Hiragana>し</style></b>→<b><style=Hiragana>す</style></b>→<b><style=Hiragana>せ</style></b>→<b><style=Hiragana>そ</style></b><br>・<style=Grammar>た</style>→<b><style=Hiragana>ち</style></b>→<b><style=Hiragana>つ</style></b>→<b><style=Hiragana>て</style></b>→<b><style=Hiragana>と</style></b><br>・<style=Grammar>な</style>→<b><style=Hiragana>に</style></b>→<b><style=Hiragana>ぬ</style></b>→<b><style=Hiragana>ね</style></b>→<b><style=Hiragana>の</style></b><br>・<style=Grammar>は</style>→<b><style=Hiragana>ひ</style></b>→<b><style=Hiragana>ふ</style></b>→<b><style=Hiragana>へ</style></b>→<b><style=Hiragana>ほ</style></b><br>・<style=Grammar>ま</style>→<b><style=Hiragana>み</style></b>→<b><style=Hiragana>む</style></b>→<b><style=Hiragana>め</style></b>→<b><style=Hiragana>も</style></b><br>・<style=Grammar>や</style>→<b><style=Hiragana>ゆ</style></b>→<b><style=Hiragana>よ</style></b><br>・<style=Grammar>ら</style>→<b><style=Hiragana>り</style></b>→<b><style=Hiragana>る</style></b>→<b><style=Hiragana>れ</style></b>→<b><style=Hiragana>ろ</style></b><br><br><sprite name=warning> The わ key is an exception:<br>・<style=Grammar>わ</style>→<b><style=Hiragana>を</style></b>→<b><style=Hiragana>ん</style></b>→<b><style=Hiragana>ー</style></b><br><br><sprite name=info>  <style=Grammar>You can also press repeatedly</style> the key to loop through the kana sequence.<br><br><style=Title1>Obtaining Dakuten / Small Kana</style>The flick keyboard has a <style=Grammar>dakuten key</style> <b>[小 ゛゜]</b> in the bottom left. To apply dakuten (<style=Grammar>た</style> → <style=Grammar>だ</style>), handakuten (<style=Grammar>ひ</style> → <style=Grammar>ぴ</style>), or the small version of a kana (<style=Grammar>つ</style> → <style=Grammar>っ</style>), <style=Grammar>press repeatedly</style> this key after selecting the base kana to cycle through the sequence <style=Grammar>小</style>→<style=Grammar>゛</style>→ <style=Grammar>゜</style>.<br><br>Examples:<br>・<b><style=Hiragana>ば</style></b>: <style=Grammar>[は]</style> + <style=Grammar>one</style> press on the Dakuten key （<style=Grammar>は</style> → <style=Grammar>ば</style>）<br>・<b><style=Hiragana>ぱ</style></b>: <style=Grammar>[は]</style> + <style=Grammar>two</style> presses on the Dakuten key （<style=Grammar>は</style> → <style=Grammar>ば</style> → <style=Grammar>ぱ</style>）<br>・<b><style=Hiragana>ゃ</style></b>: <style=Grammar>[や]</style> + <style=Grammar>one</style> press on the Dakuten key （<style=Grammar>や</style> → <style=Grammar>ゃ</style><br><br><sprite name=info> You can use this keyboard in tests / challenges by selecting the corresponding option in the option menu."
+ },
+ "Lessons/KanaKeyboard/Title": {
+  "ru": "Японская клавиатура с 12 кнопками",
+  "en": "Kana Flick Keyboard"
+ },
+ "Lessons/KinokoIntro/Content": {
+  "ru": "Введение в японский язык с сенсеем <style=NPC>Киноко</style>.",
+  "en": "Introduction to the Japanese language with <style=NPC>Kinoko</style> Sensei."
+ },
+ "Lessons/KinokoIntro/Title": {
+  "ru": "Введение в японский язык",
+  "en": "Introduction to Japanese"
+ },
+ "Lessons/LongVoyel/Content": {
+  "ru": "Для длинных гласных, произношение которых в два раза длиннее, чем у обычных гласных.<br>Для <b><style=Hiragana>Хирагана</style></b>: <br><br>Гласные, заканчивающиеся на <b><style=Hiragana>あ</style></b>, удлиняются с помощью <b><style=Hiragana>あ</style></b>.<br><b><audio=kana:a><style=Hiragana>あ</style></audio> → <audio=kana:aa><style=Hiragana>ああ</style></audio></b><br>Гласные, заканчивающиеся на <b><style=Hiragana>い</style></b>, удлиняются с помощью <b><style=Hiragana>い</style></b>.<br><b><audio=kana:ni><style=Hiragana>に</style></audio> → <audio=kana:nii><style=Hiragana>にい</style></audio></b><br>Гласные, заканчивающиеся на <b><style=Hiragana>う</style></b>, удлиняются с помощью <b><style=Hiragana>う</style></b>.<br><b><audio=kana:ku><style=Hiragana>く</style></audio> → <audio=kana:kuu><style=Hiragana>くう</style></audio></b><br>Гласные, заканчивающиеся на <b><style=Hiragana>え</style></b>, удлиняются с помощью <b><style=Hiragana>い</style></b> (или <b><style=Hiragana>え</style></b> в редких случаях).<br><b><audio=kana:de><style=Hiragana>で</style></audio> → <audio=kana:dee><style=Hiragana>でい</style></audio></b><br>Гласные, заканчивающиеся на <b><style=Hiragana>お</style></b>, обычно удлиняются с помощью <b><style=Hiragana>う</style></b>, но иногда с помощью <b><style=Hiragana>お</style></b>.<br><b><audio=kana:ro><style=Hiragana>ろ</style></audio> → <audio=kana:rou><style=Hiragana>ろう</style></audio></b><br><br>Для слов на <b><style=Katakana>Katakana</style></b>, длинные гласные просто пишутся с длинным тире <b><style=Katakana>ー</style></b> как в <b><style=Katakana><word=K00088></style></b>. Этот длинный тире также может использоваться с <b><style=Hiragana>Hiragana</style></b> в неформальных контекстах.",
+  "en": "Long vowels have a pronunciation twice as long as normal vowels.<br>For <b><style=Hiragana>Hiragana</style></b>: <br><br>Vowels ending with <b><style=Hiragana>あ</style></b> are extended by <b><style=Hiragana>あ</style></b>.<br><b><audio=kana:a><style=Hiragana>あ</style></audio> → <audio=kana:aa><style=Hiragana>ああ</style></audio></b><br>Vowels ending with <b><style=Hiragana>い</style></b> are extended with <b><style=Hiragana>い</style></b>.<br><b><audio=kana:ni><style=Hiragana>に</style></audio> → <audio=kana:nii><style=Hiragana>にい</style></audio></b><br>Vowels ending with <b><style=Hiragana>う</style></b> are extended with <b><style=Hiragana>う</style></b>.<br><b><audio=kana:ku><style=Hiragana>く</style></audio> → <audio=kana:kuu><style=Hiragana>くう</style></audio></b><br>Vowels ending with <b><style=Hiragana>え</style></b> are extended with <b><style=Hiragana>い</style></b> (or <b><style=Hiragana>え</style></b> in rare cases).<br><b><audio=kana:de><style=Hiragana>で</style></audio> → <audio=kana:dee><style=Hiragana>でい</style></audio></b><br>Vowels ending with <b><style=Hiragana>お</style></b> are usually extended by <b><style=Hiragana>う</style></b>, but also <b><style=Hiragana>お</style></b>.<br><b><audio=kana:ro><style=Hiragana>ろ</style></audio> → <audio=kana:rou><style=Hiragana>ろう</style></audio></b><br><br>For <b><style=Katakana>Katakana</style></b> words, long vowels are simply written with a long dash <b><style=Katakana>ー</style></b> as in <b><style=Katakana><word=K00088></style></b>. This long dash can also be used with <b><style=Hiragana>Hiragana</style></b> in informal settings."
+ },
+ "Lessons/naAdjective/Content": {
+  "ru": "В отличие от い-приллагательных, な-приллагательные <b>не имеют типичного окончания</b>. な-приллагательные <b>опираются на です</b> для склонения.<br>Пример: <b><adjective=2050z></b>, <b><adjective=1906z></b>, <b><adjective=2101z></b>, <b><adjective=1941z></b> ...<br><sprite name=warning> Некоторые な-приллагательные заканчиваются на звук <b>い</b>, но не являются い-приллагательными. Пример: <b><adjective=2101z></b>.<br><br><style=Title1>Использование в конце предложения</style>Когда используется в <u>конце предложения</u>, な-приллагательное описывает субъект или <tooltip key=Tooltip/Topic>тему</tooltip> этого предложения.<br><japaneseText=Lessons/Contents/naAdj/1><br><style=Meaning>Женщина перед станцией красивая, не так ли? (неформально)</style><br><br><style=Title1>Использование перед существительным (~な + Существительное)</style> な-приллагательное может использоваться <u>непосредственно перед существительным</u>, образуя короткую фразу с существительным. В этом случае добавляется <b>な</b> сразу после прилагательного, чтобы связать его с существительным.<br><japaneseText=Lessons/Contents/naAdj/2><br><style=Meaning>Я пойду в известный парк.</style><br><br><style=Title1>Настоящее вежливое (~です)</style> <b>Форма настоящего вежливого</b> обычно используется для <u>показания уважения</u> к человеку более высокого положения или к тому, с кем вы не знакомы близко. Форма настоящего вежливого для な-приллагательного образуется добавлением <b>です</b> к его словарной форме.<br><b><adjective=2050z></b> → <b><adjective=2050ba></b><br><b><adjective=1941z></b> → <b><adjective=1941ba></b><br><br><style=Title1>Настоящее простое (~だ)</style> <b>Форма настоящего простого</b> обычно используется в <u>неформальных</u> разговорах с друзьями, семьей или людьми того же возраста или статуса. Форма настоящего простого для な-приллагательного образуется добавлением <b>だ</b> к его словарной форме:<br><b><adjective=2050z></b> → <b><adjective=2050ea></b><br><b><adjective=1941z></b> → <b><adjective=1941ea></b><br><br><style=Title1>Использование как существительное</style>Некоторые な-приллагательные также являются существительными и могут быть использованы как таковые в предложении.<br><japaneseText=Lessons/Contents/naAdj/3><br><style=Meaning>Профессор Танака полон энергии, не так ли?</style>",
+  "en": "Unlike い-Adjectives, な-Adjectives <b>do not have any typical ending</b>. な-adjectives <b>rely on です</b> to be conjugated.<br>Example: <b><adjective=2050z></b>, <b><adjective=1906z></b>, <b><adjective=2101z></b>, <b><adjective=1941z></b> ...<br><sprite name=warning> Some な-adjectives end with the <b>い</b> sound but are not い-adjectives. Example: <b><adjective=2101z></b>.<br><br><style=Title1>Use at the end of a sentence</style>When used at the <u>end of a sentence</u>, the な-adjective describes the subject or <tooltip key=Tooltip/Topic>topic</tooltip> of that sentence.<br><japaneseText=Lessons/Contents/naAdj/1><br><style=Meaning>The woman in front of the station is pretty, isn't she? (casual)</style><br><br><style=Title1>Use before a noun (~な + Noun)</style>A な-adjective can be used <u>directly before a noun</u>, forming a short noun phrase. In this case, <b>な</b> is added directly after the adjective to connect it to the noun, forming a short noun phrase.<br><japaneseText=Lessons/Contents/naAdj/2><br><style=Meaning>I will go to a famous park.</style><br><br><style=Title1>Present polite (~です)</style>The <b>present polite form</b> is generally used when <u>showing respect</u> to someone of higher position or someone you are not closely acquainted with. The present polite form of a な-adjective is constructed by adding <b>です</b> to its dictionary form.<br><b><adjective=2050z></b> → <b><adjective=2050ba></b><br><b><adjective=1941z></b> → <b><adjective=1941ba></b><br><br><style=Title1>Present plain (~だ)</style>The <b>Present plain</b> is generally used in <u>casual</u> conversations with friends, family, or people of the same or lower age or status. The present plain form of a な-adjective is constructed by adding <b>だ</b> to its dictionary form:<br><b><adjective=2050z></b> → <b><adjective=2050ea></b><br><b><adjective=1941z></b> → <b><adjective=1941ea></b><br><br><style=Title1>Use as a noun</style>Some な-adjectives are also nouns and can be used as such in a sentence.<br><japaneseText=Lessons/Contents/naAdj/3><br><style=Meaning>Professor Tanaka is full of energy, right?</style>"
+ },
+ "Lessons/naAdjective/Title": {
+  "ru": "な-прилагательные",
+  "en": "な-adjectives"
+ },
+ "Lessons/naAdjectiveNegative/Content": {
+  "ru": "Отрицательная форма прилагательных используется, чтобы выразить, что что-либо <b>не относится</b> к существительному, ситуации или чувству.<br>Прилагательные на な также в отрицательной форме следуют правилам спряжения です.<br><br><style=Title1>Сокращённая форма (では/じゃ)</style>В разговорной речи <b>では</b> обычно сокращается до <b>じゃ</b>. Это называется <b>сокращённой формой</b>. Использование <b>じゃ</b> более разговорное, чем использование полной формы.<br><br><style=Title1>~ではないです・~じゃないです (Настоящее время, вежливая отрицательная форма)</style>Это <u>наиболее часто используемая</u> <b>вежливая</b> отрицательная форма. Она используется в вежливых ситуациях, например при разговоре с малознакомыми людьми или людьми более высокого статуса.<br>Она образуется добавлением <b>ではないです</b> к прилагательному на な.<br><br><japaneseText=Lessons/Contents/naAdjNeg/1><br><style=Meaning>Моя собака не энергичная.</style><br><br><japaneseText=Lessons/Contents/naAdjNeg/1c><br><style=Meaning>Моя собака не энергичная. (сокращённая форма)</style><br><br><style=Title1>~ではありません・~じゃありません (Настоящее время, вежливая отрицательная форма, формальная - используется реже)</style>Эта форма <b>довольно формальная</b> и используется реже, чем форма ~ではないです. Она применяется главным образом в письменной речи и в некоторых очень формальных устных ситуациях.<br>Эта форма образуется добавлением <b>ではありません</b> к прилагательному на な.<br><br><japaneseText=Lessons/Contents/naAdjNeg/2><br><style=Meaning>Моя собака не энергичная. (формально)</style><br><br><japaneseText=Lessons/Contents/naAdjNeg/2c><br><style=Meaning>Моя собака не энергичная. (формально, сокращённая форма)</style><br><br><style=Title1>~ではない・~じゃない (Настоящее время, нейтральная отрицательная форма)</style>Эта форма обычно используется в <b>неформальных</b> разговорах с друзьями, членами семьи, людьми того же или более младшего возраста, а также с людьми равного или более низкого статуса.<br>Она образуется добавлением <b>ではない</b> к прилагательному на な.<br><br><japaneseText=Lessons/Contents/naAdjNeg/3><br><style=Meaning>Моя собака не энергичная. (неформально)</style><br><br><japaneseText=Lessons/Contents/naAdjNeg/3c><br><style=Meaning>Моя собака не энергичная. (неформально, сокращённая форма)</style><br><br><style=Title1>Использование か с отрицательной формой прилагательных на な</style>Добавление か или вопросительного знака превращает отрицательную форму прилагательных на な в риторический вопрос, способ подчеркнуть что-либо или способ получить согласие собеседника.<br><br><japaneseText=Lessons/Contents/naAdjNeg/4><br><style=Meaning>Разве мальчик перед станцией не полон энергии? (неформально, сокращённая форма)</style><br><br><japaneseText=Lessons/Contents/naAdjNeg/5><br><style=Meaning>Разве книга учителя по японскому языку не известна?</style>",
+  "en": "The negative form of adjectives is used to express that something <b>does not apply</b> to a noun, situation, or feeling.<br>な-Adjectives follow the conjugations of です also for the negative form.<br><br><style=Title1>Contracted form (では/じゃ)</style>In spoken language, <b>では</b> is regularly contracted to <b>じゃ</b>. It is called the <b>contracted form</b>. Using <b>じゃ</b> is more casual than using the non contracted form. <br><br><style=Title1>~ではないです・~じゃないです (Present Polite Negative)</style>This is the <u>most commonly</u> used <b>polite</b> negative form. It is used when speaking in a polite context (whith to people you are less close to, or of higher status).<br>It is constructed by adding <b>ではないです</b> to the な-Adjective.<br><br><japaneseText=Lessons/Contents/naAdjNeg/1><br><style=Meaning>My dog is not energetic.</style><br><br><japaneseText=Lessons/Contents/naAdjNeg/1c><br><style=Meaning>My dog is not energetic. (contracted)</style><br><br><style=Title1>~ではありません・~じゃありません (Present Polite Negative Formal - less used)</style>This form is <b>quite formal</b> and less used than the ~ではないです form. It is primarily used in writing and in certain very formal oral situations.<br>This form is constructed by adding <b>ではありません</b> to  the な-Adjective. <br><br><japaneseText=Lessons/Contents/naAdjNeg/2><br><style=Meaning>My dog is not energetic. (formal)</style><br><br><japaneseText=Lessons/Contents/naAdjNeg/2c><br><style=Meaning>My dog is not energetic. (formal, contracted)</style><br><br><style=Title1>~ではない・~じゃない (Present Plain Negative)</style>This form is generally used in <b>casual</b> conversations with friends, family, or people of the same or lower age or status.<br>It is constructed by adding <b>ではない</b> to the な-Adjective.<br><br><japaneseText=Lessons/Contents/naAdjNeg/3><br><style=Meaning>My dog is not energetic. (casual)</style><br><br><japaneseText=Lessons/Contents/naAdjNeg/3c><br><style=Meaning>My dog is not energetic. (casual, contracted)</style><br><br><style=Title1>Using か with the negative form of the な-adjectives</style>Adding か or a question mark turns the negative form of the な-adjectives into a rhetorical question, emphasis, or a way to seek agreement.<br><br><japaneseText=Lessons/Contents/naAdjNeg/4><br><style=Meaning> Isn't the boy in front of the station full of energy? (casual, contracted)</style><br><br><japaneseText=Lessons/Contents/naAdjNeg/5><br><style=Meaning> Isn't the teacher's Japanese book famous?</style>"
+ },
+ "Lessons/naAdjectiveNegative/Title": {
+  "ru": "Отрицание な-прилагательных (настоящее время)",
+  "en": "な-Adjective Negation (Present)"
+ },
+ "Lessons/NonPast/Content": {
+  "ru": "В японском языке существует грамматическая структура, известная как <b>форма-MASU</b> глаголов. В более грамматических терминах это <b>вежливая форма настоящего/будущего времени</b>. В этой форме глаголы всегда заканчиваются на <b>ます</b>.<br><br> <b>Форма-MASU</b> используется в вежливых или формальных контекстах и обычно применяется в следующих ситуациях:<br><br><u>Будущие события</u><br><japaneseText=Lessons/Contents/NonPast/1><br><style=Meaning>Я поеду в Японию.</style><br><br><u>Общие факты</u><br><japaneseText=Lessons/Contents/NonPast/2><br><style=Meaning>Собаки пьют воду.</style><br><br><u>Привычки</u><br><japaneseText=Lessons/Contents/NonPast/3><br><style=Meaning>(Я обычно) ем Удон из Кагава.</style><br><br><sprite name=warning> <b>あります</b> и <b>います</b> — это глаголы состояния, которые не следуют приведённым выше случаям использования. Эти два глагола используются для выражения <u>существования</u>.<br><japaneseText=Lessons/Contents/NonPast/4><br><style=Meaning>В доме есть собака.</style><br><br><sprite name=warning> <b>Форма-MASU</b> <u>не может использоваться для действий, которые происходят в данный момент</u>.",
+  "en": "In Japanese, there is a grammatical structure known as the <b>MASU-form</b> of verbs. In more grammatical terms, it is the <b>Present/Future Polite Positive</b> form. In this form, verbs consistently conclude with <b>ます</b>.<br><br>The <b>MASU-form</b> is employed in polite or formal contexts and is typically used in the following situations:<br><br><u>Future events</u><br><japaneseText=Lessons/Contents/NonPast/1><br><style=Meaning>(I) will go to Japan.</style><br><br><u>General facts</u><br><japaneseText=Lessons/Contents/NonPast/2><br><style=Meaning>Dogs drink water.</style><br><br><u>Habits</u><br><japaneseText=Lessons/Contents/NonPast/3><br><style=Meaning>(I usually) eat Udon from Kagawa.</style><br><br><sprite name=warning> <b>あります</b> and <b>います</b> are state verbs that do not follow the previously listed use cases. These two verbs are used to express <u>existence</u>.<br><japaneseText=Lessons/Contents/NonPast/4><br><style=Meaning>There is a dog in the house.</style><br><br><sprite name=warning> The <b>MASU-form</b> <u>cannot be used for ongoing actions</u>."
+ },
+ "Lessons/NonPast/Title": {
+  "ru": "Форма MASU (вежливое настоящее/будущее)",
+  "en": "MASU-form (Present/Future Polite)"
+ },
+ "Lessons/NounModificationPlainForm/Content": {
+  "ru": "<style=Title1>Модификация существительного глаголом</style>Существительное может быть определено глаголом или коротким предложением, заканчивающимся глаголом. <b>Простая форма</b> глагола используется <u>перед</u> определяемым существительным. Простая форма может стоять в любом времени, например, в прошедшем или настоящем.<br><br><japaneseText=Lessons/Contents/NounModifVerb/1><br><style=Meaning>Это насекомое, <b>которое ест цветы</b>.</style><br><br><japaneseText=Lessons/Contents/NounModifVerb/2><br><style=Meaning>Человек, <b>который в магазине</b>, — мой учитель.</style><br><br><style=Title1>Модификация существительного прилагательным</style>Существительное также может быть определено коротким предложением, заканчивающимся прилагательным. <b>Простая форма</b> прилагательного используется <u>перед</u> определяемым существительным. Как и у глаголов, простая форма может стоять в любом времени, например, в прошедшем или настоящем.<br><br><japaneseText=Lessons/Contents/NounModifVerb/3><br><style=Meaning>Это манга, <b>которая мне нравится</b></style>.</style><br><br><japaneseText=Lessons/Contents/NounModifVerb/4><br><style=Meaning>Я куплю книгу, <b>в которой много кандзи</b></style>.",
+  "en": "<style=Title1>Modification of a noun with a verb</style>A noun can be modified by a verb or a short sentence ending with a verb. The <b>plain form</b> of the verb is used <u>before</u> the noun being modified. The plain form can be in any tense, like past or present.<br><br><japaneseText=Lessons/Contents/NounModifVerb/1><br><style=Meaning>It is an insect <b>that eats flowers</b>.</style><br><br><japaneseText=Lessons/Contents/NounModifVerb/2><br><style=Meaning>The person <b>who is in the store</b> is my teacher.</style><br><br><style=Title1>Modification of a noun with an adjective</style>A noun can also be modified by a short sentence ending with an adjective. The <b>plain form</b> of the adjective is used <u>before</u> the noun being modified. As for verbs, the plain form can be in any tense, like past or present.<br><br><japaneseText=Lessons/Contents/NounModifVerb/3><br><style=Meaning>This is a manga <b>that I like</b></style>.</style><br><br><japaneseText=Lessons/Contents/NounModifVerb/4><br><style=Meaning>I will buy a book <b>that has many Kanji</b></style>."
+ },
+ "Lessons/NounModificationPlainForm/Title": {
+  "ru": "Модификация существительных",
+  "en": "Noun modification"
+ },
+ "Lessons/SmallTsu/Content": {
+  "ru": "Добавление маленького <b><style=Hiragana>っ</style></b> или <b><style=Katakana>ッ</style></b> приводит к небольшой паузе или сокращенному звуку при произнесении слова. Это используется только перед Кана, начинающимся с согласной.<br><br><b><style=Hiragana><word=K00222></style></b><br><b><style=Katakana><word=K00228></style></b><br><br><sprite name=warning> Двойные согласные могут изменить значение слова.<br><br><b><style=Hiragana><word=K00229></style></b> ≠ <b><style=Hiragana><word=K00230></style></b>",
+  "en": "Adding a small <b><style=Hiragana>っ</style></b> or <b><style=Katakana>ッ</style></b> results in a small pause or clipped sound when pronouncing the word. It is only used before a Kana starting by a consonant.<br><br><b><style=Hiragana><word=K00222></style></b><br><b><style=Katakana><word=K00228></style></b><br><br><sprite name=warning> Double consonants can change the meaning of a word.<br><br><b><style=Hiragana><word=K00229></style></b> ≠ <b><style=Hiragana><word=K00230></style></b>"
+ },
+ "Lessons/SOVWordOrder/Content": {
+  "ru": "Японские предложения обычно следуют порядку <b><style=NPC>S</style><style=Object>O</style><style=Verb>V</style></b> (<style=NPC>Подлежащее</style> - <style=Object>Объект</style> - <style=Verb>Глагол</style>), в отличие от английского, который использует порядок <b><style=NPC>S</style><style=Verb>V</style><style=Object>O</style></b>.<br><br>Однако порядок слов может быть очень <b>гибким</b> в японском языке: <style=NPC>подлежащее</style> обычно находится в начале предложения, но оно также может быть размещено в середине или опущено.<br><br><japaneseText=Lessons/Contents/SOV/1> (<style=NPC>S</style><style=Object>O</style><style=Verb>V</style>)<br><style=Meaning><style=NPC>Господин/Госпожа Танакa</style>, <style=Verb>поедете</style> ли вы в <style=Object>Японию</style>?</style><br><br><japaneseText=Lessons/Contents/SOV/3> (<style=Object>O</style><style=Verb>V</style>)<br><style=Meaning><style=NPC>Вы, господин/госпожа Танакa / кто-то еще</style>, <style=Verb>поедет</style> в <style=Object>Японию</style>?</style><br><br><japaneseText=Lessons/Contents/SOV/2> (<style=Object>O</style><style=NPC>S</style><style=Verb>V</style>, менее распространено; акцент на <style=Object>Объекте</style>)<br><style=Meaning>В <style=Object>Японию</style>, <style=Verb>поедет</style> ли <style=NPC>Господин/Госпожа Танака</style>?</style>",
+  "en": "Japanese sentences generally follow the <b><style=NPC>S</style><style=Object>O</style><style=Verb>V</style></b> (<style=NPC>Subject</style> - <style=Object>Object</style> - <style=Verb>Verb</style>) order, unlike English which uses the <b><style=NPC>S</style><style=Verb>V</style><style=Object>O</style></b> order.<br><br>However, word order can be very <b>flexible</b> in Japanese: the <style=NPC>subject</style> is typically found at the beginning of the sentence but may also be placed in the middle or be omitted.<br><br><japaneseText=Lessons/Contents/SOV/1> (<style=NPC>S</style><style=Object>O</style><style=Verb>V</style>)<br><style=Meaning>Do (you), <style=NPC>Mr./Mrs. Tanaka</style>, <style=Verb>go</style> to <style=Object>Japan</style>?</style><br><br><japaneseText=Lessons/Contents/SOV/3> (<style=Object>O</style><style=Verb>V</style>)<br><style=Meaning>Do (<style=NPC>you, Mr./Mrs. Tanaka / someone else</style>) <style=Verb>go</style> to <style=Object>Japan</style>?</style><br><br><japaneseText=Lessons/Contents/SOV/2> (<style=Object>O</style><style=NPC>S</style><style=Verb>V</style>, less common; it emphasizes the <style=Object>Object</style>)<br><style=Meaning>Do (you), <style=NPC>Mr./Mrs. Tanaka</style>, <style=Verb>go</style> to <style=Object>Japan</style>?</style>"
+ },
+ "Lessons/SOVWordOrder/Title": {
+  "ru": "Порядок слов (SOV)",
+  "en": "Word order (SOV)"
+ },
+ "Lessons/Te/Content": {
+  "ru": "Форма TE имеет много применений в японском языке. Обычно она используется для соединения глаголов или прилагательных с другими частями предложения, часто показывая последовательность действий, причины, просьбы или команды.<br><br><style=Title1>Использование формы TE с глаголами</style><u>Соединение последовательных действий</u><br><japaneseText=Lessons/Contents/Te/1><br><style=Meaning>Каждый день я возвращаюсь домой, ем хлеб и учу японский язык.</style><br><br><u>Указание способа действия</u><br><japaneseText=Lessons/Contents/Te/2><br><style=Meaning>Я поехал в горы на поезде.</style><br><br><u>Объяснение причины</u><br><japaneseText=Lessons/Contents/Te/3><br><style=Meaning>В известных храмах много людей, поэтому мне не очень нравится там.</style><br><br><sprite name=info> Время и вежливость предложения определяются глаголом, который стоит в конце предложения.<br><br><style=Title1>Использование формы TE с прилагательными</style><u>Соединение прилагательных</u><br><japaneseText=Lessons/Contents/Te/4><br><style=Meaning>Его смартфон хороший, удобный и дешевый.</style><br><br><u>Объяснение причины</u><br><japaneseText=Lessons/Contents/Te/5><br><style=Meaning>Рамен в Японии был вкусный, поэтому я съел много.</style><br><br><style=Title1>Форма TE для глаголов</style>Форма TE строится по-разному для <tooltip key=Tooltip/IchidanVerb>глаголов 1-го класса (Ichidan)</tooltip> и <tooltip key=Tooltip/GodanVerb>глаголов 5-го класса (Godan)</tooltip>.<br><br><sprite name=info> Вы можете найти напоминание о том, как различать глаголы 1-го и 5-го класса в <b>уроке “Форма словаря・Ichidan & Godan・форма MASU”</b>.<br><br>Для глаголов 1-го класса просто удалите る в конце и добавьте て.<br><style=Grammar><verb=2090z></style> → <style=Grammar><verb=2090kv></style><br><style=Grammar><verb=3630z></style> → <style=Grammar><verb=3630kv></style><br><br>Для глаголов 5-го класса замените последний хираган на следующий:<br><style=Grammar>う</style> → <style=Grammar>って</style>: 買<style=Grammar>う</style> → 買<style=Grammar>って</style><br><style=Grammar>つ</style> → <style=Grammar>って</style>: 持<style=Grammar>つ</style> → 持<style=Grammar>って</style><br><style=Grammar>る</style> → <style=Grammar>って</style>: 作<style=Grammar>る</style> → 作<style=Grammar>って</style><br><style=Grammar>ぬ</style> → <style=Grammar>んで</style>: 死<style=Grammar>ぬ</style> → 死<style=Grammar>んで</style><br><style=Grammar>ぶ</style> → <style=Grammar>んで</style>: 遊<style=Grammar>ぶ</style> → 遊<style=Grammar>んで</style><br><style=Grammar>む</style> → <style=Grammar>んで</style>: 飲<style=Grammar>む</style> → 飲<style=Grammar>んで</style><br><style=Grammar>く</style> → <style=Grammar>いて</style>: 書<style=Grammar>く</style> → 書<style=Grammar>いて</style><br><style=Grammar>ぐ</style> → <style=Grammar>いで</style>: 泳<style=Grammar>ぐ</style> → 泳<style=Grammar>いで</style><br><style=Grammar>す</style> → <style=Grammar>して</style>: 話<style=Grammar>す</style> → 話<style=Grammar>して</style><br><br><sprite name=warning> <b>です</b>, <b>する</b>, <b>行く</b>, и <b>来る</b> являются исключениями:<br><style=Grammar><verb=2088z></style> → <style=Grammar><verb=2088kv></style><br><style=Grammar><verb=2089z></style> → <style=Grammar><verb=2089kv></style><br><style=Grammar><verb=2092z></style> → <style=Grammar><verb=2092kv></style><br><style=Grammar><verb=2109z></style> → <style=Grammar><verb=2109kv></style><br><br><style=Title1>Форма TE для い-прилагательных</style>Добавьте <b>くて</b> к <b>основной форме</b> い-прилагательного.<br><style=Grammar><b><adjective=2097z></b></style> →<style=Grammar><b><adjective=2097kv></b></style><br><br><sprite name=warning> <b>いい</b> является исключением.<br><style=Grammar><b><adjective=2099z></b></style> →<style=Grammar><b><adjective=2099kv></b></style><br><br><style=Title1>Форма TE для な-прилагательных</style>Добавьте <b>で</b> к な-прилагательному.<br><style=Grammar><b><adjective=2050z></b></style> →<style=Grammar><b><adjective=2050kv></b></style><br><br><sprite name=info> Хотя это грамматически правильно, обычно избегают соединять слишком много глаголов или прилагательных с помощью て-формы (более трёх), так как это может звучать однообразно и неестественно.",
+  "en": "The TE-form has many uses in Japanese. In general, it is used to connect verbs or adjectives to other parts of a sentence, often showing a sequence of actions, reasons, requests, or commands.<br><br><style=Title1>Use of TE-form with verbs</style><u>Connecting sequential actions</u><br><japaneseText=Lessons/Contents/Te/1><br><style=Meaning>Every day, I go home, eat bread, and study Japanese.</style><br><br><u>Means of doing something</u><br><japaneseText=Lessons/Contents/Te/2><br><style=Meaning>I went to the mountain by riding the train.</style><br><br><u>Giving a reason</u><br><japaneseText=Lessons/Contents/Te/3><br><style=Meaning>There are many people in famous temples, so I don't really like them.</style><br><br><sprite name=info> The grammatical tense and politeness of the sentence is determined by the ending verb of the sentence.<br><br><style=Title1>Use of TE-form with adjectives</style><u>Connecting adjectives</u><br><japaneseText=Lessons/Contents/Te/4><br><style=Meaning>His smartphone is good, convenient, and cheap.</style><br><br><u>Giving a reason</u><br><japaneseText=Lessons/Contents/Te/5><br><style=Meaning>The ramen of Japan were delicious, so I ate a lot.</style><br><br><style=Title1>TE-form for verbs</style>The TE-form is constructed differently for <tooltip key=Tooltip/IchidanVerb>Ichidan</tooltip> and <tooltip key=Tooltip/GodanVerb>Godan</tooltip> verbs.<br><br><sprite name=info> You can find a reminder on how to identify Ichidan and Godan verbs in the <b>“Dictionary Form・Ichidan & Godan・MASU-form” lesson</b>.<br><br>For Ichidan verbs, simply remove the last る and add て.<br><style=Grammar><verb=2090z></style> → <style=Grammar><verb=2090kv></style><br><style=Grammar><verb=3630z></style> → <style=Grammar><verb=3630kv></style><br><br>For Godan verbs, replace the final Hiragana as follows<br><style=Grammar>う</style> → <style=Grammar>って</style>: 買<style=Grammar>う</style> → 買<style=Grammar>って</style><br><style=Grammar>つ</style> → <style=Grammar>って</style>: 持<style=Grammar>つ</style> → 持<style=Grammar>って</style><br><style=Grammar>る</style> → <style=Grammar>って</style>: 作<style=Grammar>る</style> → 作<style=Grammar>って</style><br><style=Grammar>ぬ</style> → <style=Grammar>んで</style>: 死<style=Grammar>ぬ</style> → 死<style=Grammar>んで</style><br><style=Grammar>ぶ</style> → <style=Grammar>んで</style>: 遊<style=Grammar>ぶ</style> → 遊<style=Grammar>んで</style><br><style=Grammar>む</style> → <style=Grammar>んで</style>: 飲<style=Grammar>む</style> → 飲<style=Grammar>んで</style><br><style=Grammar>く</style> → <style=Grammar>いて</style>: 書<style=Grammar>く</style> → 書<style=Grammar>いて</style><br><style=Grammar>ぐ</style> → <style=Grammar>いで</style>: 泳<style=Grammar>ぐ</style> → 泳<style=Grammar>いで</style><br><style=Grammar>す</style> → <style=Grammar>して</style>: 話<style=Grammar>す</style> → 話<style=Grammar>して</style><br><br><sprite name=warning> <b>です</b>, <b>する</b>, <b>行く</b>, and <b>来る</b> are exceptions:<br><style=Grammar><verb=2088z></style> → <style=Grammar><verb=2088kv></style><br><style=Grammar><verb=2089z></style> → <style=Grammar><verb=2089kv></style><br><style=Grammar><verb=2092z></style> → <style=Grammar><verb=2092kv></style><br><style=Grammar><verb=2109z></style> → <style=Grammar><verb=2109kv></style><br><br><style=Title1>TE-form for い-Adjectives</style>Add <b>くて</b> to <b>stem form</b> of the い-Adjective.<br><style=Grammar><b><adjective=2097z></b></style> →<style=Grammar><b><adjective=2097kv></b></style><br><br><sprite name=warning> <b>いい</b> is an exception.<br><style=Grammar><b><adjective=2099z></b></style> →<style=Grammar><b><adjective=2099kv></b></style><br><br><style=Title1>TE-form for な-Adjectives</style>Add <b>で</b> to the な-Adjective<br><style=Grammar><b><adjective=2050z></b></style> →<style=Grammar><b><adjective=2050kv></b></style><br><br><sprite name=info> Although it is grammatically correct, we tend to avoid chaining too many verbs or adjectives together using the て-form (more than three), as it can sound repetitive and less natural."
+ },
+ "Lessons/Te/Title": {
+  "ru": "Формы TE",
+  "en": "TE-form"
+ },
+ "Lessons/Tekudasai/Title": {
+  "ru": "Формулирование запросов на японском",
+  "en": "Formulating requests in Japanese"
+ },
+ "Lessons/Tekudasai/Content": {
+  "ru": "В японском языке есть грамматические формы, которые используются, чтобы попросить кого-то что-то сделать.<br><br><style=Title1>Глагол-て + ください</style>Добавляя <b>ください</b> после <b>て-формы глагола</b>, можно составить <b>вежливую</b> просьбу.<br><br><verb=1976kv> → <verb=1976kv> + <style=Grammar>ください</style><br><sentence=514><br><br><verb=2092kv> → <verb=2092kv> + <style=Grammar>ください</style><br><sentence=515><br><br><sprite name=info> В <b>разговорной</b> речи <b>ください</b> часто опускается. Добавление <b>ね</b> смягчает тон и делает просьбу более дружелюбной. Частица <b>を</b> также может опускаться для более непринужденного, <b>неформального</b> звучания.<br><br><sentence=516><br><br><sentence=517><br><br><sentence=518><br><br><sprite name=warning> <b>ください</b> нельзя использовать с глаголом くれる.<br><br><style=Title1>Существительное + を + ください</style>Эта форма, уже представленная, позволяет попросить конкретную вещь.<br><br><word=K01009></style> → <word=K01009></style> + <style=Grammar>を</style> + <style=Grammar>ください</style><br><sentence=519><br><br><sprite name=info> В разговорной речи частица <b>を</b> часто опускается.<br><br><sentence=520>",
+  "en": "In Japanese, there are grammatical forms that are used to request someone to do something.<br><br><style=Title1>Verb-て + ください</style>By adding <b>ください</b> after the <b>て-form of a verb</b>, you can formulate a <b>polite</b> request.<br><br><verb=1976kv> → <verb=1976kv> + <style=Grammar>ください</style><br><sentence=514><br><br><verb=2092kv> → <verb=2092kv> + <style=Grammar>ください</style><br><sentence=515><br><br><sprite name=info> In <b>casual</b> speech, <b>ください</b> is often dropped. Adding <b>ね</b> softens the tone and makes the request friendly. The particle <b>を</b> can also be omitted for a more relaxed, <b>informal</b> feel.<br><br><sentence=516><br><br><sentence=517><br><br><sentence=518><br><br><sprite name=warning> ください cannot be used with the verb くれる.<br><br><style=Title1>Noun + を + ください</style>This form, already introduced, lets you ask for a specific thing.<br><br><word=K01009></style> → <word=K01009></style> + <style=Grammar>を</style> + <style=Grammar>ください</style><br><sentence=519><br><br><sprite name=info> In casual speech, <b>を</b> is often dropped.<br><br><sentence=520>"
+ },
+ "Lessons/Title/ActionLocation": {
+  "ru": "Местоположение действия: で",
+  "en": "Location of an action: で"
+ },
+ "Lessons/Title/Adjectives": {
+  "ru": "Прилагательные ##VALUE",
+  "en": "Adjectives ##VALUE"
+ },
+ "Lessons/Title/Conjonctions": {
+  "ru": "Союзы",
+  "en": "Conjunctions"
+ },
+ "Lessons/Title/Dialogue": {
+  "ru": "Диалог",
+  "en": "Dialogue"
+ },
+ "Lessons/Title/Environment": {
+  "ru": "Окружающая среда",
+  "en": "Environment"
+ },
+ "Lessons/Title/Expressions": {
+  "ru": "Выражения ##VALUE",
+  "en": "Expressions ##VALUE"
+ },
+ "Lessons/Title/FrequencyAdverbs": {
+  "ru": "Наречия частоты",
+  "en": "Frequency adverbs"
+ },
+ "Lessons/Title/Habits": {
+  "ru": "Привычки",
+  "en": "Habits"
+ },
+ "Lessons/Title/Haga": {
+  "ru": "Подлежащее и тема: が / は",
+  "en": "Subject and Topic: が / は"
+ },
+ "Lessons/Title/HonorificPrefix": {
+  "ru": "Почтительный префикс: お",
+  "en": "Honorific prefix: お"
+ },
+ "Lessons/Title/iAdjectives": {
+  "ru": "い-прилагательные ##VALUE",
+  "en": "い-Adjectives ##VALUE"
+ },
+ "Lessons/Title/Introduction": {
+  "ru": "Самопредставление ##VALUE",
+  "en": "Introducing yourself ##VALUE"
+ },
+ "Lessons/Title/LongVoyel": {
+  "ru": "Долгие гласные",
+  "en": "Long vowels"
+ },
+ "Lessons/Title/naAdjectives": {
+  "ru": "Прилагательные-な ##VALUE",
+  "en": "な-Adjectives ##VALUE"
+ },
+ "Lessons/Title/Ni": {
+  "ru": "Частица места: に",
+  "en": "Location particle: に"
+ },
+ "Lessons/Title/No": {
+  "ru": "Частица の",
+  "en": "の Particle"
+ },
+ "Lessons/Title/Numbers": {
+  "ru": "Числа ##VALUE",
+  "en": "Numbers ##VALUE"
+ },
+ "Lessons/Title/Objects": {
+  "ru": "Объекты ##VALUE",
+  "en": "Objects ##VALUE"
+ },
+ "Lessons/Title/Places": {
+  "ru": "Места ##VALUE",
+  "en": "Places ##VALUE"
+ },
+ "Lessons/Title/Subject": {
+  "ru": "Частица подлежащего: が",
+  "en": "Subject particle: が"
+ },
+ "Lessons/Title/TemperatureWeather": {
+  "ru": "Температуры (погода)",
+  "en": "Temperatures (weather)"
+ },
+ "Lessons/Title/TemperatureObjects": {
+  "ru": "Температуры (объекты)",
+  "en": "Temperatures (objects)"
+ },
+ "Lessons/Title/Theme": {
+  "ru": "Частица темы: は",
+  "en": "Theme particle: は"
+ },
+ "Lessons/UsingNumbers/Title": {
+  "ru": "Использование чисел",
+  "en": "Using Numbers"
+ },
+ "Lessons/VerbDictionaryStemMasu/Content": {
+  "ru": "<style=Title1>Словарная форма глагола</style> <b>Словарная форма</b> глагола — это его исходная форма, которую можно найти в словаре. Она всегда оканчивается на <b>гласный звук «u»</b> (<style=Grammar><audio=kana:u>う</audio></style>, <style=Grammar><audio=kana:tsu>つ</audio></style>, <style=Grammar><audio=kana:su>す</audio></style>, <style=Grammar><audio=kana:ru>る</audio></style>, <style=Grammar><audio=kana:ku>く</audio></style>, <style=Grammar><audio=kana:gu>ぐ</audio></style>, <style=Grammar><audio=kana:nu>ぬ</audio></style>, <style=Grammar><audio=kana:bu>ぶ</audio></style> или <style=Grammar><audio=kana:mu>む</audio></style>).<br>Примеры: <verb=2090z>, <verb=2091z>, <verb=2092z>, <verb=2010z> ...<br><br><style=Title1>Типы глаголов</style>Японские глаголы в целом делятся на три типа: <b><tooltip key=Tooltip/IchidanVerb>глаголы Ichidan</tooltip></b>, <b><tooltip key=Tooltip/GodanVerb>глаголы Godan</tooltip></b> и <b>неправильные глаголы</b>.<br><br>• <b>Глаголы Ichidan</b> всегда оканчиваются на звук <style=Grammar>'iru'</style> или <style=Grammar>'eru'</style>.<br> Пример: 食<style=Grammar>べる</style> (tab<style=Grammar>eru</style>).<br><br>• <b>Глаголы Godan</b> составляют <u>большинство</u> остальных глаголов.<br> Пример: 行<style=Grammar>く</style>, 飲<style=Grammar>む</style>.<br><br> <sprite name=warning> Однако не все глаголы, оканчивающиеся на звук <b>'iru'</b> или <b>'eru'</b>, являются глаголами Ichidan. Например, 入る (ha<b>iru</b>) оканчивается на звук <b>'iru'</b>, но является глаголом Godan.<br><br>• <b>Неправильных глаголов</b> всего два.<br>    • <style=Grammar>する</style> (делать)<br>    • <style=Grammar>来る</style> (приходить).<br><br> <sprite name=info> Если вы не уверены в типе глагола, проверьте теги в игровом словаре!<br><br><style=Title1>Форма глаголов на ます</style> <b>Форма на ます</b> используется для вежливой речи. Она образуется добавлением <b>〜ます</b> к глаголу. Способ образования зависит от типа глагола.<br><br>• <b>Глаголы Ichidan</b>: уберите конечное <style=Grammar>る</style> и добавьте <b>ます</b>.<br><style=Grammar><verb=2090z></style> → <style=Grammar><verb=2090y></style>ます<br><br>• <b>Глаголы Godan</b>: у глаголов Godan замените последнее хирагана с звуком «u» на соответствующее хирагана со звуком «i», затем добавьте <b>ます</b>.<br>買<style=Grammar>う</style> → 買<style=Grammar>い</style><b>ます</b><br>持<style=Grammar>つ</style> → 持<style=Grammar>ち</style><b>ます</b><br>話<style=Grammar>す</style> → 話<style=Grammar>し</style><b>ます</b><br>作<style=Grammar>る</style> → 作<style=Grammar>り</style><b>ます</b><br>行<style=Grammar>く</style> → 行<style=Grammar>き</style><b>ます</b><br>泳<style=Grammar>ぐ</style> → 泳<style=Grammar>ぎ</style><b>ます</b><br>死<style=Grammar>ぬ</style> → 死<style=Grammar>に</style><b>ます</b><br>遊<style=Grammar>ぶ</style> → 遊<style=Grammar>び</style><b>ます</b><br>飲<style=Grammar>む</style> → 飲<style=Grammar>み</style><b>ます</b><br><br>• <b>Неправильные глаголы</b>:<br>する → <b>します</b><br>来る (くる) → <b>来ます (きます)</b>",
+  "en": "<style=Title1>Dictionary form of a verb</style>The <b>dictionary form</b> of a verb is its original form that you can find in the dictionary. It always ends with a <b>'u' vowel sound</b> (<style=Grammar><audio=kana:u>う</audio></style>, <style=Grammar><audio=kana:tsu>つ</audio></style>, <style=Grammar><audio=kana:su>す</audio></style>, <style=Grammar><audio=kana:ru>る</audio></style>, <style=Grammar><audio=kana:ku>く</audio></style>, <style=Grammar><audio=kana:gu>ぐ</audio></style>, <style=Grammar><audio=kana:nu>ぬ</audio></style>, <style=Grammar><audio=kana:bu>ぶ</audio></style> or <style=Grammar><audio=kana:mu>む</audio></style>).<br>Example: <verb=2090z>, <verb=2091z>, <verb=2092z>, <verb=2010z> ...<br><br><style=Title1>Types of Verbs</style>Japanese verbs are broadly divided into three types: <b><tooltip key=Tooltip/IchidanVerb>Ichidan verbs</tooltip></b>, <b><tooltip key=Tooltip/GodanVerb>Godan verbs</tooltip></b>, and <b>irregular verbs</b>.<br><br>• <b>Ichidan verbs</b> always end with an <style=Grammar>'iru'</style> or <style=Grammar>'eru'</style> sound.<br> Example: 食<style=Grammar>べる</style> (tab<style=Grammar>eru</style>).<br><br>• <b>Godan verbs</b> make up <u>most</u> of the other verbs.<br> Example: 行<style=Grammar>く</style>, 飲<style=Grammar>む</style>.<br><br> <sprite name=warning> However, not all verbs ending with an <b>'iru'</b> or <b>'eru'</b> sound are Ichidan verbs. For instance, 入る (ha<b>iru</b>) ends with an <b>'iru'</b> sound but is a Godan verb.<br><br>• <b>Irregular verbs</b> are just two.<br>    • <style=Grammar>する</style> (to do)<br>    • <style=Grammar>来る</style> (to come).<br><br> <sprite name=info> If you're unsure about a verb's type, check the tags in the in-game dictionary!<br><br><style=Title1>Verb ます-form</style>The <b>ます-form</b> is used to speak politely. You make it by attaching <b>〜ます</b> to the verb. How you do this depends on the verb type.<br><br>• <b>Ichidan verbs</b>: Remove the final <style=Grammar>る</style> and add <b>ます</b>.<br><style=Grammar><verb=2090z></style> → <style=Grammar><verb=2090y></style>ます<br><br>• <b>Godan verbs</b>: For Godan verbs, replace the final Hiragana, ending with a ‘u’ sound, with the respective Hiragana ending with an 'i' sound. and add <b>ます</b>.<br>買<style=Grammar>う</style> → 買<style=Grammar>い</style><b>ます</b><br>持<style=Grammar>つ</style> → 持<style=Grammar>ち</style><b>ます</b><br>話<style=Grammar>す</style> → 話<style=Grammar>し</style><b>ます</b><br>作<style=Grammar>る</style> → 作<style=Grammar>り</style><b>ます</b><br>行<style=Grammar>く</style> → 行<style=Grammar>き</style><b>ます</b><br>泳<style=Grammar>ぐ</style> → 泳<style=Grammar>ぎ</style><b>ます</b><br>死<style=Grammar>ぬ</style> → 死<style=Grammar>に</style><b>ます</b><br>遊<style=Grammar>ぶ</style> → 遊<style=Grammar>び</style><b>ます</b><br>飲<style=Grammar>む</style> → 飲<style=Grammar>み</style><b>ます</b><br><br>• <b>Irregular verbs</b>:<br>する → <b>します</b><br>来る (くる) → <b>来ます (きます)</b>"
+ },
+ "Lessons/VerbDictionaryStemMasu/Title": {
+  "ru": "Словарная форма・Итидан и Годан・форма MASU",
+  "en": "Dictionary Form・Ichidan & Godan・MASU-form"
+ },
+ "Lessons/VerbNonPastNegative/Content": {
+  "ru": "Отрицательная форма глаголов в настоящем/будущем времени используется для выражения того, что кто-то не сделает чего-то, обычно не делает чего-то или когда что-то обычно не является правдой. Обычно она используется в следующих ситуациях:<br><br><u>Будущие события</u><br><japaneseText=Lessons/Contents/vNeg/1><br><style=Meaning>(Я) не поеду в Японию.</style><br><br><u>Общие факты</u><br><japaneseText=Lessons/Contents/vNeg/2><br><style=Meaning>Собаки не пьют чай. (формально)</style><br><br><u>Привычки</u><br><japaneseText=Lessons/Contents/vNeg/3><br><style=Meaning>Я не ем Удон каждый день. (неформально)</style><br><br><sprite name=warning> <b>ある</b> и <b>いる</b> являются глаголами состояния, которые не следуют указанным выше случаям. Эти два глагола используются для выражения <u>существования</u>.<br><japaneseText=Lessons/Contents/vNeg/4><br><style=Meaning>В доме нет собаки. (неформально)</style><br><br><sprite name=warning> Отрицательная форма глаголов в настоящем/будущем времени <u>не может быть использована для действий, которые происходят в данный момент</u>.<br><br><style=Title1>~ない (Настоящее/Будущее простое отрицание)</style>Эта форма обычно используется в <b>неформальных</b> разговорах с друзьями, семьей или людьми того же или более низкого возраста или статуса. Она образуется по-разному для глаголов Итидан и Годан.<br><br>Для глаголов Итидан просто удалите последнюю る и добавьте ない.<br><style=Grammar><verb=2090z></style> → <style=Grammar><verb=2090fv></style><br><style=Grammar><verb=3630z></style> → <style=Grammar><verb=3630fv></style><br><japaneseText=Lessons/Contents/vNeg/6><br><style=Meaning>Я не дам воды лошади! (неформально)</style><br><br>Для глаголов Годан замените последнюю хирагану, заканчивающуюся на 'у', на соответствующую хирагану, заканчивающуюся на 'а'. Затем добавьте ない.<br><style=Grammar>つ</style> → <style=Grammar>た</style><b>ない</b> : 持<style=Grammar>つ</style> → 持<style=Grammar>た</style><b>ない</b><br><style=Grammar>す</style> → <style=Grammar>さ</style><b>ない</b> : 話<style=Grammar>す</style> → 話<style=Grammar>さ</style><b>ない</b><br><style=Grammar>る</style> → <style=Grammar>ら</style><b>ない</b> : 作<style=Grammar>る</style> → 作<style=Grammar>ら</style><b>ない</b><br><style=Grammar>く</style> → <style=Grammar>か</style><b>ない</b>: 行<style=Grammar>く</style> → 行<style=Grammar>か</style><b>ない</b><br><style=Grammar>ぐ</style> → <style=Grammar>が</style><b>ない</b> : 泳<style=Grammar>ぐ</style> → 泳<style=Grammar>が</style><b>ない</b><br><style=Grammar>ぬ</style> → <style=Grammar>な</style><b>ない</b> : 死<style=Grammar>ぬ</style> → 死<style=Grammar>な</style><b>ない</b><br><style=Grammar>ぶ</style> → <style=Grammar>ば</style><b>ない</b> : 遊<style=Grammar>ぶ</style> → 遊<style=Grammar>ば</style><b>ない</b><br><style=Grammar>む</style> → <style=Grammar>ま</style><b>ない</b> : 飲<style=Grammar>む</style> → 飲<style=Grammar>ま</style><b>ない</b><br><br><sprite name=warning> Для глаголов Годан, заканчивающихся на う, замените последнюю хирагану на わ. Затем добавьте ない.<br><style=Grammar>う</style> → <style=Grammar>わ</style><b>ない</b> : 買<style=Grammar>う</style> → 買<style=Grammar>わ</style><b>ない</b><br><japaneseText=Lessons/Contents/vNeg/7><br><style=Meaning>Я не разговариваю с японцами каждый день. (неформально)</style><br><japaneseText=Lessons/Contents/vNeg/8><br><style=Meaning>Я не куплю бэнто из магазина. (неформально)</style><br><br><sprite name=warning> です, ある и する являются исключениями:<br><style=Grammar><verb=2088z></style> → <style=Grammar><verb=2088fv></style><br><style=Grammar><verb=2094z></style> → <style=Grammar><verb=2094fv></style><br><style=Grammar><verb=2089z></style> → <style=Grammar><verb=2089fv></style><br><japaneseText=Lessons/Contents/vNeg/9><br><style=Meaning>Я не японец. (неформально)</style><br><japaneseText=Lessons/Contents/vNeg/10><br><style=Meaning>В магазине нет кофе. (неформально)</style><br><japaneseText=Lessons/Contents/vNeg/11><br><style=Meaning>Я не учу японский каждый день. (неформально)</style><br><br><sprite name=info> В разговорной речи <b>ではない</b> обычно сокращается до <b>じゃない</b>.<br><japaneseText=Lessons/Contents/vNeg/12><br><style=Meaning> Я не японец. (неформально, сокращённо)</style><br><br><style=Title1>~ないです (Настоящее/Будущее вежливое отрицание)</style>Это <u>самая часто</u> используемая <b>вежливая</b> отрицательная форма. Она используется в вежливых контекстах (когда говорите с людьми, с которыми менее близки, или с людьми более высокого статуса). Она образуется добавлением <b>です</b> к форме ~ない глагола.<br><style=Grammar><verb=2090z></style> → <style=Grammar><verb=2090hv></style><br><style=Grammar><verb=2092z></style> → <style=Grammar><verb=2092hv></style><br><japaneseText=Lessons/Contents/vNeg/13><br><style=Meaning>Я не ем удон.</style><br><japaneseText=Lessons/Contents/vNeg/14><br><style=Meaning>Дети не пойдут в парк.</style><br><br><sprite name=info> В разговорной речи <b>ではないです</b> обычно сокращается до <b>じゃないです</b>.<br><japaneseText=Lessons/Contents/vNeg/15><br><style=Meaning>Я не японец. (сокращённо)</style><br><br><style=Title1>~ません (Настоящее/Будущее формальное отрицание)</style>Эта форма <b>довольно формальна</b> и в основном используется в письменной речи или в очень формальных устных ситуациях. Она образуется добавлением <b>ません</b> к основе глагола.<br><style=Grammar><verb=2090z></style> → <style=Grammar><verb=2090cv></style><br><style=Grammar><verb=2092z></style> → <style=Grammar><verb=2092cv></style><br><japaneseText=Lessons/Contents/vNeg/5><br><style=Meaning>Я не поднимусь на вершину горы. (формально)</style><br><br><style=Title1>Использование か с отрицательной формой глаголов</style>Добавление か или вопросительного знака превращает отрицательную форму глагола в риторический вопрос, акцент или способ попросить согласие.<br><japaneseText=Lessons/Contents/vNeg/16><br><style=Meaning>Разве ты не пишешь кандзи каждый день?</style><br><japaneseText=Lessons/Contents/vNeg/17><br><style=Meaning>Не научишь меня японскому? (неформально)</style>",
+  "en": "The present/future negative form of verbs is used to strongly express that someone will not do something, usually does not do something, or when something is generally not true. It is typically used in the following situations:<br><br><u>Future events</u><br><japaneseText=Lessons/Contents/vNeg/1><br><style=Meaning>(I) will not go to Japan.</style><br><br><u>General facts</u><br><japaneseText=Lessons/Contents/vNeg/2><br><style=Meaning>Dogs do not drink tea. (formal)</style><br><br><u>Habits</u><br><japaneseText=Lessons/Contents/vNeg/3><br><style=Meaning>I do not eat Udon every day. (casual)</style><br><br><sprite name=warning> <b>ある</b> and <b>いる</b> are state verbs that do not follow the previously listed use cases. These two verbs are used to express <u>existence</u>.<br><japaneseText=Lessons/Contents/vNeg/4><br><style=Meaning>There isn’t a dog in the house. (casual)</style><br><br><sprite name=warning> The present / future negative form of verbs <u>cannot be used for ongoing actions</u>.<br><br><style=Title1>~ない (Present/Future Plain Negative)</style>This form is generally used in <b>casual</b> conversations with friends, family, or people of the same or lower age or status. It is constructed differently for Ichidan and Godan verbs.<br><br>For Ichidan verbs, simply remove the last る and add ない.<br><style=Grammar><verb=2090z></style> → <style=Grammar><verb=2090fv></style><br><style=Grammar><verb=3630z></style> → <style=Grammar><verb=3630fv></style><br><japaneseText=Lessons/Contents/vNeg/6><br><style=Meaning>I won’t give water to the horse! (casual)</style><br><br>For Godan verbs, replace the final Hiragana, ending with a 'u' sound, with the respective Hiragana ending with an 'a' sound. Then, add ない.<br><style=Grammar>つ</style> → <style=Grammar>た</style><b>ない</b> : 持<style=Grammar>つ</style> → 持<style=Grammar>た</style><b>ない</b><br><style=Grammar>す</style> → <style=Grammar>さ</style><b>ない</b> : 話<style=Grammar>す</style> → 話<style=Grammar>さ</style><b>ない</b><br><style=Grammar>る</style> → <style=Grammar>ら</style><b>ない</b> : 作<style=Grammar>る</style> → 作<style=Grammar>ら</style><b>ない</b><br><style=Grammar>く</style> → <style=Grammar>か</style><b>ない</b>: 行<style=Grammar>く</style> → 行<style=Grammar>か</style><b>ない</b><br><style=Grammar>ぐ</style> → <style=Grammar>が</style><b>ない</b> : 泳<style=Grammar>ぐ</style> → 泳<style=Grammar>が</style><b>ない</b><br><style=Grammar>ぬ</style> → <style=Grammar>な</style><b>ない</b> : 死<style=Grammar>ぬ</style> → 死<style=Grammar>な</style><b>ない</b><br><style=Grammar>ぶ</style> → <style=Grammar>ば</style><b>ない</b> : 遊<style=Grammar>ぶ</style> → 遊<style=Grammar>ば</style><b>ない</b><br><style=Grammar>む</style> → <style=Grammar>ま</style><b>ない</b> : 飲<style=Grammar>む</style> → 飲<style=Grammar>ま</style><b>ない</b><br><br><sprite name=warning> For Godan verbs ending with う, replace the final Hiragana with わ. Then, add ない.<br><style=Grammar>う</style> → <style=Grammar>わ</style><b>ない</b> : 買<style=Grammar>う</style> → 買<style=Grammar>わ</style><b>ない</b><br><japaneseText=Lessons/Contents/vNeg/7><br><style=Meaning>I do not talk to Japanese people every day. (casual)</style><br><japaneseText=Lessons/Contents/vNeg/8><br><style=Meaning>I won’t buy the shop’s bento. (casual)</style><br><br><sprite name=warning> です, ある and する are exceptions:<br><style=Grammar><verb=2088z></style> → <style=Grammar><verb=2088fv></style><br><style=Grammar><verb=2094z></style> → <style=Grammar><verb=2094fv></style><br><style=Grammar><verb=2089z></style> → <style=Grammar><verb=2089fv></style><br><japaneseText=Lessons/Contents/vNeg/9><br><style=Meaning>I am not Japanese. (casual)</style><br><japaneseText=Lessons/Contents/vNeg/10><br><style=Meaning>There is no coffee inside the shop. (casual)</style><br><japaneseText=Lessons/Contents/vNeg/11><br><style=Meaning>I do not study Japanese every day. (casual)</style><br><br><sprite name=info> In spoken language, <b>ではない</b> is usually contracted to <b>じゃない</b>.<br><japaneseText=Lessons/Contents/vNeg/12><br><style=Meaning> I am not Japanese. (casual, contracted)</style><br><br><style=Title1>~ないです (Present/Future Polite Negative)</style>This is the <u>most commonly</u> used <b>polite</b> negative form. It is used when speaking in a polite context (when talking to people you are less close to, or of higher status). It is constructed by adding <b>です</b> to the ~ない form of a verb.<br><style=Grammar><verb=2090z></style> → <style=Grammar><verb=2090hv></style><br><style=Grammar><verb=2092z></style> → <style=Grammar><verb=2092hv></style><br><japaneseText=Lessons/Contents/vNeg/13><br><style=Meaning>I do not eat udon often.</style><br><japaneseText=Lessons/Contents/vNeg/14><br><style=Meaning>The children will not go to the park.</style><br><br><sprite name=info> In spoken language, <b>ではないです</b> is usually contracted to <b>じゃないです</b>.<br><japaneseText=Lessons/Contents/vNeg/15><br><style=Meaning>I am not Japanese. (contracted)</style><br><br><style=Title1>~ません (Present/Future Formal Negative)</style>This form is <b>quite formal</b> and primarily used in writing or in certain very formal oral situations. It is constructed by adding <b>ません</b> to the stem form of a verb.<br><style=Grammar><verb=2090z></style> → <style=Grammar><verb=2090cv></style><br><style=Grammar><verb=2092z></style> → <style=Grammar><verb=2092cv></style><br><japaneseText=Lessons/Contents/vNeg/5><br><style=Meaning>I won’t go on top of the mountain. (formal)</style><br><br><style=Title1>Using か with the negative form of verbs</style>Adding か or a question mark turns the negative form of a verb into a rhetorical question, emphasis, or a way to seek agreement.<br><japaneseText=Lessons/Contents/vNeg/16><br><style=Meaning>Don’t you write Kanji every day?</style><br><japaneseText=Lessons/Contents/vNeg/17><br><style=Meaning>Won't you teach me Japanese? (casual)</style>"
+ },
+ "Lessons/VerbNonPastNegative/Title": {
+  "ru": "Настоящее/Будущее Отрицательное (Глаголы)",
+  "en": "Present/Future Negative (Verbs)"
+ },
+ "Lessons/VerbNonPastPlainAffirmative/Content": {
+  "ru": "<style=Title1>Простая форма vs Вежливая форма</style>В отличие от <b>вежливой формы</b>, <b>простая форма</b> обычно используется в <u>неформальных</u> разговорах с друзьями, семьей или людьми того же возраста или низшего статуса.<br><br><style=Title1>Простая форма</style><b>Простая форма</b> глагола обычно совпадает с его словарной формой.<br><b><verb=1935z></b> → <b><verb=1935ev></b><br><b><verb=1928z></b> → <b><verb=1928ev></b><br><br>Она используется в тех же грамматических ситуациях, что и форма MASU, но с неформальным оттенком.<br><br><u>Будущие события</u><br><japaneseText=Lessons/Contents/NonPastPlainPositive/1><br><style=Meaning>(Я) поеду в Японию. (неформально)</style><br><br><u>Общие факты</u><br><japaneseText=Lessons/Contents/NonPastPlainPositive/2><br><style=Meaning>Собаки пьют воду. (неформально)</style><br><br><u>Привычки</u><br><japaneseText=Lessons/Contents/NonPastPlainPositive/3><br><style=Meaning>(Я обычно) учу Мари японскому языку. (неформально)</style><br><br><sprite name=warning> <b>ある</b> и <b>いる</b> — это глаголы состояния, которые не следуют ранее перечисленным правилам использования. Эти два глагола используются для выражения <u>существования</u>.<br><japaneseText=Lessons/Contents/NonPastPlainPositive/4><br><style=Meaning>В доме есть собака. (неформально)</style><br><br><sprite name=warning> Эта <b>простая форма</b> <u>не может быть использована для описания действий, которые происходят в данный момент</u>.<br><br><sprite name=warning> です — это исключение, его простая форма отличается от словарной:<br><b><verb=2088z></b> → <b><verb=2088ev></b><br><br><sprite name=warning> Использование か для постановки вопроса в простой форме может звучать довольно грубо, поэтому обычно заменяется на знак вопроса:<br><japaneseText=Lessons/Contents/NonPastPlainPositive/5><br><style=Meaning>Ты пойдешь в парк? (неформально)</style>",
+  "en": "<style=Title1>Plain vs Polite</style>As opposed to the <b>Polite Form</b>, the <b>Plain Form</b> is generally used in <u>casual</u> conversations with friends, family, or people of the same or lower age or status.<br><br><style=Title1>Plain form</style>The <b>plain form</b> of a verb is usually the same as its dictionary form.<br><b><verb=1935z></b> → <b><verb=1935ev></b><br><b><verb=1928z></b> → <b><verb=1928ev></b><br><br>It is used in the same grammatical situations as the MASU-form, but with a casual twist.<br><br><u>Future events</u><br><japaneseText=Lessons/Contents/NonPastPlainPositive/1><br><style=Meaning>(I) will go to Japan. (casual)</style><br><br><u>General facts</u><br><japaneseText=Lessons/Contents/NonPastPlainPositive/2><br><style=Meaning>Dogs drink water. (casual)</style><br><br><u>Habits</u><br><japaneseText=Lessons/Contents/NonPastPlainPositive/3><br><style=Meaning>(I usually) teach Japanese to Mari. (casual)</style><br><br><sprite name=warning> <b>ある</b> and <b>いる</b> are state verbs that do not follow the previously listed use cases. These two verbs are used to express <u>existence</u>.<br><japaneseText=Lessons/Contents/NonPastPlainPositive/4><br><style=Meaning>There is a dog in the house. (casual)</style><br><br><sprite name=warning> This <b>plain-form</b> <u>cannot be used for ongoing actions</u>.<br><br><sprite name=warning> です is an exception, its plain form is different than its dictionary form:<br><b><verb=2088z></b> → <b><verb=2088ev></b><br><br><sprite name=warning> Using か to ask a question in plain form sounds quite strong or rough, so it is usually replaced by a question mark:<br><japaneseText=Lessons/Contents/NonPastPlainPositive/5><br><style=Meaning>Will you go to the park? (casual)</style>"
+ },
+ "Lessons/VerbNonPastPlainAffirmative/Title": {
+  "ru": "Нейтральная форма глагола (Настоящее/Будущее)",
+  "en": "Plain Form of a verb (Present/Future Plain)"
+ },
+ "Lessons/VerbPast/Content": {
+  "ru": "Прошедшая форма глаголов используется,чтобы выразить что-то, что <b>завершено</b> или <b>произошло в прошлом</b>. Обычно она используется в следующих ситуациях:<br><br><u>Прошедшие события</u><br><japaneseText=Lessons/Contents/vPast/1><br><style=Meaning>Я купил книгу.</style><br><br><u>Завершённые действия</u><br><japaneseText=Lessons/Contents/vPast/2><br><style=Meaning>Я съел рамен со стола.</style><br><br><u>Осознания / открытия</u><br><japaneseText=Lessons/Contents/vPast/3><br><style=Meaning>Где моя печать...? Она была там! Под столом!</style><br><br><style=Title1>~ました (Вежливое прошедшее)</style>Эта форма используется в вежливом контексте (при разговоре с людьми, с которыми вы менее близки или которые выше по статусу). Формируется заменой конечного <b>ます</b> формы MASU на <b>ました</b>.<br><style=Grammar><verb=2090bv></style> → <style=Grammar><verb=2090gv></style><br><style=Grammar><verb=2092bv></style> → <style=Grammar><verb=2092gv></style><br><japaneseText=Lessons/Contents/vPast/4><br><style=Meaning>Я дал сумку учителю.</style><br><br><sprite name=warning> です — исключение:<br><style=Grammar><verb=2088z></style> → <style=Grammar><verb=2088gd></style><br><japaneseText=Lessons/Contents/vPast/5><br><style=Meaning>Я был учителем японского языка.</style><br><br><style=Title1>~た (Простое прошедшее)</style>Эта форма обычно используется в <b>неформальной</b> речи с друзьями, семьёй или людьми того же или более низкого статуса. Формируется по-разному для <tooltip key=Tooltip/IchidanVerb>Итидан</tooltip> и <tooltip key=Tooltip/GodanVerb>Годан</tooltip> глаголов.<br><br><sprite name=info> Напоминание о том, как отличать Итидан и Годан глаголы, можно найти в уроке <b>“Форма словаря・Итидан & Годан・Форма MASU”</b>.<br><br>Для Итидан-глаголов просто уберите последний る и добавьте た.<br><style=Grammar><verb=2090z></style> → <style=Grammar><verb=2090iv></style><br><style=Grammar><verb=3630z></style> → <style=Grammar><verb=3630iv></style><br><japaneseText=Lessons/Contents/vPast/6><br><style=Meaning>Я учил японский Мари. (неформально)</style><br><br>Для Годан-глаголов замените конечный хирагану следующим образом<br><style=Grammar>う</style> → <style=Grammar>った</style>: 買<style=Grammar>う</style> → 買<style=Grammar>った</style><br><style=Grammar>つ</style> → <style=Grammar>った</style>: 持<style=Grammar>つ</style> → 持<style=Grammar>った</style><br><style=Grammar>る</style> → <style=Grammar>った</style>: 作<style=Grammar>る</style> → 作<style=Grammar>った</style><br><style=Grammar>ぬ</style> → <style=Grammar>んだ</style>: 死<style=Grammar>ぬ</style> → 死<style=Grammar>んだ</style><br><style=Grammar>ぶ</style> → <style=Grammar>んだ</style>: 遊<style=Grammar>ぶ</style> → 遊<style=Grammar>んだ</style><br><style=Grammar>む</style> → <style=Grammar>んだ</style>: 飲<style=Grammar>む</style> → 飲<style=Grammar>んだ</style><br><style=Grammar>く</style> → <style=Grammar>いた</style>: 書<style=Grammar>く</style> → 書<style=Grammar>いた</style><br><style=Grammar>ぐ</style> → <style=Grammar>いだ</style>: 泳<style=Grammar>ぐ</style> → 泳<style=Grammar>いだ</style><br><style=Grammar>す</style> → <style=Grammar>した</style>: 話<style=Grammar>す</style> → 話<style=Grammar>した</style><br><japaneseText=Lessons/Contents/vPast/7><br><style=Meaning>Я сделал веер в городе Маругаме. (неформально)</style><br><japaneseText=Lessons/Contents/vPast/8><br><style=Meaning>Я выпил вкусный кофе. (неформально)</style><br><br><sprite name=warning> です, する, 行く, и 来る — исключения:<br><style=Grammar><verb=2088z></style> → <style=Grammar><verb=2088id></style><br><style=Grammar><verb=2089z></style> → <style=Grammar><verb=2089iv></style><br><style=Grammar><verb=2092z></style> → <style=Grammar><verb=2092iv></style><br><style=Grammar><verb=2109z></style> → <style=Grammar><verb=2109iv></style><br><japaneseText=Lessons/Contents/vPast/9><br><style=Meaning>Г-н/г-жа Танака был хорошим человеком. (неформально)</style><br><japaneseText=Lessons/Contents/vPast/10><br><style=Meaning>Что ты делал вне дома? (неформально)</style><br><japaneseText=Lessons/Contents/vPast/11><br><style=Meaning>Я ходил на пляж с моей собакой. (неформально)</style><br><japaneseText=Lessons/Contents/vPast/12><br><style=Meaning>Профессор Киноко пришёл ко мне домой. (неформально)</style>",
+  "en": "The past form of verbs is used to express that something is <b>completed</b> or <b>happened in the past</b>. It is typically used in the following situations:<br><br><u>Past events</u><br><japaneseText=Lessons/Contents/vPast/1><br><style=Meaning>I bought a book.</style><br><br><u>Completed actions</u><br><japaneseText=Lessons/Contents/vPast/2><br><style=Meaning>I ate the ramen on the table.</style><br><br><u>Realizations / Discovery</u><br><japaneseText=Lessons/Contents/vPast/3><br><style=Meaning>Where is my stamp...? It was there! Under the table!</style><br><br><style=Title1>~ました (Past Polite)</style>This form is used when speaking in a polite context (when talking to people you are less close to, or of higher status). It is constructed by replacing the final <b>ます</b> of the MASU-form of the verb with <b>ました</b>.<br><style=Grammar><verb=2090bv></style> → <style=Grammar><verb=2090gv></style><br><style=Grammar><verb=2092bv></style> → <style=Grammar><verb=2092gv></style><br><japaneseText=Lessons/Contents/vPast/4><br><style=Meaning>I gave the bag to the teacher.</style><br><br><sprite name=warning> です is an exception:<br><style=Grammar><verb=2088z></style> → <style=Grammar><verb=2088gd></style><br><japaneseText=Lessons/Contents/vPast/5><br><style=Meaning>I was a Japanese teacher.</style><br><br><style=Title1>~た (Past Plain)</style>This form is generally used in <b>casual</b> conversations with friends, family, or people of the same or lower age or status. It is constructed differently for <tooltip key=Tooltip/IchidanVerb>Ichidan</tooltip> and <tooltip key=Tooltip/GodanVerb>Godan</tooltip> verbs.<br><br> <sprite name=info> You can find a reminder on how to identify Ichidan and Godan verbs in the <b>“Dictionary Form・Ichidan & Godan・MASU-form” lesson</b>.<br><br>For Ichidan verbs, simply remove the last る and add た.<br><style=Grammar><verb=2090z></style> → <style=Grammar><verb=2090iv></style><br><style=Grammar><verb=3630z></style> → <style=Grammar><verb=3630iv></style><br><japaneseText=Lessons/Contents/vPast/6><br><style=Meaning>I taught Japanese to Mari. (casual)</style><br><br>For Godan verbs, replace the final Hiragana as follows<br><style=Grammar>う</style> → <style=Grammar>った</style>: 買<style=Grammar>う</style> → 買<style=Grammar>った</style><br><style=Grammar>つ</style> → <style=Grammar>った</style>: 持<style=Grammar>つ</style> → 持<style=Grammar>った</style><br><style=Grammar>る</style> → <style=Grammar>った</style>: 作<style=Grammar>る</style> → 作<style=Grammar>った</style><br><style=Grammar>ぬ</style> → <style=Grammar>んだ</style>: 死<style=Grammar>ぬ</style> → 死<style=Grammar>んだ</style><br><style=Grammar>ぶ</style> → <style=Grammar>んだ</style>: 遊<style=Grammar>ぶ</style> → 遊<style=Grammar>んだ</style><br><style=Grammar>む</style> → <style=Grammar>んだ</style>: 飲<style=Grammar>む</style> → 飲<style=Grammar>んだ</style><br><style=Grammar>く</style> → <style=Grammar>いた</style>: 書<style=Grammar>く</style> → 書<style=Grammar>いた</style><br><style=Grammar>ぐ</style> → <style=Grammar>いだ</style>: 泳<style=Grammar>ぐ</style> → 泳<style=Grammar>いだ</style><br><style=Grammar>す</style> → <style=Grammar>した</style>: 話<style=Grammar>す</style> → 話<style=Grammar>した</style><br><japaneseText=Lessons/Contents/vPast/7><br><style=Meaning>I made a fan in Marugame City. (casual)</style><br><japaneseText=Lessons/Contents/vPast/8><br><style=Meaning>I drank a delicious coffee. (casual)</style><br><br><sprite name=warning> です, する, 行く, and 来る are exceptions:<br><style=Grammar><verb=2088z></style> → <style=Grammar><verb=2088id></style><br><style=Grammar><verb=2089z></style> → <style=Grammar><verb=2089iv></style><br><style=Grammar><verb=2092z></style> → <style=Grammar><verb=2092iv></style><br><style=Grammar><verb=2109z></style> → <style=Grammar><verb=2109iv></style><br><japaneseText=Lessons/Contents/vPast/9><br><style=Meaning> Mr./Ms. Tanaka was a good person. (casual)</style><br><japaneseText=Lessons/Contents/vPast/10><br><style=Meaning> What did you do outside the house? (casual)</style><br><japaneseText=Lessons/Contents/vPast/11><br><style=Meaning> I went to the beach with my dog. (casual)</style><br><japaneseText=Lessons/Contents/vPast/12><br><style=Meaning>Professor Kinoko came to my house. (casual)</style>"
+ },
+ "Lessons/VerbPast/Title": {
+  "ru": "Прошедшее время (Глаголы)",
+  "en": "Past (Verbs)"
+ },
+ "Lessons/VerbVolitional/Content": {
+  "ru": "В японском языке существует грамматическая структура, известная как <b>форма MASHOU</b> для глаголов, в которой глаголы всегда заканчиваются на <b>ましょう</b>.<br>Форма <b>MASHOU</b> добавляет глаголу значение <b>приглашения</b>. В зависимости от ситуации, она может быть переведена как «давай сделаем ~», «не хочешь ли ~?» или «позволь мне сделать ~».<br>С грамматической точки зрения, это называется <b>волевая форма настоящего/будущего времени, вежливая, утвердительная</b>.<br>Обычно она используется в следующих ситуациях:<br><br><u>Предложение или приглашение</u><br><japaneseText=Lessons/Contents/Mashou/1><br><style=Meaning>Так как погода хорошая, давай поедем на пляж.</style><br><br><u>Предложение сделать что-то</u><br><japaneseText=Lessons/Contents/Mashou/2><br><style=Meaning>Позволь мне приготовить бэнто.</style><br><br><sprite name=info> Обычно добавляется частица か, чтобы смягчить утверждение и превратить его в вопрос.<br><japaneseText=Lessons/Contents/Mashou/3><br><style=Meaning>Не хочешь ли ты учить кандзи?</style><br><br><style=Title1>Строение формы MASHOU</style>Форма MASHOU образуется добавлением <b>ましょう</b> к основе глагола.<br><style=Grammar><verb=2090y></style> → <style=Grammar><verb=2090dv></style><br><style=Grammar><verb=1910y></style> → <style=Grammar><verb=1910dv></style>",
+  "en": "In Japanese, there is a grammatical structure known as the <b>MASHOU-form</b> of verbs where verbs consistently conclude with <b>ましょう</b>.<br>The <b>MASHOU-form</b> adds a meaning of <b>invitation</b> to a verb. Depending on the situation, it could be translated as 'let's do ~', 'shall we do ~?' or 'let me do ~'. <br>In more grammatical terms, it is called the <b>Volitional Present/Future Polite Positive</b> form.<br>It is typically used in the following situations:<br><br><u>Proposing or Inviting</u><br><japaneseText=Lessons/Contents/Mashou/1><br><style=Meaning>Because the weather is nice, let's go to the beach.</style><br><br><u>Offer to do something</u><br><japaneseText=Lessons/Contents/Mashou/2><br><style=Meaning>Let me make a Bento.</style><br><br><sprite name=info> It is common to add the か particle to soften the statement and turn it into a question.<br><japaneseText=Lessons/Contents/Mashou/3><br><style=Meaning>Shall we study Kanji?</style><br><br><style=Title1>MASHOU-form construction</style>The MASHOU-form is constructed by adding <b>ましょう</b> to the stem form of a verb.<br><style=Grammar><verb=2090y></style> → <style=Grammar><verb=2090dv></style><br><style=Grammar><verb=1910y></style> → <style=Grammar><verb=1910dv></style>"
+ },
+ "Lessons/VerbVolitional/Title": {
+  "ru": "Форма MASHOU (Настоящее/Будущее Вежливое)",
+  "en": "MASHOU-form (Present/Future Polite)"
+ },
+ "ShortDef/De/MeansOfDoing": {
+  "ru": "Способ действия",
+  "en": "Means of doing"
+ },
+ "ShortDef/De/Quantity": {
+  "ru": "Количество",
+  "en": "Quantity"
+ },
+ "ShortDef/Ga/But": {
+  "ru": "Но",
+  "en": "But"
+ },
+ "ShortDef/Ha/Contrast": {
+  "ru": "Противопоставление",
+  "en": "Contrast"
+ },
+ "ShortDef/Ka/Or": {
+  "ru": "Или",
+  "en": "Or"
+ },
+ "ShortDef/Ka/Question": {
+  "ru": "Вопрос",
+  "en": "Question"
+ },
+ "ShortDef/Kara/Because": {
+  "ru": "Потому что",
+  "en": "Because"
+ },
+ "ShortDef/Kara/From": {
+  "ru": "От",
+  "en": "From"
+ },
+ "ShortDef/Koto/Thing": {
+  "ru": "Вещь",
+  "en": "Thing"
+ },
+ "ShortDef/Made/To": {
+  "ru": "К",
+  "en": "To"
+ },
+ "ShortDef/Mo/Also": {
+  "ru": "Также",
+  "en": "Also"
+ },
+ "ShortDef/Ni/Transformation": {
+  "ru": "Преобразование",
+  "en": "Transformation"
+ },
+ "ShortDef/No/Nominalization": {
+  "ru": "Субстантивация",
+  "en": "Nominalization"
+ },
+ "ShortDef/No/PossessionAssociation": {
+  "ru": "Принадлежность и связь",
+  "en": "Possession & Association"
+ },
+ "ShortDef/To/AndWith": {
+  "ru": "И & С",
+  "en": "And & With"
+ },
+ "ShortDef/To/Quotation": {
+  "ru": "Цитата",
+  "en": "Quotation"
+ },
+ "Tooltip/GodanVerb": {
+  "ru": "Глаголы Годан (五段, буквально 'пять уровней') могут изменять последнюю гласную в своей словарной форме на каждую из пяти японских гласных ('a', 'i', 'u', 'e', 'o'), поэтому их называют глаголами с 'пятью уровнями'.",
+  "en": "Godan (五段, literally 'five levels') verbs can change the last vowel in their dictionary form to each of the five Japanese vowel sounds ('a', 'i', 'u', 'e', and 'o'), which is why they are called 'five-level' verbs."
+ },
+ "Tooltip/IchidanVerb": {
+  "ru": "Глаголы Итидан (一段, буквально 'один уровень') имеют только один уровень звука в своей конъюгации.",
+  "en": "Ichidan (一段, literally 'one level') verbs have only one sound level in their conjugation."
+ },
+ "Tooltip/IDontKnowThisWord": {
+  "ru": "Я не имею ни малейшего представления, что это значит.",
+  "en": "I have no idea what that means."
+ },
+ "Tooltip/LeaderboardNA": {
+  "ru": "Для того чтобы попасть в рейтинг, требуется минимальный балл #VALUE.",
+  "en": "A minimum score of #VALUE is required to be included in the leaderboard."
+ },
+ "Tooltip/Particle": {
+  "ru": "В японском языке частицы определяют функцию слова, стоящего непосредственно перед ними.",
+  "en": "In Japanese, particles indicate the function of the word placed right before them."
+ },
+ "Tooltip/Topic": {
+  "ru": "Концепция темы почти такая же, как и тема предложения. Однако, как только тема установлена, её не нужно повторять в следующих предложениях.",
+  "en": "The concept of topic is almost the same as the subject of a sentence. However, once the topic is established, you don’t need to repeat it in the next sentences."
+ },
+ "Tooltip/Uchi": {
+  "ru": "Термин <u>Uchi</u> (内) буквально означает «внутри». Он относится к людям в кругу общения, таким как семья, близкие друзья, одноклассники или коллеги.",
+  "en": "The term <u>Uchi</u> (内) literally means 'inside'. It refers to people within one’s social circles, such as family, close friends, classmates, or colleagues."
+ },
+ "Tooltip/UnlockableInGame": {
+  "ru": "Станет доступно по мере прохождения.",
+  "en": "Unlockable during the adventure."
+ },
+ "Tooltip/UnlockableWithWords": {
+  "ru": "Разблокируемо при обнаружении слова, содержащего этот <style=Kanji>Кандзи</style>.",
+  "en": "Unlockable by discovering a word containing this <style=Kanji>Kanji</style>."
+ },
+ "Basic/Bookshelf": {
+  "ru": "Книжная полка",
+  "en": "Bookshelf"
+ },
+ "Basic/ListenAgain": {
+  "ru": "Прослушать ещё раз",
+  "en": "Listen again"
+ },
+ "Basic/ItIsARadio": {
+  "ru": "Это радио.",
+  "en": "This is a radio."
+ },
+ "Basic/ConjugationsUnlocked": {
+  "ru": "Спряжения разблокированы!",
+  "en": "Conjugations unlocked!"
+ },
+ "Basic/PlayerIdWithValue": {
+  "ru": "ID игрока: #VALUE",
+  "en": "Player ID: #VALUE"
+ },
+ "Basic/FPS": {
+  "ru": "Частота кадров (FPS)",
+  "en": "Frame rate (FPS)"
+ },
+ "Basic/Conjunction": {
+  "ru": "Союз",
+  "en": "Conjunction"
+ },
+ "Basic/Pronouns": {
+  "ru": "Местоимения",
+  "en": "Pronouns"
+ },
+ "Basic/AnswerQuestionAgain": {
+  "ru": "Ответить на вопросы снова",
+  "en": "Answer the questions again"
+ },
+ "Basic/IDontKnow": {
+  "ru": "Я не знаю",
+  "en": "I don't know"
+ },
+ "Basic/CloseToListener": {
+  "ru": "близкая к собеседнику",
+  "en": "close to the listener"
+ },
+ "Basic/CloseToSpeaker": {
+  "ru": "рядом с говорящим",
+  "en": "close to the speaker"
+ },
+ "Variable/FarFromSpeakers": {
+  "ru": "далеко от обоих собеседников",
+  "en": "far from both speakers"
+ },
+ "Variable/InformingListener": {
+  "ru": "информирует собеседника",
+  "en": "informing the listener"
+ },
+ "Variable/ProvideContext": {
+  "ru": "предоставление контекста",
+  "en": "providing context"
+ },
+ "Variable/ImpliesFavor": {
+  "ru": "подразумевает благодарность или доброжелательность",
+  "en": "implies gratitude or kindness"
+ },
+ "Variable/Neutral": {
+  "ru": "нейтральный",
+  "en": "neutral"
+ },
+ "Variable/HelloPhone": {
+  "ru": "Алло (по телефону)",
+  "en": "Hello (on the phone)"
+ },
+ "Variable/JapaneseFloorSystem": {
+  "ru": "японская система",
+  "en": "Japanese floor system"
+ },
+ "Variable/Female": {
+  "ru": "женщины",
+  "en": "female"
+ },
+ "Variable/Male": {
+  "ru": "мужчины",
+  "en": "male"
+ },
+ "Variable/CuteSuffix": {
+  "ru": "с ласкательным суффиксом",
+  "en": "cute suffix"
+ },
+ "Variable/Boy": {
+  "ru": "мальчик",
+  "en": "boy"
+ },
+ "Variable/Polite": {
+  "ru": "вежливый",
+  "en": "polite"
+ },
+ "Variable/DaytimeAfternoon": {
+  "ru": "днём/после полудня",
+  "en": "daytime/afternoon"
+ },
+ "Basic/ColorBlind": {
+  "ru": "Режим для дальтоников",
+  "en": "Colorblind-friendly mode"
+ },
+ "Variable/Chou/City": {
+  "ru": "город / административная единица",
+  "en": "town / administrative subdivision"
+ },
+ "Variable/Shi/City": {
+  "ru": "город",
+  "en": "city"
+ },
+ "ShortDef/Chou/CitySubdivision": {
+  "ru": "Административная единица",
+  "en": "Administrative subdivision"
+ },
+ "Basic/ConstructionWorker": {
+  "ru": "Строительный рабочий",
+  "en": "Construction worker"
+ },
+ "Basic/Quote": {
+  "ru": "Цитата",
+  "en": "Quote"
+ },
+ "Basic/Supposition": {
+  "ru": "Предположение",
+  "en": "Supposition"
+ },
+ "Variable/Machi/Town": {
+  "ru": "Город",
+  "en": "Town"
+ },
+ "Variable/Kudasai/Request": {
+  "ru": "Формулирование просьб",
+  "en": "Formulating requests"
+ },
+ "Variable/TeIru/Continuous": {
+  "ru": "Продолженная форма",
+  "en": "Continuous Form"
+ },
+ "Lessons/Teiru/Title": {
+  "ru": "Продолженная форма (～ている)",
+  "en": "Continuous Form (～ている)"
+ },
+ "Lessons/Teiru/Content": {
+  "ru": "В японском языке существует глагольная форма, называемая <b>продолжительной формой</b>, также известная как <b>форма ている</b>. У неё есть несколько важных употреблений.<br><br><style=Title1>Использование формы ている </style><u>Действия, происходящие прямо сейчас</u><br><sentence=532><br><br><u>Действия, которые продолжаются</u><br><sentence=533><br><br><u>Привычные или повторяющиеся действия</u><br><sentence=535><br><br><u>Непрерывное состояние</u><br>В этом случае <b>форма ている</b> выражает результативное состояние после изменения, подразумеваемого глаголом. Обычно она используется с глаголами изменения состояния, такими как <verb=2051z>, <verb=2053z>, <verb=3635z>, <verb=1036z>...<br><sentence=559><br><br><sprite name=info> <b>Форма ている</b> может использоваться в разных временах и уровнях вежливости.<br><sentence=538><br><sentence=557><br><sentence=558><br><br><style=Title1>Образование формы ている</style>Продолжительная форма глагола образуется путём добавления <style=Grammar><verb=3633ev></style> в нужном времени или уровне вежливости после <b>TE-формы</b> этого глагола.<br><br><verb=1929kv> → <verb=1929kv> + <style=Grammar><verb=3633ev></style><br><sentence=531><br><br><verb=296kv> → <verb=296kv> + <style=Grammar><verb=3633ev></style><br><sentence=534>",
+  "en": "In Japanese, there is a verb form called the <b>continuous form</b>, also known as the <b>ている form</b>. It has a couple of important uses.<br><br><style=Title1>Use of the ている form </style><u>Actions that are happening right now</u><br><sentence=532><br><br><u>Actions that have been ongoing</u><br><sentence=533><br><br><u>Habitual or repeated actions</u><br><sentence=535><br><br><u>Continuous state</u><br>In that case, the <b>ている form</b> expresses the resulting state after the change implied by the verb. It is typically used with change-of-state verbs, such as <verb=2051z>, <verb=2053z>, <verb=3635z>, <verb=1036z>...<br><sentence=559><br><br><sprite name=info> The <b>ている form</b> can be used in different tenses and politeness levels.<br><sentence=538><br><sentence=557><br><sentence=558><br><br><style=Title1>Construction of theている form</style>The continuous form of a verb is constructed by adding <style=Grammar><verb=3633ev></style>, in the desired tense or politeness level, after the <b>TE-form</b> of that verb.<br><br><verb=1929kv> → <verb=1929kv> + <style=Grammar><verb=3633ev></style><br><sentence=531><br><br><verb=296kv> → <verb=296kv> + <style=Grammar><verb=3633ev></style><br><sentence=534>"
+ },
+ "ShortDef/Open/Hiraku": {
+  "ru": "раскрытие/абстрактно",
+  "en": "unfold / abstract"
+ },
+ "ShortDef/Open/Aku": {
+  "ru": "физическое открытие",
+  "en": "physical opening"
+ },
+ "Basic/MysteriousNote": {
+  "ru": "Таинная записка",
+  "en": "Mysterious note"
+ },
+ "Basic/MysteriousNoteWithNumber": {
+  "ru": "Таинственная записка ##VALUE",
+  "en": "Mysterious note ##VALUE"
+ },
+ "Basic/Garbage": {
+  "ru": "Мусорное ведро",
+  "en": "Trash can"
+ },
+ "Basic/Special": {
+  "ru": "Особый",
+  "en": "Special"
+ },
+ "Basic/StrokeCount": {
+  "ru": "Количество штрихов",
+  "en": "Stroke count"
+ },
+ "Kanjidex/Radicals/Long": {
+  "ru": "Разложение / Радикалы (部)",
+  "en": "Decomposition / Radicals (部)"
+ },
+ "Kanjidex/Radicals": {
+  "ru": "部 (Радикалы)",
+  "en": "部 (Radicals)"
+ },
+ "Basic/KanjiWithValue": {
+  "ru": "#VALUE кандзи",
+  "en": "#VALUE Kanji"
+ },
+ "Basic/Prefecture": {
+  "ru": "Префектура",
+  "en": "Prefecture"
+ },
+ "DictionaryEntry/KanjiNote": {
+  "ru": "<sprite name=info> #WORD также можно написать кандзи: #KANJI.",
+  "en": "<sprite name=info> #WORD can also be written in Kanji: #KANJI."
+ },
+ "Basic/InterrogativeWord": {
+  "ru": "Вопросительное слово",
+  "en": "Interrogative word"
+ },
+ "ShortDef/Nan": {
+  "ru": "なん",
+  "en": "なん"
+ },
+ "ShortDef/Nani": {
+  "ru": "なに",
+  "en": "なに"
+ },
+ "Basic/Ouch": {
+  "ru": "Ай!",
+  "en": "Ouch!"
+ },
+ "Basic/Course": {
+  "ru": "Курс",
+  "en": "Course"
+ },
+ "Lessons/Time/Content": {
+  "ru": "<u>Обозначение времени</u> в японском языке осуществляется с помощью счётных слов для часов (<style=Base><word=K00182></style>) и минут (<style=Base><word=K00472></style>).<br>Структура такова: <b>[количество часов]</b> <style=Base><word=K00182></style> <b>[количество минут]</b> <style=Base><word=K00472></style>.<br><sentence=580><br><br><sprite name=info> Очень часто время записывается с использованием арабских цифр.<br>・２<style=Base><word=K00182></style>１５<style=Base><word=K00472></style> = <word=K00157><style=Base><word=K00182></style><word=K00165><word=K00160><style=Base><word=K00472></style> = 2:15<br><br><style=Title1>Часы</style>Чтобы сказать, который сейчас час, достаточно добавить иероглиф <style=Base><word=K00182></style> после числа.<br><sentence=579><br><br><sprite name=warning> Есть несколько нерегулярных чтений:<br>・<word=K01081>: よん+じ → <style=Base>よ</style>じ<br>・<word=K01082>: なな+じ → <style=Base>しち</style>じ<br>・<word=K01083>: きゅう+じ → <style=Base>く</style>じ<br><br><style=Title1>Минуты</style>Чтобы сказать количество минут, достаточно добавить иероглиф <style=Base><word=K00472></style> после числа.<br><sentence=580><br><br><sprite name=warning> Есть несколько нерегулярных чтений:<br>・<word=K01084>: いち+ふん → <style=Base>いっぷん</style><br>・<word=K01085>: さん+ふん → さん<style=Base>ぷん</style><br>・<word=K01086>: よん+ふん → よん<style=Base>ぷん</style><br>・<word=K01087>: ろく+ふん → <style=Base>ろっぷん</style><br>・<word=K01088>: はち+ふん → <style=Base>はっぷん</style><br>・<word=K01089>: じゅう+ふん → <style=Base>じゅっぷん</style><br><br><style=Title1>Половина часа</style>Вместо того чтобы говорить <b>«30 минут»</b>, также можно использовать <b><word=K01090></b>.<br><sentence=566><br><br><style=Title1>Минуты до часа</style>Можно сказать, что это определённое количество минут <b>до</b> часа, используя <b>の~<word=K00143></b>.<br><sentence=585><br><br><sprite name=warning> Чаще говорят точное количество минут, а не используют <b><word=K00143></b>. Когда <b><word=K00143></b> используется, чаще всего это означает пятнадцать минут до часа.<br><br><style=Title1>Вопрос о времени</style>Мы можем спросить время следующим образом: <br><sentence=568>",
+  "en": "<u>Telling time</u> in Japanese is done using counters for hours (<style=Base><word=K00182></style>) and for minutes (<style=Base><word=K00472></style>).<br>The pattern is <b>[number of hours]</b> <style=Base><word=K00182></style> <b> [number of minutes]</b> <style=Base><word=K00472></style>.<br><sentence=580><br><br><sprite name=info> It is very common to write time using Arabic numerals.<br>・２<style=Base><word=K00182></style>１５<style=Base><word=K00472></style> = <word=K00157><style=Base><word=K00182></style><word=K00165><word=K00160><style=Base><word=K00472></style> = 2:15<br><br><style=Title1>Hours</style>To tell which hour of the day it is, simply add the kanji <style=Base><word=K00182></style> after a number.<br><sentence=579><br><br><sprite name=warning> There are a couple irregular readings:<br>・<word=K01081>: よん+じ → <style=Base>よ</style>じ<br>・<word=K01082>: なな+じ → <style=Base>しち</style>じ<br>・<word=K01083>: きゅう+じ → <style=Base>く</style>じ<br><br><style=Title1>Minutes</style>To say the number of minutes, simply add the kanji <style=Base><word=K00472></style> after a number.<br><sentence=580><br><br><sprite name=warning> There are a couple irregular readings:<br>・<word=K01084>: いち+ふん → <style=Base>いっぷん</style><br>・<word=K01085>: さん+ふん → さん<style=Base>ぷん</style><br>・<word=K01086>: よん+ふん → よん<style=Base>ぷん</style><br>・<word=K01087>: ろく+ふん → <style=Base>ろっぷん</style><br>・<word=K01088>: はち+ふん → <style=Base>はっぷん</style><br>・<word=K01089>: じゅう+ふん → <style=Base>じゅっぷん</style><br><br><style=Title1>Half an hour</style>Instead of saying <b>“30 minutes”</b>, it is also possible to use <b><word=K01090></b>.<br><sentence=566><br><br><style=Title1>Minutes before an hour</style>You can say that it’s a certain number of minutes <b>before</b> an hour using <b>の~<word=K00143></b>. <br><sentence=585><br><br><sprite name=warning> It is more common to say the exact minutes rather than using <b><word=K00143></b>. When <b><word=K00143></b> is used, it is most often for fifteen minutes to the hour.<br><br><style=Title1>Asking about the time </style>We can ask about time as following : <br><sentence=568>"
+ },
+ "Lessons/TimeException/Title": {
+  "ru": "Исключения для 時・分",
+  "en": "時・分 Exceptions"
+ },
+ "Basic/ItIsAWell": {
+  "ru": "Это колодец.",
+  "en": "It's a well."
+ },
+ "Lessons/GiveReceive/Content": {
+  "ru": "<style=Title1>Выражение глагола «давать» в японском языке</style>В японском языке существуют три разных слова, чтобы выразить «давать»:<br>- <word=K00462><br>- <word=K00984><br>- <word=K00985><br><br>Выбор того или иного слова зависит от:<br>- того, будет ли получатель, вероятно, чувствовать себя счастливым от этого действия (чувство благодарности)<br>- социального круга и статуса получателя<br><br>Ниже мы объясним их различия.<br><br><sprite name=warning>Эти различия характерны именно для японского языка и могут быть трудны для понимания. Это совершенно нормально, и может потребоваться время, чтобы к ним привыкнуть. В игре будет представлено множество ситуаций, чтобы увидеть их в контексте.<br><br><style=Title1>Социальный круг: Uchi и Soto</style>Эти понятия являются важной частью японской культуры и социального взаимодействия.<br><br><b><tooltip key=Tooltip/Uchi>Uchi</tooltip></b> (内) буквально означает «внутри». Оно относится к людям, входящим в <u>социальный круг</u> человека: семья, близкие друзья, одноклассники, коллеги.<br><br><b><tooltip key=Tooltip/Soto>Soto</tooltip></b> (外) буквально означает «снаружи». Оно относится к людям, которые не входят в Uchi.<br><br><style=Title1>渡す: давать (нейтрально)</style><style=Base><word=K00462></style> просто описывает перемещение предмета от одного человека к другому. Оно не зависит от социальной группы или иерархии и не подразумевает никакой благодарности в обмене.<br><sentence=279><br><br><style=Title1>あげる: давать (с благодарностью)</style><style=Base><word=K00984></style> используется, когда действие «давать» с большой вероятностью делает получателя счастливым.<br><sentence=330><br><br><sprite name=warning> <word=K00984> нельзя использовать, когда что-то дают человеку с более высоким статусом (например, профессору или вышестоящему руководителю, такому как менеджер или генеральный директор). В этом случае используйте <word=K00462>.<br><br><sprite name=warning> <word=K00984> нельзя использовать, когда получатель является говорящим (или кем-то из Uchi говорящего). В этом случае используется <word=K00985>.<br><br><style=Title1>くれる: давать (как あげる, но получатель относится к Uchi говорящего)</style><style=Base><word=K00985></style> используется вместо <word=K00984>, когда получатель — сам говорящий или кто-то из <tooltip key=Tooltip/Uchi>Uchi</tooltip> говорящего. Как и <word=K00984>, предполагается, что это действие делает получателя счастливым.<br><sentence=332><br><br><style=Title1>もらう: получать (с благодарностью)</style><style=Base><word=K00467></style> означает «получать». Как и <word=K00984> и <word=K00985>, оно включает чувство благодарности или радости со стороны получателя. Если это не так, используйте <word=K00462> и поменяйте местами дающего и получателя.<br><sentence=331><br><br><style=Title1>Итог</style><word=K00984> используется для выражения действия, которое, вероятно, делает получателя счастливым.<br>Если получателем является говорящий (или кто-то из его социального круга), вместо этого используется <word=K00985>.<br>Во всех остальных случаях, либо если получатель имеет более высокий статус, чем дающий (профессор и т. д.), используется <word=K00462>.<br><br><word=K00467> используется для выражения «получать» в действии, которое, вероятно, делает получателя счастливым.",
+  "en": "<style=Title1>Expressing the verb “to give” in Japanese</style>There are three different words to say “to give” in Japanese:<br>- <word=K00462><br>- <word=K00984><br>- <word=K00985><br><br>Using one or the other depends on:<br>- whether the recipient is likely to feel happy about the transaction (gratitude)<br>- the social circle and relative status of the receiver<br><br>We will explain their differences below.<br><br><sprite name=warning>Those differences are proper to Japanese, and might be hard to understand. It is totally normal and it might take time before getting used to them. A lot of situations will be introduced in the game to see them in context.<br><br><style=Title1>Social Circle: Uchi and Soto</style>Those concepts are an important part of Japanese culture and social interaction.<br><br><b><tooltip key=Tooltip/Uchi>Uchi</tooltip></b> (内) literally means 'inside'. It refers to people within one’s <u>social circles</u>: family, close friends, classmates, colleagues.<br><br><b><tooltip key=Tooltip/Soto>Soto</tooltip></b> (外) literally means “outside”. It refers to the people who are not in Uchi. <br><br><style=Title1>渡す: to give (neutral)</style><style=Base><word=K00462></style> simply describes that an item moves from one person to another. It does not depend on social group or hierarchy, and it doesn’t imply any gratitude in the exchange.<br><sentence=279><br><br><style=Title1>あげる: to give (gratitude)</style><style=Base><word=K00984></style> is used when the action of giving will likely make the receiver happy. <br><sentence=330><br><br><sprite name=warning> <word=K00984> cannot be used when giving to someone of higher status (for example, a professor or a hierarchical superior such as a manager or CEO). In this case, use <word=K00462>.<br><br><sprite name=warning> <word=K00984> cannot be used when the receiver is the speaker (or someone from the speaker’s Uchi). <word=K00985> is used instead.<br><br><style=Title1>くれる: to give (あげる but receiver is from speaker’s Uchi)</style><style=Base><word=K00985></style> is used instead of <word=K00984> when the receiver is the speaker, or someone from the speaker’s <tooltip key=Tooltip/Uchi>Uchi</tooltip>. Like <word=K00984>, the transaction is assumed to make the receiver feel happy.<br><sentence=332><br><br><style=Title1>もらう: to receive (gratitude)</style><style=Base><word=K00467></style> means “to receive”. Like <word=K00984> and <word=K00985>, it involves a feeling of gratitude or happiness on the part of the receiver. If it's not the case, use <word=K00462> and reverse the giver and the receiver.<br><sentence=331><br><br><style=Title1>Summary</style><word=K00984> is used to express a transaction that likely makes the receiver happy.<br>If the receiver is the speaker (or someone from the speaker’s social circle), then <word=K00985> is used instead.<br>In any other cases, or if the receiver is someone of a higher status than the giver (professor, etc.), <word=K00462> is used.<br><br><word=K00467> is used to express “to receive” in a transaction that likely makes the receiver happy."
+ },
+ "Tooltip/Soto": {
+  "ru": "Термин <u>Soto</u> (外) буквально означает «снаружи». Он относится к людям, которые находятся вне вашего социального круга, например незнакомцам, клиентам или людям из других групп и организаций.",
+  "en": "The term <u>Soto</u> (外) literally means “outside”. It refers to people who are outside one’s social circle, such as strangers, customers, clients, or people from other groups or organizations."
+ },
+ "Lessons/Duration/Content": {
+  "ru": "Когда <u>выражается длительность</u> на японском языке, используются специальные слова для часов, минут и секунд.<br><br><style=Title1>Часы: <word=K00471></style>Формат для выражения длительности в часах: <b>[количество часов]</b> <style=Base><word=K00471></style>.<br><sentence=605><br><br><sprite name=warning> Есть несколько нерегулярных чтений:<br>・<word=K01092> : よん+じかん → <style=Base>よ</style>じかん<br>・<word=K01091> : なな+じかん → <style=Base>しち</style>じかん<br>・<word=K01093> : きゅう+じかん → <style=Base>く</style>じかん<br><br><style=Title1>Минуты: <word=K00472></style>Формат для выражения длительности в минутах: <b>[количество минут]</b> <style=Base><word=K00472></style>.<br><sentence=616><br><br><sprite name=warning> Есть несколько нерегулярных чтений:<br>・<word=K01084> : いち+ふん → <style=Base>いっぷん</style><br>・<word=K01085> : さん+ふん → さん<style=Base>ぷん</style><br>・<word=K01086> : よん+ふん → よん<style=Base>ぷん</style><br>・<word=K01087> : ろく+ふん → <style=Base>ろっぷん</style><br>・<word=K01088> : はち+ふん → <style=Base>はっぷん</style><br>・<word=K01089> : じゅう+ふん → <style=Base>じゅっぷん</style><br><br><sprite name=warning> Слово <b>分間</b> также существует, но является более формальным и означает «в течение ~ минут».<br><br><style=Title1>Секунды: <word=K01104></style>Формат для выражения длительности в секундах: <b>[количество секунд]</b> <style=Base><word=K01104></style>.<br><sentence=612><br><br><style=Title1>Комбинация часов, минут и секунд</style>Длительности в часах, минутах и секундах можно комбинировать.<br><sentence=632><br><sentence=633><br><br><style=Title1>Половинные значения</style>Можно выражать полчаса или полминуты с помощью <b><word=K01090></b>.<br><sentence=634><br><sentence=635><br><br><style=Title1>Как спросить о длительности</style>Мы можем спросить о продолжительности следующим образом:<br><sentence=607>",
+  "en": "When <u>expressing a duration</u> in Japanese specific words are used for hours, minutes and seconds.<br><br><style=Title1>Hours: <word=K00471></style>The pattern to tell a duration in hours is <b>[number of hours]</b> <style=Base><word=K00471></style>.<br><sentence=605><br><br><sprite name=warning> There are a couple irregular readings:<br>・<word=K01092>: よん+じかん → <style=Base>よ</style>じかん<br>・<word=K01091>: なな+じかん → <style=Base>しち</style>じかん<br>・<word=K01093>: きゅう+じかん → <style=Base>く</style>じかん<br><br><style=Title1>Minutes: <word=K00472></style>The pattern to tell a duration in minutes is <b>[number of minutes]</b> <style=Base><word=K00472></style>.<br><sentence=616><br><br><sprite name=warning> There are a couple irregular readings:<br>・<word=K01084>: いち+ふん → <style=Base>いっぷん</style><br>・<word=K01085>: さん+ふん → さん<style=Base>ぷん</style><br>・<word=K01086>: よん+ふん → よん<style=Base>ぷん</style><br>・<word=K01087>: ろく+ふん → <style=Base>ろっぷん</style><br>・<word=K01088>: はち+ふん → <style=Base>はっぷん</style><br>・<word=K01089>: じゅう+ふん → <style=Base>じゅっぷん</style><br><br><sprite name=warning> The word <b>分間</b> also exists, but is more formal and means \"for a span of ~ minutes\".<br><br><style=Title1>Seconds: <word=K01104></style>The pattern to tell a duration in seconds is <b>[number of seconds]</b> <style=Base><word=K01104></style>.<br><sentence=612><br><br><style=Title1>Combination between hours, minutes and seconds</style>Durations in hours, minutes and seconds can be combined.<br><sentence=632><br><sentence=633><br><br><style=Title1>Half durations</style>You can express half hours or half minutes using <b><word=K01090></b>.<br><sentence=634><br><sentence=635><br><br><style=Title1>Asking for a duration</style>We can ask about duration as follow:<br><sentence=607>"
+ },
+ "Lessons/Daijoubu/Content": {
+  "ru": "Слово <b><word=K00177></b> очень гибкое и может выражать разные значения, такие как безопасность, успокоение или отсутствие проблемы в зависимости от контекста.<br><br><style=Title1>Успокоение («я в порядке / всё нормально / это безопасно»)</style>Используется, когда кто-то беспокоится о вас или о ситуации.<br><sentence=642><br><br><style=Title1>Сказать «нет, спасибо» (вежливый отказ)</style>Очень распространённый косвенный способ отказаться от предложений.<br><sentence=643><br><br><style=Title1>Подтверждение, что всё нормально / допустимо</style>Используется, чтобы сказать, что что-то нормально, разрешено или сработает.<br><sentence=644><br><br><style=Title1>Спросить, всё ли в порядке</style>Используется как вопрос для проверки безопасности или состояния.<br><sentence=645><br><br><style=Title1>Успокаивать или подбадривать других</style>Вы говорите кому-то, что всё будет хорошо или что всё получится.<br><sentence=646>",
+  "en": "The word <b><word=K00177></b> is very flexible and can express various meanings such as safety, reassurance, or absence of a problem depending on context.<br><br><style=Title1>Reassurance (“I’m fine / It’s okay / It’s safe”)</style>Used when someone is worried about you or a situation.<br><sentence=642><br><br><style=Title1>Saying “No, thank you” (polite refusal)</style>A very common indirect way to refuse offers.<br><sentence=643><br><br><style=Title1>Confirming something is OK / acceptable</style>Used to say something is fine, allowed, or will work.<br><sentence=644><br><br><style=Title1>Asking if someone/something is OK</style>Used as a question to check safety or condition.<br><sentence=645><br><br><style=Title1>Reassuring or encouraging others</style>You tell someone they’ll be fine or things will work out.<br><sentence=646>"
+ },
+ "ShortDef/Toki": {
+  "ru": "момент, время",
+  "en": "moment"
+ },
+ "ShortDef/GoAfter": {
+  "ru": "спустя",
+  "en": "after (a duration)"
+ },
+ "Basic/VerbPlain": {
+  "ru": "Глагол (простая)",
+  "en": "Verb (plain)"
+ },
+ "Basic/AdjectivePlain": {
+  "ru": "Прилагательное (простая)",
+  "en": "Adjective (plain)"
+ },
+ "Basic/iAdjectivePlain": {
+  "ru": "い-Прилагательное (простая)",
+  "en": "い-Adjective (plain)"
+ },
+ "Basic/naAdjectivePlain": {
+  "ru": "な-Прилагательное (простая)",
+  "en": "な-Adjective (plain)"
+ },
+ "Basic/Time": {
+  "ru": "Время",
+  "en": "Time"
+ },
+ "Basic/Duration": {
+  "ru": "Длительность",
+  "en": "Duration"
+ },
+ "ShortDef/GoAfterActionEvent": {
+  "ru": "после (действия или события)",
+  "en": "after (an action or an event)"
+ },
+ "Lessons/BeforeAfter/Title": {
+  "ru": "Использование 前 и 後 для выражения «до» и «после»",
+  "en": "Using 前 and 後 to express \"before\" and \"after\""
+ },
+ "Basic/VerbDictionary": {
+  "ru": "Глагол (словарная форма)",
+  "en": "Verb (dictionary)"
+ },
+ "Lessons/BeforeAfter/Content": {
+  "ru": "Слова <style=Grammar><word=K00143></style> и <style=Grammar><word=K00473></style> могут использоваться с глаголами и существительными, чтобы указывать порядок действий или событий.<br><br><style=Title1><word=K00143>（に）: до</style><style=Grammar><word=K00143></style> может использоваться как после глагола, так и после существительного, чтобы выразить, что что-то происходит <b>до</b> действия или события.<br><br><b><localization=Basic/VerbDictionary> + <style=Grammar><word=K00143></style> +（に）</b><br><sentence=649><br><br><b><localization=Basic/Noun> + の + <style=Grammar><word=K00143></style> +（に）</b><br><sentence=650><br><br><sprite name=warning> Перед <style=Grammar><word=K00143></style> глагол остаётся в <b>словарной форме</b> (не в прошедшем времени).<br><sprite name=info> <b>に</b> может опускаться в неформальной речи, но обычно сохраняется в стандартном и формальном использовании.<br><br><style=Title1><word=K00473>（で / に）и <word=K01109>（で / に）: после</style>И <style=Grammar><word=K00473></style>, и <style=Grammar><word=K01109></style> могут означать «после», но используются по-разному.<br><br><style=Grammar><word=K00473></style>, когда пишется кандзи, обычно используется после глагола в прошедшей форме (<localization=Basic/VerbTa>), чтобы выразить, что что-то происходит <b>после</b> действия.<br><br><b><localization=Basic/VerbTa> + <style=Grammar><word=K00473></style> +（で / に）</b><br><sentence=651><br><sentence=652><br><br><style=Grammar><word=K01109></style>, когда пишется хираганой, более разговорное и часто используется как существительное со значением <b>после</b> события или для указания «оставшегося» количества.<br><br><b><localization=Basic/Noun> + の + <style=Grammar><word=K01109></style> +（で / に）</b><br><sentence=653><br><sentence=654><br><sentence=655><br><br><sprite name=info> В неформальных ситуациях <style=Grammar><word=K01109></style> очень распространено, даже там, где можно использовать <style=Grammar><word=K00473></style>.<br><sprite name=info> <b>で</b> и <b>に</b> часто опускаются в неформальной речи.<br><sentence=656><br><sentence=657><br><br><sprite name=info> <style=Grammar><word=K00473></style><b>に</b> иногда подразумевает, что действие происходит сразу после предыдущего, тогда как <style=Grammar><word=K00473></style><b>で</b> более нейтрально и может использоваться независимо от интервала между действиями.<br><sentence=683><br><sentence=684><br><br><sprite name=info> <style=Grammar><word=K00473></style><b>に</b> иногда подразумевает сильную логическую связь между двумя действиями, тогда как <style=Grammar><word=K00473></style><b>で</b> более нейтрально и просто описывает порядок событий.<br><sentence=685><br><sentence=686><br><br><style=Title1><word=K01114>: позже</style><style=Grammar><word=K01114></style> — это союз, означающий <b>позже</b>, который используется для соединения предложений или указания на то, что что-то произойдёт в более позднее время.<br><sentence=658><br><sentence=659><br><br><sprite name=warning> <b>あとに</b> не используется как союз и не может использоваться так же, как <style=Grammar><word=K01114></style>.",
+  "en": "The words <style=Grammar><word=K00143></style> and <style=Grammar><word=K00473></style> can be used with verbs and nouns to indicate the order of actions or events.<br><br><style=Title1><word=K00143>（に）: Before</style><style=Grammar><word=K00143></style> can be used either after a verb or after a noun to express that something happens <b>before</b> an action or event.<br><br><b><localization=Basic/VerbDictionary> + <style=Grammar><word=K00143></style> +（に）</b><br><sentence=649><br><br><b><localization=Basic/Noun> + の + <style=Grammar><word=K00143></style> +（に）</b><br><sentence=650><br><br><sprite name=warning> The verb stays in <b>dictionary form</b> before <style=Grammar><word=K00143></style> (not past form).<br><sprite name=info> <b>に</b> can be omitted in casual contexts, but is usually kept in standard and formal usage.<br><br><style=Title1><word=K00473>（で / に）and <word=K01109>（で / に）: After</style>Both <style=Grammar><word=K00473></style> and <style=Grammar><word=K01109></style> can mean “after”, but they are used differently.<br><br><style=Grammar><word=K00473></style>, when written in kanji, is generally used after a verb in past form (<localization=Basic/VerbTa>) to express that something happens <b>after</b> an action.<br><br><b><localization=Basic/VerbTa> + <style=Grammar><word=K00473></style> +（で / に）</b><br><sentence=651><br><sentence=652><br><br><style=Grammar><word=K01109></style>, when written in hiragana, is more casual and often used as a noun meaning <b>after</b> an event, or to indicate a “remaining” quantity.<br><br><b><localization=Basic/Noun> + の + <style=Grammar><word=K01109></style> +（で / に）</b><br><sentence=653><br><sentence=654><br><sentence=655><br><br><sprite name=info> In casual situations, <style=Grammar><word=K01109></style> is very common, even where <style=Grammar><word=K00473></style> could be used.<br><sprite name=info> <b>で</b> and <b>に</b> are often omitted in casual contexts.<br><sentence=656><br><sentence=657><br><br><sprite name=info> <style=Grammar><word=K00473></style><b>に</b> sometimes implies that an action happens immediately after the previous one, while <style=Grammar><word=K00473></style><b>で</b> is more neutral and can be used regardless from timing between actions.<br><sentence=683><br><sentence=684><br><br><sprite name=info> <style=Grammar><word=K00473></style><b>に</b> sometimes implies a strong logical connection between the two actions, while <style=Grammar><word=K00473></style><b>で</b> is more neutral and simply describes the order of events.<br><sentence=685><br><sentence=686><br><br><style=Title1><word=K01114>: Later</style><style=Grammar><word=K01114></style> is a conjunction that means <b>later</b>, used to connect sentences or indicate that something will happen at a later time.<br><sentence=658><br><sentence=659><br><br><sprite name=warning> <b>あとに</b> is not used as a conjunction and cannot be used the same way as <style=Grammar><word=K01114></style>."
+ },
+ "ShortDef/Ii/Good": {
+  "ru": "Хороший",
+  "en": "Good"
+ },
+ "ShortDef/Iu/Say": {
+  "ru": "Говорить",
+  "en": "To say"
+ },
+ "ShortDef/Iu/Called": {
+  "ru": "Называться",
+  "en": "To be called"
+ },
+ "Basic/NameTitle": {
+  "ru": "Имя/Заголовок",
+  "en": "Name/Title"
+ },
+ "Basic/ImmediatelyAfter": {
+  "ru": "сразу после",
+  "en": "immediately after"
+ },
+ "Basic/NotImmediatelyAfter": {
+  "ru": "не обязательно сразу после",
+  "en": "not necessarily immediately after"
+ },
+ "Lessons/ObjectCounter/Title": {
+  "ru": "Счёт предметов с 個",
+  "en": "Counting objects with 個"
+ },
+ "Lessons/ObjectCounter/Content": {
+  "ru": "Счётное слово для <b>предметов</b> — <style=Base><word=K00189></style>. Это одно из самых универсальных счётных слов в японском языке, которое используется для многих небольших предметов повседневного обихода, таких как<br>・фрукты<br>・яйца<br>・готовая еда<br>・коробки<br>・сумки<br>・камни<br>・батарейки<br>・пуговицы<br>・семена<br>・мелкие детали<br><br>Количество предметов ставится перед <style=Base><word=K00189></style>:<br><sentence=696><br><br><style=Title1><sprite name=warning> Нерегулярные чтения</style>С <style=Base><word=K00189></style> есть несколько нерегулярных чтений:<br>・<word=K01123>: いち+こ → <b>いっ</b>こ<br>・<word=K01126>: ろく+こ → <b>ろっ</b>こ<br>・<word=K01127>: はち+こ → <b>はっ</b>こ<br>・<word=K01124>: じゅう+こ → <b>じゅっ</b>こ<br>・<word=K01125>: ひゃく+こ → <b>ひゃっ</b>こ<br><br><sentence=698><br><br><sprite name=info> <style=Base><word=K00189></style> чрезвычайно универсально, но обычно не используется для подсчёта предметов, для которых существует более конкретное счётное слово (они будут представлены позже в приключении), например:<br>・люди（人）<br>・животные（匹・頭・羽）<br>・плоские предметы（枚）<br>・длинные предметы（本）<br>・книги / журналы（冊）<br>・транспортные средства / машины（台）<br>・здания（軒・棟）<br>・этажи（階）<br>・одежда（着）<br>・напитки（杯）<br>・случаи / разы（回）<br>・возраст（歳・才）",
+  "en": "The counter for <b>objects</b> is <style=Base><word=K00189></style>. It is one of the most versatile counters in Japanese, used for many small, everyday item such as<br>・fruit<br>・eggs<br>・prepared foods<br>・boxes<br>・bags<br>・stones<br>・batteries<br>・buttons<br>・seeds<br>・small parts<br><br>The number of objects is placed before <style=Base><word=K00189></style>:<br><sentence=696><br><br><style=Title1><sprite name=warning> Irregular readings</style>There are a couple irregular readings with <style=Base><word=K00189></style>:<br>・<word=K01123>: いち+こ → <b>いっ</b>こ<br>・<word=K01126>: ろく+こ → <b>ろっ</b>こ<br>・<word=K01127>: はち+こ → <b>はっ</b>こ<br>・<word=K01124>: じゅう+こ → <b>じゅっ</b>こ<br>・<word=K01125>: ひゃく+こ → <b>ひゃっ</b>こ<br><br><sentence=698><br><br><sprite name=info> <style=Base><word=K00189></style> is extremely versatile, but it isn't normally used to count things that have a more specific counter (that will be introduced later in the adventure), such as:<br>・people（人）<br>・animals（匹・頭・羽）<br>・flat objects（枚）<br>・long objects（本）<br>・books / magazines（冊）<br>・vehicles / machines（台）<br>・buildings（軒・棟）<br>・floors（階）<br>・clothing（着）<br>・drinks（杯）<br>・occurrences（回）<br>・age（歳・才）"
+ },
+ "Lessons/AdjectivePastPolitePositive/Title": {
+  "ru": "Прошедшее время (прилагательные)",
+  "en": "Past (Adjectives)"
+ },
+ "Lessons/AdjectivePastPolitePositive/Content": {
+  "ru": "<style=Title1>Прошедшая форма い-прилагательного в обычной форме (~かった)</style><b>Прошедшая обычная форма</b> обычно используется в <u>неформальных</u> разговорах с друзьями, членами семьи или людьми того же или более низкого возраста или статуса. Эта форма образуется путём удаления конечной <b>い</b> из словарной формы и добавления <b>かった</b>.<br><b><adjective=2097z></b> → <b><adjective=2097ia></b><br><b><adjective=1967z></b> → <b><adjective=1967ia></b><br><br><sentence=692><br><br><style=Title1>Прошедшая вежливая форма い-прилагательного (~かったです)</style><b>Прошедшая вежливая форма</b> обычно используется, чтобы <u>выразить уважение</u> к человеку с более высоким статусом или к человеку, с которым вы не близки. Эта форма образуется добавлением <b>です</b> к прошедшей обычной форме い-прилагательного.<br><b><adjective=2097z></b> → <b><adjective=2097ja></b><br><b><adjective=1967z></b> → <b><adjective=1967ja></b><br><br><sentence=693><br><br><style=Title1>Прошедшая форма な-прилагательного в обычной форме (~だった)</style><b>Прошедшая обычная форма</b> обычно используется в <u>неформальных</u> разговорах с друзьями, членами семьи или людьми того же или более низкого возраста или статуса. Прошедшая обычная форма な-прилагательного образуется добавлением <b>だった</b> к его словарной форме.<br><b><adjective=2050z></b> → <b><adjective=2050ia></b><br><b><adjective=1941z></b> → <b><adjective=1941ia></b><br><br><sentence=694><br><br><style=Title1>Прошедшая вежливая форма な-прилагательного (~でした)</style><b>Прошедшая вежливая форма</b> обычно используется, чтобы <u>выразить уважение</u> к человеку с более высоким положением или к человеку, с которым вы не близки. Прошедшая вежливая форма な-прилагательного образуется добавлением <b>でした</b> к его словарной форме.<br><b><adjective=2050z></b> → <b><adjective=2050ja></b><br><b><adjective=1941z></b> → <b><adjective=1941ja></b><br><br><sentence=695>",
+  "en": "<style=Title1>Past plain form of an い-adjective (~かった)</style>The <b>past plain form</b> is generally used in <u>casual</u> conversations with friends, family, or people of the same or lower age or status. This form is constructed by removing the final <b>い</b> from the dictionary form and adding <b>かった</b>.<br><b><adjective=2097z></b> → <b><adjective=2097ia></b><br><b><adjective=1967z></b> → <b><adjective=1967ia></b><br><br><sentence=692><br><br><style=Title1>Past polite form of an い-adjective (~かったです)</style>The <b>past polite form</b> is generally used when <u>showing respect</u> to someone of higher status or someone you are not closely acquainted with. This form is constructed by adding <b>です</b> to the past plain form of the い-adjective.<br><b><adjective=2097z></b> → <b><adjective=2097ja></b><br><b><adjective=1967z></b> → <b><adjective=1967ja></b><br><br><sentence=693><br><br><style=Title1>Past plain form of a な-adjective (~だった)</style>The <b>past plain form</b> is generally used in <u>casual</u> conversations with friends, family, or people of the same or lower age or status. The past plain form of a な-adjective is constructed by adding <b>だった</b> to its dictionary form.<br><b><adjective=2050z></b> → <b><adjective=2050ia></b><br><b><adjective=1941z></b> → <b><adjective=1941ia></b><br><br><sentence=694><br><br><style=Title1>Past polite form of a な-adjective (~でした)</style>The <b>past polite form</b> is generally used when <u>showing respect</u> to someone of higher position or someone you are not closely acquainted with. The past polite form of a な-adjective is constructed by adding <b>でした</b> to its dictionary form.<br><b><adjective=2050z></b> → <b><adjective=2050ja></b><br><b><adjective=1941z></b> → <b><adjective=1941ja></b><br><br><sentence=695>"
+ },
+ "Basic/Always": {
+  "ru": "Всегда",
+  "en": "Always"
+ },
+ "Basic/Never": {
+  "ru": "Никогда",
+  "en": "Never"
+ },
+ "DictionaryEntry/SecondaryReadingNote": {
+  "ru": "<sprite name=info> #WORD также можно прочитать как: #READING2.",
+  "en": "<sprite name=info> #WORD can also be read as: #READING2."
+ },
+ "Basic/Price": {
+  "ru": "Цена",
+  "en": "Price"
+ },
+ "Basic/Item": {
+  "ru": "Предмет",
+  "en": "Item"
+ }
+}

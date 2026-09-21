@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m %}
+{% block title %}Грамматика{% endblock %}
+{% block content %}
+<h1>Грамматика<span class="jp">文法</span></h1>
+<p class="lead">{{ rows | length }} конструкций и {{ explained | length }} разборов из уроков —
+всё в порядке появления в игре.</p>
+
+<div class="toolbar">
+  <input type="text" id="q" placeholder="поиск по конструкции или значению">
+  <a class="btn small ghost" href="#explain">К разборам ↓</a>
+</div>
+
+<h2>Конструкции</h2>
+{% for g in rows %}
+<div class="card gitem"
+     data-search="{{ (g.formation ~ g.word ~ g.meaning_ru) | lower }}">
+  <div>
+    <b class="jp-text" style="font-size:1.15rem">{{ g.formation }}</b>
+    {% if g.word %}<span class="muted"> · {{ g.word }}</span>{% endif %}
+    {% if g.lesson %}
+    <a class="pill" href="/lesson/{{ g.lesson.id }}">{{ g.lesson.id }}</a>
+    {% endif %}
+  </div>
+  {% if g.meaning_ru %}<div class="small">{{ g.meaning_ru }}</div>{% endif %}
+  {% if g.note_html %}
+  <div class="explain small" style="margin:.5rem 0 0">{{ g.note_html | safe }}</div>
+  {% endif %}
+  <div style="margin-top:.5rem">{{ m.mark_buttons('grammar', g.id, marks, statuses) }}</div>
+</div>
+{% endfor %}
+
+<h2 id="explain">Разборы из уроков</h2>
+{% for lesson in explained %}
+<details class="card">
+  <summary><b>{{ lesson.title_ru or lesson.id }}</b>
+    <span class="muted small"> · {{ lesson.chapter }} · <a href="/lesson/{{ lesson.id }}">{{ lesson.id }}</a></span>
+  </summary>
+  <div class="explain" style="margin-top:.8rem">{{ lesson.html | safe }}</div>
+</details>
+{% endfor %}
+{% endblock %}
+
+{% block scripts %}
+<script>
+(function () {
+  const items = [...document.querySelectorAll('.gitem')];
+  const q = document.getElementById('q');
+  q.addEventListener('input', () => {
+    const needle = q.value.trim().toLowerCase();
+    items.forEach((item) => {
+      item.hidden = needle && !item.dataset.search.includes(needle);
+    });
+  });
+})();
+</script>
+{% endblock %}

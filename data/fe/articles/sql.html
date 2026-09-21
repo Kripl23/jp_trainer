@@ -1,0 +1,113 @@
+<h2>Три группы команд</h2>
+<ul>
+  <li><b>DDL</b> (データ定義言語): <code>CREATE</code>, <code>ALTER</code>, <code>DROP</code>;</li>
+  <li><b>DML</b> (データ操作言語): <code>SELECT</code>, <code>INSERT</code>,
+    <code>UPDATE</code>, <code>DELETE</code>;</li>
+  <li><b>DCL</b> (データ制御言語): <code>GRANT</code>, <code>REVOKE</code>,
+    <code>COMMIT</code>, <code>ROLLBACK</code>.</li>
+</ul>
+
+<h2>SELECT</h2>
+<pre>SELECT 列 [, 列 …]
+FROM 表
+WHERE 条件
+GROUP BY 列
+HAVING 集計条件
+ORDER BY 列 [ASC | DESC]</pre>
+<p>Порядок <b>выполнения</b> отличается от порядка записи:
+FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY. Отсюда правило: в <code>WHERE</code>
+нельзя использовать агрегатные функции и псевдонимы из <code>SELECT</code>, а в
+<code>HAVING</code> — можно агрегаты.</p>
+
+<h3>Условия в WHERE</h3>
+<table>
+  <tr><th>Запись</th><th>Смысл</th></tr>
+  <tr><td><code>BETWEEN a AND b</code></td><td>включительно с обеих сторон</td></tr>
+  <tr><td><code>IN (…)</code></td><td>входит в список</td></tr>
+  <tr><td><code>LIKE '東京%'</code></td><td>шаблон: % — любая строка, _ — один символ</td></tr>
+  <tr><td><code>IS NULL</code></td><td>проверка на NULL; <code>= NULL</code> не работает</td></tr>
+  <tr><td><code>EXISTS (подзапрос)</code></td><td>подзапрос вернул хотя бы одну строку</td></tr>
+</table>
+<div class="box"><b>NULL — не значение, а его отсутствие.</b> Любое сравнение с NULL даёт
+«неизвестно», поэтому строки с NULL не попадают ни в <code>= 5</code>, ни в
+<code>&lt;&gt; 5</code>. Агрегатные функции (кроме <code>COUNT(*)</code>) NULL игнорируют.</div>
+
+<h3>Агрегаты и группировка</h3>
+<p><code>COUNT</code>, <code>SUM</code>, <code>AVG</code>, <code>MAX</code>, <code>MIN</code>.
+<code>COUNT(*)</code> считает строки, <code>COUNT(столбец)</code> — непустые значения,
+<code>COUNT(DISTINCT столбец)</code> — различные значения.</p>
+<pre>SELECT 部署コード, COUNT(*) AS 人数, AVG(給与) AS 平均給与
+FROM 社員
+WHERE 入社年 &gt;= 2020
+GROUP BY 部署コード
+HAVING COUNT(*) &gt;= 5
+ORDER BY 平均給与 DESC</pre>
+
+<h2>Соединения (結合)</h2>
+<table>
+  <tr><th>Вид</th><th>Что возвращает</th></tr>
+  <tr><td><code>INNER JOIN</code> (内部結合)</td><td>только совпавшие строки</td></tr>
+  <tr><td><code>LEFT OUTER JOIN</code> (左外部結合)</td><td>все строки левой таблицы,
+    несовпавшие дополняются NULL</td></tr>
+  <tr><td><code>RIGHT OUTER JOIN</code></td><td>то же для правой</td></tr>
+  <tr><td><code>FULL OUTER JOIN</code></td><td>все строки обеих таблиц</td></tr>
+  <tr><td><code>CROSS JOIN</code></td><td>декартово произведение</td></tr>
+</table>
+<pre>SELECT 社員.氏名, 部署.部署名
+FROM 社員 INNER JOIN 部署
+  ON 社員.部署コード = 部署.部署コード</pre>
+<p><b>Самосоединение</b> (自己結合) — таблица соединяется сама с собой через псевдонимы,
+например, чтобы найти сотрудника и его руководителя.</p>
+
+<h2>Подзапросы</h2>
+<p><b>Некоррелированный</b> выполняется один раз:</p>
+<pre>SELECT 氏名 FROM 社員
+WHERE 給与 &gt; (SELECT AVG(給与) FROM 社員)</pre>
+<p><b>Коррелированный</b> ссылается на внешний запрос и вычисляется для каждой строки —
+обычно медленнее:</p>
+<pre>SELECT 氏名 FROM 社員 AS S
+WHERE 給与 &gt; (SELECT AVG(給与) FROM 社員 WHERE 部署コード = S.部署コード)</pre>
+<p>Операции над результатами: <code>UNION</code> (объединение без дублей),
+<code>UNION ALL</code> (с дублями), <code>INTERSECT</code>, <code>EXCEPT</code>.</p>
+
+<h2>Изменение данных</h2>
+<pre>INSERT INTO 社員 (社員番号, 氏名, 給与) VALUES (1001, '田中', 300000)
+UPDATE 社員 SET 給与 = 給与 * 1.05 WHERE 部署コード = 'D01'
+DELETE FROM 社員 WHERE 退職日 IS NOT NULL</pre>
+<p><code>DELETE</code> удаляет строки и журналируется; <code>TRUNCATE</code> быстро очищает
+таблицу целиком; <code>DROP TABLE</code> удаляет саму таблицу.</p>
+
+<h2>Определение структуры</h2>
+<pre>CREATE TABLE 部署 (
+  部署コード CHAR(3) NOT NULL,
+  部署名     VARCHAR(40) NOT NULL,
+  PRIMARY KEY (部署コード)
+)
+
+CREATE TABLE 社員 (
+  社員番号   INTEGER NOT NULL,
+  氏名       VARCHAR(40) NOT NULL,
+  部署コード CHAR(3),
+  給与       DECIMAL(10,2) DEFAULT 0,
+  PRIMARY KEY (社員番号),
+  FOREIGN KEY (部署コード) REFERENCES 部署(部署コード)
+)</pre>
+<p>Ограничения: <code>NOT NULL</code>, <code>UNIQUE</code>, <code>CHECK</code>,
+<code>DEFAULT</code>, <code>PRIMARY KEY</code>, <code>FOREIGN KEY</code>.</p>
+
+<h2>Представления и права</h2>
+<p><b>Представление</b> (ビュー) — сохранённый запрос, который выглядит как таблица.
+Скрывает сложность и ограничивает видимые столбцы, то есть работает и как средство
+защиты. Обновляемость представления ограничена (нельзя обновлять агрегаты и соединения
+в общем случае).</p>
+<pre>CREATE VIEW 営業部社員 AS
+  SELECT 社員番号, 氏名 FROM 社員 WHERE 部署コード = 'D01'
+
+GRANT SELECT, UPDATE ON 社員 TO 田中
+REVOKE UPDATE ON 社員 FROM 田中</pre>
+
+<h2>Курсоры и встроенный SQL</h2>
+<p>В прикладной программе результат из нескольких строк обрабатывается
+<b>курсором</b> (カーソル): <code>DECLARE</code> → <code>OPEN</code> →
+<code>FETCH</code> в цикле → <code>CLOSE</code>. Это классический вопрос про
+встроенный SQL (埋込みSQL).</p>

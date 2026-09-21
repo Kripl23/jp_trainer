@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block title %}FE-экзамен — темы{% endblock %}
+{% block content %}
+<h1>Основы информационных технологий<span class="jp">基本情報技術者試験</span></h1>
+<p class="lead">Конспекты, термины и тесты по программе экзамена FE — на русском,
+с японскими терминами, как они звучат в заданиях.</p>
+
+<div class="stat-row">
+  <div class="stat"><b>{{ done }}/{{ total }}</b><span>тем пройдено</span></div>
+  <div class="stat"><b>{{ term_marks.known }}</b><span>терминов «знаю»</span></div>
+  <div class="stat"><b>{{ term_marks.hard + term_marks.learning }}</b><span>в работе</span></div>
+  <div class="stat"><b>{{ total_terms }}</b><span>терминов всего</span></div>
+</div>
+
+<div class="toolbar">
+  <a class="btn" href="/fe/quiz?mode=all">Общий тест</a>
+  <a class="btn ghost" href="/fe/quiz?mode=terms">Тренировка терминов</a>
+  <a class="btn ghost" href="/fe/terms">Список терминов</a>
+</div>
+
+{% for area in areas %}
+<section class="chapter">
+  <div class="chapter-head"><h2>{{ area.title }}</h2>
+    <span class="muted">{{ area.topics | length }} тем</span></div>
+  {% for topic in area.topics %}
+  <div class="topic {% if topic.state.completed_at %}done{% endif %}">
+    <span class="num mono muted">{{ topic.ord }}</span>
+    <span class="name">
+      <a href="/fe/{{ topic.id }}">{{ topic.title }}</a>
+      <small>{{ topic.summary }}</small>
+    </span>
+    <span class="muted small">{{ topic.questions }} вопр. · {{ topic.terms }} терм.</span>
+    {% if topic.state.best_percent %}
+    <span class="score mono">{{ topic.state.best_percent }}%</span>
+    {% endif %}
+    <a class="btn small ghost" href="/fe/quiz?topic={{ topic.id }}">Тест</a>
+  </div>
+  {% endfor %}
+</section>
+{% endfor %}
+{% endblock %}

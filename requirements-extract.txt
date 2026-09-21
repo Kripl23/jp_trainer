@@ -1,0 +1,4 @@
+# Нужны только для scripts/extract_wagotabi.py — обновления данных из игры.
+# Приложению для работы не требуются.
+UnityPy==1.25.3
+TypeTreeGeneratorAPI

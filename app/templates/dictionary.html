@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m %}
+{% block title %}Словарь{% endblock %}
+{% block content %}
+<h1>Словарь<span class="jp">単語帳</span></h1>
+<p class="lead">Все {{ words | length }} слов игры в порядке появления. Статус ставите вы —
+он ни на что не влияет автоматически, но по нему можно собрать тест.</p>
+
+<div class="toolbar">
+  <input type="text" id="q" placeholder="поиск: слово, чтение, перевод">
+  <select id="category">
+    <option value="">часть речи: все</option>
+    {% for c in categories %}<option value="{{ c }}">{{ c }}</option>{% endfor %}
+  </select>
+  <select id="status">
+    <option value="">статус: любой</option>
+    {% for key, label in statuses.items() %}<option value="{{ key }}">{{ label }}</option>{% endfor %}
+  </select>
+  <span class="muted small" id="counter"></span>
+  <a class="btn small ghost" href="/quiz?mode=marked">Тест по отмеченным</a>
+</div>
+
+<table id="table">
+  <thead>
+    <tr>
+      <th>#</th><th>Слово</th><th>Чтение</th><th>Значение</th>
+      <th>Урок</th><th>Попытки</th><th>Статус</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for word in words %}
+  {% set mark = marks.get(word.id, {}) %}
+  <tr id="row-{{ word.id }}" class="{% if focus == word.id %}focus{% endif %}"
+      data-search="{{ (word.word ~ word.reading ~ word.meaning_ru) | lower }}"
+      data-category="{{ word.category }}"
+      data-status="{{ mark.get('status', 'new') }}">
+    <td class="muted small">{{ word.ord }}</td>
+    <td class="jp">{{ word.furigana | furigana(word.word) }}</td>
+    <td class="muted">{{ word.reading }}</td>
+    <td>
+      {% if word.meaning_ru or word.meaning_en %}{{ word.meaning_ru or word.meaning_en }}{% else %}<span class="muted small">перевода нет в данных игры</span>{% endif %}
+      {% if notes.get(word.id) %}
+      <div class="muted small" style="margin-top:.2rem">{{ notes[word.id] | safe }}</div>
+      {% endif %}
+      {% if word.category %}<span class="pill">{{ word.category }}</span>{% endif %}
+      {% if word.jlpt %}<span class="pill jlpt">{{ word.jlpt }}</span>{% endif %}
+    </td>
+    <td class="small">
+      {% if word.lesson_id %}<a href="/lesson/{{ word.lesson_id }}">{{ word.lesson_id }}</a>
+      {% else %}<span class="muted">—</span>{% endif %}
+    </td>
+    <td class="small mono">
+      {% set stat = stats.get(word.id) %}
+      {% if stat %}{{ stat.ok }}/{{ stat.total }}{% else %}<span class="muted">—</span>{% endif %}
+    </td>
+    <td>{{ m.mark_buttons('word', word.id, marks, statuses) }}</td>
+  </tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% endblock %}
+
+{% block scripts %}
+<script>
+(function () {
+  const rows = [...document.querySelectorAll('#table tbody tr')];
+  const q = document.getElementById('q');
+  const category = document.getElementById('category');
+  const status = document.getElementById('status');
+  const counter = document.getElementById('counter');
+
+  function apply() {
+    const needle = q.value.trim().toLowerCase();
+    let shown = 0;
+    rows.forEach((row) => {
+      const ok = (!needle || row.dataset.search.includes(needle))
+        && (!category.value || row.dataset.category === category.value)
+        && (!status.value || row.dataset.status === status.value);
+      row.hidden = !ok;
+      if (ok) shown += 1;
+    });
+    counter.textContent = `показано ${shown} из ${rows.length}`;
+  }
+
+  [q, category, status].forEach((control) => control.addEventListener('input', apply));
+  document.addEventListener('mark:changed', (event) => {
+    const row = document.getElementById('row-' + event.detail.itemId);
+    if (row) row.dataset.status = event.detail.status;
+    apply();
+  });
+  apply();
+
+  const focused = document.querySelector('tr.focus');
+  if (focused) focused.scrollIntoView({block: 'center'});
+})();
+</script>
+{% endblock %}

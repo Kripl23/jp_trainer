@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+{% block title %}{{ title }} — тест{% endblock %}
+{% block content %}
+<div class="crumbs">
+  <a href="/">Уроки</a>
+  {% if lesson_id %}› <a href="/lesson/{{ lesson_id }}">{{ lesson_id }}</a>{% endif %} › тест
+</div>
+<h1>{{ title }}</h1>
+
+<div id="setup">
+  <p class="lead">Типы заданий — те же, что в игре. Отметьте нужные и начните.</p>
+  <div class="card">
+    <div id="kind-list" style="display:grid;gap:.35rem;grid-template-columns:repeat(auto-fill,minmax(15rem,1fr))">
+      {% for key, meta in kinds.items() %}
+      <label><input type="checkbox" name="kind" value="{{ key }}" checked> {{ meta.title }}</label>
+      {% endfor %}
+    </div>
+    <div class="toolbar" style="margin:1rem 0 0">
+      <label>Вопросов:
+        <select id="count">
+          <option>10</option><option selected>15</option><option>25</option><option>40</option>
+        </select>
+      </label>
+      {% if not lesson_id %}
+      <label>Только отмеченные:
+        <select id="statuses">
+          <option value="">все</option>
+          <option value="hard">трудные</option>
+          <option value="learning">учу</option>
+          <option value="hard,learning">трудные + учу</option>
+        </select>
+      </label>
+      {% endif %}
+      <button class="btn" id="start">Начать</button>
+    </div>
+  </div>
+  <p class="hint">Ответ каной можно печатать латиницей — <kbd>neko</kbd> превратится в ねこ.</p>
+</div>
+
+<div id="session" hidden>
+  <div class="genkou">
+    <div class="mark-big" id="verdict"></div>
+    <div class="session-meta">
+      <span>вопрос <b id="n">1</b>/<span id="total">0</span></span>
+      <span class="kind" id="kind-title"></span>
+      <span>верно: <b id="score">0</b></span>
+    </div>
+    <div class="q-prompt" id="prompt"></div>
+    <div class="q-hint" id="hint"></div>
+    <div class="q-ask" id="ask"></div>
+
+    <div class="options" id="options" hidden></div>
+
+    <div id="block-area" hidden>
+      <div class="blocks" id="answer-blocks"></div>
+      <div class="blocks bank" id="bank-blocks"></div>
+    </div>
+
+    <div class="answer-row" id="input-area" hidden>
+      <input id="answer" autocomplete="off" autocapitalize="off" spellcheck="false">
+      <button class="btn" id="check">Проверить</button>
+    </div>
+
+    <div class="reveal" id="reveal" hidden></div>
+  </div>
+  <p class="hint"><kbd>Enter</kbd> — проверить и перейти дальше, <kbd>1</kbd>…<kbd>4</kbd> — выбрать вариант.</p>
+</div>
+
+<div id="done" hidden>
+  <div class="genkou done-box">
+    <span class="jp">お疲れさま</span>
+    <div class="score" id="final-score">0%</div>
+    <div class="muted" id="final-detail"></div>
+    <div class="actions">
+      <button class="btn" id="again">Ещё раз</button>
+      {% if lesson_id %}<a class="btn ghost" href="/lesson/{{ lesson_id }}">К уроку</a>{% endif %}
+      <a class="btn ghost" href="/">К урокам</a>
+    </div>
+    <div id="mistakes" style="margin-top:1.6rem;text-align:left"></div>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="/static/wanakana.min.js"></script>
+<script>window.QUIZ = {lessonId: {{ lesson_id | tojson }}, mode: {{ mode | tojson }}};</script>
+<script src="/static/quiz.js"></script>
+{% endblock %}

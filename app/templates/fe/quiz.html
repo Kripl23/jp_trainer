@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+{% block title %}{{ title }} — тест FE{% endblock %}
+{% block content %}
+<div class="crumbs">
+  <a href="/fe">FE-экзамен</a>
+  {% if topic_id %}› <a href="/fe/{{ topic_id }}">{{ title }}</a>{% endif %} › тест
+</div>
+<h1>{{ title }}</h1>
+
+<div id="setup">
+  <div class="card">
+    <div class="toolbar" style="margin:0">
+      <label>Режим:
+        <select id="mode">
+          <option value="topic" {% if mode != 'terms' %}selected{% endif %}>вопросы</option>
+          <option value="terms" {% if mode == 'terms' %}selected{% endif %}>термины</option>
+        </select>
+      </label>
+      <label>Направление:
+        <select id="direction">
+          <option value="ja_ru">японский → русский</option>
+          <option value="ru_ja">русский → японский</option>
+        </select>
+      </label>
+      <label>Вопросов:
+        <select id="count"><option>10</option><option selected>15</option>
+          <option>25</option><option>40</option></select>
+      </label>
+      <label>Только отмеченные:
+        <select id="statuses">
+          <option value="">все</option>
+          <option value="hard">трудные</option>
+          <option value="learning">учу</option>
+          <option value="hard,learning">трудные + учу</option>
+        </select>
+      </label>
+      <button class="btn" id="start">Начать</button>
+    </div>
+  </div>
+</div>
+
+<div id="session" hidden>
+  <div class="genkou">
+    <div class="mark-big" id="verdict"></div>
+    <div class="session-meta">
+      <span>вопрос <b id="n">1</b>/<span id="total">0</span></span>
+      <span class="kind" id="kind-title"></span>
+      <span>верно: <b id="score">0</b></span>
+    </div>
+    <div class="q-prompt" id="prompt"></div>
+    <div class="q-hint" id="hint"></div>
+    <div class="options" id="options"></div>
+    <div class="reveal" id="reveal" hidden></div>
+  </div>
+  <p class="hint"><kbd>1</kbd>…<kbd>4</kbd> — выбрать вариант, <kbd>Enter</kbd> — дальше.</p>
+</div>
+
+<div id="done" hidden>
+  <div class="genkou done-box">
+    <span class="jp">お疲れさま</span>
+    <div class="score" id="final-score">0%</div>
+    <div class="muted" id="final-detail"></div>
+    <div class="actions">
+      <button class="btn" id="again">Ещё раз</button>
+      {% if topic_id %}<a class="btn ghost" href="/fe/{{ topic_id }}">К теме</a>{% endif %}
+      <a class="btn ghost" href="/fe">К темам</a>
+    </div>
+    <div id="mistakes" style="margin-top:1.6rem;text-align:left"></div>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>window.FE = {topicId: {{ topic_id | tojson }}, mode: {{ mode | tojson }}};</script>
+<script src="/static/fe_quiz.js"></script>
+{% endblock %}

@@ -1,0 +1,17 @@
+{% macro mark_buttons(item_type, item_id, marks, statuses) -%}
+{% set current = marks.get(item_id, {}).get('status', 'new') %}
+<span class="marks" data-item-type="{{ item_type }}" data-item-id="{{ item_id }}">
+  {%- for status, label in statuses.items() if status != 'new' -%}
+  <button type="button" data-status="{{ status }}"
+          class="{% if current == status %}on{% endif %}"
+          title="Отметить: {{ label }}">{{ label }}</button>
+  {%- endfor -%}
+  <button type="button" data-status="new" class="{% if current == 'new' %}on{% endif %}"
+          title="Снять отметку">—</button>
+</span>
+{%- endmacro %}
+
+{% macro word_line(word) -%}
+<span class="jp-text">{{ word.furigana | furigana(word.word) }}</span>
+{%- if word.reading %} <span class="muted small">{{ word.reading }}</span>{% endif -%}
+{%- endmacro %}
