@@ -72,5 +72,5 @@
 
 {% block scripts %}
 <script>window.FE = {topicId: {{ topic_id | tojson }}, mode: {{ mode | tojson }}};</script>
-<script src="/static/fe_quiz.js"></script>
+<script src="{{ static_url('fe_quiz.js') }}"></script>
 {% endblock %}

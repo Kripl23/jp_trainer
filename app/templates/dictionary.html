@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 {% import "_macros.html" as m %}
 {% block title %}Словарь{% endblock %}
+{% block main_class %}wide{% endblock %}
 {% block content %}
 <h1>Словарь<span class="jp">単語帳</span></h1>
 <p class="lead">Все {{ words | length }} слов игры в порядке появления. Статус ставите вы —
@@ -20,44 +21,44 @@
   <a class="btn small ghost" href="/quiz?mode=marked">Тест по отмеченным</a>
 </div>
 
-<table id="table">
+<div class="table-wrap">
+<table id="table" class="dict">
   <thead>
-    <tr>
-      <th>#</th><th>Слово</th><th>Чтение</th><th>Значение</th>
-      <th>Урок</th><th>Попытки</th><th>Статус</th>
-    </tr>
+    <tr><th>#</th><th>Слово</th><th>Значение</th><th>Статус</th></tr>
   </thead>
   <tbody>
   {% for word in words %}
   {% set mark = marks.get(word.id, {}) %}
+  {% set stat = stats.get(word.id) %}
   <tr id="row-{{ word.id }}" class="{% if focus == word.id %}focus{% endif %}"
       data-search="{{ (word.word ~ word.reading ~ word.meaning_ru) | lower }}"
       data-category="{{ word.category }}"
       data-status="{{ mark.get('status', 'new') }}">
-    <td class="muted small">{{ word.ord }}</td>
-    <td class="jp">{{ word.furigana | furigana(word.word) }}</td>
-    <td class="muted">{{ word.reading }}</td>
+    <td class="muted small num">{{ word.ord }}</td>
+    <td class="jp">
+      {{ word.furigana | furigana(word.word) }}
+      {% if word.reading %}<div class="reading">{{ word.reading }}</div>{% endif %}
+    </td>
     <td>
       {% if word.meaning_ru or word.meaning_en %}{{ word.meaning_ru or word.meaning_en }}{% else %}<span class="muted small">перевода нет в данных игры</span>{% endif %}
       {% if notes.get(word.id) %}
-      <div class="muted small" style="margin-top:.2rem">{{ notes[word.id] | safe }}</div>
+      <details class="note-fold"><summary>примечание</summary>
+        <div class="muted small">{{ notes[word.id] | safe }}</div>
+      </details>
       {% endif %}
-      {% if word.category %}<span class="pill">{{ word.category }}</span>{% endif %}
-      {% if word.jlpt %}<span class="pill jlpt">{{ word.jlpt }}</span>{% endif %}
+      <div class="meta-line">
+        {% if word.category %}<span class="pill">{{ word.category }}</span>{% endif %}
+        {% if word.jlpt %}<span class="pill jlpt">{{ word.jlpt }}</span>{% endif %}
+        {% if word.lesson_id %}<a class="pill" href="/lesson/{{ word.lesson_id }}">{{ word.lesson_id }}</a>{% endif %}
+        {% if stat %}<span class="pill mono" title="верно / попыток">{{ stat.ok }}/{{ stat.total }}</span>{% endif %}
+      </div>
     </td>
-    <td class="small">
-      {% if word.lesson_id %}<a href="/lesson/{{ word.lesson_id }}">{{ word.lesson_id }}</a>
-      {% else %}<span class="muted">—</span>{% endif %}
-    </td>
-    <td class="small mono">
-      {% set stat = stats.get(word.id) %}
-      {% if stat %}{{ stat.ok }}/{{ stat.total }}{% else %}<span class="muted">—</span>{% endif %}
-    </td>
-    <td>{{ m.mark_buttons('word', word.id, marks, statuses) }}</td>
+    <td class="status">{{ m.mark_buttons('word', word.id, marks, statuses) }}</td>
   </tr>
   {% endfor %}
   </tbody>
 </table>
+</div>
 {% endblock %}
 
 {% block scripts %}

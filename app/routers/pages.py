@@ -3,6 +3,7 @@ from pathlib import Path
 
 from fastapi import APIRouter, HTTPException, Request
 from fastapi.templating import Jinja2Templates
+from markupsafe import Markup
 
 from app import db
 from app.services import content, marks, progress, quiz
@@ -11,9 +12,26 @@ from app.services.wagotabi_text import Context, furigana_html, plain, render
 router = APIRouter(tags=["pages"])
 
 templates = Jinja2Templates(directory=Path(__file__).resolve().parent.parent / "templates")
-templates.env.filters["furigana"] = furigana_html
-templates.env.filters["game_text"] = render
+# фильтры отдают готовый HTML (сами экранируют содержимое), поэтому помечаем
+# результат как безопасный — иначе автоэкранирование Jinja покажет теги текстом
+templates.env.filters["furigana"] = lambda furigana, fallback="": Markup(
+    furigana_html(furigana, fallback))
+templates.env.filters["game_text"] = lambda text, ctx=None: Markup(render(text, ctx))
 templates.env.filters["plain"] = plain
+
+STATIC_DIR = Path(__file__).resolve().parent.parent / "static"
+
+
+def static_url(name: str) -> str:
+    """/static/style.css?v=<mtime> — чтобы браузер не держал устаревшую статику."""
+    try:
+        stamp = int((STATIC_DIR / name).stat().st_mtime)
+    except OSError:
+        stamp = 0
+    return f"/static/{name}?v={stamp}"
+
+
+templates.env.globals["static_url"] = static_url
 
 
 def plural(number: int, one: str, few: str, many: str) -> str:

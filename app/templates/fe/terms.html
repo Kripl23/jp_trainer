@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 {% import "_macros.html" as m %}
 {% block title %}Термины FE{% endblock %}
+{% block main_class %}wide{% endblock %}
 {% block content %}
 <h1>Термины экзамена<span class="jp">用語</span></h1>
 <p class="lead">{{ terms | length }} терминов: японский вариант, чтение, английский
@@ -20,6 +21,7 @@
   <a class="btn small ghost" href="/fe/quiz?mode=terms">Тренировать</a>
 </div>
 
+<div class="table-wrap">
 <table id="table">
   <thead><tr><th>Японский</th><th>Чтение</th><th>English</th><th>Русский</th>
     <th>Тема</th><th>Статус</th></tr></thead>
@@ -39,6 +41,7 @@
   {% endfor %}
   </tbody>
 </table>
+</div>
 {% endblock %}
 
 {% block scripts %}
